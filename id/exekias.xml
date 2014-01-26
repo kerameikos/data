@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:crm="http://erlangen-crm.org/current/">
+	   <foaf:Person rdf:about="http://example.org/id/exekias">
+		      <skos:prefLabel xml:lang="en">Exekias</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">埃克塞基亚斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Эксекий</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Exekias</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Eksekias</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">エクセキアス</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Exekias</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Exéquias</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Exekias</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Exequias (pintor)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Exékias</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Exekias</skos:prefLabel>
+		      <skos:definition xml:lang="en">Exekias (Ancient Greek: Ἐξηκίας, Exēkías) was an ancient Greek vase-painter and potter who was active in Athens between roughly 545 BC and 530
+			BC.</skos:definition>
+		      <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/person-institution/58234"/>
+		      <owl:sameAs rdf:resource="http://dbpedia.org/resource/Exekias"/>
+		      <owl:sameAs rdf:resource="http://viaf.org/viaf/57427027"/>
+		      <owl:sameAs rdf:resource="http://viaf.org/viaf/4245236"/>
+		      <owl:sameAs rdf:resource="http://viaf.org/viaf/95850860"/>
+		      <owl:sameAs rdf:resource="http://viaf.org/viaf/204689226"/>
+		      <owl:sameAs rdf:resource="http://d-nb.info/gnd/119536366"/>
+		      <owl:sameAs rdf:resource="http://www.idref.fr/052199363/id"/>
+		      <owl:sameAs rdf:resource="http://vocab.getty.edu/ulan/500027430"/>
+		
+	   </foaf:Person>
+</rdf:RDF>
