@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:crm="http://erlangen-crm.org/current/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <crm:E53_Place rdf:about="http://example.org/id/attica">
+        <skos:prefLabel xml:lang="en">Attica</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Attika</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Attyka</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">阿提卡</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Аттика</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Attique</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Ática</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アッティカ</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Attica</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Attika</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ática</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Attika</skos:prefLabel>
+        <skos:definition xml:lang="en">Attica is an historical region that encompasses the city of Athens, the capital of Greece.</skos:definition>
+        <owl:sameAs rdf:resource="http://pleiades.stoa.org/places/579888"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Attica"/>
+        <owl:sameAs rdf:resource="http://vocab.getty.edu/tgn/7593167"/>
+        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/place/x30950"/>
+    </crm:E53_Place>
+</rdf:RDF>
