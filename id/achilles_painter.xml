@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:crm="http://erlangen-crm.org/current/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://example.org/id/achilles_painter">
+        <skos:prefLabel xml:lang="en">Achilles Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Malarz Achillesa</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pintor de Aquiles</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Achilleus-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Achille</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Pintor de Aquiles</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Вазописец Ахилла</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Achilles-schilder</skos:prefLabel>
+        <skos:definition xml:lang="en">The Achilles Painter, was a vase-painter active ca. 470-425 BC. His name vase is an amphora, Vatican 16571, in the Vatican museums depicting Achilles.</skos:definition>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/58090848"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/190952115"/>
+        <owl:sameAs rdf:resource="http://d-nb.info/gnd/173110649"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/95800946"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/88802961"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Achilles_Painter"/>
+    </foaf:Person>
+</rdf:RDF>
