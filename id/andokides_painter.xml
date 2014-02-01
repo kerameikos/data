@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:crm="http://erlangen-crm.org/current/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://example.org/id/andokides_painter">
+        <skos:prefLabel xml:lang="en">Andodikes Painter</skos:prefLabel>
+        <skos:definition xml:lang="en">vkldjfdk</skos:definition>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/251248218"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/95870311"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Andokides_painter"/>
+        <owl:sameAs rdf:resource="http://viaf.org/viaf/197761760"/>
+        <owl:sameAs rdf:resource="http://www.idref.fr/05652286X/id"/>
+    </foaf:Person>
+</rdf:RDF>
