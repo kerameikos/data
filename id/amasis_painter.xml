@@ -7,7 +7,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <foaf:Person rdf:about="http://example.org/id/amasis_painter">
+    <foaf:Person rdf:about="http://kerameikos.org/id/amasis_painter">
         <skos:prefLabel xml:lang="en">Amasis Painter</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Amasis (potier)</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Amasis-Maler</skos:prefLabel>
