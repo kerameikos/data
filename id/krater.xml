@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:crm="http://erlangen-crm.org/current/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/krater">
+        <skos:prefLabel xml:lang="en">Krater</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Krater</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Krater</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Krater</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Krater</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Cratère</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Cratere</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Кратер</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">クラテール</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Cratera</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Crátera</skos:prefLabel>
+        <skos:definition xml:lang="en">A krater (in Greek: κρατήρ, kratēr, from the verb κεράννυμι, keránnymi, "to mix") is a large vase used to mix wine and water in Ancient Greece.</skos:definition>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Krater"/>
+        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300198855"/>
+        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7580"/>
+        <skos:related rdf:resource="https://www.beazley.ox.ac.uk/tools/pottery/shapes/kraters.htm"/>
+    </kon:Shape>
+</rdf:RDF>
