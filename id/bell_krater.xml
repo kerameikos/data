@@ -11,6 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <kon:Shape rdf:about="http://kerameikos.org/id/bell_krater">
+    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Bell Krater</skos:prefLabel>
         <skos:definition xml:lang="en">A type of krater, named for its bell-like shape.</skos:definition>
         <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5427"/>

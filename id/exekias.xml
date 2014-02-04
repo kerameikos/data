@@ -5,6 +5,7 @@
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:ecrm="http://erlangen-crm.org/current/">
 	   <foaf:Person rdf:about="http://kerameikos.org/id/exekias">
+	   	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 		      <skos:prefLabel xml:lang="en">Exekias</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">埃克塞基亚斯</skos:prefLabel>
         <skos:prefLabel xml:lang="ru">Эксекий</skos:prefLabel>
