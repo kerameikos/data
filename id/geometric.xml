@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <ecrm:E4_Period rdf:about="http://kerameikos.org/id/geometric">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Geometric</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Геометрический стиль</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">幾何学様式</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Arte geometrica</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Geometrischer Stil</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Époque géométrique</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Periodo geométrico</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Período geométrico</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">几何艺术</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Styl geometryczny</skos:prefLabel>
+        <skos:definition xml:lang="en">The Geometric Period is a phase of Greek art, characterised largely by geometric motifs in vase painting, that flourished towards the end of the Greek Dark Ages, circa 900 BC to 700 BC.</skos:definition>
+        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300020079"/>
+        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x13908"/>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Geometric_art"/>
+    </ecrm:E4_Period>
+</rdf:RDF>

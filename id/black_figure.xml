@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Technique rdf:about="http://kerameikos.org/id/black_figure">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Black Figure</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Zwartfigurige stijl</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Svartfigurig keramik</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Registro de pintura negra em cerâmica grega</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Чернофигурная вазопись</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cerámica de figuras negras</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schwarzfigurige Vasenmalerei</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Styl czarnofigurowy</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ceramica a figure nere</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">黑彩陶器</skos:prefLabel>
+        <skos:definition xml:lang="en">Black-figure pottery painting, also known as the black-figure style or black-figure ceramic (Greek, μελανόμορφα, melanomorpha) is one of the styles of painting on antique Greek vases. It was especially common between the 7th and 5th centuries BC, although there are specimens dating as late as the 2nd century BC.</skos:definition>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Black-figure_pottery"/>
+        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14736"/>
+        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300020195"/>
+        <skos:related rdf:resource="http://vocab.getty.edu/aat/300387209"/>
+    </kon:Technique>
+</rdf:RDF>

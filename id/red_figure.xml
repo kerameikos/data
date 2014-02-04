@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Technique rdf:about="http://kerameikos.org/id/red_figure">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Red Figure</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cerámica de figuras rojas</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Roodfigurige stijl</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Rödfigurig keramik</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Styl czerwonofigurowy</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ceramica a figure rosse</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rotfigurige Vasenmalerei</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Краснофигурная вазопись</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">紅彩陶器</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Registro de pintura vermelha em cerâmica grega</skos:prefLabel>
+        <skos:definition xml:lang="en">The term refers to a form of decoration on Greek vases, in which figures appear in red, with slip-painted background and details.</skos:definition>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Red-figure_pottery"/>
+        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14796"/>
+        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300020201"/>
+        <skos:related rdf:resource="http://vocab.getty.edu/aat/300387208"/>
+        <skos:related rdf:resource="http://vocab.getty.edu/aat/300387207"/>
+    </kon:Technique>
+</rdf:RDF>

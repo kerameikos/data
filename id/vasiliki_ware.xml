@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Ware rdf:about="http://kerameikos.org/id/vasiliki_ware">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Vasiliki Ware</skos:prefLabel>
+        <skos:definition xml:lang="en">The EM IIA and IIB Vasiliki Ware, named for the Minoan site in eastern Crete, has mottled glaze effects, early experiments with controlling color, but the elongated spouts drawn from the body and ending in semicircular spouts show the beginnings of the tradition of Minoan elegance.</skos:definition>
+        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14813"/>
+        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300107155"/>
+        <skos:related rdf:resource="http://vocab.getty.edu/aat/300387396"/>
+        <skos:related rdf:resource="http://en.wikipedia.org/wiki/Minoan_pottery#Vasiliki_Ware"/>
+    </kon:Ware>
+</rdf:RDF>
