@@ -3,7 +3,7 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:crm="http://erlangen-crm.org/current/">
+         xmlns:ecrm="http://erlangen-crm.org/current/">
 	   <foaf:Person rdf:about="http://kerameikos.org/id/exekias">
 		      <skos:prefLabel xml:lang="en">Exekias</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">埃克塞基亚斯</skos:prefLabel>
