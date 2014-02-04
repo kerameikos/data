@@ -5,7 +5,7 @@
          xmlns:owl="http://www.w3.org/2002/07/owl#"
          xmlns:ecrm="http://erlangen-crm.org/current/">
 	   <foaf:Person rdf:about="http://kerameikos.org/id/exekias">
-	   	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	   	   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 		      <skos:prefLabel xml:lang="en">Exekias</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">埃克塞基亚斯</skos:prefLabel>
         <skos:prefLabel xml:lang="ru">Эксекий</skos:prefLabel>
@@ -30,5 +30,6 @@
 		      <owl:sameAs rdf:resource="http://www.idref.fr/052199363/id"/>
 		      <owl:sameAs rdf:resource="http://vocab.getty.edu/ulan/500027430"/>
 		
-	   </foaf:Person>
+	       <owl:sameAs rdf:resource="http://clas-lgpn2.classics.ox.ac.uk/id/V2-21738"/>
+    </foaf:Person>
 </rdf:RDF>
