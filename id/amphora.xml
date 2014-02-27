@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/amphora">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Amphora</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Ânfora</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Anfora</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">双耳瓶</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Амфора</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Amphore</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Amfora</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Amphore</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Amfora</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アンフォラ</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Amfora</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ánfora</skos:prefLabel>
+        <skos:definition xml:lang="en">An amphora (English plural: amphorae or amphoras) is a type of container of a characteristic shape and size, descending from at least as early as the Neolithic Period.</skos:definition>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Amphora"/>
+        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5155"/>
+        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300148696"/>
+    </kon:Shape>
+</rdf:RDF>
