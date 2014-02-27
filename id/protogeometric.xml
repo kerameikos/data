@@ -17,5 +17,6 @@
         <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300020074"/>
         <owl:sameAs rdf:resource="http://dbpedia.org/resource/Protogeometric_period"/>
         <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14425"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/geometric"/>
     </ecrm:E4_Period>
 </rdf:RDF>
