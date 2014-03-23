@@ -23,10 +23,10 @@
         <skos:prefLabel xml:lang="it">Atene</skos:prefLabel>
         <skos:prefLabel xml:lang="sv">Aten</skos:prefLabel>
         <skos:definition xml:lang="en">Athens dominates the Attica region and is one of the world's oldest cities, with its recorded history spanning around 3,400 years.</skos:definition>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/place/x22744"/>
-        <owl:sameAs rdf:resource="http://pleiades.stoa.org/places/579885"/>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Athens"/>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/tgn/7001393"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x22744"/>
+        <skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/579885"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Athens"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7001393"/>
         <geo:lat rdf:datatype="xsd:float">37.972</geo:lat>
         <geo:long rdf:datatype="xsd:float">23.726443</geo:long>
         <skos:broader rdf:resource="http://kerameikos.org/id/attica"/>

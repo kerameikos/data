@@ -23,9 +23,9 @@
         <skos:prefLabel xml:lang="zh">紅彩陶器</skos:prefLabel>
         <skos:prefLabel xml:lang="pt">Registro de pintura vermelha em cerâmica grega</skos:prefLabel>
         <skos:definition xml:lang="en">The term refers to a form of decoration on Greek vases, in which figures appear in red, with slip-painted background and details.</skos:definition>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Red-figure_pottery"/>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14796"/>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300020201"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Red-figure_pottery"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14796"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020201"/>
         <skos:related rdf:resource="http://vocab.getty.edu/aat/300387208"/>
         <skos:related rdf:resource="http://vocab.getty.edu/aat/300387207"/>
     </kon:Technique>

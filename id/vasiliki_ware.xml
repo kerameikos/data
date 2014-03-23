@@ -14,8 +14,8 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Vasiliki Ware</skos:prefLabel>
         <skos:definition xml:lang="en">The EM IIA and IIB Vasiliki Ware, named for the Minoan site in eastern Crete, has mottled glaze effects, early experiments with controlling color, but the elongated spouts drawn from the body and ending in semicircular spouts show the beginnings of the tradition of Minoan elegance.</skos:definition>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14813"/>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300107155"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14813"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300107155"/>
         <skos:related rdf:resource="http://vocab.getty.edu/aat/300387396"/>
         <skos:related rdf:resource="http://en.wikipedia.org/wiki/Minoan_pottery#Vasiliki_Ware"/>
     </kon:Ware>

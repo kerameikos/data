@@ -19,11 +19,11 @@
         <skos:prefLabel xml:lang="ru">Вазописец Ахилла</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Achilles-schilder</skos:prefLabel>
         <skos:definition xml:lang="en">The Achilles Painter, was a vase-painter active ca. 470-425 BC. His name vase is an amphora, Vatican 16571, in the Vatican museums depicting Achilles.</skos:definition>
-        <owl:sameAs rdf:resource="http://viaf.org/viaf/58090848"/>
-        <owl:sameAs rdf:resource="http://viaf.org/viaf/190952115"/>
-        <owl:sameAs rdf:resource="http://d-nb.info/gnd/173110649"/>
-        <owl:sameAs rdf:resource="http://viaf.org/viaf/95800946"/>
-        <owl:sameAs rdf:resource="http://viaf.org/viaf/88802961"/>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Achilles_Painter"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/58090848"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/190952115"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/173110649"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95800946"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/88802961"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achilles_Painter"/>
     </foaf:Person>
 </rdf:RDF>

@@ -24,9 +24,9 @@
         <skos:prefLabel xml:lang="pt">Cratera</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Crátera</skos:prefLabel>
         <skos:definition xml:lang="en">A krater (in Greek: κρατήρ, kratēr, from the verb κεράννυμι, keránnymi, "to mix") is a large vase used to mix wine and water in Ancient Greece.</skos:definition>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Krater"/>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300198855"/>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7580"/>
-        <skos:related rdf:resource="https://www.beazley.ox.ac.uk/tools/pottery/shapes/kraters.htm"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Krater"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198855"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7580"/>
+        <rdfs:seeAlso rdf:resource="https://www.beazley.ox.ac.uk/tools/pottery/shapes/kraters.htm"/>
     </kon:Shape>
 </rdf:RDF>

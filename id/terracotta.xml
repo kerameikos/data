@@ -25,8 +25,8 @@
         <skos:prefLabel xml:lang="nl">Terracotta</skos:prefLabel>
         <skos:prefLabel xml:lang="ru">Терракота</skos:prefLabel>
         <skos:definition xml:lang="en">Most common material of Greek and Roman fired clay vessels.</skos:definition>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x41443"/>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Terracotta"/>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300010669"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x41443"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Terracotta"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300010669"/>
     </ecrm:E57_Material>
 </rdf:RDF>

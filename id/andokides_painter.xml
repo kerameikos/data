@@ -22,10 +22,10 @@
 		      <skos:definition xml:lang="en">The Andokides painter was an ancient Athenian vase painter who was active from 530 to approximately 515 BCE. His work is
 			unsigned; he is named after Andokides, the potter for whom he worked. He is believed to be the inventor of the red figure style of vase
 			painting.</skos:definition>
-		      <owl:sameAs rdf:resource="http://viaf.org/viaf/251248218"/>
-		      <owl:sameAs rdf:resource="http://viaf.org/viaf/95870311"/>
-		      <owl:sameAs rdf:resource="http://dbpedia.org/resource/Andokides_painter"/>
-		      <owl:sameAs rdf:resource="http://viaf.org/viaf/197761760"/>
-		      <owl:sameAs rdf:resource="http://www.idref.fr/05652286X/id"/>
+		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/251248218"/>
+		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95870311"/>
+		      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Andokides_painter"/>
+		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/197761760"/>
+		      <skos:exactMatch rdf:resource="http://www.idref.fr/05652286X/id"/>
 	   </foaf:Person>
 </rdf:RDF>

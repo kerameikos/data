@@ -14,6 +14,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Incised</skos:prefLabel>
         <skos:definition xml:lang="en">The technique of incision, a necessary attribute of Black Figure.</skos:definition>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x12174"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x12174"/>
     </kon:Technique>
 </rdf:RDF>

@@ -14,9 +14,9 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Protogeometric</skos:prefLabel>
         <skos:definition xml:lang="en">The Protogeometric style is a pottery type associated with the Greek Dark Ages.</skos:definition>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300020074"/>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Protogeometric_period"/>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14425"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020074"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Protogeometric_period"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14425"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/geometric"/>
     </ecrm:E4_Period>
 </rdf:RDF>

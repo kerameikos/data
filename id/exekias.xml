@@ -20,16 +20,16 @@
         <skos:prefLabel xml:lang="de">Exekias</skos:prefLabel>
 		      <skos:definition xml:lang="en">Exekias (Ancient Greek: Ἐξηκίας, Exēkías) was an ancient Greek vase-painter and potter who was active in Athens between roughly 545 BC and 530
 			BC.</skos:definition>
-		      <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/person-institution/58234"/>
-		      <owl:sameAs rdf:resource="http://dbpedia.org/resource/Exekias"/>
-		      <owl:sameAs rdf:resource="http://viaf.org/viaf/57427027"/>
-		      <owl:sameAs rdf:resource="http://viaf.org/viaf/4245236"/>
-		      <owl:sameAs rdf:resource="http://viaf.org/viaf/95850860"/>
-		      <owl:sameAs rdf:resource="http://viaf.org/viaf/204689226"/>
-		      <owl:sameAs rdf:resource="http://d-nb.info/gnd/119536366"/>
-		      <owl:sameAs rdf:resource="http://www.idref.fr/052199363/id"/>
-		      <owl:sameAs rdf:resource="http://vocab.getty.edu/ulan/500027430"/>
+		      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58234"/>
+		      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Exekias"/>
+		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/57427027"/>
+		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/4245236"/>
+		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95850860"/>
+		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/204689226"/>
+		      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119536366"/>
+		      <skos:exactMatch rdf:resource="http://www.idref.fr/052199363/id"/>
+		      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500027430"/>
 		
-	       <owl:sameAs rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-21738"/>
+	       <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-21738"/>
     </foaf:Person>
 </rdf:RDF>

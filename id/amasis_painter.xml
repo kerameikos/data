@@ -17,11 +17,11 @@
         <skos:prefLabel xml:lang="it">Pittore di Amasis</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">阿马西斯画家</skos:prefLabel>
         <skos:definition xml:lang="en">The Amasis Painter (active around 550-510 BCE in Athens) was an ancient Greek vase painter who worked in the black figure technique.</skos:definition>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Amasis_Painter"/>
-        <owl:sameAs rdf:resource="http://viaf.org/viaf/65427587"/>
-        <owl:sameAs rdf:resource="http://viaf.org/viaf/299536723"/>
-        <owl:sameAs rdf:resource="http://viaf.org/viaf/96544544"/>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/ulan/500116399"/>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/person-institution/57164"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amasis_Painter"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/65427587"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/299536723"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/96544544"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116399"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57164"/>
     </foaf:Person>
 </rdf:RDF>
