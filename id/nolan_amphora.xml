@@ -14,7 +14,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Nolan Amphora</skos:prefLabel>
         <skos:definition xml:lang="en">A subtype of amphora</skos:definition>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300198849"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198849"/>
         <skos:related rdf:resource="http://www.jstor.org/stable/497320"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
     </kon:Shape>

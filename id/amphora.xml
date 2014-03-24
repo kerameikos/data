@@ -25,8 +25,8 @@
         <skos:prefLabel xml:lang="sv">Amfora</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Ánfora</skos:prefLabel>
         <skos:definition xml:lang="en">An amphora (English plural: amphorae or amphoras) is a type of container of a characteristic shape and size, descending from at least as early as the Neolithic Period.</skos:definition>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Amphora"/>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5155"/>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300148696"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amphora"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5155"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300148696"/>
     </kon:Shape>
 </rdf:RDF>

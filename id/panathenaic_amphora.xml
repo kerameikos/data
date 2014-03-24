@@ -21,9 +21,9 @@
         <skos:prefLabel xml:lang="pl">Amfora panatenajska</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Panathenäische Preisamphore</skos:prefLabel>
         <skos:definition xml:lang="en">Panathenaic amphorae were the large ceramic vessels that contained the oil (some 10 gallons, and 60-70 cms high) given as prizes in the Panathenaic Games.</skos:definition>
-        <owl:sameAs rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8240"/>
-        <owl:sameAs rdf:resource="http://vocab.getty.edu/aat/300200366"/>
-        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Panathenaic_amphora"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8240"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300200366"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Panathenaic_amphora"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
     </kon:Shape>
 </rdf:RDF>
