@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/antimenes_painter">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Antimenes Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Antimene</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pintor de Antimenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Antimenes-Maler</skos:prefLabel>
+        <skos:definition xml:lang="en">The Antimenes Painter was an Attic vase painter of the black-figure style, active between circa 530 and 510 BC. The real name of the Antimenes Painter is not known; his current name is an archaeological convention.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/58250243"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Antimenes_Painter"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/94188745"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/217095608"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/034228020/id"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95701597"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500003458"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57196"/>
+    </foaf:Person>
+</rdf:RDF>

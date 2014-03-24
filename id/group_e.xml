@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <foaf:Organization rdf:about="http://kerameikos.org/id/group_e">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Group E</skos:prefLabel>
+        <skos:definition xml:lang="en">A group of Athenian black-figure vase-painters whose names are unknown. Beazley called them collectively Group E. A large compact group, it is closely related to the work of Exekias (q.v.) though earlier.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500055362"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58536"/>
+        <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Exekias#Group_E"/>
+    </foaf:Organization>
+</rdf:RDF>

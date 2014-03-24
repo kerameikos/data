@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/berlin_painter">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Berlin Painter</skos:prefLabel>
+        <skos:definition xml:lang="en">The Berlin Painter (active c. 490s-c. 460s B.C.) is the conventional name given to an Attic Greek vase-painter who is widely regarded as a rival to the Kleophrades Painter, among the most talented vase painters of the early 5th century B.C.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Berlin_Painter‎"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500006931"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57394"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/61480315"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95723148"/>
+    </foaf:Person>
+</rdf:RDF>

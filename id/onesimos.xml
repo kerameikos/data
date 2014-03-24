@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/onesimos">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Onesimo</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Онесим</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Onesimos</skos:prefLabel>
+        <skos:definition xml:lang="en">Onesimos was an ancient Athenian vase painter who flourished between 505 and 480 BC. He specialized in decorating cups, mostly of Type B, which comprise virtually all known examples of his work.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115465"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/251077070"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/96538493"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/54943646"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118736337"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Onesimos_(vase_painter)"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59700"/>
+    </foaf:Person>
+</rdf:RDF>

@@ -9,7 +9,7 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 	   <foaf:Person rdf:about="http://kerameikos.org/id/andokides_painter">
-	   	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	   	   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 		      <skos:prefLabel xml:lang="en">Andodikes Painter</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Andócides (pintor)</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Peintre d'Andokidès</skos:prefLabel>
@@ -22,7 +22,7 @@
 		      <skos:definition xml:lang="en">The Andokides painter was an ancient Athenian vase painter who was active from 530 to approximately 515 BCE. His work is
 			unsigned; he is named after Andokides, the potter for whom he worked. He is believed to be the inventor of the red figure style of vase
 			painting.</skos:definition>
-		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/251248218"/>
+		      
 		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95870311"/>
 		      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Andokides_painter"/>
 		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/197761760"/>

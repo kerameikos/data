@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/kleophrades_painter">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Kleophrades Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Мастер Клеофрада</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Kleophrades-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Kleophrades</skos:prefLabel>
+        <skos:definition xml:lang="en">The Kleophrades Painter is the name given to the anonymous red-figure Athenian vase painter, who was active from approximately 510 – 470 BCE and whose work, considered amongst the finest of the red figure style, is identified by its stylistic traits.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kleophrades_Painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115460"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59051"/>
+        <rdfs:seeAlso rdf:resource="http://www.getty.edu/art/gettyguide/artMakerDetails?maker=305"/>
+    </foaf:Person>
+</rdf:RDF>

@@ -9,7 +9,7 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
     <foaf:Person rdf:about="http://kerameikos.org/id/achilles_painter">
-    	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    	   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Achilles Painter</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Malarz Achillesa</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Pintor de Aquiles</skos:prefLabel>
@@ -25,5 +25,7 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/95800946"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/88802961"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achilles_Painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500019489"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57106"/>
     </foaf:Person>
 </rdf:RDF>

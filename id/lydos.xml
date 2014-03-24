@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/lydos">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Lydos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Lydos (Vasenmaler)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Lido (ceramografo)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Лидос (вазописец)</skos:prefLabel>
+        <skos:definition xml:lang="en">Lydos (Greek: Λυδός, the Lydian) was an Attic vase painter in the black-figure style. Active between about 560 and 540 BC, he was the main representative of the '’’Lydos Group’’’. His signature, ό Λυδός, ho Lydos, the Lydian, inscribed on two vases, is informative regarding the cultural background of the artist.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/7200094"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95709665"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/40176569"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118890778"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500004732"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lydos"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59254"/>
+    </foaf:Person>
+</rdf:RDF>

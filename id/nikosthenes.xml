@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/nikosthenes">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Nikosthenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Nicostene</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Никосфен (гончар)</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Nicosthénès</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Nikosthenes</skos:prefLabel>
+        <skos:definition xml:lang="en">Nikosthenes was a potter of Greek black- and red-figure pottery in the time window 550-510 BC.[1] He signed as the potter on over 120 black-figure vases, but only 9 red-figure. Most of his vases were painted by someone else, called Painter N (for Nikosthenes).</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115427"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nikosthenes"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59623"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/193825244"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/070405271/id"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/24138852"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/96538320"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/288354961"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/32858698"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/121671992"/>
+        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-48938"/>
+    </foaf:Person>
+</rdf:RDF>

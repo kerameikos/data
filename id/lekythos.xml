@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/lekythos">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Lekythos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Лекиф</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Lekythos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">レキュトス</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Lekythos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Lécythe</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Lekyt</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Lekyt</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Lecito</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Lekythos</skos:prefLabel>
+        <skos:definition xml:lang="en">A lekythos (plural lekythoi) is a type of Greek pottery used for storing oil (Greek λήκυθος), especially olive oil. It has a narrow body and one handle attached to the neck of the vessel.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264937"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lekythos"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7660"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/lekythos.htm"/>
+    </kon:Shape>
+</rdf:RDF>

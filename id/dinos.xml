@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/dinos">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Dinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Dinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Dinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Dinos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Динос</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Dinos</skos:prefLabel>
+        <skos:definition xml:lang="en">In the typology of ancient Greek pottery, the dinos (plural dinoi) is a mixing bowl. Dinos means "drinking cup," but in modern typology is used (wrongly) for the same shape as a lebes, that is, a bowl with a spherical body meant to sit on a stand. It has no handles and no feet.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300263133"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6435"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Dinos"/>
+    </kon:Shape>
+</rdf:RDF>

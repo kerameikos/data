@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/calyx_krater">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Calyx Krater</skos:prefLabel>
+        <skos:definition xml:lang="en">The handles of a calyx krater are placed low on the body, curling upwards in the shape of the calyx of a flower.</skos:definition>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5742"/>
+        <rdfs:seeAlso rdf:resource="https://www.beazley.ox.ac.uk/tools/pottery/shapes/calyx.htm"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198858"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/krater"/>
+    </kon:Shape>
+</rdf:RDF>
