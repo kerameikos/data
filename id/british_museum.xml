@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <ecrm:E40_Legal_Body rdf:about="http://kerameikos.org/id/british_museum">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">British Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">British Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">British Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Museu Britânico</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">大英博物館</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">British Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Museo Británico</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">British Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Британский музей</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">British Museum</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Muzeum Brytyjskie</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">大英博物馆</skos:prefLabel>
+        <skos:definition xml:lang="en">The British Museum is a museum in London dedicated to human history and culture. Its permanent collection, numbering some 8 million works, is among the largest and most comprehensive in existence and originates from all continents, illustrating and documenting the story of human culture from its beginnings to the present.</skos:definition>
+        <foaf:homepage rdf:resource="http://www.britishmuseum.org/"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/134857252"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/16271977-2"/>
+        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11871460b#foaf:Person"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/British_Museum"/>
+    </ecrm:E40_Legal_Body>
+</rdf:RDF>
