@@ -25,7 +25,8 @@
         <skos:definition xml:lang="en">Black-figure pottery painting, also known as the black-figure style or black-figure ceramic (Greek, μελανόμορφα, melanomorpha) is one of the styles of painting on antique Greek vases. It was especially common between the 7th and 5th centuries BC, although there are specimens dating as late as the 2nd century BC.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Black-figure_pottery"/>
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14736"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020195"/>
-        <skos:related rdf:resource="http://vocab.getty.edu/aat/300387209"/>
+        
+        
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387209"/>
     </kon:Technique>
 </rdf:RDF>
