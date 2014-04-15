@@ -9,7 +9,8 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:kon="http://kerameikos.org/ontology#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/">
+         xmlns:kid="http://kerameikos.org/id/"
+	xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
     <ecrm:E53_Place rdf:about="http://kerameikos.org/id/apulia">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Apulia</skos:prefLabel>
@@ -32,5 +33,6 @@
         
         <skos:broader rdf:resource="http://kerameikos.org/id/south_italian"/>
         <ecrm:P88i_forms_part_of rdf:resource="http://kerameikos.org/id/south_italian"/>
+	<osgeo:asGeoJSON>{"type": "Polygon", "coordinates": [[[16.0, 41.0], [16.0, 41.5], [15.5, 41.5], [15.5, 41.0], [16.0, 41.0]]]}</osgeo:asGeoJSON>
     </ecrm:E53_Place>
 </rdf:RDF>
