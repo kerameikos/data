@@ -31,5 +31,6 @@
         <skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/442469"/>
         
         <skos:broader rdf:resource="http://kerameikos.org/id/south_italian"/>
+        <ecrm:P88i_forms_part_of rdf:resource="http://kerameikos.org/id/south_italian"/>
     </ecrm:E53_Place>
 </rdf:RDF>

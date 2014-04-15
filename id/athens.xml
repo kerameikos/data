@@ -30,5 +30,6 @@
         <geo:lat rdf:datatype="xsd:float">37.972</geo:lat>
         <geo:long rdf:datatype="xsd:float">23.726443</geo:long>
         <skos:broader rdf:resource="http://kerameikos.org/id/attica"/>
+        <ecrm:P88i_forms_part_of rdf:resource="http://kerameikos.org/id/attica"/>
     </ecrm:E53_Place>
 </rdf:RDF>
