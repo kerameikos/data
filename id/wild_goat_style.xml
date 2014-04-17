@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Style rdf:about="http://kerameikos.org/id/wild_goat_style">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Wild Goat Style</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Stile delle capre selvatiche</skos:prefLabel>
+        <skos:definition xml:lang="en">The Wild Goat Style is a modern term describing vase painting produced in the east of Greece, namely the southern and eastern Ionian islands, between circa 650 to 550 BCE.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020160"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Wild_Goat_Style"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14825"/>
+    </kon:Style>
+</rdf:RDF>

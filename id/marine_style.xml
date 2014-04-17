@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/">
+    <kon:Style rdf:about="http://kerameikos.org/id/marine_style">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Marine Style</skos:prefLabel>
+        <skos:definition xml:lang="en">A Bronze Age Minoan style perhaps inspired by frescoes, the entire surface of a pot was covered with sea creatures, octopus, fish and dolphins, against a background of rocks, seaweed and sponges.</skos:definition>
+        <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Minoan_pottery#Marine_style"/>
+    </kon:Style>
+</rdf:RDF>
