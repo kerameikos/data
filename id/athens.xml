@@ -1,31 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:dcterms="http://purl.org/dc/terms/"
-	xmlns:ecrm="http://erlangen-crm.org/current/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-	<ecrm:E53_Place rdf:about="http://kerameikos.org/id/athens">
-		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-		<skos:prefLabel xml:lang="en">Athens</skos:prefLabel>
-		<skos:prefLabel xml:lang="ja">アテネ</skos:prefLabel>
-		<skos:prefLabel xml:lang="es">Atenas</skos:prefLabel>
-		<skos:prefLabel xml:lang="zh">雅典</skos:prefLabel>
-		<skos:prefLabel xml:lang="ru">Афины</skos:prefLabel>
-		<skos:prefLabel xml:lang="fr">Athènes</skos:prefLabel>
-		<skos:prefLabel xml:lang="de">Athen</skos:prefLabel>
-		<skos:prefLabel xml:lang="nl">Athene</skos:prefLabel>
-		<skos:prefLabel xml:lang="pt">Atenas</skos:prefLabel>
-		<skos:prefLabel xml:lang="pl">Ateny</skos:prefLabel>
-		<skos:prefLabel xml:lang="it">Atene</skos:prefLabel>
-		<skos:prefLabel xml:lang="sv">Aten</skos:prefLabel>
-		<skos:definition xml:lang="en">Athens dominates the Attica region and is one of the world's oldest cities, with its recorded history spanning around 3,400 years.</skos:definition>
-		<skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x22744"/>
-		<skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/579885"/>
-		<skos:exactMatch rdf:resource="http://dbpedia.org/resource/Athens"/>
-		<skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7001393"/>		
-		<skos:broader rdf:resource="http://kerameikos.org/id/attica"/>		
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+	   <ecrm:E53_Place rdf:about="http://kerameikos.org/id/athens">
+		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		      <skos:prefLabel xml:lang="en">Athens</skos:prefLabel>
+		      <skos:prefLabel xml:lang="ja">アテネ</skos:prefLabel>
+		      <skos:prefLabel xml:lang="es">Atenas</skos:prefLabel>
+		      <skos:prefLabel xml:lang="zh">雅典</skos:prefLabel>
+		      <skos:prefLabel xml:lang="ru">Афины</skos:prefLabel>
+		      <skos:prefLabel xml:lang="fr">Athènes</skos:prefLabel>
+		      <skos:prefLabel xml:lang="de">Athen</skos:prefLabel>
+		      <skos:prefLabel xml:lang="nl">Athene</skos:prefLabel>
+		      <skos:prefLabel xml:lang="pt">Atenas</skos:prefLabel>
+		      <skos:prefLabel xml:lang="pl">Ateny</skos:prefLabel>
+		      <skos:prefLabel xml:lang="it">Atene</skos:prefLabel>
+		      <skos:prefLabel xml:lang="sv">Aten</skos:prefLabel>
+		      <skos:definition xml:lang="en">Athens dominates the Attica region and is one of the world's oldest cities, with its recorded history spanning around 3,400 years.</skos:definition>
+		      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x22744"/>
+		      <skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/579885"/>
+		      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Athens"/>
+		      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7001393"/>		
+		      <skos:broader rdf:resource="http://kerameikos.org/id/attica"/>		
+			<geo:location rdf:resource="http://kerameikos.org/id/athens#this"/>   
 	</ecrm:E53_Place>
-	<geo:spatialThing rdf:about="http://kerameikos.org/id/athens#this">
-		<geo:lat rdf:datatype="xsd:float">37.972</geo:lat>
-		<geo:long rdf:datatype="xsd:float">23.726443</geo:long>
-		<ecrm:P88i_forms_part_of rdf:resource="http://kerameikos.org/id/attica"/>
-	</geo:spatialThing>
+	   <geo:SpatialThing rdf:about="http://kerameikos.org/id/athens#this">
+		      <geo:lat rdf:datatype="xsd:float">37.972</geo:lat>
+		      <geo:long rdf:datatype="xsd:float">23.726443</geo:long>
+		      <ecrm:P88i_forms_part_of rdf:resource="http://kerameikos.org/id/attica"/>
+	   </geo:SpatialThing>
 </rdf:RDF>
