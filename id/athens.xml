@@ -29,8 +29,8 @@
 		      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Athens"/>
 		      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7001393"/>		
 		      <skos:broader rdf:resource="http://kerameikos.org/id/attica"/>		
-			<geo:location rdf:resource="http://kerameikos.org/id/athens#this"/>   
-	</ecrm:E53_Place>
+			     <geo:location rdf:resource="http://kerameikos.org/id/athens#this"/>   
+	   </ecrm:E53_Place>
 	   <geo:SpatialThing rdf:about="http://kerameikos.org/id/athens#this">
 		      <geo:lat rdf:datatype="xsd:float">37.972</geo:lat>
 		      <geo:long rdf:datatype="xsd:float">23.726443</geo:long>

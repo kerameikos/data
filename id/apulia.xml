@@ -32,7 +32,7 @@
 		      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7010380"/>
 		      <skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/442469"/>
 		      <skos:broader rdf:resource="http://kerameikos.org/id/south_italian"/>
-		<geo:location rdf:resource="http://kerameikos.org/id/apulia#this"/>
+		      <geo:location rdf:resource="http://kerameikos.org/id/apulia#this"/>
 		   </ecrm:E53_Place>
 	   <geo:SpatialThing rdf:about="http://kerameikos.org/id/apulia#this">
 		      <osgeo:asGeoJSON>{"type": "Polygon", "coordinates": [[[16.0, 41.0], [16.0, 41.5], [15.5, 41.5], [15.5, 41.0], [16.0, 41.0]]]}</osgeo:asGeoJSON>
