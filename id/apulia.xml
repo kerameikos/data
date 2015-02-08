@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-	   <ecrm:E53_Place rdf:about="http://kerameikos.org/id/apulia">
+	   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/apulia">
 		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 		      <skos:prefLabel xml:lang="en">Apulia</skos:prefLabel>
 		      <skos:prefLabel xml:lang="nl">Apulië</skos:prefLabel>
@@ -31,11 +31,11 @@
 		      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x39670"/>
 		      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7010380"/>
 		      <skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/442469"/>
-		      <skos:broader rdf:resource="http://kerameikos.org/id/south_italian"/>
+		      <skos:broader rdf:resource="http://kerameikos.org/id/south_italy"/>
 		      <geo:location rdf:resource="http://kerameikos.org/id/apulia#this"/>
-		   </ecrm:E53_Place>
+		   </kon:ProductionPlace>
 	   <geo:SpatialThing rdf:about="http://kerameikos.org/id/apulia#this">
 		      <osgeo:asGeoJSON>{"type": "Polygon", "coordinates": [[[16.0, 41.0], [16.0, 41.5], [15.5, 41.5], [15.5, 41.0], [16.0, 41.0]]]}</osgeo:asGeoJSON>
-		      <ecrm:P88i_forms_part_of rdf:resource="http://kerameikos.org/id/south_italian"/>
+		      <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/south_italy#this"/>
 	   </geo:SpatialThing>
 </rdf:RDF>

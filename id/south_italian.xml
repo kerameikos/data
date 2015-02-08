@@ -3,13 +3,13 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:kon="http://kerameikos.org/ontology#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:kid="http://kerameikos.org/id/"
 	xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-	<ecrm:E53_Place rdf:about="http://kerameikos.org/id/south_italian">
+	<kon:Style rdf:about="http://kerameikos.org/id/south_italian">
 		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 		<skos:prefLabel xml:lang="en">South Italian</skos:prefLabel>
-		<skos:definition xml:lang="en">South Italian (including Sicilian) production places of Greek-styled pottery.</skos:definition>
-		<skos:broader rdf:resource="http://kerameikos.org/id/italy"/>
+		<skos:definition xml:lang="en">South Italian (including Sicilian) styles of Greek-styled pottery.</skos:definition>
+		<skos:scopeNote xml:lang="en">For South Italy as a production place, use kid:south_italy.</skos:scopeNote>
 		<skos:related rdf:resource="http://dbpedia.org/resource/South_Italian_ancient_Greek_pottery"/>
 		<skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14683"/>
 		<skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020172"/>
-	</ecrm:E53_Place>
+	</kon:Style>
 </rdf:RDF>
