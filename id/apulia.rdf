@@ -35,6 +35,7 @@
 		      <geo:location rdf:resource="http://kerameikos.org/id/apulia#this"/>
 		   </kon:ProductionPlace>
 	   <geo:SpatialThing rdf:about="http://kerameikos.org/id/apulia#this">
+	   	<rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
 		      <osgeo:asGeoJSON>{"type": "Polygon", "coordinates": [[[16.0, 41.0], [16.0, 41.5], [15.5, 41.5], [15.5, 41.0], [16.0, 41.0]]]}</osgeo:asGeoJSON>
 		      <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/south_italy#this"/>
 	   </geo:SpatialThing>

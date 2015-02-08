@@ -32,6 +32,7 @@
 			     <geo:location rdf:resource="http://kerameikos.org/id/athens#this"/>   
 	   </kon:ProductionPlace>
 	   <geo:SpatialThing rdf:about="http://kerameikos.org/id/athens#this">
+	   	<rdf:type rdf:resource="http://erlangen-crm.org/current/E53_Place"/>
 		      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.972</geo:lat>
 		      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.726443</geo:long>
 		      <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/attica#this"/>
