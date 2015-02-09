@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <foaf:Person rdf:about="http://kerameikos.org/id/painter_n">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Painter N</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Maler N</skos:prefLabel>
         <skos:definition xml:lang="en">Athenian black-figure vase-painter whose name is unknown. Nevertheless consistent individual characteristics of style suggest the existence of a unique artistic personality. Beazley called him Painter N because most of the vases he decorated were signed 'Nikosthenes epoiesen' ('Nikosthenes made it').</skos:definition>

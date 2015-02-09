@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <foaf:Person rdf:about="http://kerameikos.org/id/kleophrades">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Kleophrades</skos:prefLabel>
         <skos:definition xml:lang="en">Kleophrades signed cups as potter (epoiesen 'made it') that were decorated by a variety of painters. Other vases have been attributed to him on the basis of style. He was the son of the potter Amasis (q.v.).</skos:definition>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/96561616"/>

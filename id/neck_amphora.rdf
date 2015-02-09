@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <kon:Shape rdf:about="http://kerameikos.org/id/neck_amphora">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Neck Amphora</skos:prefLabel>
         <skos:definition xml:lang="en">Identifiable by a clearly-defined neck.</skos:definition>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/neck.htm"/>

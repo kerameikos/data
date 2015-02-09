@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <ecrm:E40_Legal_Body rdf:about="http://kerameikos.org/id/getty_museum">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">J. Paul Getty Museum</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Getty Museum</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">J. Paul Getty Museum</skos:prefLabel>

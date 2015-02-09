@@ -10,7 +10,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/" xmlns:kon="http://kerameikos.org/ontology#">
 	   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/athens">
-		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
 		      <skos:prefLabel xml:lang="en">Athens</skos:prefLabel>
 		      <skos:prefLabel xml:lang="ja">アテネ</skos:prefLabel>
 		      <skos:prefLabel xml:lang="es">Atenas</skos:prefLabel>

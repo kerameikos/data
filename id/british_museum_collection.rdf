@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <ecrm:E78_Collection rdf:about="http://kerameikos.org/id/british_museum_collection">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">British Museum (collection)</skos:prefLabel>
         <skos:definition xml:lang="en">The collection of the British Museum (institution).</skos:definition>
         <ecrm:P50_has_current_keeper rdf:resource="http://kerameikos.org/id/british_museum"/>

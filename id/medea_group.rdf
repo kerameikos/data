@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <foaf:Organization rdf:about="http://kerameikos.org/id/medea_group">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Medea Group</skos:prefLabel>
         <skos:definition xml:lang="en">The Medea Group decorated vases in the black-figure technique in Athens in the late 500s B.C.</skos:definition>
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59438"/>

@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <foaf:Organization rdf:about="http://kerameikos.org/id/group_e">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Group E</skos:prefLabel>
         <skos:definition xml:lang="en">A group of Athenian black-figure vase-painters whose names are unknown. Beazley called them collectively Group E. A large compact group, it is closely related to the work of Exekias (q.v.) though earlier.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500055362"/>

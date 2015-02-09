@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <kon:Style rdf:about="http://kerameikos.org/id/wild_goat_style">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Wild Goat Style</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Stile delle capre selvatiche</skos:prefLabel>
         <skos:definition xml:lang="en">The Wild Goat Style is a modern term describing vase painting produced in the east of Greece, namely the southern and eastern Ionian islands, between circa 650 to 550 BCE.</skos:definition>

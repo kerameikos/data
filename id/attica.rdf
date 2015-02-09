@@ -11,7 +11,7 @@
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
 	xmlns:kon="http://kerameikos.org/ontology#">
 	   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/attica">
-		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
 		      <skos:prefLabel xml:lang="en">Attica</skos:prefLabel>
 		      <skos:prefLabel xml:lang="de">Attika</skos:prefLabel>
 		      <skos:prefLabel xml:lang="pl">Attyka</skos:prefLabel>

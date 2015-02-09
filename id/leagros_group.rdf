@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <foaf:Organization rdf:about="http://kerameikos.org/id/leagros_group">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Leagros Group</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Leagros-Gruppe</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Gruppo di Leagros</skos:prefLabel>

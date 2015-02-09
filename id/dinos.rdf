@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <kon:Shape rdf:about="http://kerameikos.org/id/dinos">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Dinos</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Dinos</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Dinos</skos:prefLabel>

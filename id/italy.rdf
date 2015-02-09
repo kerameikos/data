@@ -4,7 +4,7 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:kon="http://kerameikos.org/ontology#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:kid="http://kerameikos.org/id/"
 	xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
 	<kon:ProductionPlace rdf:about="http://kerameikos.org/id/italy">
-		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
 		<skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
 		<skos:definition xml:lang="en">The production place of Italy.</skos:definition>
 		<skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/1000080"/>

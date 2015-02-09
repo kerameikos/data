@@ -12,7 +12,7 @@
          xmlns:kid="http://kerameikos.org/id/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
 	   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/apulia">
-		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
 		      <skos:prefLabel xml:lang="en">Apulia</skos:prefLabel>
 		      <skos:prefLabel xml:lang="nl">Apulië</skos:prefLabel>
 		      <skos:prefLabel xml:lang="zh">普利亚</skos:prefLabel>

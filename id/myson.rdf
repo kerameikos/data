@@ -11,7 +11,7 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <foaf:Person rdf:about="http://kerameikos.org/id/myson">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Myson</skos:prefLabel>
         <skos:definition xml:lang="en">Athenian red-figure vase-painter and potter who signed 'egrapsen' (painted it) and 'epoiesen' (made it) on a vase dedicated on the Acropolis.</skos:definition>
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59543"/>

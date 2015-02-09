@@ -4,7 +4,7 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:kon="http://kerameikos.org/ontology#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:kid="http://kerameikos.org/id/"
 	xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
 	<kon:Style rdf:about="http://kerameikos.org/id/south_italian">
-		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
 		<skos:prefLabel xml:lang="en">South Italian</skos:prefLabel>
 		<skos:definition xml:lang="en">South Italian (including Sicilian) styles of Greek-styled pottery.</skos:definition>
 		<skos:scopeNote xml:lang="en">For South Italy as a production place, use kid:south_italy.</skos:scopeNote>
