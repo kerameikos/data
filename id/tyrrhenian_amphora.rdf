@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/tyrrhenian_amphora">
+        <skos:prefLabel xml:lang="en">Tyrrhenian Amphora</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Tyrrhenian Amphora or Ovoid Amphora displays less of an obvious shoulder.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:altLabel xml:lang="en">Ovoid Amphora</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105179"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264917"/>
+        
+        <skos:broader rdf:resource="http://kerameikos.org/id/neck_amphora"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/neck.htm"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=tyrrhenian-amphora"/>
+    </kon:Shape>
+</rdf:RDF>

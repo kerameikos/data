@@ -11,11 +11,14 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <kon:Shape rdf:about="http://kerameikos.org/id/amphora_type_a">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Amphora Type A</skos:prefLabel>
-        <skos:definition xml:lang="en">Early amphora shape, popular in Black Figure, which saw production from the early 6th century B.C. to about 440 B.C.</skos:definition>
+        <skos:definition xml:lang="en">Amphora Type A has a flaring lip with concave sides, flanged handles, and a foot with the upper part stepped and a lower echinus or torus. Early amphora shape, popular in Black Figure, which saw production from the early 6th century B.C. to about 440 B.C.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264911"/>
         <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=type-a-amphora"/>
-        <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
+        
+        <skos:broader rdf:resource="http://kerameikos.org/id/belly_amphora"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
     </kon:Shape>
 </rdf:RDF>

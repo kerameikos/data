@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/kleitias">
+        <skos:prefLabel xml:lang="en">Kleitias</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Klitias</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">克利提亚斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Clitias</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Kleitias</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Klitias</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Kleitias</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Kleitias was an ancient Athenian vase painter of the black figure style who flourished c. 570–560 BCE. Kleitias' most celebrated work today is the François Vase (c. 570 BCE), which bears over two hundred figures in its six friezes.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kleitias"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500089125"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59048"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/72190122"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/63942432"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/256311848"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/190893916"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/311817658"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/256874290"/>
+    </foaf:Person>
+</rdf:RDF>

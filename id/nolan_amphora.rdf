@@ -11,11 +11,14 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <kon:Shape rdf:about="http://kerameikos.org/id/nolan_amphora">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Nolan Amphora</skos:prefLabel>
         <skos:definition xml:lang="en">A subtype of amphora</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198849"/>
         <skos:related rdf:resource="http://www.jstor.org/stable/497320"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/neck_amphora"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/neck.htm"/>
     </kon:Shape>
 </rdf:RDF>

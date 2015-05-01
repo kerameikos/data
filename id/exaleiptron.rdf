@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/exaleiptron">
+        <skos:prefLabel xml:lang="en">Exaleiptron</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The exaleiptron displays a foot, a body that is wide and ovoid, an inward-hanging lip, and a knobbed lid. It appears almost like an upside down spinning "top." It is thought to have contained scented water for personal use, religious ceremonies, and at the grave.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:altLabel xml:lang="en">Kothon</skos:altLabel>
+        <skos:altLabel xml:lang="en">Plemochoe</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264928"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8460"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
+        <skos:altLabel xml:lang="de">Exaleiptron</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Exaleiptron</skos:altLabel>
+        <skos:altLabel xml:lang="it">Exaleiptron</skos:altLabel>
+        <skos:altLabel xml:lang="ru">Племохойя</skos:altLabel>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/pyxis.htm"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0004%3Aalphabetic+letter%3DP%3Aentry+group%3D12%3Aentry%3Dplemochoe"/>
+    </kon:Shape>
+</rdf:RDF>

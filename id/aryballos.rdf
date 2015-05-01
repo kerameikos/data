@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/aryballos">
+        <skos:prefLabel xml:lang="en">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Aryballe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Арибал</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Aríbalo</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ariballo</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Aríbalo</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">An aryballos is a small, spherical, narrow-necked oil flask with a flat or round bottom. The Corinthian type has a broad disk-shaped mouth and one handle; the Attic type has a hemispherical mouth and a pair of handles. An aryballos could also be molded into other shapes (e.g., human heads, animals, etc.). The vessel contained oil and was mostly used at the bath and by athletes at the palaestra. The shape originated in Corinth and was produced in Athens from ca. 525 to the early fourth century B.C.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198885"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5252"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aryballos"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/aryballos.htm"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=aryballos"/>
+        <skos:prefLabel xml:lang="el">αρύβαλλος</skos:prefLabel>
+    </kon:Shape>
+</rdf:RDF>

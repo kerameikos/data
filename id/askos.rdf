@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ecrm="http://erlangen-crm.org/current/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <kon:Shape rdf:about="http://kerameikos.org/id/askos">
+        <skos:prefLabel xml:lang="en">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Asco (vaso)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Аскос</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Askos</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">An askos is a small, shallow vessel with a domed top, a short spout angled from one side of the top, and an overarching handle. It could either be wheel-made or moldmade. The vessel was used for oil, but the shape could have also contained perfume, honey, or wine for funerary libations. It was a red-figure vase made from the early fifth to the fourth century B.C.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5254"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198863"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=askos"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/askos.htm"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Askos_(pottery_vessel)"/>
+    </kon:Shape>
+</rdf:RDF>

@@ -11,7 +11,8 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:kid="http://kerameikos.org/id/">
     <kon:Shape rdf:about="http://kerameikos.org/id/dinos">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Dinos</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Dinos</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Dinos</skos:prefLabel>
@@ -22,5 +23,6 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300263133"/>
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6435"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Dinos"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=dinos"/>
     </kon:Shape>
 </rdf:RDF>
