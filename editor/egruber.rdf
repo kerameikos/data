@@ -8,10 +8,9 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">    
     <foaf:Person rdf:about="http://kerameikos.org/editor/egruber">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-        <foaf:name>Ethan Gruber</foaf:name>        
-    </foaf:Person>
-    <skos:Concept rdf:about="http://kerameikos.org/editor/egruber#concept">
-        <foaf:focus rdf:resource="http://kerameikos.org/editor/egruber"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Ethan Gruber</skos:prefLabel>  
         <skos:exactMatch rdf:resource="https://orcid.org/0000-0002-4691-9747"/>
-    </skos:Concept>
+        <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
+    </foaf:Person>    
 </rdf:RDF>

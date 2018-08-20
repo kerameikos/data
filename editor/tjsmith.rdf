@@ -8,13 +8,12 @@
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">    
     <foaf:Person rdf:about="http://kerameikos.org/editor/tjsmith">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
-        <foaf:name>Tyler Jo Smith</foaf:name>        
-    </foaf:Person>
-    <skos:Concept rdf:about="http://kerameikos.org/editor/tjsmith#concept">
-        <foaf:focus rdf:resource="http://kerameikos.org/editor/tjsmith"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Tyler Jo Smith</skos:prefLabel>   
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/7711355"/>
         <skos:exactMatch rdf:resource="http://isni.org/isni/0000000042613818"/>
         <skos:exactMatch rdf:resource="http://id.loc.gov/authorities/names/nb2007021177"/>
         <skos:exactMatch rdf:resource="https://www.idref.fr/121574628"/>
-    </skos:Concept>
+        <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
+    </foaf:Person>    
 </rdf:RDF>
