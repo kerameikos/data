@@ -1,42 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:kid="http://kerameikos.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-	   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/apulia">
-		      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-		      <skos:prefLabel xml:lang="en">Apulia</skos:prefLabel>
-		      <skos:prefLabel xml:lang="nl">Apulië</skos:prefLabel>
-		      <skos:prefLabel xml:lang="zh">普利亚</skos:prefLabel>
-		      <skos:prefLabel xml:lang="it">Puglia</skos:prefLabel>
-		      <skos:prefLabel xml:lang="fr">Pouilles</skos:prefLabel>
-		      <skos:prefLabel xml:lang="pl">Apulia</skos:prefLabel>
-		      <skos:prefLabel xml:lang="de">Apulien</skos:prefLabel>
-		      <skos:prefLabel xml:lang="sv">Apulien</skos:prefLabel>
-		      <skos:prefLabel xml:lang="pt">Apúlia</skos:prefLabel>
-		      <skos:prefLabel xml:lang="ru">Апулия</skos:prefLabel>
-		      <skos:prefLabel xml:lang="ja">プッリャ州</skos:prefLabel>
-		      <skos:prefLabel xml:lang="es">Apulia</skos:prefLabel>
-		      <skos:definition xml:lang="en">Apulia (Italian: Puglia)[note 1] is a region of Italy in Southern Italy bordering the Adriatic Sea in the east, the Ionian Sea to the southeast, and the Strait
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/apulia">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">Apulia</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Apulië</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">普利亚</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Puglia</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Pouilles</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Apulia</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Apulien</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Apulien</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Apúlia</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Апулия</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">プッリャ州</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Apulia</skos:prefLabel>
+      <skos:definition xml:lang="en">Apulia (Italian: Puglia)[note 1] is a region of Italy in Southern Italy bordering the Adriatic Sea in the east, the Ionian Sea to the southeast, and the Strait
 			of Òtranto and Gulf of Taranto in the south. It was a major producer of Red Figure pottery during the Classical period.</skos:definition>
-		      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Apulia"/>
-		      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x39670"/>
-		      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7010380"/>
-		      <skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/442469"/>
-		      <skos:broader rdf:resource="http://kerameikos.org/id/south_italy"/>
-		      <geo:location rdf:resource="http://kerameikos.org/id/apulia#this"/>
-		   </kon:ProductionPlace>
-	   <geo:SpatialThing rdf:about="http://kerameikos.org/id/apulia#this">
-	   	<rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-		      <osgeo:asGeoJSON>{"type": "Polygon", "coordinates": [[[16.0, 41.0], [16.0, 41.5], [15.5, 41.5], [15.5, 41.0], [16.0, 41.0]]]}</osgeo:asGeoJSON>
-		      <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/south_italy#this"/>
-	   </geo:SpatialThing>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Apulia"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x39670"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7010380"/>
+      <skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/442469"/>
+      <skos:broader rdf:resource="http://kerameikos.org/id/south_italy"/>
+      <geo:location rdf:resource="http://kerameikos.org/id/apulia#this"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/apulia#provenance"/>
+   </kon:ProductionPlace>
+   <geo:SpatialThing rdf:about="http://kerameikos.org/id/apulia#this">
+      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+      <osgeo:asGeoJSON>{"type": "Polygon", "coordinates": [[[16.0, 41.0], [16.0, 41.5], [15.5, 41.5], [15.5, 41.0], [16.0, 41.0]]]}</osgeo:asGeoJSON>
+      <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/south_italy#this"/>
+   </geo:SpatialThing>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/apulia#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/apulia"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-0400Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

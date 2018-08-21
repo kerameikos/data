@@ -1,33 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
          xmlns:kon="http://kerameikos.org/ontology#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/">
-    <kon:Technique rdf:about="http://kerameikos.org/id/red_figure">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:prefLabel xml:lang="en">Red Figure</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Cerámica de figuras rojas</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Roodfigurige stijl</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Rödfigurig keramik</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Styl czerwonofigurowy</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Ceramica a figure rosse</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Rotfigurige Vasenmalerei</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Краснофигурная вазопись</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">紅彩陶器</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Registro de pintura vermelha em cerâmica grega</skos:prefLabel>
-        <skos:definition xml:lang="en">The term refers to a form of decoration on Greek vases, in which figures appear in red, with slip-painted background and details.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Red-figure_pottery"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14796"/>
-        
-        
-        
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387208"/>
-    </kon:Technique>
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <kon:Technique rdf:about="http://kerameikos.org/id/red_figure">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">Red Figure</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Cerámica de figuras rojas</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Roodfigurige stijl</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Rödfigurig keramik</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Styl czerwonofigurowy</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Ceramica a figure rosse</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Rotfigurige Vasenmalerei</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Краснофигурная вазопись</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">紅彩陶器</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Registro de pintura vermelha em cerâmica grega</skos:prefLabel>
+      <skos:definition xml:lang="en">The term refers to a form of decoration on Greek vases, in which figures appear in red, with slip-painted background and details.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Red-figure_pottery"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14796"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387208"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/red_figure#provenance"/>
+   </kon:Technique>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/red_figure#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/red_figure"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-03T23:31:41-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

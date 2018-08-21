@@ -1,37 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
-         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:kid="http://kerameikos.org/id/"
-         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <kon:Shape rdf:about="http://kerameikos.org/id/alabastron">
-        <skos:prefLabel xml:lang="en">Alabastron</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Alabastron</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Alabastron</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Alabastrón</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Алабастрон</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">アラバストロン</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Alabastro (vaso)</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Alabastron</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Alabastron</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Alabastre</skos:prefLabel>
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">A small, slender, elongated vessel that contained either plain or perfumed oil. The shape can either be round-bottomed or footed.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5120"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198887"/>
-        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/alabastron.htm"/>
-        <skos:altLabel xml:lang="de">Alabastron</skos:altLabel>
-        <skos:altLabel xml:lang="it">Alabastron</skos:altLabel>
-        <skos:altLabel xml:lang="fr">Alabastre</skos:altLabel>
-        <skos:altLabel xml:lang="el">αλάβαστρον</skos:altLabel>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Alabastron"/>
-    </kon:Shape>
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <kon:Shape rdf:about="http://kerameikos.org/id/alabastron">
+      <skos:prefLabel xml:lang="en">Alabastron</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Alabastron</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Alabastron</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Alabastrón</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Алабастрон</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">アラバストロン</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Alabastro (vaso)</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Alabastron</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Alabastron</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Alabastre</skos:prefLabel>
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:definition xml:lang="en">A small, slender, elongated vessel that contained either plain or perfumed oil. The shape can either be round-bottomed or footed.</skos:definition>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5120"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198887"/>
+      <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/alabastron.htm"/>
+      <skos:altLabel xml:lang="de">Alabastron</skos:altLabel>
+      <skos:altLabel xml:lang="it">Alabastron</skos:altLabel>
+      <skos:altLabel xml:lang="fr">Alabastre</skos:altLabel>
+      <skos:altLabel xml:lang="el">αλάβαστρον</skos:altLabel>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Alabastron"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/alabastron#provenance"/>
+   </kon:Shape>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/alabastron#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/alabastron"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-0400Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-0400Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

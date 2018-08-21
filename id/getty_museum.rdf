@@ -1,26 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
          xmlns:kon="http://kerameikos.org/ontology#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/">
-    <crm:E40_Legal_Body rdf:about="http://kerameikos.org/id/getty_museum">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:prefLabel xml:lang="en">J. Paul Getty Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Getty Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">J. Paul Getty Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Музей Гетти</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Museo J. Paul Getty</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">J. Paul Getty Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">J・ポール・ゲティ美術館</skos:prefLabel>
-        <skos:definition xml:lang="en">The J. Paul Getty Museum, commonly referred to as the Getty, is an art museum in California housed on two campuses: the Getty Center and Getty Villa.</skos:definition>
-        <foaf:homepage rdf:resource="https://www.getty.edu/museum/"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/J._Paul_Getty_Museum"/>
-    </crm:E40_Legal_Body>
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <crm:E40_Legal_Body rdf:about="http://kerameikos.org/id/getty_museum">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">J. Paul Getty Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Getty Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">J. Paul Getty Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Музей Гетти</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Museo J. Paul Getty</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">J. Paul Getty Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">J・ポール・ゲティ美術館</skos:prefLabel>
+      <skos:definition xml:lang="en">The J. Paul Getty Museum, commonly referred to as the Getty, is an art museum in California housed on two campuses: the Getty Center and Getty Villa.</skos:definition>
+      <foaf:homepage rdf:resource="https://www.getty.edu/museum/"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/J._Paul_Getty_Museum"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/getty_museum#provenance"/>
+   </crm:E40_Legal_Body>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/getty_museum#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/getty_museum"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-11T01:51:20+0000Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

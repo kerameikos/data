@@ -1,22 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
          xmlns:kon="http://kerameikos.org/ontology#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/meidias">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:prefLabel xml:lang="en">Meidias</skos:prefLabel>
-        <skos:definition xml:lang="en">Athenian potter who signed the calpis in the British Museum 'Meidias epoiesen' (made it).</skos:definition>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/283549626"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/89209593"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59443"/>
-        <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-43902"/>
-    </foaf:Person>
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://kerameikos.org/id/meidias">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">Meidias</skos:prefLabel>
+      <skos:definition xml:lang="en">Athenian potter who signed the calpis in the British Museum 'Meidias epoiesen' (made it).</skos:definition>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/283549626"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89209593"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59443"/>
+      <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-43902"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/meidias#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/meidias#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/meidias"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-0400Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,33 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
          xmlns:kon="http://kerameikos.org/ontology#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/meidias_painter">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:prefLabel xml:lang="en">Meidias Painter</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Meidias-Maler</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Мидий (вазописец)</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Meidias-schilder</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Pittore di Midia</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Pintor de Meidias</skos:prefLabel>
-        <skos:definition xml:lang="en">The Meidias Painter was an Athenian red-figure vase painter in Ancient Greece, active in the last quarter of the 5th century B.C..</skos:definition>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/77793582"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/192641779"/>
-        <skos:exactMatch rdf:resource="http://www.idref.fr/029714532/id"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95801018"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/89552879"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/27863613"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118579991"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Meidias_Painter"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500019503"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59444"/>
-    </foaf:Person>
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://kerameikos.org/id/meidias_painter">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">Meidias Painter</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Meidias-Maler</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Мидий (вазописец)</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Meidias-schilder</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Pittore di Midia</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Pintor de Meidias</skos:prefLabel>
+      <skos:definition xml:lang="en">The Meidias Painter was an Athenian red-figure vase painter in Ancient Greece, active in the last quarter of the 5th century B.C..</skos:definition>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/77793582"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/192641779"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/029714532/id"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95801018"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/89552879"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/27863613"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118579991"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Meidias_Painter"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500019503"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59444"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/meidias_painter#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/meidias_painter#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/meidias_painter"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-0400Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,34 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
          xmlns:kon="http://kerameikos.org/ontology#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/">
-    <crm:E40_Legal_Body rdf:about="http://kerameikos.org/id/british_museum">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:prefLabel xml:lang="en">British Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">British Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">British Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Museu Britânico</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">大英博物館</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">British Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Museo Británico</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">British Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Британский музей</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">British Museum</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Muzeum Brytyjskie</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">大英博物馆</skos:prefLabel>
-        <skos:definition xml:lang="en">The British Museum is a museum in London dedicated to human history and culture. Its permanent collection, numbering some 8 million works, is among the largest and most comprehensive in existence and originates from all continents, illustrating and documenting the story of human culture from its beginnings to the present.</skos:definition>
-        <foaf:homepage rdf:resource="http://www.britishmuseum.org/"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/134857252"/>
-        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/16271977-2"/>
-        <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11871460b#foaf:Person"/>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/British_Museum"/>
-    </crm:E40_Legal_Body>
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <crm:E40_Legal_Body rdf:about="http://kerameikos.org/id/british_museum">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">British Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">British Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">British Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Museu Britânico</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">大英博物館</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">British Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Museo Británico</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">British Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Британский музей</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">British Museum</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Muzeum Brytyjskie</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">大英博物馆</skos:prefLabel>
+      <skos:definition xml:lang="en">The British Museum is a museum in London dedicated to human history and culture. Its permanent collection, numbering some 8 million works, is among the largest and most comprehensive in existence and originates from all continents, illustrating and documenting the story of human culture from its beginnings to the present.</skos:definition>
+      <foaf:homepage rdf:resource="http://www.britishmuseum.org/"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/134857252"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/16271977-2"/>
+      <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11871460b#foaf:Person"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/British_Museum"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/british_museum#provenance"/>
+   </crm:E40_Legal_Body>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/british_museum#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/british_museum"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-08T01:10:20+0000Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

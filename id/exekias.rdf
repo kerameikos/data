@@ -1,35 +1,67 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
-	   <foaf:Person rdf:about="http://kerameikos.org/id/exekias">
-	   	   <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-		      <skos:prefLabel xml:lang="en">Exekias</skos:prefLabel>
-        <skos:prefLabel xml:lang="zh">埃克塞基亚斯</skos:prefLabel>
-        <skos:prefLabel xml:lang="ru">Эксекий</skos:prefLabel>
-        <skos:prefLabel xml:lang="it">Exekias</skos:prefLabel>
-        <skos:prefLabel xml:lang="pl">Eksekias</skos:prefLabel>
-        <skos:prefLabel xml:lang="ja">エクセキアス</skos:prefLabel>
-        <skos:prefLabel xml:lang="nl">Exekias</skos:prefLabel>
-        <skos:prefLabel xml:lang="pt">Exéquias</skos:prefLabel>
-        <skos:prefLabel xml:lang="sv">Exekias</skos:prefLabel>
-        <skos:prefLabel xml:lang="es">Exequias (pintor)</skos:prefLabel>
-        <skos:prefLabel xml:lang="fr">Exékias</skos:prefLabel>
-        <skos:prefLabel xml:lang="de">Exekias</skos:prefLabel>
-		      <skos:definition xml:lang="en">Exekias (Ancient Greek: Ἐξηκίας, Exēkías) was an ancient Greek vase-painter and potter who was active in Athens between roughly 545 BC and 530
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://kerameikos.org/id/exekias">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">Exekias</skos:prefLabel>
+      <skos:prefLabel xml:lang="zh">埃克塞基亚斯</skos:prefLabel>
+      <skos:prefLabel xml:lang="ru">Эксекий</skos:prefLabel>
+      <skos:prefLabel xml:lang="it">Exekias</skos:prefLabel>
+      <skos:prefLabel xml:lang="pl">Eksekias</skos:prefLabel>
+      <skos:prefLabel xml:lang="ja">エクセキアス</skos:prefLabel>
+      <skos:prefLabel xml:lang="nl">Exekias</skos:prefLabel>
+      <skos:prefLabel xml:lang="pt">Exéquias</skos:prefLabel>
+      <skos:prefLabel xml:lang="sv">Exekias</skos:prefLabel>
+      <skos:prefLabel xml:lang="es">Exequias (pintor)</skos:prefLabel>
+      <skos:prefLabel xml:lang="fr">Exékias</skos:prefLabel>
+      <skos:prefLabel xml:lang="de">Exekias</skos:prefLabel>
+      <skos:definition xml:lang="en">Exekias (Ancient Greek: Ἐξηκίας, Exēkías) was an ancient Greek vase-painter and potter who was active in Athens between roughly 545 BC and 530
 			BC.</skos:definition>
-		      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58234"/>
-		      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Exekias"/>
-		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/57427027"/>
-		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/4245236"/>
-		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95850860"/>
-		      <skos:exactMatch rdf:resource="http://viaf.org/viaf/204689226"/>
-		      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119536366"/>
-		      <skos:exactMatch rdf:resource="http://www.idref.fr/052199363/id"/>
-		      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500027430"/>
-		
-	       <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-21738"/>
-    </foaf:Person>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58234"/>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Exekias"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/57427027"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/4245236"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95850860"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/204689226"/>
+      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119536366"/>
+      <skos:exactMatch rdf:resource="http://www.idref.fr/052199363/id"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500027430"/>
+      <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-21738"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/exekias#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/exekias#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/exekias"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-26T14:25:12-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

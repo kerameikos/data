@@ -1,23 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
-         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
-         xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
          xmlns:kon="http://kerameikos.org/ontology#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/berlin_painter">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:prefLabel xml:lang="en">Berlin Painter</skos:prefLabel>
-        <skos:definition xml:lang="en">The Berlin Painter (active c. 490s-c. 460s B.C.) is the conventional name given to an Attic Greek vase-painter who is widely regarded as a rival to the Kleophrades Painter, among the most talented vase painters of the early 5th century B.C.</skos:definition>
-        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Berlin_Painter‎"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500006931"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57394"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/61480315"/>
-        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95723148"/>
-    </foaf:Person>
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <foaf:Person rdf:about="http://kerameikos.org/id/berlin_painter">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">Berlin Painter</skos:prefLabel>
+      <skos:definition xml:lang="en">The Berlin Painter (active c. 490s-c. 460s B.C.) is the conventional name given to an Attic Greek vase-painter who is widely regarded as a rival to the Kleophrades Painter, among the most talented vase painters of the early 5th century B.C.</skos:definition>
+      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Berlin_Painter‎"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500006931"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57394"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/61480315"/>
+      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95723148"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/berlin_painter#provenance"/>
+   </foaf:Person>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/berlin_painter#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/berlin_painter"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-0400Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>

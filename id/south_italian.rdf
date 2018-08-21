@@ -1,15 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:kon="http://kerameikos.org/ontology#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:kid="http://kerameikos.org/id/"
-	xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-	<kon:Style rdf:about="http://kerameikos.org/id/south_italian">
-		<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/><skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-		<skos:prefLabel xml:lang="en">South Italian</skos:prefLabel>
-		<skos:definition xml:lang="en">South Italian (including Sicilian) styles of Greek-styled pottery.</skos:definition>
-		<skos:scopeNote xml:lang="en">For South Italy as a production place, use kid:south_italy.</skos:scopeNote>
-		<skos:related rdf:resource="http://dbpedia.org/resource/South_Italian_ancient_Greek_pottery"/>
-		<skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14683"/>
-		<skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020172"/>
-	</kon:Style>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <kon:Style rdf:about="http://kerameikos.org/id/south_italian">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:prefLabel xml:lang="en">South Italian</skos:prefLabel>
+      <skos:definition xml:lang="en">South Italian (including Sicilian) styles of Greek-styled pottery.</skos:definition>
+      <skos:scopeNote xml:lang="en">For South Italy as a production place, use kid:south_italy.</skos:scopeNote>
+      <skos:related rdf:resource="http://dbpedia.org/resource/South_Italian_ancient_Greek_pottery"/>
+      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14683"/>
+      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020172"/>
+      <skos:changeNote rdf:resource="http://kerameikos.org/id/south_italian#provenance"/>
+   </kon:Style>
+   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/south_italian#provenance">
+      <foaf:topic rdf:resource="http://kerameikos.org/id/south_italian"/>
+      <prov:wasGeneratedBy>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-0400Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:wasGeneratedBy>
+      <prov:activity>
+         <prov:Activity>
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-0500Z</prov:atTime>
+            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/id/egruber"/>
+            <dcterms:type>manual</dcterms:type>
+         </prov:Activity>
+      </prov:activity>
+   </dcterms:ProvenanceStatement>
 </rdf:RDF>
