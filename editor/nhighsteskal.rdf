@@ -5,19 +5,18 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-    xmlns:org="http://www.w3.org/ns/org#"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
+    xmlns:org="http://www.w3.org/ns/org#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">    
-    <foaf:Person rdf:about="http://kerameikos.org/editor/egruber">
+    <foaf:Person rdf:about="http://kerameikos.org/editor/nhighsteskal">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:prefLabel xml:lang="en">Ethan Gruber</skos:prefLabel>  
-        <skos:exactMatch rdf:resource="https://orcid.org/0000-0002-4691-9747"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/editor/egruber#membership"/>
+        <skos:prefLabel xml:lang="en">Nicole High-Steskal</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://orcid.org/0000-0002-9823-5507"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/editor/nhighsteskal#membership"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
-    </foaf:Person>    
-    <org:Membership rdf:about="http://kerameikos.org/editor/egruber#membership">
-        <org:organization rdf:resource="http://viaf.org/viaf/126085739"/>
-        <edm:begin rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2011</edm:begin>
+    </foaf:Person>
+    <org:Membership rdf:about="http://kerameikos.org/editor/nhighsteskal#membership">
+        <org:organization rdf:resource="http://viaf.org/viaf/125130162"/>
     </org:Membership>
 </rdf:RDF>
