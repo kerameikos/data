@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <kon:Shape rdf:about="http://kerameikos.org/id/phormiskos">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Phormiskos</skos:prefLabel>
+        <ontolex:otherForm>
+					       <ontolex:Form>
+						          <ontolex:writtenRep xml:lang="en">Phormiskoi</ontolex:writtenRep>
+						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+					       </ontolex:Form>
+				    </ontolex:otherForm>
+        <skos:definition xml:lang="en">The term phormiskos in ancient literary sources applies to all manner of woven bags, sacks, or baskets made from materials including cloth, leather, or rushes. The ceramic Athenian phormiskos is a rare type of gourd-shaped vase that was produced from the 6th c. BCE until around 480 BCE. The shape ranges from spherical, to pear-shaped, to ovoid, to elongated ovoid; all have a slender neck that forms a single contour from lip to a rounded bottom. They are false vases, since the hollow interior of the body connects to a solid neck. Because of this, along with their name, and their largely funerary iconography, they were likely made specifically as a type of grave good that mimicked astragal (knucklebone) sacks made of perishable materials.</skos:definition>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="de">Phormiskos</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2088717"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/phormiskos#provenance"/>
+    </kon:Shape>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/phormiskos#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/phormiskos"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

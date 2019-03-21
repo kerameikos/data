@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,40 +17,57 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/exaleiptron">
-      <skos:prefLabel xml:lang="en">Exaleiptron</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The exaleiptron displays a foot, a body that is wide and ovoid, an inward-hanging lip, and a knobbed lid. It appears almost like an upside down spinning "top." It is thought to have contained scented water for personal use, religious ceremonies, and at the grave.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:altLabel xml:lang="en">Kothon</skos:altLabel>
-      <skos:altLabel xml:lang="en">Plemochoe</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264928"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8460"/>
-      <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
-      <skos:altLabel xml:lang="de">Exaleiptron</skos:altLabel>
-      <skos:altLabel xml:lang="fr">Exaleiptron</skos:altLabel>
-      <skos:altLabel xml:lang="it">Exaleiptron</skos:altLabel>
-      <skos:altLabel xml:lang="ru">Племохойя</skos:altLabel>
-      <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/pyxis.htm"/>
-      <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0004%3Aalphabetic+letter%3DP%3Aentry+group%3D12%3Aentry%3Dplemochoe"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/exaleiptron#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="en">Exaleiptron</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The term ‘exaleiptron’ comes from the word meaning ‘to anoint,’ and the shape is a low-lidded bowl with a wide shoulder and high or low foot. It is thought to have held scented water for personal use, for religious ceremonies, and for the grave. Authorities do not fully agree on the name of this vase and it is also called ‘plemochoё’ and (incorrectly) ‘kothon.’ There is a tendency to use the name ‘exaleiptron’ for the stemless version of the vase, in particular for the Corinthian examples, and ‘plemochoё’ for the Athenian high-footed shape, which is also frequently provided with a lid.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:altLabel xml:lang="en">Kothon</skos:altLabel>
+        <skos:altLabel xml:lang="en">Plemochoe</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264928"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8460"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
+        <skos:altLabel xml:lang="de">Exaleiptron</skos:altLabel>
+        <skos:altLabel xml:lang="fr">Exaleiptron</skos:altLabel>
+        <skos:altLabel xml:lang="it">Exaleiptron</skos:altLabel>
+        <skos:altLabel xml:lang="ru">Племохойя</skos:altLabel>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/pyxis.htm"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0004%3Aalphabetic+letter%3DP%3Aentry+group%3D12%3Aentry%3Dplemochoe"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/exaleiptron#provenance"/>
+        <ontolex:otherForm>
+					       <ontolex:Form>
+						          <ontolex:writtenRep xml:lang="en">exaleiptra</ontolex:writtenRep>
+						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+					       </ontolex:Form>
+				    </ontolex:otherForm>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/001487872"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/exaleiptron#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/exaleiptron"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/exaleiptron"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <kon:Shape rdf:about="http://kerameikos.org/id/rhyton">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Rhyton</skos:prefLabel>
+        <ontolex:otherForm>
+					       <ontolex:Form>
+						          <ontolex:writtenRep xml:lang="en">Rhyta</ontolex:writtenRep>
+						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+					       </ontolex:Form>
+				    </ontolex:otherForm>
+        <skos:definition xml:lang="en">‘Rhyton’ comes from a word for 'flow.' The term is used to denote a one-handled drinking cup whose bowl is fashioned into the shape of an animal’s head (sheep, donkey, etc.) or occasionally a more complex creation (pygmy and crane, negro and crocodile, mounted Amazon, camel and driver). It was originally made from horn, hence its shape. The idea was borrowed from Persia.</skos:definition>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="pt">ríton</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Ryton</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Ритон</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Rhüton</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Ритон</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">リュトン</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">تکوک</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ρυτό</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Ритон</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Riton</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">rhyton</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Ритон</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Riton</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">来通</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Riton</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">ríton</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Рытон</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Riton</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">ритон</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Riton</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q828450"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198841"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8757"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/rhyton#provenance"/>
+    </kon:Shape>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/rhyton#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/rhyton"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

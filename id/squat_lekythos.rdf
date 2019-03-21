@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,32 +17,42 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/squat_lekythos">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Squat Lekythos</skos:prefLabel>
-      <skos:definition xml:lang="en">A type of lekythos that lacks the sharp shoulder of the cylindrical types, made primarily in the late 4th century B.C.</skos:definition>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198884"/>
-      <skos:broader rdf:resource="http://kerameikos.org/id/lekythos"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9278"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/squat_lekythos#provenance"/>
-   </kon:Shape>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Squat Lekythos</skos:prefLabel>
+        <skos:definition xml:lang="en">The squat lekythos is a type of lekythos that lacks the sharp shoulder of the cylindrical types that was made primarily in the late 4th c. BCE.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198884"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/lekythos"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9278"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/squat_lekythos#provenance"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/squat_lekythos#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/squat_lekythos"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/squat_lekythos"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

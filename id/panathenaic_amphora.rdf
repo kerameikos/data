@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,40 +17,59 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/panathenaic_amphora">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Panathenaic Amphora</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Anfora panatenaica</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Panathenaeïsche amfora</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Ánfora panatenaica</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Панафинейские амфоры</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Ânfora panatenaica</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Amfora panatenajska</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Panathenäische Preisamphore</skos:prefLabel>
-      <skos:definition xml:lang="en">Panathenaic amphorae were the large ceramic vessels that contained the oil (some 10 gallons, and 60-70 cms high) given as prizes in the Panathenaic Games.</skos:definition>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8240"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300200366"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Panathenaic_amphora"/>
-      <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/panathenaic_amphora#provenance"/>
-   </kon:Shape>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Panathenaic Amphora</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Anfora panatenaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Panathenaeïsche amfora</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Ánfora panatenaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Панафинейские амфоры</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Ânfora panatenaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Amfora panatenajska</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Panathenäische Preisamphore</skos:prefLabel>
+        <skos:definition xml:lang="en">Panathenaic amphorae are big, ovoid, lidded vases that were presented as prizes to winners of the Panathenaic Games, which were held once every four years in Athens in honor of Athena, patroness of the city. They were filled with olive oil from Athena's sacred trees. The series, presumed to date to the reorganization of the games about 560 BCE, was produced through the Hellenistic period and beyond. The Panathenaic amphorae of the Classical period are of the finest quality construction. Panathenaic amphorae were only decorated in the black-figure technique.</skos:definition>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8240"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300200366"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Panathenaic_amphora"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/panathenaic_amphora#provenance"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000188572"/>
+        <skos:prefLabel xml:lang="el">Αμφορέας των Παναθηναίων</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Anfora panatenaiko</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Панафінейські амфори</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">amphore panathénaïque</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">panethenisk amfora</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אמפורה פאן-אתנאית</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Àmfora panatenaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">панатенајска амфора</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1277842"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/panathenaic_amphora#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/panathenaic_amphora"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-26T23:48:50-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/panathenaic_amphora"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-26T23:48:50-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

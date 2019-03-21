@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <kon:Shape rdf:about="http://kerameikos.org/id/plate">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Plate</skos:prefLabel>
+        <skos:definition xml:lang="en">The plate is not a common shape in clay since it was more likely to have been made of wood. Figured plates (more commonly black-figure) seem to have been made for religious dedications.</skos:definition>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="de">Teller</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">assiette</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">プレート</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">prato</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">тарелка</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">плоча</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Mảng</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">صحن</skos:prefLabel>
+        <skos:prefLabel xml:lang="ay">Chuwa</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">талерка</skos:prefLabel>
+        <skos:prefLabel xml:lang="gn">Ña'ẽmbe</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Чиния</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">থালা</skos:prefLabel>
+        <skos:prefLabel xml:lang="bo">སྡེར་མ།</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">plat</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">talíř</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">tallerken</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">telero</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Piring</skos:prefLabel>
+        <skos:prefLabel xml:lang="jv">Piring</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">plato</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">بشقاب</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Lautanen</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Pláta</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Prato</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">צלחת</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Tanjur</skos:prefLabel>
+        <skos:prefLabel xml:lang="ht">Asyèt</skos:prefLabel>
+        <skos:prefLabel xml:lang="io">Plado</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">piatto</skos:prefLabel>
+        <skos:prefLabel xml:lang="iu">ᐳᑕᖅ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">접시</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Teller</skos:prefLabel>
+        <skos:prefLabel xml:lang="li">Telleur</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Lėkštė</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Šķīvis</skos:prefLabel>
+        <skos:prefLabel xml:lang="ml">പിഞ്ഞാണം</skos:prefLabel>
+        <skos:prefLabel xml:lang="mn">Таваг</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">bord</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">talerz</skos:prefLabel>
+        <skos:prefLabel xml:lang="qu">P'uku</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Farfurie</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Tanjir</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">tanier</skos:prefLabel>
+        <skos:prefLabel xml:lang="sn">Ndiro</skos:prefLabel>
+        <skos:prefLabel xml:lang="so">Saxan</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Tallrik</skos:prefLabel>
+        <skos:prefLabel xml:lang="te">కంచము</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">จาน</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Pinggan</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Tabak</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Тарілка</skos:prefLabel>
+        <skos:prefLabel xml:lang="wo">Aset</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">碟</skos:prefLabel>
+        <skos:prefLabel xml:lang="mr">ताट</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Plate</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">tallerken</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Asied</skos:prefLabel>
+        <skos:prefLabel xml:lang="uz">Lagan</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">чинија</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Πιάτο</skos:prefLabel>
+        <skos:prefLabel xml:lang="ku">Tas</skos:prefLabel>
+        <skos:prefLabel xml:lang="tg">Табақ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ee">Agba</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">тәлинкә</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Plater</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Diskur</skos:prefLabel>
+        <skos:prefLabel xml:lang="sw">Sahani</skos:prefLabel>
+        <skos:prefLabel xml:lang="my">ပန်းကန်</skos:prefLabel>
+        <skos:prefLabel xml:lang="wa">Assîte</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">प्लेट</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">taldrik</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">ափսե</skos:prefLabel>
+        <skos:prefLabel xml:lang="cv">Турилкке</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">தட்டு</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">رکابی</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q57216"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb150560668"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4184660-6"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300042991"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8446"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/plate#provenance"/>
+    </kon:Shape>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/plate#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/plate"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

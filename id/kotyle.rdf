@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,43 +17,58 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/kotyle">
-      <skos:prefLabel xml:lang="en">Kotyle</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">A type of ancient Greek vase broadly similar in shape to a skyphos but more closely resembling a kantharos.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2559410"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cotyla"/>
-      <skos:prefLabel xml:lang="cs">Kotylé</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Котила</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">cótila</skos:prefLabel>
-      <skos:prefLabel xml:lang="uk">Котіла</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">cotile</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Κοτύλη (αγγείο)</skos:prefLabel>
-      <skos:prefLabel xml:lang="nb">kotyle</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">cotyle</skos:prefLabel>
-      <skos:prefLabel xml:lang="da">Kotyle</skos:prefLabel>
-      <skos:exactMatch rdf:resource="https://www.freebase.com/m/02r1y3s"/>
-      <skos:altLabel xml:lang="en">Cotyla</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7578"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/kotyle#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="en">Kotyle</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Used as an alternative for skyphos, the term kotyle refers to a deep cup with two horizontal handles that lacks an offset lip.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q2559410"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Cotyla"/>
+        <skos:prefLabel xml:lang="cs">Kotylé</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Котила</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">cótila</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Котіла</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">cotile</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κοτύλη (αγγείο)</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">kotyle</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">cotyle</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Kotyle</skos:prefLabel>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/02r1y3s"/>
+        <skos:altLabel xml:lang="en">Cotyla</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7578"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/kotyle#provenance"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="sq">Kotile</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">kotülé</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Còtila</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2559410"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198840"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/kotyle#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/kotyle"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T15:49:35+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T15:51:33+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/kotyle"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T15:49:35+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T15:51:33+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

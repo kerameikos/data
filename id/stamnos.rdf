@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <kon:Shape rdf:about="http://kerameikos.org/id/stamnos">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Stamnos</skos:prefLabel>
+        <ontolex:otherForm>
+					       <ontolex:Form>
+						          <ontolex:writtenRep xml:lang="en">Stamnoi</ontolex:writtenRep>
+						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+					       </ontolex:Form>
+				    </ontolex:otherForm>
+        <skos:definition xml:lang="en">The term ‘stamnos’ is conventionally (and wrongly) used to designate a storing and mixing bowl with two small horizontal handles attached to a compact, bulbous body, a short neck and a lid.</skos:definition>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="de">Stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Стамнос</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Стамнос</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Стамнас</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Стамнос</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Stamnos</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Στάμνος</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Ստամնոս</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1421582"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198881"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9294"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/stamnos#provenance"/>
+    </kon:Shape>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/stamnos#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/stamnos"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

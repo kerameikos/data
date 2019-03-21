@@ -9,4 +9,13 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:prov="http://www.w3.org/ns/prov#">
+    <prov:Entity rdf:about="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml">
+					   <dcterms:format>application/vnd.google-apps.spreadsheet</dcterms:format>
+					   <dcterms:description xml:lang="en">Archaic and Classical Greek (non-South Italian) shapes.</dcterms:description>
+					   <dcterms:creator rdf:resource="http://kerameikos.org/editor/egruber"/>
+				    <dcterms:contributor rdf:resource="http://kerameikos.org/editor/abradford"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nolya"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/rgondek"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
+    </prov:Entity>
 </rdf:RDF>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,32 +17,61 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/olpe">
-      <skos:prefLabel xml:lang="en">Olpe</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">A "pitcher" sub-type of oinochoai identified by its S-shaped profile.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8164"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198867"/>
-      <skos:broader rdf:resource="http://kerameikos.org/id/oinochoe"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/olpe#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="en">Olpe</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The word 'olpe' is Greek for 'jug' and is conventionally used for a slender-shaped jug with a low handle and no separate neck.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8164"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198867"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/oinochoe"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/olpe#provenance"/>
+        <ontolex:otherForm>
+					       <ontolex:Form>
+						          <ontolex:writtenRep xml:lang="en">Olpai</ontolex:writtenRep>
+						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+					       </ontolex:Form>
+				    </ontolex:otherForm>
+        <skos:broader rdf:resource="http://kerameikos.org/id/pitcher"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="de">Olpe</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Olpe</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">olpé</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Olpe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Ольпа</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Ольпа</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Olpe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">olpa</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Olpé</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Ольпа</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">олпа</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1617884"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/olpe#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/olpe"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/olpe"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

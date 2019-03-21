@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,41 +17,63 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/askos">
-      <skos:prefLabel xml:lang="en">Askos</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Askos</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Asco (vaso)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Askos</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Askos</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Аскос</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Askos</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">An askos is a small, shallow vessel with a domed top, a short spout angled from one side of the top, and an overarching handle. It could either be wheel-made or moldmade. The vessel was used for oil, but the shape could have also contained perfume, honey, or wine for funerary libations. It was a red-figure vase made from the early fifth to the fourth century B.C.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5254"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198863"/>
-      <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
-      <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=askos"/>
-      <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/askos.htm"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Askos_(pottery_vessel)"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/askos#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="en">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Asco (vaso)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Аскос</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Askos</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Meaning 'wine-skin,' the term askos is conventionally (and erroneously) used for a small, flat vase, with narrow sloping spout and handle arching over body. A variant exists in the form of a double-askos.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5254"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198863"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=askos"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/askos.htm"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Askos_(pottery_vessel)"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/askos#provenance"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="ko">아스코스</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Аскос</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Аскос</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Askos</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Asko</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q732286"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/askos#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/askos"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/askos"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

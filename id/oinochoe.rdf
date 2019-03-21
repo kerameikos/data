@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,41 +17,81 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/oinochoe">
-      <skos:prefLabel xml:lang="en">Oinochoe</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Enócoa</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Ойнохойя</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Oinochoe</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Enócoe</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Oinochoë</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Œnochoé</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Ojnochoe</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Oinochoe</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">An oinochoe is a wine jug and a key form of Greek pottery.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198866"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8153"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Oenochoe"/>
-      <skos:altLabel xml:lang="en">Oenochoe</skos:altLabel>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/oinochoe#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="en">Oinochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Enócoa</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Ойнохойя</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Oinochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Enócoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Oinochoë</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Œnochoé</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Ojnochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Oinochoe</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The term 'oinochoe' means 'wine-pourer.' The wine jug is fashioned in many varieties (conical, concave, convex) but is usually furnished with a single vertical handle. The mouth can be round, trefoil, or beak-shaped.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198866"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8153"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Oenochoe"/>
+        <skos:altLabel xml:lang="en">Oenochoe</skos:altLabel>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/oinochoe#provenance"/>
+        <ontolex:otherForm>
+					       <ontolex:Form>
+						          <ontolex:writtenRep xml:lang="en">Oinochoai</ontolex:writtenRep>
+						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+					       </ontolex:Form>
+				    </ontolex:otherForm>
+        <skos:broader rdf:resource="http://kerameikos.org/id/pitcher"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="lb">Oinochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Enokoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Enòcoa</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Oinokhoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Ойнохоя</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Oinochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="br">Oinokoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">oinochoé</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Ойнохое</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Οινοχόη</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Oenochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Oinochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Ојнохое</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">oinokhoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Oinochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">彩陶酒罈</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">オイノコエ</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Oinochoe</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Oenochoë</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Айнахоя</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">ојнохое</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">oinokhoé</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q831869"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/oinochoe#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/oinochoe"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/oinochoe"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

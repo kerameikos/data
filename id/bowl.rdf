@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <kon:Shape rdf:about="http://kerameikos.org/id/bowl">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Bowl</skos:prefLabel>
+        <skos:definition xml:lang="en">The term bowl is used to designate a plain, open shape without handles.</skos:definition>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="jv">Mangkok</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">miska</skos:prefLabel>
+        <skos:prefLabel xml:lang="qu">Anqara</skos:prefLabel>
+        <skos:prefLabel xml:lang="gd">Bòla</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">사발</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">bol</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">קערה</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">cuenco</skos:prefLabel>
+        <skos:prefLabel xml:lang="ta">கிண்ணம்</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Mangkuk</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">ciotola</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Kauss</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schüssel</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Mangkuk</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ボウル</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Bát ăn</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">سلطانية</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Skål</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">tigela</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">bovlo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Миска</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">ชาม</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">bol</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Kulho</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">کاسه</skos:prefLabel>
+        <skos:prefLabel xml:lang="io">Bolo</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Dubuo</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">skål</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Jatt</skos:prefLabel>
+        <skos:prefLabel xml:lang="tg">Коса</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">碗</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Купа (съд)</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Cunca</skos:prefLabel>
+        <skos:prefLabel xml:lang="ml">കിണ്ണം</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">kom</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Миска</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">чинија</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Міска</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Çanak</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Strachină</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">miska</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">мискә</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">miska</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">вангла</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Posuda</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Bòl</skos:prefLabel>
+        <skos:prefLabel xml:lang="ht">Bòl</skos:prefLabel>
+        <skos:prefLabel xml:lang="ky">Кесе</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">dysgl</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q153988"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300203596"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5597"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/bowl#provenance"/>
+    </kon:Shape>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/bowl#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/bowl"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

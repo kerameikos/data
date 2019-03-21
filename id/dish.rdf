@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <kon:Shape rdf:about="http://kerameikos.org/id/dish">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Dish</skos:prefLabel>
+        <skos:definition xml:lang="en">The name dish is given to almost any sizeable, shallow bowl.</skos:definition>
+        <skos:prefLabel xml:lang="fr">mets</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">страва</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Плакия</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">plat</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">madret</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Gericht</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">ruokalaji</skos:prefLabel>
+        <skos:prefLabel xml:lang="hi">पकवान</skos:prefLabel>
+        <skos:prefLabel xml:lang="io">Disho</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">piatto</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Patiekalas</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">блюдо</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">maträtt</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">страва</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">plato</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">potrawa</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Plat</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">gerecht</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">pokrm</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">јело</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">ēdiens</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">jedlo</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">菜肴</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">بشقاب</skos:prefLabel>
+        <skos:prefLabel xml:lang="or">ରାନ୍ଧଣା</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Ferculum</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">կերակուր</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">јадење</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">fogás</skos:prefLabel>
+        <skos:prefLabel xml:lang="pa">ਡਿਸ਼</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">طبق</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">料理</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">matrett</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">plado</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Prato</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">კერძი</skos:prefLabel>
+        <skos:prefLabel xml:lang="yo">oúnjẹ</skos:prefLabel>
+        <skos:prefLabel xml:lang="ml">ഭക്ഷണം</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">prato</skos:prefLabel>
+        <skos:prefLabel xml:lang="tg">Таом</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">plater</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">món ăn</skos:prefLabel>
+        <skos:prefLabel xml:lang="ba">Ризыҡ</skos:prefLabel>
+        <skos:prefLabel xml:lang="tt">ашамлык</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">makanan</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">matrett</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">fel de mâncare</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">מנה</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q746549"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4136283-4"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6452"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/dish#provenance"/>
+    </kon:Shape>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/dish#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/dish"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,44 +17,82 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/hydria">
-      <skos:prefLabel xml:lang="en">Hydria</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Hídria</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Гидрия</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Hydria</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Hydrie</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Hydria</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Hidria</skos:prefLabel>
-      <skos:prefLabel xml:lang="el">Υδρία</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Hydria (aardewerk)</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Hydria</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">The Hydria is a large vessel that displays a well-defined shoulder, and medium-sized neck, and three handles (two horizontal handles on opposite sides of the body, and a third vertical handle is located between the horizontal handles and extends from the lip to the mid-shoulder. It was used for carrying water.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7318"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198844"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hydria"/>
-      <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/hydria.htm"/>
-      <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=hydria"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/hydria#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="en">Hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Hídria</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Гидрия</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hydrie</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Hidria</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Υδρία</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Hydria (aardewerk)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Hydria</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Taking its name from the Greek 'hydor,' meaning 'water,' the hydria is a water-pot for the fountain. It has a capacious oval body, two horizontal handles, and one vertical handle. This type of vase was manufactured in bronze, in coarseware, and in fineware. See also kalpis.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7318"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198844"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hydria"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/hydria.htm"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=hydria"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/hydria#provenance"/>
+        <ontolex:otherForm>
+					       <ontolex:Form>
+						          <ontolex:writtenRep xml:lang="en">Hydriai</ontolex:writtenRep>
+						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+					       </ontolex:Form>
+				    </ontolex:otherForm>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="eu">Hidria</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">hídria</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Hüdria</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гідрія</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Hüdria</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Хидрия</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Хидрија</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Гідрыя</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Hydria</skos:prefLabel>
+        <skos:prefLabel xml:lang="bn">হাইড্রিয়া</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">提水罐</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">хидрија</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Hidrija</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Hidrija</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ヒュドリア</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q745783"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/hydria#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/hydria"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/hydria"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

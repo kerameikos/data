@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,44 +17,73 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/aryballos">
-      <skos:prefLabel xml:lang="en">Aryballos</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Aryballe</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Арибал</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Aríbalo</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Aryballos</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Aryballos</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Ariballo</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Aryballos</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Aríbalo</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">An aryballos is a small, spherical, narrow-necked oil flask with a flat or round bottom. The Corinthian type has a broad disk-shaped mouth and one handle; the Attic type has a hemispherical mouth and a pair of handles. An aryballos could also be molded into other shapes (e.g., human heads, animals, etc.). The vessel contained oil and was mostly used at the bath and by athletes at the palaestra. The shape originated in Corinth and was produced in Athens from ca. 525 to the early fourth century B.C.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198885"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5252"/>
-      <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aryballos"/>
-      <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/aryballos.htm"/>
-      <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=aryballos"/>
-      <skos:prefLabel xml:lang="el">αρύβαλλος</skos:prefLabel>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/aryballos#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="en">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Aryballe</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Арибал</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Aríbalo</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ariballo</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Aríbalo</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Aryballos is the conventional name for an ovoid or ball-shaped oil pot with one or two handles. Used by athletes, it can be footed or footless. Some aryballoi are potted in the shape of a head, animal, or bird.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198885"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5252"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aryballos"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/aryballos.htm"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=aryballos"/>
+        <skos:prefLabel xml:lang="el">αρύβαλλος</skos:prefLabel>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/aryballos#provenance"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="eo">Aribalo</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Arybalos</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Арибал</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Арибал</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Aríbalo</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Aryballos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アリュバロス</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Aribal</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">aribal</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">ариболос</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">aribal</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Aríbal</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Арыбал</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Արիբալլոս</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q717954"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/aryballos#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/aryballos"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/aryballos"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <kon:Shape rdf:about="http://kerameikos.org/id/situla">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Situla</skos:prefLabel>
+        <ontolex:otherForm>
+					       <ontolex:Form>
+						          <ontolex:writtenRep xml:lang="en">Situlae</ontolex:writtenRep>
+						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
+					       </ontolex:Form>
+				    </ontolex:otherForm>
+        <skos:definition xml:lang="en">‘Situla’ comes from the Latin word meaning 'bucket.' It is a deep bowl for wine and was mainly made in South Italy. The swung handles suggest a derivation from metal.</skos:definition>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="de">Situla</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Sitra</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">acetre</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">situle</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">situla</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">სიტულა</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Situla</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Ситула</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Situla</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">situla</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">シトゥラ</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Antoxin</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Ситула</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">ситула</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Situla</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1650313"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198870"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9091"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/situla#provenance"/>
+    </kon:Shape>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/situla#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/situla"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

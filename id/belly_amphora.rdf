@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,37 +17,53 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Shape rdf:about="http://kerameikos.org/id/belly_amphora">
-      <skos:prefLabel xml:lang="en">Belly Amphora</skos:prefLabel>
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:definition xml:lang="en">A Belly Amphora has a continuous, smooth curve from lip to foot. These amphora have been classified as Types A, B, and C, based on difference in the shape of lips, feet, and handles.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:altLabel xml:lang="en">Continuous-Curve Amphora</skos:altLabel>
-      <skos:altLabel xml:lang="en">One-Piece Amphora</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105151"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198852"/>
-      <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
-      <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
-      <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=belly-amphora"/>
-      <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/belly.htm"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/belly_amphora#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="en">Belly Amphora</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">A belly amphora has a continuous, smooth curve from lip to foot. These amphorae have been classified as Types A, B, and C, based on differences in the shape of lips, feet, and handles.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:altLabel xml:lang="en">Continuous-Curve Amphora</skos:altLabel>
+        <skos:altLabel xml:lang="en">One-Piece Amphora</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105151"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198852"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
+        <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
+        <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=belly-amphora"/>
+        <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/belly.htm"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/belly_amphora#provenance"/>
+        <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="fr">amphore à panse</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Bauchamphora</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Πλατύσωμος αμφορέας</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">anfora a profilo continuo</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">amfora wybrzuszona</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q11077005"/>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/belly_amphora#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/belly_amphora"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/belly_amphora"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
