@@ -12,7 +12,8 @@
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Najee Olya</skos:prefLabel>  
-        <org:hasMembership rdf:resource="http://kerameikos.org/editor/nolya#membership"/>
+        <skos:exactMatch rdf:resource="https://orcid.org/0000-0001-7270-8700"/>
+	<org:hasMembership rdf:resource="http://kerameikos.org/editor/nolya#membership"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
     </foaf:Person>    
     <org:Membership rdf:about="http://kerameikos.org/editor/nolya#membership">
