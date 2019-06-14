@@ -20,7 +20,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Miniature Panathenaic Amphora</skos:prefLabel>
-        <skos:definition xml:lang="en">Miniature Panathenaic amphorae are ointment vessels with a similar shape to the regular-sized Panathenaic amphorae with small handles and a narrow foot. They are usually decorated in black-figure and measure about 0.08 - 0.19 cm (about 3.1 - 7.5 in) high.</skos:definition>
+        <skos:definition xml:lang="en">Miniature Panathenaic amphorae are ointment vessels with a similar shape to the regular-sized Panathenaic amphorae with small handles and a narrow foot. They are usually decorated in black-figure and measure about 8 - 19 cm (about 3.1 - 7.5 in) high.</skos:definition>
         <dcterms:source rdf:resource="https://search.lib.virginia.edu/catalog/u565808"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/miniature_panathenaic_amphora#provenance"/>
     </kon:Shape>
@@ -37,5 +37,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-27T09:42:20.684-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
