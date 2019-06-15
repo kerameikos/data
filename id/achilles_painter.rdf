@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,44 +17,68 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://kerameikos.org/id/achilles_painter">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Achilles Painter</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Malarz Achillesa</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Pintor de Aquiles</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Achilleus-Maler</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Pittore di Achille</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Pintor de Aquiles</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Вазописец Ахилла</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Achilles-schilder</skos:prefLabel>
-      <skos:definition xml:lang="en">The Achilles Painter, was a vase-painter active ca. 470-425 BC. His name vase is an amphora, Vatican 16571, in the Vatican museums depicting Achilles.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/58090848"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/190952115"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/173110649"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95800946"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/88802961"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achilles_Painter"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500019489"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57106"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/achilles_painter#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Achilles Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Malarz Achillesa</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pintor de Aquiles</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Achilleus-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Achille</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Pintor de Aquiles</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Вазописец Ахилла</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Achilles-schilder</skos:prefLabel>
+        <skos:definition xml:lang="en">The Achilles Painter, was a vase-painter active ca. 470-425 BC. His name vase is an amphora, Vatican 16571, in the Vatican museums depicting Achilles.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/58090848"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/190952115"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/173110649"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95800946"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/88802961"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achilles_Painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500019489"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57106"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/achilles_painter#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/achilles_painter#painter"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/achilles_painter#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/achilles_painter"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-01T22:52:31+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/achilles_painter"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-01T22:52:31+00:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-14T12:52:25.724-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-14T14:34:59.043-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/achilles_painter#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+        <edm:begin xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                   rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0470</edm:begin>
+        <edm:end xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0425</edm:end>
+    </org:Membership>
 </rdf:RDF>
