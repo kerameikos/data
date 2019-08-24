@@ -26,7 +26,7 @@
 						          <lexinfo:number rdf:resource="http://www.lexinfo.net/ontology/2.0/lexinfo#plural"/>
 					       </ontolex:Form>
 				    </ontolex:otherForm>
-        <skos:definition xml:lang="en">‘Rhyton’ comes from a word for 'flow.' The term is used to denote a one-handled drinking cup whose bowl is fashioned into the shape of an animal’s head (sheep, donkey, etc.) or occasionally a more complex creation (pygmy and crane, negro and crocodile, mounted Amazon, camel and driver). It was originally made from horn, hence its shape. The idea was borrowed from Persia.</skos:definition>
+        <skos:definition xml:lang="en">‘Rhyton’ comes from a word for 'flow.' The term is used to denote a one-handled drinking cup whose bowl is fashioned into the shape of an animal’s head (sheep, donkey, etc.) or occasionally a more complex creation (pygmy and crane, African child and crocodile, mounted Amazon, camel and driver). It was originally made from horn, hence its shape. The idea was borrowed from Persia.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="pt">ríton</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Ryton</skos:prefLabel>
@@ -76,5 +76,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:43:16.704-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
