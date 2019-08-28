@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,52 +17,60 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:ProductionPlace rdf:about="http://kerameikos.org/id/athens">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Athens</skos:prefLabel>
-      <skos:prefLabel xml:lang="ja">アテネ</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Atenas</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">雅典</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Афины</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Athènes</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Athen</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Athene</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Atenas</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Ateny</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Atene</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Aten</skos:prefLabel>
-      <skos:definition xml:lang="en">Athens dominates the Attica region and is one of the world's oldest cities, with its recorded history spanning around 3,400 years.</skos:definition>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x22744"/>
-      <skos:exactMatch rdf:resource="http://pleiades.stoa.org/places/579885"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Athens"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7001393"/>
-      <skos:broader rdf:resource="http://kerameikos.org/id/attica"/>
-      <geo:location rdf:resource="http://kerameikos.org/id/athens#this"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/athens#provenance"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Athens</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アテネ</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Atenas</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">雅典</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Афины</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Athènes</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Athen</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Athene</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Atenas</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Ateny</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Atene</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Aten</skos:prefLabel>
+        <skos:definition xml:lang="en">Athens dominates the Attica region and is one of the world's oldest cities, with its recorded history spanning around 3,400 years.</skos:definition>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x22744"/>
+        <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/579885"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Athens"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7001393"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/attica"/>
+        <geo:location rdf:resource="http://kerameikos.org/id/athens#this"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/athens#provenance"/>
    </kon:ProductionPlace>
    <geo:SpatialThing rdf:about="http://kerameikos.org/id/athens#this">
-      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-      <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.972</geo:lat>
-      <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.726443</geo:long>
-      <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/attica#this"/>
+        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+        <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.972</geo:lat>
+        <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.726443</geo:long>
+        <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/attica#this"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/athens#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/athens"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-27T23:23:11-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/athens"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-27T23:23:11-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-28T12:14:48.41-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>
