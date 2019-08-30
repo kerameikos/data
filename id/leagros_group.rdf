@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,35 +17,55 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Organization rdf:about="http://kerameikos.org/id/leagros_group">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Leagros Group</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Leagros-Gruppe</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Gruppo di Leagros</skos:prefLabel>
-      <skos:definition xml:lang="en">The Leagros Group was a group of Attic black-figure vase painters active during the last two decades of the 6th century BC.</skos:definition>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500021673"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/123061669"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Leagros_Group"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59160"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/leagros_group#provenance"/>
-   </foaf:Organization>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Leagros Group</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Leagros-Gruppe</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Gruppo di Leagros</skos:prefLabel>
+        <skos:definition xml:lang="en">The Leagros Group was a group of Attic black-figure vase painters active during the last two decades of the 6th century BC. The name given to the group by modern scholars is a conventional one, derived from a series of name vases.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500021673"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/123061669"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Leagros_Group"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59160"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/leagros_group#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q830436"/>
+        <skos:prefLabel xml:lang="el">Εργαστήριο του Λεάγρου</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">groupe de Leagros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Grupul Leagros</skos:prefLabel>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/leagros_group#painter"/>
+    </foaf:Organization>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/leagros_group#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/leagros_group"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/leagros_group"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T09:11:25.702-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/leagros_group#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+        <edm:begin xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                   rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0525</edm:begin>
+        <edm:end xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0500</edm:end>
+    </org:Membership>
 </rdf:RDF>

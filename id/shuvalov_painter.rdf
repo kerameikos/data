@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/shuvalov_painter">
+        <skos:prefLabel xml:lang="en">Shuvalov Painter</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Shuvalov Painter was an Attic vase painter of the red-figure style, active between 440 and 410 BC, i.e. in the High Classical period (Parthenon period). The Shuvalov painter's conventional name was allocated by John Beazley, who chose for a name vase an amphora that is now at the Hermitage Museum, St. Petersburg.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/shuvalov_painter#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/shuvalov_painter#painter"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/60525"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q968196"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Shuvalov_Painter"/>
+        <skos:prefLabel xml:lang="de">Schuwalow-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ζωγράφος του Σουβάλωφ</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Shuvalov</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pintor Shuvalov</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Peintre de Shuvalov</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Shuvalov Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Shuvalov Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Shuvalov Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Shuvalov Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Shuvalov Painter</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118611763"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/2050150085870815060003"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500004128"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000013723620"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/shuvalov_painter#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/shuvalov_painter"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T09:32:22.119-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/shuvalov_painter#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+        <edm:begin rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0440</edm:begin>
+        <edm:end rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0410</edm:end>
+    </org:Membership>
+</rdf:RDF>

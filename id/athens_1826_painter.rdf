@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,33 +17,50 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://kerameikos.org/id/athens_1826_painter">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Painter of Athens 1826</skos:prefLabel>
-      <skos:definition xml:lang="en">An Athenian white ground vase painter active around 460 B.C.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95777319"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500015692"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59872"/>
-      <rdfs:seeAlso rdf:resource="http://www.getty.edu/art/gettyguide/artMakerDetails?maker=431"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/athens_1826_painter#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Painter of Athens 1826</skos:prefLabel>
+        <skos:definition xml:lang="en">An Athenian white ground vase painter active around 460 B.C.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95777319"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500015692"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59872"/>
+        <rdfs:seeAlso rdf:resource="http://www.getty.edu/art/collection/artists/427"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/athens_1826_painter#provenance"/>
+        <skos:exactMatch rdf:resource="www.wikidata.org/entity/Q37632834"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/athens_1826_painter#painter"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/athens_1826_painter#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/athens_1826_painter"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/athens_1826_painter"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T11:37:08.651-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/athens_1826_painter#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+        <edm:begin xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                   rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0460</edm:begin>
+        <edm:end xmlns:edm="http://www.europeana.eu/schemas/edm/"
+                 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0450</edm:end>
+    </org:Membership>
 </rdf:RDF>

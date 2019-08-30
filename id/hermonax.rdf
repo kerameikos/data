@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/hermonax">
+        <skos:prefLabel xml:lang="en">Hermonax</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Hermonax was a Greek vase painter working in the red-figure style. He painted between c. 470 and 440 BC in Athens. Ten vases signed with the phrase "Hermonax has painted it" survive, mainly stamnoi and lekythoi. He is generally a painter of large pots, though some cups survive.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/hermonax#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/hermonax#painter"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q328215"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hermonax"/>
+        <skos:prefLabel xml:lang="de">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Гермонакс</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Гермонакс</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Hermonax</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Hermonaks</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118774166"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/03d33j7"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500073243"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000013504129"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/20476391"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58775"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/hermonax#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/hermonax"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T08:57:47.594-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/hermonax#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+        <edm:begin rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0470</edm:begin>
+        <edm:end rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0440</edm:end>
+    </org:Membership>
+</rdf:RDF>
