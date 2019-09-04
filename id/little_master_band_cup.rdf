@@ -23,6 +23,7 @@
         <skos:broader rdf:resource="http://kerameikos.org/id/little_master_cup"/>
         <skos:definition xml:lang="en">A variation of the Little Master cup, this shape is painted black save for a handle zone that contains a decorated frieze, unlike lip-cups which are largely plain save for the line that divides the lip and the body.</skos:definition>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/little_master_band_cup#provenance"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198910"/>
     </kon:Shape>
    
    
@@ -37,5 +38,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-03T09:06:30.784-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

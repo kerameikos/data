@@ -23,6 +23,7 @@
         <skos:broader rdf:resource="http://kerameikos.org/id/little_master_cup"/>
         <skos:definition xml:lang="en">A variation of the Little Master cup where the lip is more obviously offset than on a band-cup; the most obvious distinction is in the scheme of decoration.</skos:definition>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/little_master_lip_cup#provenance"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198912"/>
     </kon:Shape>
    
    
@@ -37,5 +38,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-03T09:07:01.151-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
