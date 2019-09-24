@@ -24,6 +24,8 @@
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7347"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198817"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/incense_burner#provenance"/>
+        <skos:prefLabel xml:lang="de">Räuchergefäß</skos:prefLabel>
+        <skos:definition xml:lang="de">Diese Gefäßform ist auch als Thymiaterion bekannt.</skos:definition>
     </kon:Shape>
    
    
@@ -38,5 +40,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

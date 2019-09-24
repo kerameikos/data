@@ -34,6 +34,7 @@
         <skos:prefLabel xml:lang="es">crátera de campana</skos:prefLabel>
         <skos:prefLabel xml:lang="mk">ѕвонест кратер</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1531905"/>
+        <skos:definition xml:lang="de">Der Glockenkrater ist eine rot-figurige Innovation. Er weist einen niedrigen oder manchmal modifizierten Standfuß mit dem leichten Ansatz eines Stiels auf. Die Gefäßform erinnert an eine umgedrehte Glocke mit einer leicht nach außen gebogenen Mündung with gerundeten Lippe. Er hat massive, horizontale, zylindrische Henkel, die parallel unter dem Rand angebracht sind.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/bell_krater#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/bell_krater"/>
@@ -57,6 +58,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

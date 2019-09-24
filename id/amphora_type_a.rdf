@@ -34,6 +34,7 @@
         <skos:prefLabel xml:lang="el">αμφορέας τύπου Α</skos:prefLabel>
         <skos:prefLabel xml:lang="ro">amforă de tip A</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q11076343"/>
+        <skos:definition xml:lang="de">Amphore Typ A hat einen nach außen gestellten Rand mit konkaver Lippe, flacher Henkel mit Rippe und einem abgetrepptem Fuß. Eine frühe Amphorenform, die besonders beliebt war als Schwarzfigurige Amphore, welche vom frühen 6. Jh.v.Chr. bis 440 v.Chr. produziert wurde.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/amphora_type_a#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/amphora_type_a"/>
@@ -57,6 +58,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

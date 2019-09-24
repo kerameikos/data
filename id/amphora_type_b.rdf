@@ -32,6 +32,8 @@
         <skos:prefLabel xml:lang="ro">amforă de tip B</skos:prefLabel>
         <skos:prefLabel xml:lang="mk">Амфора од типот Б</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q52160321"/>
+        <skos:prefLabel xml:lang="de">Amphore Typ B</skos:prefLabel>
+        <skos:definition xml:lang="de">Amphore Typ B hat einen nach außen gestellten Rand mit gerader oder ganz leicht konkaver Lippe, einem Echinusfuß und zylindrischen Henkeln. Es ist eine der ältesten Formen, die zwischen dem späten 7. Jh. v.Chr. bis 425 v.Chr. hergestellt wurde.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/amphora_type_b#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/amphora_type_b"/>
@@ -55,6 +57,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

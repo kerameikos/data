@@ -22,6 +22,8 @@
         <skos:prefLabel xml:lang="en">Oinochoe Lid</skos:prefLabel>
         <skos:definition xml:lang="en">Made to fit the trefoil mouth of the vase, rough oinochoe lids are very common in the Orientalizing phase of Corinthian pottery.</skos:definition>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/oinochoe_lid#provenance"/>
+        <skos:prefLabel xml:lang="de">Oinochoendeckel</skos:prefLabel>
+        <skos:definition xml:lang="de">Hergestellt um in die kleeblattförmige Mündung eines Gefäßes zu passen. Grobe Oinochoendeckel sind in der orientalisierenden Phase der korinthischen Keramik häufig.</skos:definition>
     </kon:Shape>
    
    
@@ -36,5 +38,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

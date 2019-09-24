@@ -23,6 +23,8 @@
         <skos:definition xml:lang="en">The pyxis lid varies widely depending on the shape of the pyxis itself. Lids can be flat, concave, domed, or conical and rest on top of the pyxis or can be deep-sided and slip over the sides of the box. The handles are often knobs or metal rings.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000188572"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/pyxis_lid#provenance"/>
+        <skos:prefLabel xml:lang="de">Pyxidendeckel</skos:prefLabel>
+        <skos:definition xml:lang="de">Der Pyxidendeckel variert je nach Form der Pyxis. Der Deckel kann flach, konkav, kuppelförmig oder konisch sein. Er sitzt entweder oben auf der Pyxis auf oder er kann tief sitzen und hängt auf allen Seiten über die Schatulle. Die Henkel sind often Knaufe oder Metallringe.</skos:definition>
     </kon:Shape>
    
    
@@ -37,5 +39,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

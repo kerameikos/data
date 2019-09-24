@@ -45,6 +45,7 @@
         <skos:prefLabel xml:lang="be">Ольпа</skos:prefLabel>
         <skos:prefLabel xml:lang="mk">олпа</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1617884"/>
+        <skos:definition xml:lang="de">Ein griechisches Wort 'Olpe' bezeichnet 'Kanne' und wird allgemein für eine schlanke Kanne ohne separatem Hals verwendet. Sie besitzt meistens einen niedrigen Henkel</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/olpe#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/olpe"/>
@@ -79,6 +80,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T19:07:25.036-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

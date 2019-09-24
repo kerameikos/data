@@ -23,6 +23,8 @@
         <skos:definition xml:lang="en">Miniature Panathenaic amphorae are ointment vessels with a similar shape to the regular-sized Panathenaic amphorae with small handles and a narrow foot. They are usually decorated in black-figure and measure about 8 - 19 cm (about 3.1 - 7.5 in) high.</skos:definition>
         <dcterms:source rdf:resource="https://search.lib.virginia.edu/catalog/u565808"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/miniature_panathenaic_amphora#provenance"/>
+        <skos:prefLabel xml:lang="de">Miniatur einer Panathenäischen Preisamphore</skos:prefLabel>
+        <skos:definition xml:lang="de">Miniaturen der Panathenäischen Preisamphoren sind Salbgefäße mit kleinen Henkeln und schmalem Fuß. Sie sind meistens mit schwarz-figuriger Malerei verziert und sind zwischen 0,08 bis 0,19 m hoch.</skos:definition>
     </kon:Shape>
    
    
@@ -43,6 +45,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-27T09:42:20.684-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

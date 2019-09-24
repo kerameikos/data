@@ -23,7 +23,9 @@
         <skos:definition xml:lang="en">A general term for a two-handled container for drinking. See kylix and skyphos.</skos:definition>
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6288"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/cup#provenance"/>
-   </kon:Shape>
+        <skos:prefLabel xml:lang="de">Schale</skos:prefLabel>
+        <skos:definition xml:lang="de">Ein allgemeiner Begriff für ein zweihenkeliges Gefäß zum Trinken. Siehe Kylix, Skyphos.</skos:definition>
+    </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/cup#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/cup"/>
         <prov:wasGeneratedBy>
@@ -46,6 +48,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

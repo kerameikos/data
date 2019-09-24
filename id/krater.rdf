@@ -74,6 +74,7 @@
         <skos:prefLabel xml:lang="sl">Krater</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q476968"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4130342-8"/>
+        <skos:definition xml:lang="de">Vom griechischen Wort 'mischen'. Ein Krater ist eine große, offene Schüssel zum Mischen von Wasser und Wein.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/krater#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/krater"/>
@@ -97,6 +98,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

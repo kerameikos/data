@@ -24,6 +24,8 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000195695"/>
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8427"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/pitcher#provenance"/>
+        <skos:prefLabel xml:lang="de">Krug</skos:prefLabel>
+        <skos:definition xml:lang="de">Krug' ist ein generischer Begriff für ein Gefäß mit einem Henkel und Lippe zum Ausschenken von Flüssigkeiten. Siehe Oinochoe und Olpe.</skos:definition>
     </kon:Shape>
    
    
@@ -38,5 +40,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

@@ -25,6 +25,8 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000153237"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264990"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/one_handled_kantharos#provenance"/>
+        <skos:prefLabel xml:lang="de">einhenkeliger Kantharos</skos:prefLabel>
+        <skos:definition xml:lang="de">Eine ungewöhnliche Kantharosform, die nur einen Henkel besitzt, der von der oberen Hälfte der unteren Gefäßwand bis zum Rand. Die Gefäße sind schmaler als 'normale' Kantharoi und besitzen manchmal einen gerippten Dekor aber nie einen Stempeldekor.</skos:definition>
     </kon:Shape>
    
    
@@ -39,5 +41,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

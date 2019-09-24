@@ -24,6 +24,8 @@
         <skos:definition xml:lang="en">The Type B exaleiptron is the later of the two types and is differentiated by its tall, medium-wide stem terminating in a disc-like foot. Authorities do not fully agree on the name of this vase and it is also called ‘plemochoё’ and (incorrectly) ‘kothon.’ For further information on terminology, see 'exaleiptron.'</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000188572"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/exaleiptron_type_b#provenance"/>
+        <skos:prefLabel xml:lang="de">Exaleiptron Typ B</skos:prefLabel>
+        <skos:definition xml:lang="de">Typ B Exaleiptron ist die spätere Variante der zwei Typen und ist charakterisiert durch einen hohen Stiel mit rundem Standfuß. Der Begriff dieses Gefäßes ist umstritten und es wird auch als 'Plemochoё' oder (inkorrekt) als 'Kothon' bezeichnet. Siehe 'Exaleiptron'</skos:definition>
     </kon:Shape>
    
    
@@ -38,5 +40,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

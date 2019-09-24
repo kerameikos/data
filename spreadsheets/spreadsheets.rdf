@@ -17,5 +17,7 @@
         <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nolya"/>
         <dcterms:contributor rdf:resource="http://kerameikos.org/editor/rgondek"/>
         <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nhighsteskal"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/lrembart"/>
     </prov:Entity>
 </rdf:RDF>

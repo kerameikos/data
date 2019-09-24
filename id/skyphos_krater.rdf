@@ -25,6 +25,8 @@
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105165"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264950"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/skyphos_krater#provenance"/>
+        <skos:prefLabel xml:lang="de">Skyphoskrater</skos:prefLabel>
+        <skos:definition xml:lang="de">Der Skyphoskrater ist eine sehr große, tiefe Schale mit zwei horizontalen Bandhenkeln und der Rand ist eingebogen, um den gewölbten Deckel zu halten. Die Schale bestit manchmal einen Echinusfuß, oder ist mit einem konischen Ständer verbunden. Der Skyphoskrater ist eine ungewöhnlich Form mit einer lange Geschichte: er wurde von der spätgeometrischen Zeit bis in das erste Viertel des 6. Jhs.v.Chr. hergestellt.</skos:definition>
     </kon:Shape>
    
    
@@ -39,5 +41,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

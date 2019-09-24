@@ -42,6 +42,7 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264932"/>
         <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7609"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/lagynos#provenance"/>
+        <skos:definition xml:lang="de">Ein Weinkrug mit gedrungenem Gefäßkörper, flacher Schulter, langem Hals und langem vertikalem Henkel.</skos:definition>
     </kon:Shape>
    
    
@@ -56,5 +57,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

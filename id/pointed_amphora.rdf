@@ -26,6 +26,8 @@
         <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=pointed-amphora"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/pointed_amphora#provenance"/>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
+        <skos:prefLabel xml:lang="de">Spitzamphore</skos:prefLabel>
+        <skos:definition xml:lang="de">Eine Transportamphore mit langem Hals und spitzem Boden.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/pointed_amphora#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/pointed_amphora"/>
@@ -49,6 +51,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

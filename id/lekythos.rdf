@@ -64,6 +64,7 @@
         <skos:prefLabel xml:lang="be">Лекіф</skos:prefLabel>
         <skos:prefLabel xml:lang="mk">лекит</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q579418"/>
+        <skos:definition xml:lang="de">Lekythos ist ein allgemeiner Begriff zur Bezeichnung von Ölgefäßen. Der Begriff wird jetzt allgemein für ein zylindrisches Gefäß mit einem Fuß, einem vertikalen Henkel, schmalem Hals und kleiner Mündung verwendet. Die Grundform wird manchmal aufwendig gestaltet, z.B. als Eichel oder Mandel sowie in eine menschliche Figur; manche Gefäße besitzen einen Applikendekor.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/lekythos#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/lekythos"/>
@@ -87,6 +88,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

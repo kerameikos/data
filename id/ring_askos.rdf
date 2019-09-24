@@ -25,6 +25,8 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000872402"/>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/001487873"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/ring_askos#provenance"/>
+        <skos:prefLabel xml:lang="de">Ringaskos</skos:prefLabel>
+        <skos:definition xml:lang="de">Der Ringaskos ist eine runde Form mit einem zentralen zylindrischen Loch und einem hohen Bauch mit markanter Schulter. Die meisten Beispiele eines Ringaskos wurden entweder als korinthisch oder böotisch identifiziert und es ist vermutlich der Ursprung für den attischen Askos.</skos:definition>
     </kon:Shape>
    
    
@@ -39,5 +41,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

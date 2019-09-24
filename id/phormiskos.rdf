@@ -31,6 +31,7 @@
         <skos:prefLabel xml:lang="de">Phormiskos</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2088717"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/phormiskos#provenance"/>
+        <skos:definition xml:lang="de">Der Begriff Phormiskos wird in der antiken Literatur verwendet, um jede Form von gewebtem Taschen, Säcken oder Körben zu bezeichnen, die aus Stoff, Leder oder Binsen hergestellt wurden. Der tönerne attische Phormiskos imitiert diese Tragebehälter aus organischem Material. Er ist ein seltener Typ mit einer birnen- oder beutelförmige Gefäßform, die vom 6. Jh.v. bis um 480 v.Chr. hergestellt wurde. Alle haben einen schmalen Hals.</skos:definition>
     </kon:Shape>
    
    
@@ -45,5 +46,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>

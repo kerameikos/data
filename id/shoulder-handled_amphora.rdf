@@ -23,6 +23,8 @@
         <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
         <skos:definition xml:lang="en">Originiating in the Protogeometric period, the shape is one of the four types in use at the time. The name is derived from the location of its handles, which are placed on the shoulder of the vessel. The shoulder-handled amphora seems to have been developed in Athens at the beginning of the Protogeometric period but only became popular at the end, when it sometimes replaced the belly-handled amphora in female burials.</skos:definition>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/shoulder-handled_amphora#provenance"/>
+        <skos:prefLabel xml:lang="de">Schulterhenkelamphore</skos:prefLabel>
+        <skos:definition xml:lang="de">Diese Form ist eine von vier Haupttypen in der protogeometrischen Zeit. Der Name leitet sich von der Platzierung der Henkel ab, die auf der Schulter des Gefäßes angebracht sind. Die Schulterhenkelamphore dürfte in Athen am Anfang der protogeometrischen Zeit entwickelt worden sein, wurde aber erst zum Ende dieser Epoche beliebt, als sie manchmal die Bauchamphore für weibliche Bestattungen ersetzte.</skos:definition>
     </kon:Shape>
    
    
@@ -37,5 +39,14 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
