@@ -77,6 +77,7 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0pj6"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4141793-8"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300011101"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/rock"/>
     </crm:E57_Material>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/alabaster#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/alabaster"/>
@@ -88,5 +89,13 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T13:13:57.014-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
