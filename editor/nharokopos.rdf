@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:edm="http://www.europeana.eu/schemas/edm/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">    
+    <foaf:Person rdf:about="http://kerameikos.org/editor/nharokopos">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:prefLabel xml:lang="en">Nicholas A. Harokopos</skos:prefLabel>  
+     	<skos:prefLabel xml:lang="el">Νικόλαος Αντ. Χαροκόπος</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
+    </foaf:Person>     
+</rdf:RDF>
