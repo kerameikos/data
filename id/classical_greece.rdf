@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <crm:E4_Period rdf:about="http://kerameikos.org/id/classical_greece">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Classical</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Klassisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Κλασικός, -ή, -ό</skos:prefLabel>
+        <crm:P4_has_time-span>
+					       <crm:E52_Time-Span>
+                <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0480</crm:P82a_begin_of_the_begin>
+                <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0323</crm:P82b_end_of_the_end>
+            </crm:E52_Time-Span>
+				    </crm:P4_has_time-span>
+        <skos:definition xml:lang="en">Classical denotes Greek vases and other arts produced from ca. 480-323 BCE. It thus falls between the Archaic (ca. 600-480 BCE) and Hellenistic (323-31 BCE) stylistic periods. These dates are based on two historical events: the Persian invasion of Athens in 480 BCE and the death of Alexander the Great in 323 BCE. Classical is often divided into the three phases of Early, High, and Late, based on stylistic development. The main vase-painting techniques in Athens are red-figure and white-ground, with black-figure still in use for the Panathenaic amphora. Major Athenian vase-painters from this time include the Pan Painter, Niobid Painter, Achilles Painter, Polygnotos, and Eretria Painter.</skos:definition>
+        <skos:definition xml:lang="de">Klassisch bezeichnet griechische Vasen und andere Objekte, die im Zeitraum von ca. 480-323 v. Chr. produziert wurden. Es fällt daher zwischen die archaische (ca. 600-480 v. Chr.) und die hellenistische (323-31 v. Chr.) stilistische Phase. Diese Zeitpunkte basieren auf zwei historischen Ereignissen: die persische Invasion von Athen in 480 v. Chr. Und dem Tod von Alexander dem Großen in 323 v. Chr. Die Klassik wird, basierend auf stilistischen Entwicklungen, oft in die drei Phasen früh-, hoch-, und spätklassisch unterteilt. Die häufigste Technik der Vasenmalerei in Athen ist rot-figurig und weiß-grundig, wobei schwarz-figurig noch für die Panathenäischen Amphoren in Gebrauch war. Zu den wichtigsten Vertretern der attischen Vasenmalerei gehören der Pan-Maler, der Niobid-Maler, der Achilles-Maler, Polygnotos und der Eretria-Maler.</skos:definition>
+        <skos:definition xml:lang="el">Ο όρος «κλασικός» χρησιμοποιείται για αγγεία και άλλα τέχνεργα που δημιουργήθηκαν περίπου μεταξύ του 480-323 π.Χ. Έτσι, τοποθετείται ανάμεσα στην τεχνοτροπία της Αρχαϊκής (περ. 600-480 π.Χ) και της Ελληνιστικής περιόδου (περ. 323-31 π.Χ.). Το χρονικό πλαίσιο της Κλασικής περιόδου βασίζεται σε δύο ιστορικά γεγονότα: την Περσική εισβολή και την καταστροφή της Αθήνας το 480 π.Χ. και τον θάνατο του Μεγάλου Αλεξάνδρου το 323 π.Χ. Η Κλασική περίοδος διαιρείται συχνά σε τρεις φάσεις, Πρώιμη, 'Ωριμη και Ύστερη, με βάση την τεχνοτροπική εξέλιξη. Οι βασικές τεχνικές διακόσμησης αγγείων στην Αθήνα είναι η ερυθρόμορφη και του λευκού εδάφους, με τη μελανόμορφη τεχνική να χρησιμοποιείται ακόμα για τους παναθηναϊκούς αμφορείς. Στους μείζονες Αθηναίους αγγειογράφους αυτής της περιόδου περιλαμβάνονται ο ζωγράφος του Πανός, ο ζωγράφος των Νιοβιδών, ο ζωγράφος του Αχιλλέα, ο Πολύγνωτος και ο ζωγράφος της Ερέτριας.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020093"/>
+        <skos:prefLabel xml:lang="hi">प्राचीन यूनानी सभ्यता</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Klasseschen Zäitalter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Okres klasyczny (Grecja)</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Grezia klasikoa</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Классическая Греция</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Класічная Грэцыя</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">יוון הקלאסית</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">그리스 고전기</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Époque classique</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Grecia clásica</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Класична Греція</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Grecia clásica</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Hy Lạp cổ điển</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Klasična Grčka</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Klasikinė Graikija</skos:prefLabel>
+        <skos:prefLabel xml:lang="tl">Klasikong Gresya</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">عصر كلاسيكي</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Klassieke periode</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Грек классикалық мәдениеті</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Klassisk tid</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">古典希臘時期</skos:prefLabel>
+        <skos:prefLabel xml:lang="ia">Epocha classic</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Grecia clasică</skos:prefLabel>
+        <skos:prefLabel xml:lang="io">Klasika Grekia</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Класична Грчка</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Grecia classica</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Klasika Grekio</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Klassieke Griekeland</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Դասական Հունաստան</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">класична Грција</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">古典ギリシア</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Класическа Гърция</skos:prefLabel>
+        <skos:prefLabel xml:lang="ur">کلاسیکی یونان</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Klassiska Grekland</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">กรีซยุคคลาสสิก</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Grécia Clássica</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Klasik Yunanistan</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Klasična Grčija</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">یونان کلاسیک</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Sejarah Yunani Klasik</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Helenët</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Det klassiske Hellas</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Klasické Řecko</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Klassik Yunanıstan</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q843745"/>
+        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/18"/>
+        <skos:exactMatch rdf:resource="http://chronontology.dainst.org/period/JiWK88tKtDIrr"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x101854"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/classical_greece#provenance"/>
+    </crm:E4_Period>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/classical_greece#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/classical_greece"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-20T13:37:32.994-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1nVRnobSSKu09A86y27mBsmcgIZqX56mQiMn7kO10M68/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

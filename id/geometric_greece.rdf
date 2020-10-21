@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <crm:E4_Period rdf:about="http://kerameikos.org/id/geometric_greece">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Geometric</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Geometrisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Γεωμετρικός</skos:prefLabel>
+        <crm:P4_has_time-span>
+					       <crm:E52_Time-Span>
+                <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0900</crm:P82a_begin_of_the_begin>
+                <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0700</crm:P82b_end_of_the_end>
+            </crm:E52_Time-Span>
+				    </crm:P4_has_time-span>
+        <skos:definition xml:lang="en">Geometric denotes Greek vases and other arts produced ca. 900-700 BCE. It thus falls between the so-called “Dark Ages” (ca. 1100-900 BCE), a time of limited production in figure-decorated vases, and the Orientalizing stylistic period (ca. 700-600 BCE). The Geometric is usually divided into the following phases: Protogeometric (ca. 1050/1000-900 BCE); Early (ca. 900-850 BCE); Middle (ca. 850-750 BCE); and Late (ca. 750-700 BCE). The term Geometric derives from a discernible development in the techniques and appearance of pottery, sculpture, and architecture. Chief stylistic trends in vase-painting include the use of horror vacui (“fear of empty space”), Greek key patterns and other geometric motifs, compass-drawn concentric circles and semi-circles, and limited representation of figural forms. It applies to the decorated vases of Athens and Attica, and of other regions of ancient Greece such as Crete, Euboea, Boeotia, Corinth and the Argolid, and East Greece. The main vase-painting technique in Athens and Attica is silhouette, and in the Late Geometric silhouette is sometimes combined with cross-hatching and outline. Major Athenian painters include the Dipylon Master and the Hirschfeld Painter, both of whom specialized in decorating large vessels associated with funerary rites.</skos:definition>
+        <skos:definition xml:lang="de">Geometrisch bezeichnet griechische Vasen und andere Objekte, die im Zeitraum von ca. 900-700 v. Chr. produziert wurden. Es fällt daher zwischen die so-genannten „Dunkle Jahrhunderte“ (ca. 1100-900 v. Chr.), eine Periode mit einer geringen Anzahl an figürlich-dekorierten Vasen, und die orientalisierende stilistische Periode (ca. 700-600 v. Chr.). Die Geometrik wird meistens in die folgenden Phasen unterteilt: Protogeometrisch (ca. 1050/1000-900 v. Chr.); früh- (ca. 900-850 v.Chr.), mittel- (ca. 850-750 v. Chr.) und spätgeometrisch (ca. 750-700 v. Chr.). Der Begriff geometrisch ist aus erkennbaren Entwicklungen in der Technik, dem Erscheinungsbild der Keramik, Skulptur und Architektur abgeleitet. Haupt stilistische Tendenzen in der Vasenmalerei beinhalten den Einsatz von horror vacui („Bedürfnis freie Flächen zu füllen“), griechische Mäander Ornamente und andere geometrische Motive, mit Kompass gezeichnete konzentrische Kreise und Halbkreise und eingeschränkte Repräsentationen von figurlichen Motiven. Der Begriff trifft auf die dekorierten Vasen von Athen und Attika und anderen Regionen antiken Griechenlands, wie etwa Kreta, Euböa, Böotien, Korinth und die Argolis, sowie dem östlichen Griechenland zu. Die häufigste Technik der Vasenmalerei in Athen und Attika sind Umrisszeichnung. In der Spätgeometrik wird Umrisszeichnung manchmal mit Schraffierung und Umriss kombiniert. Zu den wichtigsten Vertretern der attischen Vasenmalerei gehören der Dipylon-Maler , der Hirschfeld-Maler. Beide waren darauf spezialisiert große Gefäße zu dekorieren, die mit dem Grabritus in Verbindung gebracht werden.</skos:definition>
+        <skos:definition xml:lang="el">Ο όρος «γεωμετρικός» χρησιμοποιείται για αγγεία και άλλα τέχνεργα που δημιουργήθηκαν περίπου μεταξύ του 900-700 π.Χ. Έτσι, τοποθετείται μεταξύ της τεχνοτροπίας των λεγόμενων «Σκοτεινών Χρόνων» (περ. 1100-900 π.Χ.) −που υποδιαιρούνται στην Υπομυκηναϊκή και Πρωτογεωμετρική περίοδο, κατά τις οποίες αγγεία με εικονιστικές σκηνές είχαν σχεδόν εκλείψει− και της Ανατολίζουσας περιόδου (περ. 700-600 π.Χ.). Η Γεωμετρική περίοδος διαιρείται συνήθως στις ακόλουθες φάσεις: Πρώιμη (900-850 π.Χ.), Μέση (περ. 850-760 π.Χ.) και Ύστερη (περ. 760-700 π.Χ.) . Ο όρος Γεωμετρική προέρχεται από μια ευδιάκριτη εξέλιξη στην τεχνική και τη γραπτή διακόσμηση των αγγείων. Στις κύριες τεχνοτροπικές τάσεις της αγγειογραφίας περιλαμβάνεται το λεγόμενο horror vacui, ο φόβος του κενού, με την πληθώρα των παραπληρωματικών κοσμημάτων, η χρήση του μαιάνδρου, απλού ή σύνθετου, και άλλων γεωμετρικών μοτίβων, οι ομόκεντροι κύκλοι που έχουν σχεδιαστεί με διαβήτη, τα ημικύκλια, καθώς και η περιορισμένη χρήση των ανθρωπίνων μορφών, που αυξάνεται ωστόσο κατακόρυφα την τελευταία φάση της περιόδου. Οι τάσεις αυτές απαντώνται στη γραπτή διακόσμηση των αγγείων της Αθήνας και Αττικής, καθώς και άλλων περιοχών της Αρχαίας Ελλάδας, όπως η Κρήτη, η Εύβοια, η Βοιωτία και η Αργολίδα και η Ανατολική Ελλάδα. Η κύρια τεχνική διακόσμησης στην Αττική είναι της σκιαγραφίας, που κατά την Ύστερη Γεωμετρική περίοδο συνδυάζεται μερικές φορές με την τεχνική του περιγράμματος. Στους μείζονες Αθηναίους αγγειογράφους της περιόδου περιλαμβάνονται ο ζωγράφος του Διπύλου και ο ζωγράφος του Hirschfeld, οι οποίοι ειδικεύονται στη διακόσμηση υπερμεγέθων αγγείων που χρησιμοποιούνταν ως ταφικά αγγεία.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020079"/>
+        <skos:prefLabel xml:lang="lb">Geometreschen Zäitalter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Período geométrico</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Styl geometryczny</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">période géométrique</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">אמנות גאומטרית</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Геометрический стиль</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">periodo geométrico</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">estil geomètric</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Геометричний стиль</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Stilus geometricus</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Geomeetriline stiil</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Seni Geometris</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">幾何学様式</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Geometrijski stil</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">arte geometrica</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">هنر هندسی</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">几何艺术</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Геометријски стил</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Երկրաչափական ոճ</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Geometrische periode</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">기하학 양식</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Geometrična umetnost</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Geometrinen kausi</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">geometrisk tid</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Geometrisk tid</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">geometrikus stílus</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Геаметрычны стыль</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Геометричен стил</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">geometria arto</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q852337"/>
+        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/16"/>
+        
+        <skos:exactMatch rdf:resource="http://chronontology.dainst.org/period/AqUgeWHp0xIll"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x13908"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/geometric_greece#provenance"/>
+    </crm:E4_Period>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/geometric_greece#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/geometric_greece"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-20T13:37:32.994-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1nVRnobSSKu09A86y27mBsmcgIZqX56mQiMn7kO10M68/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-20T13:44:54.446-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

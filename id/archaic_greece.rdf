@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <crm:E4_Period rdf:about="http://kerameikos.org/id/archaic_greece">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Archaic</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Archaisch</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Αρχαϊκός, -ή, -ό</skos:prefLabel>
+        <crm:P4_has_time-span>
+					       <crm:E52_Time-Span>
+                <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0600</crm:P82a_begin_of_the_begin>
+                <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0480</crm:P82b_end_of_the_end>
+            </crm:E52_Time-Span>
+				    </crm:P4_has_time-span>
+        <skos:definition xml:lang="en">Archaic denotes Greek vases and other arts produced from ca. 600-480 BCE. It thus falls between the Orientalizing (ca. 700-600 BCE) and Classical (ca. 480-323 BCE) stylistic periods. The Archaic is sometimes divided into Early and Late (or “Ripe”) phases according to region, and its date range is sometimes pushed back to ca. 700 BCE based on certain archaeological factors. The term applies to the decorated vases of Athens, Corinth, Laconia, Boeotia, and other regions of ancient Greece. The main vase-painting technique in Athens is black-figure (invented in Corinth late 7th c. BCE), followed by red-figure (invented in Athens ca. 530-520 BCE). Major Athenian vase-painters from the time include Lydos, Amasis Painter, Exekias, Euphronios, Brygos Painter, and Berlin Painter.</skos:definition>
+        <skos:definition xml:lang="de">Archaisch bezeichnet griechische Vasen und andere Objekte , die im Zeitraum von ca. 600-480 v. Chr. produziert wurden. Es fällt daher zwischen die orientalisierende (ca. 700-600 v. Chr.) und die klassische (ca. 480-323 v. Chr.) stilistische Periode. Die archaische Period wird je nach Region manchmal in früh- und spätarchaisch unterteilt. Der zeitliche Rahmen wird aufgrund archäologischer Faktoren teilweise bis ca. 700 v.Chr. datiert. Der Begriff ist für die dekorierten Vasen aus Athen, Korinth, Lakonien, Böotien und anderen Regionen des antiken Griechenland. Die häufigste Technik der Vasenmalerei in Athen ist schwarz-figurig (erfunden in Korinth im späten 7. Jh. v. Chr.), gefolgt von rot-figurig (erfunden in Athen ca. 530-520 v. Chr.). Zu den wichtigsten Vertretern der attischen Vasenmalerei aus der Zeit zählen Lydos, der Amasis-Maler, Exekias, Euphronios, der Brygos-Maler und der Berlin-Maler.</skos:definition>
+        <skos:definition xml:lang="el">Ο όρος "αρχαϊκός" προσδιορίζει αρχαία ελληνικά αγγεία και άλλα τέχνεργα που δημιουργήθηκαν περίπου μεταξύ του 600-480 π.Χ. Έτσι, τοποθετείται μεταξύ της τεχνοτροπίας της Ανατολίζουσας (περ. 700-600 π.Χ) και της Κλασικής περιόδου (περ. 480-323 π.Χ.). Η Αρχαϊκή περίοδος διαιρείται ορισμένες φορές σε Πρώιμη και Ύστερη (ή Ὠριμη) φάση ανάλογα με την περιοχή και οι απαρχές της επεκτείνονται έως και το 700 π.Χ. επί τη βάσει ορισμένων αρχαιολογικών παραγόντων. Ο όρος χρησιμοποείται για αγγεία που φέρουν διἀκοσμο και είχαν παραχθεί στην Αθήνα, στην Κορινθο, στη Λακωνία, στη Βοιωτία και άλλες περιοχές του αρχαιοελληνικού κόσμου. Η κύρια τεχνική διακόσμησης στην Αθήνα είναι η μελανόμορφη (που επινοήθηκε στην Κορινθο περίπου το 700 π.Χ.), την οποία ακολουθεί η ερυθρόμορφη (που επινοήθηκε στην Αθήνα περίπου το 530-520 π.Χ.), Στους μείζονες Αθηναίους αγγειογράφους αυτής της περιόδου περιλαμβάνονται ο Λυδός, ο ζωγράφος του Άμαση, ο Εξηκίας, ο ζωγράφος του Βρύγου και ο ζωγράφος του Βερολίνου.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020086"/>
+        <skos:prefLabel xml:lang="lb">Archaik</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">okres archaiczny</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Époque archaïque</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">יוון הארכאית</skos:prefLabel>
+        <skos:prefLabel xml:lang="ko">그리스 고졸기</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Época Arcaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Yunani Arkais</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Arhajski period u Grčkoj</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">arkaisk tid</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Archaïsche periode</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Período Arcaico</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Snemmgrískur tími</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Archaické obdobie</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Архаическая Греция</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Eski Yunan Sanatı</skos:prefLabel>
+        <skos:prefLabel xml:lang="th">กรีซยุคอาร์เคอิก</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Estil arcaic</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">архајски период</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Kreikan arkaainen kausi</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Архаїчна Греція</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Graecia archaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="ka">არქაიკა</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Arkaisk tid</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Архаикалық кезеңдегі грек мәдениеті</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">Архајски период</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">古風時期</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Archajinis laikotarpis</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Arkaisk tidsperiode</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Arkaika Epoko</skos:prefLabel>
+        <skos:prefLabel xml:lang="ia">Epocha archaic</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Perioada arhaică în Grecia</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Grecia arcaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Época arcaica</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Argaïese Griekeland</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Հին Հունաստան</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Архаічная Грэцыя</skos:prefLabel>
+        <skos:prefLabel xml:lang="az">Arxaika</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">前古典期</skos:prefLabel>
+        <skos:prefLabel xml:lang="bg">Архаична Гърция</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Arhaična Grčija</skos:prefLabel>
+        <skos:prefLabel xml:lang="ar">اليونان العتيقة</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">archaikus Görögország</skos:prefLabel>
+        <skos:prefLabel xml:lang="fa">یونان کهن</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Aro arkaiko</skos:prefLabel>
+        <skos:prefLabel xml:lang="vi">Hy Lạp Cổ xưa</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">arhaiskais laikmets</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q271834"/>
+        <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/dates/lod/17"/>
+        <skos:exactMatch rdf:resource="http://n2t.net/ark:/99152/p0qhb66mj5z"/>
+        <skos:exactMatch rdf:resource="http://chronontology.dainst.org/period/LBnJ3GkRUjSyy"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x13613"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/archaic_greece#provenance"/>
+    </crm:E4_Period>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/archaic_greece#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/archaic_greece"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-20T13:37:32.994-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1nVRnobSSKu09A86y27mBsmcgIZqX56mQiMn7kO10M68/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
