@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
         <skos:definition xml:lang="en">The production place of Italy.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/1000080"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x18115"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x18115"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Italy"/>
         <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/1052"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/west_greece"/>

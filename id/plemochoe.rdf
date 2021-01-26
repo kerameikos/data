@@ -37,7 +37,7 @@
         <skos:prefLabel xml:lang="ru">Племохойя</skos:prefLabel>
         <skos:prefLabel xml:lang="uk">Племохоя</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2099266"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8460"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8460"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198888"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/plemochoe#provenance"/>
         <skos:definition xml:lang="de">Plemochoё' bedeutet 'gießen' und die Gefäßform ist eine flache Schüssel mit Deckel mit breiter Schulter und hohem Fuß. Es wird angenommen, dass es parfümiertes Wasser für persönlichen Gebrauch, für religiöse Zeremonien und für das Grab enthielt. Der Begriff dieses Gefäßes ist umstritten und es wird auch als 'Plemochoё' oder (inkorrekt) als 'Kothon' bezeichnet. Für die stielosen Gefäßen, vor allem die korinthischen Beispiele, wird nun überwiegend der Begriff Exaleiptron verwendet, die Gefäße mit hohem Stiel aus Athen werden hingegen als 'Plemochoё' bezeichnet und besitzen oft einen Deckel.</skos:definition>

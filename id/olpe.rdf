@@ -21,7 +21,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">The word 'olpe' is Greek for 'jug' and is conventionally used for a slender-shaped jug with a low handle and no separate neck.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8164"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8164"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198867"/>
         
         <skos:changeNote rdf:resource="http://kerameikos.org/id/olpe#provenance"/>

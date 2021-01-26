@@ -23,7 +23,7 @@
       <skos:definition xml:lang="en">South Italian (including Sicilian) styles of Greek-styled pottery.</skos:definition>
       <skos:scopeNote xml:lang="en">For South Italy as a production place, use kid:south_italy.</skos:scopeNote>
       <skos:related rdf:resource="http://dbpedia.org/resource/South_Italian_ancient_Greek_pottery"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14683"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14683"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020172"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/south_italian#provenance"/>
    </kon:Style>

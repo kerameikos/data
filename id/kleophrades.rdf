@@ -23,7 +23,7 @@
       <skos:definition xml:lang="en">Kleophrades signed cups as potter (epoiesen 'made it') that were decorated by a variety of painters. Other vases have been attributed to him on the basis of style. He was the son of the potter Amasis (q.v.).</skos:definition>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/96561616"/>
       <skos:exactMatch rdf:resource="www.lgpn.ox.ac.uk/id/V2-38848"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/164946"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG164946"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500118836"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/kleophrades#provenance"/>
    </foaf:Person>

@@ -25,7 +25,7 @@
       <skos:prefLabel xml:lang="de">Kamares-Stil</skos:prefLabel>
       <skos:prefLabel xml:lang="pt">Cerâmica Kamares</skos:prefLabel>
       <skos:definition xml:lang="en">Kamares wares are a distinctive type of ceramic produced in Crete during the Minoan period.</skos:definition>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x14777"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14777"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020246"/>
       <skos:related rdf:resource="http://vocab.getty.edu/aat/300387166"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kamares_ware"/>

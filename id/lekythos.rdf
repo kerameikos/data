@@ -32,7 +32,7 @@
         <skos:definition xml:lang="en">Lekythos' is a general word used to denote an oil bottle. The term is now conventionally used for tall and squat shapes with a foot, a single vertical handle, a narrow neck and a small mouth. Sometimes the basic form is fashioned into fancy shapes such as an acorn or an almond, or into a human figure. Some carry appliqué designs.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264937"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lekythos"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7660"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7660"/>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/lekythos.htm"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/lekythos#provenance"/>
         <ontolex:otherForm>

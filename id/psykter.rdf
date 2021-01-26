@@ -51,7 +51,7 @@
         <skos:prefLabel xml:lang="af">Psykter</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1423434"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198869"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8608"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8608"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/psykter#provenance"/>
         <skos:definition xml:lang="de">Psykter bedeutet 'kühlen'. Der Begriff wird heute verwendet um eine attische, pilzähnliche Form mit einem zylindrischen, hohlen Fuß und breiter Mündung zu beschreiben. Manche Gefäße hatten einen Deckel und kleine Griffe durch die eine Kordel gezogen wurde. Es wurde mit Schnee oder kaltem Wasser befüllt und in einen mit Wein gefüllten Krater gesetzt.</skos:definition>
     </kon:Shape>

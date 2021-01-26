@@ -21,7 +21,7 @@
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Cup</skos:prefLabel>
         <skos:definition xml:lang="en">A general term for a two-handled container for drinking. See kylix and skyphos.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6288"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6288"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/cup#provenance"/>
         <skos:prefLabel xml:lang="de">Schale</skos:prefLabel>
         <skos:definition xml:lang="de">Ein allgemeiner Begriff für ein zweihenkeliges Gefäß zum Trinken. Siehe Kylix, Skyphos.</skos:definition>

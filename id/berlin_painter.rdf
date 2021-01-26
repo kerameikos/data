@@ -23,7 +23,7 @@
       <skos:definition xml:lang="en">The Berlin Painter (active c. 490s-c. 460s B.C.) is the conventional name given to an Attic Greek vase-painter who is widely regarded as a rival to the Kleophrades Painter, among the most talented vase painters of the early 5th century B.C.</skos:definition>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Berlin_Painter‎"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500006931"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57394"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57394"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/61480315"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/95723148"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/berlin_painter#provenance"/>

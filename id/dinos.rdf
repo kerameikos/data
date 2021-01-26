@@ -27,7 +27,7 @@
         <skos:prefLabel xml:lang="es">Dinos</skos:prefLabel>
         <skos:definition xml:lang="en">The term means 'drinking cup,' but is now wrongly used to designate the same shape as 'lebes.'</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300263133"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6435"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6435"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Dinos"/>
         <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=dinos"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/dinos#provenance"/>

@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Leafless Group is a group of Athenian black-figure painters active late 6th to early 5th c. BCE. The name derives from the leafless branches added to the scenes. Shapes include kylix cups (Type A, Type B), the kyathos, and mastoid cups. The scenes are mainly Dionysian. Findspots include Turkey (Smyrna, Xanthos, Clazomenae), Athens (Agora, Acropolis), Adria (Adriatic coast of Italy), Olbia, and Camiros (Rhodes).</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/leafless_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500088282"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59159"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59159"/>
     </foaf:Group>
    
    

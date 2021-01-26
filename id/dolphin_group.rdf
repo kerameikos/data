@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Dolphin Group are a group of black-figure painters active in the mid-6th c. BCE. Originally considered to be Athenian, the group has also been associated with Euboea. The name derives from the dolphins on the shoulder of the vessels. The primary shape is the lekythos. Scenes are of animals and floral motifs. Findspots include Athens (Kerameikos, Agora), Ialysos (Rhodes), Cerveteri, and sites in Euboea.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/dolphin_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500046690"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58053"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58053"/>
     </foaf:Group>
    
    

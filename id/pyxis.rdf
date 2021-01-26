@@ -48,7 +48,7 @@
         <skos:prefLabel xml:lang="be">Піксіда</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1350279"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198889"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8647"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8647"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/pyxis#provenance"/>
         <skos:definition xml:lang="de">Pyxiden sind runde Schatullen mit Deckel in unterschiedlichen Größen und Formen. Sie wurden zur Aufbewahrung von Kosmetik, Puder oder Schmuck verwendet. Manche wurden in Gräbern gelegt.</skos:definition>
     </kon:Shape>

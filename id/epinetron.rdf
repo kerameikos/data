@@ -37,7 +37,7 @@
         <skos:prefLabel xml:lang="pl">Epinetron</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1280826"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300265016"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6660"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6660"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/epinetron#provenance"/>
         <skos:definition xml:lang="de">Der Begriff bezeichnet ein langes, halbzylindrisches Gefäß zur Abdeckung von Knie und Oberschenkel. Es wurde im Herstellungsprozess von Wolle eingesetzt um daraus Schmutz zu entfernen.</skos:definition>
     </kon:Shape>

@@ -45,7 +45,7 @@
         <skos:prefLabel xml:lang="id">Situla</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1650313"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198870"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9091"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9091"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/situla#provenance"/>
         <skos:definition xml:lang="de">Situla' kommt aus dem Lateinischen und bedeutet 'Eimer'. Es handelt sich um eine tiefe Schüssel für Wein, hauptsächlich aus Süditalien.</skos:definition>
     </kon:Shape>

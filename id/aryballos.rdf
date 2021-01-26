@@ -30,7 +30,7 @@
         <skos:definition xml:lang="en">Aryballos is the conventional name for an ovoid or ball-shaped oil pot with one or two handles. Used by athletes, it can be footed or footless. Some aryballoi are potted in the shape of a head, animal, or bird.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198885"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5252"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5252"/>
         <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Aryballos"/>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/aryballos.htm"/>

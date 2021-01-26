@@ -29,7 +29,7 @@
         <skos:prefLabel xml:lang="fr">plat à poisson</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q675073"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264976"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6794"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6794"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/fish_plate#provenance"/>
         <skos:definition xml:lang="de">Ein Teller mit niedrigem Standfuß, überhängendem Rand und kleiner Vertiefung in der Bodenmitte für Sauce. Fischdekor ist die häufigste Form von Dekor.</skos:definition>
     </kon:Shape>

@@ -23,7 +23,7 @@
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:altLabel xml:lang="en">Continuous-Curve Amphora</skos:altLabel>
         <skos:altLabel xml:lang="en">One-Piece Amphora</skos:altLabel>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105151"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x105151"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198852"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
         <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>

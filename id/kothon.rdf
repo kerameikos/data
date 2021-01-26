@@ -33,7 +33,7 @@
         <skos:prefLabel xml:lang="uk">Кофон</skos:prefLabel>
         <skos:prefLabel xml:lang="es">kóthon</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1601459"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7575"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7575"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198873"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kothon#provenance"/>
         <skos:definition xml:lang="de">Der Begriff Kothon wird für mehrere unterschiedliche Gefäßformen verwendet. Manche setzen es (inkorrekt) mit dem Exaleiptron gleich, während andere hingegen den Begriff für ein tiefes einhenkeliges Trinkgefäß verwenden. Das Gefäß ist manchmal gerippt und wurde von Soldaten und Reisenden mitgeführt. Der Begriff Kothon kann auch eine Pilgerflasche bezeichnen.</skos:definition>

@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">Group E</skos:prefLabel>
         <skos:definition xml:lang="en">Group E is a large group of Athenian black-figure painters active ca. 560-540 BCE. The name derives from a close association to Exekias, who signs a Group E vase as potter ("epoiesen"). Group E painted the pelike, different amphora types, the lekythos, and kraters. Subjects include the Birth of Athena, Herakles, Amazons, Theseus and the Minotaur, as well as athletes, the symposion, and funerary scenes. Findspots are Athens (Acropolis, Agora, Kerameikos), Chalkidike, Vulci, Spina, North Africa, and Russia.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500055362"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58536"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58536"/>
         <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Exekias#Group_E"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/group_e#provenance"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/group_e#group"/>

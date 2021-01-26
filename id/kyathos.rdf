@@ -45,7 +45,7 @@
         <skos:prefLabel xml:lang="mk">кијат</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1755627"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300201179"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7594"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7594"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kyathos#provenance"/>
         <skos:definition xml:lang="de">Dieser Begriff bezeichnet einen Schöpfer in Form einer tiefen Schale mit langem Henkel.</skos:definition>
     </kon:Shape>

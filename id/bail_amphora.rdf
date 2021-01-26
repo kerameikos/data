@@ -23,7 +23,7 @@
         <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
         <skos:definition xml:lang="en">The handles of the bail amphora reach over the mouth. This type of amphora was used for storing and carrying wine, oil, and other commoditities, for serving wine at the table, and as an ash urn for the dead.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5318"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5318"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264916"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/bail_amphora#provenance"/>
         <skos:prefLabel xml:lang="de">Bügelamphore</skos:prefLabel>

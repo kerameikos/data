@@ -23,7 +23,7 @@
       <skos:definition xml:lang="en">Athenian red-figure vase-painter whose name is unknown. Nevertheless consistent individual characteristics of style suggest the existence of a unique artistic personality. Beazley called him the Nikosthenes Painter naming him after the potter Nikosthenes who signed some of the vases he decorated.</skos:definition>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/96544439"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116381"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59624"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59624"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/nikosthenes_painter#provenance"/>
    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/nikosthenes_painter#provenance">

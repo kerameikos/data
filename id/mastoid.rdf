@@ -25,7 +25,7 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000188572"/>
         <skos:prefLabel xml:lang="de">Mastoid</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1907958"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7823"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7823"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198911"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/mastoid#provenance"/>
         <skos:definition xml:lang="de">Die Mastoid Schale besitzt keinen Fuß und hat im Gegensatz zur Mastosschale einen flachen Boden. Die Lippe ist ausgestellt. Manche Gefäße besitzen einen horizontalen Henkel, der direkt unter dem Rand angebracht ist.</skos:definition>

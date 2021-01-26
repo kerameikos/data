@@ -33,7 +33,7 @@
         <skos:prefLabel xml:lang="pt">Cílice</skos:prefLabel>
         <skos:definition xml:lang="en">The kylix is a large cup used for drinking wine. It has a relatively shallow bowl, two horizontal handles, and usually, but not necessarily, a high stem above the foot. There are many types of kylix cups such as Komast, Band, Lip, Siana, Type A, and Type B.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198842"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7595"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7595"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kylix_(drinking_cup)"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/cup"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kylix#provenance"/>

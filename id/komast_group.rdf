@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Komast Group is a group of Athenian black-figure painters active from ca. 585-570 BCE or later. The name derives from the prevalence of male revelers ("komasts" or “komast dancers”) decorating many vessels. The main shapes are the Komast cup, skyphos, and column krater. Painters include the KX Painter, KY Painter, the Falmouth Painter, and the Palazzolo Painter. Findspots are widespread and include Athens, Naukratis, Taranto, Ampurias, Miletus, and Berezan.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/komast_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500090653"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59056"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59056"/>
     </foaf:Group>
    
    

@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Group of the Dresden Lekanis is a group of Athenian black-figure painters active in the first quarter of the 6th c. BCE. The name derives from a lekanis found in Corinth (Dresden, Staatliche Kunstsammlungen, Albertinum ZV 1464; BAPD 300250), showing a male and animals. Some vases are attributed to a single hand (Painter of the Dresden Lekanis), who is thought to have been trained in Attica and later emigrated to Boeotia, becoming identified with the Horse-bird Painter/Group. Shapes include the lekanis, amphora, the skyphos-krater, and chalice. A dinos in the Athenian Agora (P334; BAPD 300278) portrays the Kalydonian Boar Hunt, Funeral Games of Pelias, male revelers (“komasts”), a satyr, and a maenad. Findspots include Athens (Agora, Acropolis), Smyrna, Ampurias, Taranto, and Corinth.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_the_dresden_lekanis#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500102838"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/214319"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG214319"/>
     </foaf:Group>
    
    

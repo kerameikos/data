@@ -21,7 +21,7 @@
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Calyx Krater</skos:prefLabel>
         <skos:definition xml:lang="en">The calyx-krater is one of the largest Attic vases, and is reminiscent of a bell-shaped flower. It is named for its convex lower body that has the configuration of the calyx of a flower, while the flaring upper body is suggestive of the bell-shaped corolla. It has large, robust, upturned handles situated opposite one another on the cul.The calyx-krater appears in Attic black-figure after the middle of the 6th c. BCE and is a popular shape until the end of red-figure.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5742"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5742"/>
         <rdfs:seeAlso rdf:resource="https://www.beazley.ox.ac.uk/tools/pottery/shapes/calyx.htm"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198858"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/krater"/>

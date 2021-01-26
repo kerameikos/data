@@ -35,7 +35,7 @@
         <skos:prefLabel xml:lang="fr">nestoris</skos:prefLabel>
         <skos:prefLabel xml:lang="be">Нестарыда</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q942612"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8071"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8071"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264718"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/nestoris#provenance"/>
         <skos:definition xml:lang="de">Der Nestoris ist ein Gefäß mit breiter Mündung und zwei hoch geschwungenen Henkeln, die von der Lippe bis zur Schulter reichen. Es wird aus Süditalien, von einer lokalen, nicht-griechischen Form abgeleitet.</skos:definition>

@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Group of the Negro Alabastra denotes a group of Athenian white-ground vases, decorated with figures in silhouette and outline and produced in the 480’s BCE. The name derives from the shape (alabastron) that is often decorated with African males. Aside from the alabastron, the group also decorated a few plates. Subjects include isolated figures: a draped African male sometimes holding objects, an Amazon, and a Thracian. Some findspots are Boeotia (Thebes, Tanagra), Camiros (Rhodes), Athenian Acropolis, and sites in southern Italy.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_the_negro_alabastra#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500083375"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58571"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58571"/>
     </foaf:Group>
    
    

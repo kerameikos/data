@@ -27,7 +27,7 @@
         <skos:prefLabel xml:lang="it">Kylix, tipo B</skos:prefLabel>
         <skos:prefLabel xml:lang="mk">киликс од типот Б</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q55627337"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x118535"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x118535"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kylix_type_b#provenance"/>
         <skos:definition xml:lang="de">Hauptsächlich eine rotfigurige Form, die kurz nach dem Aufkommen der rotfiguren Vasenmalerei entstanden ist. In der schwarzfigurigen Vasenmalerei war diese Form nie beliebt. Der Gefäßkörper der Schale geht nahtlos in den Stiel über.</skos:definition>
     </kon:Shape>

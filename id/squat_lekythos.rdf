@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The squat lekythos is a type of lekythos that lacks the sharp shoulder of the cylindrical types that was made primarily in the late 4th c. BCE.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198884"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/lekythos"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9278"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9278"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/squat_lekythos#provenance"/>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="de">Bauchlekythos</skos:prefLabel>

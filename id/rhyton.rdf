@@ -60,7 +60,7 @@
         <skos:prefLabel xml:lang="az">Riton</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q828450"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198841"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8757"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8757"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/rhyton#provenance"/>
         <skos:definition xml:lang="de">Rhyton' kommt vom Wort für 'fließen'. Der Begriff bezeichnet eine einhenkelige Trinkschale, die in der Form eines Tierprotoms (Schaf, Esel, etc.) oder manchmal eine komplexere Kreation (Pygmäe und Kranich, afrikanisches Kind und Krokodil, berittene Amazone, Kamel und Führer). Es wurde ursprünglich aus Horn hergestellt, daher die Form. Die Idee stammt aus Persien.</skos:definition>
     </kon:Shape>

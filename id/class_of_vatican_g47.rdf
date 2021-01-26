@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Class of the Vatican G47 denotes a group of Athenian black-figure painters active late 6th to early 5th c. BCE who decorate oinochoe. The name derives from an oinochoe found at Vulci (Rome, Vatican G47; BAPD 303297) showing a maenad riding a bull. Attributed to the class are the Painter of Oxford 226 and Painter of Oxford 225. Scenes include chariots, Dionysos and followers, warriors, Achilles and Ajax, and Herakles. Findspots are Vulci, Knossos, Amathus (Cyprus), and Corinth.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/class_of_vatican_g47#class"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116392"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57817"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57817"/>
     </foaf:Group>
    
    

@@ -27,7 +27,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Meaning 'wine-skin,' the term askos is conventionally (and erroneously) used for a small, flat vase, with narrow sloping spout and handle arching over body. A variant exists in the form of a double-askos.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5254"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5254"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198863"/>
         <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
         <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=askos"/>

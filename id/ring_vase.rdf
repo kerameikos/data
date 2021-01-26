@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">Ring Vase</skos:prefLabel>
         <skos:definition xml:lang="en">The ring vase is shaped like a bloated lifebelt with a vertical spout. It is largely a Corinthian and Boeotian shape.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000195695"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105174"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x105174"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/ring_vase#provenance"/>
         <skos:prefLabel xml:lang="de">Ringvase</skos:prefLabel>
         <skos:definition xml:lang="de">Die Ringvase hat die Form eines aufgeblähten Rettungsrings mit vertikalem Ausguß. Es ist hauptsächlich eine korinthische und böotische Gefäßform</skos:definition>

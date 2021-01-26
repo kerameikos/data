@@ -29,7 +29,7 @@
         <skos:prefLabel xml:lang="mk">килик од типот А</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q55627524"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198907"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x118534"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x118534"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kylix_type_a#provenance"/>
         <skos:definition xml:lang="de">Typ A ist die bevorzugte Schalenform der schwarzfigurigen Vasenmaler beginnend um 530 v.Chr. Die Schale hat eine tiefe Gefäßform ohne abgesetzem Rand, einem breiten Fuß und meistens trennt eine Rippe den dicken Stiel vom Gefäßkörper.</skos:definition>
     </kon:Shape>

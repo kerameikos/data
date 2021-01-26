@@ -41,7 +41,7 @@
         <skos:prefLabel xml:lang="pt">cérnos</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q180119"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198918"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7496"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7496"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kernos#provenance"/>
         <skos:definition xml:lang="de">Ein Kultgefäß mit großem Gefäßkörper und Fuß. Kleine Schalen sind am Rand befestigt.</skos:definition>
     </kon:Shape>

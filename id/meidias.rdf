@@ -23,7 +23,7 @@
       <skos:definition xml:lang="en">Athenian potter who signed the calpis in the British Museum 'Meidias epoiesen' (made it).</skos:definition>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/283549626"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/89209593"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59443"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59443"/>
       <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-43902"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/meidias#provenance"/>
    </foaf:Person>

@@ -35,7 +35,7 @@
         <skos:prefLabel xml:lang="sk">Amforiskos</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q477146"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264915"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5158"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5158"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/amphoriskos#provenance"/>
         <skos:definition xml:lang="de">Die kleine Variante der Amphore, entwickelte sich vor allem aus der spitzen Variante der Halsamphore oder der Transportamphore. Wurde für parfümiertes Öl verwendet. Manche weisen einen gestempelten Dekor auf.</skos:definition>
     </kon:Shape>

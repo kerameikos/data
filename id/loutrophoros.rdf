@@ -45,7 +45,7 @@
         <skos:prefLabel xml:lang="be">Лутрафор</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q279304"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198900"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7738"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7738"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/loutrophoros#provenance"/>
         <skos:definition xml:lang="de">Die Loutrophoros bedeutet 'zum Bad tragen' und war ein Gefäß für rituelles Waschen. Sie ist eine Variante der Halsamphore mit zwei sehr langen vertikalen Henkeln. Eine leicht veränderte Variante imitiert die Hydria mit zwei horizontalen und einem vertikalen Henkel ('Loutrophoros-Hydria').</skos:definition>
     </kon:Shape>

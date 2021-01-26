@@ -55,7 +55,7 @@
         <skos:prefLabel xml:lang="sk">Skyfos</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1136095"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300265001"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9114"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9114"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/skyphos#provenance"/>
         <skos:definition xml:lang="de">Der Skyphos ist eine tiefe Schale mit zwei horizontalen Henkeln am Rand (manchmal einer horizontal und einer vertikal).</skos:definition>
     </kon:Shape>

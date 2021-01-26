@@ -33,7 +33,7 @@
         <skos:definition xml:lang="en">From the Greek word meaning 'to mix,' a krater is a large, open bowl for mixing water and wine.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Krater"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198855"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7580"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7580"/>
         <rdfs:seeAlso rdf:resource="https://www.beazley.ox.ac.uk/tools/pottery/shapes/kraters.htm"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/krater#provenance"/>
         <ontolex:otherForm>

@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Cock Group is a group of Athenian black-figure painters active at the end of the 6th c. BCE. The name derives from the cocks adorning the shoulder of the lekythos, the shape associated with the group. Scenes include myth, warriors, and Dionysos. The primary findspots are Athens, Boeotia, Rhodes, Sicily, and Olbia.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/cock_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500107564"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57839"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57839"/>
     </foaf:Group>
    
    

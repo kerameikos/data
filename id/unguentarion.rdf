@@ -31,7 +31,7 @@
         <skos:prefLabel xml:lang="la">Unguentarium</skos:prefLabel>
         <skos:prefLabel xml:lang="mk">угвентариум</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q15020961"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9829"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9829"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264947"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/unguentarion#provenance"/>
         <skos:definition xml:lang="de">Die attische Variante wurde produziert, um sie mit importiertem Parfum zu befüllen. Die fremde Form war ein Indiz für die Identifikation des Inhaltes. Beginnend in hellenistische Zeit, als das spindelförmiges Ungentarium das üblich Exportgefäß für Parfum geworden war, ist das kleine, schwarze Attische Pendent überflüssig geworden.</skos:definition>

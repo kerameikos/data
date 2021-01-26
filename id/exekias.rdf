@@ -33,7 +33,7 @@
       <skos:prefLabel xml:lang="de">Exekias</skos:prefLabel>
       <skos:definition xml:lang="en">Exekias (Ancient Greek: Ἐξηκίας, Exēkías) was an ancient Greek vase-painter and potter who was active in Athens between roughly 545 BC and 530
 			BC.</skos:definition>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58234"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58234"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Exekias"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/57427027"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/4245236"/>

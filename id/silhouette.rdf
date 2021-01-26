@@ -21,7 +21,7 @@
       <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
       <skos:prefLabel xml:lang="en">Silhouette</skos:prefLabel>
       <skos:definition xml:lang="en">The term "Silhouette" refers to a form of decoration found on Corinthian and Attic figured vases.</skos:definition>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x116751"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x116751"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/silhouette#provenance"/>
    </kon:Technique>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/silhouette#provenance">

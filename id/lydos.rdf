@@ -30,7 +30,7 @@
       <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118890778"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500004732"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lydos"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59254"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59254"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/lydos#provenance"/>
    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/lydos#provenance">

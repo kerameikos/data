@@ -34,7 +34,7 @@
         <skos:prefLabel xml:lang="es">Epiquisis</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">épichysis</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1346946"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6657"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6657"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264933"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/epichysis#provenance"/>
         <skos:definition xml:lang="de">Der Begriff bedeutet übersetzt 'übergießen'. Für einen einhenkeligen Krug mit einem langen, schmalen Hals und einem spulenförmigen Körper. Hauptsächlich in Süditalien hergestellt.</skos:definition>

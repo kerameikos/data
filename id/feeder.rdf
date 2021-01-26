@@ -24,7 +24,7 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="es">Bombylios</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q24940090"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6714"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6714"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/feeder#provenance"/>
         <skos:prefLabel xml:lang="de">Saugflasche</skos:prefLabel>
         <skos:definition xml:lang="de">Ein Gefäß mit kleinem Fuß, flachem Deckel und Ausguß auf der Seite. Es fand Verwendung als Trinkflasche für kleine Kinder und Kranke. Auch als Bombylios bekannt.</skos:definition>

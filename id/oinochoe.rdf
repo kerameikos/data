@@ -30,7 +30,7 @@
         <skos:definition xml:lang="en">The term 'oinochoe' means 'wine-pourer.' The wine jug is fashioned in many varieties (conical, concave, convex) but is usually furnished with a single vertical handle. The mouth can be round, trefoil, or beak-shaped.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198866"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8153"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8153"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Oenochoe"/>
         <skos:altLabel xml:lang="en">Oenochoe</skos:altLabel>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/oinochoe#provenance"/>

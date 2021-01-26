@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Group of Rhodes 12264 is a group of Athenian black-figure painters of Little Master cups and other cup shapes active beginning in the mid-6th c. BCE. The name derives from a Droop cup discovered at Camiros, Rhodes (Rhodes, Archaeological Museum 12264; BAPD 302520) showing a fight with a chariot on both sides. Other subjects are fights with chariots, Theseus, animals, and the interiors of stemless cups are decorated with a gorgoneion. Findspots include Xanthos (Turkey), Rhtisona, Rhodes, Samos, Spain, and Italy.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_rhodes_12264#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500087879"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58562"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58562"/>
     </foaf:Group>
    
    

@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">Mug</skos:prefLabel>
         <skos:definition xml:lang="en">The name 'mug' is used to designate a deep, one-handled drinking cup. See kothon.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7984"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7984"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/mug#provenance"/>
         <skos:prefLabel xml:lang="de">Tasse</skos:prefLabel>
         <skos:altLabel xml:lang="de">Napf</skos:altLabel>

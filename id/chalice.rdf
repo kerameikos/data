@@ -24,7 +24,7 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="de">Kalyx</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1722790"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5880"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5880"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/chalice#provenance"/>
         <skos:definition xml:lang="de">Der Kelch ist eine schale mit konischem Fuß, tiefen Wänden und horizontalen Henkeln an der Basis der Wand.</skos:definition>
     </kon:Shape>

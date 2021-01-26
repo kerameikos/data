@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">Column Krater</skos:prefLabel>
         <skos:definition xml:lang="en">The column-krater has an articulated neck, whose wide mouth culminates in a broad rim with an overhaning lip. It takes its name from the two pairs of columnar handles; these attach to handle plates at their top and to the krater shoulder at their base.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198859"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6103"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6103"/>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/column.htm"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/krater"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/column_krater#provenance"/>

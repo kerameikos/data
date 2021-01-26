@@ -46,7 +46,7 @@
         <skos:prefLabel xml:lang="he">מכסה</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2488579"/>
         <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/objtyp/lod/316"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7687"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7687"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/lid#provenance"/>
         <skos:definition xml:lang="de">Eine Vielzahl an Gefäßformen besitzen einen Deckel, wie die Pyxis, Lekane, Lebes Gamikos und manchmal Amphore und Oinochoe.</skos:definition>
     </kon:Shape>

@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">An Athenian white ground vase painter active around 460 B.C.</skos:definition>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/95777319"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500015692"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59872"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59872"/>
         <rdfs:seeAlso rdf:resource="http://www.getty.edu/art/collection/artists/427"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/athens_1826_painter#provenance"/>
         <skos:exactMatch rdf:resource="www.wikidata.org/entity/Q37632834"/>

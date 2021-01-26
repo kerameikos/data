@@ -24,7 +24,7 @@
       <skos:definition xml:lang="en">Athenian black-figure vase-painter whose name is unknown. Nevertheless consistent individual characteristics of style suggest the existence of a unique artistic personality. Beazley called him Painter N because most of the vases he decorated were signed 'Nikosthenes epoiesen' ('Nikosthenes made it').</skos:definition>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116410"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/N_Painter"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59867"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59867"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/painter_n#provenance"/>
    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/painter_n#provenance">

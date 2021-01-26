@@ -24,7 +24,7 @@
       <skos:prefLabel xml:lang="ru">Вазописец фиал</skos:prefLabel>
       <skos:definition xml:lang="en">The Phiale Painter was a painter of the Attic red-figure style. He was active around 460 to 430 BC. The Phiale Painter is assumed to have been a pupil of the Achilles Painter.</skos:definition>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500018372"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/60079"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60079"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Phiale_Painter"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/19529387"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/95793782"/>

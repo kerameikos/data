@@ -46,7 +46,7 @@
         <skos:prefLabel xml:lang="hy">Ստամնոս</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1421582"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198881"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9294"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9294"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/stamnos#provenance"/>
         <skos:definition xml:lang="de">Der Begriff "Stamnos" wird allgemeint (und fälschlicherweise) verwendet, um ein Aufbewahrungs- und Mischgefäß zu bezeichnen, das zwei kleine horizontale Henkel besitzt, die am kompakten runden Körper angebracht sind und auch einen kurzen Hals und einen Deckel aufweist</skos:definition>
     </kon:Shape>

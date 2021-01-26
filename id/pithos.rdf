@@ -55,7 +55,7 @@
         <skos:prefLabel xml:lang="el">πίθος</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1160695"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198882"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8430"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8430"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/pithos#provenance"/>
         <skos:definition xml:lang="de">Pithoi waren lange, massive Vorratsgefäße für Getreide, usw. Sie wurden auch für Bestattungen verwendet und sind manchmal mit Reliefdekor verziert.</skos:definition>
     </kon:Shape>

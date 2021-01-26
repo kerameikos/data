@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Group of the Paidikos Alabastra is a group of red-figure painters active ca. 520-500 BCE, who decorate a single shape (the alabastron). The name derives from the potter (“epoiesen”) who signs as Paidikos on an alabastron from Eretria (Paris, Louvre CA487; BAPD 200865) showing a youth and a woman. Some white-ground vases assigned to the group are signed “epoiesen” by the potter Pasiades. Painters associated with the group include the Euergides Painter (see Euergides Painter [Red-figure]) and the Pasiades Painter (see Pasiades Painter [Red-figure]). Some findspots are Athens (Acropolis, unspecified sites), Boeotia, Miletus, Delphi, Eretria, Ampurias (Spain), and Bologna.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_the_paidikos_alabastra#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500074721"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58573"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58573"/>
     </foaf:Group>
    
    

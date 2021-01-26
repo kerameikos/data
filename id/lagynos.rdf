@@ -40,7 +40,7 @@
         <skos:prefLabel xml:lang="pl">Lagynos</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1519294"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264932"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7609"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7609"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/lagynos#provenance"/>
         <skos:definition xml:lang="de">Ein Weinkrug mit gedrungenem Gefäßkörper, flacher Schulter, langem Hals und langem vertikalem Henkel.</skos:definition>
     </kon:Shape>

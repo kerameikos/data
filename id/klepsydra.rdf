@@ -48,7 +48,7 @@
         <skos:prefLabel xml:lang="ca">Clepsidra</skos:prefLabel>
         <skos:prefLabel xml:lang="nb">klepsydra</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q30134306"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6020"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6020"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300199685"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/klepsydra#provenance"/>
         <skos:altLabel xml:lang="de">Wasseruhr</skos:altLabel>

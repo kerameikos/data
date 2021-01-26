@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">Stand</skos:prefLabel>
         <skos:definition xml:lang="en">The stand is much smaller in size than other supports intended to serve as bases for vases. The stand has a wide, flat surface on top that is often decorated with black- or red-figure. The wide top rests on a stemmed foot, usually with a fillet on the stem.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000936707"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9300"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9300"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/stand#provenance"/>
         <skos:prefLabel xml:lang="de">Ständer</skos:prefLabel>
         <skos:definition xml:lang="de">Der Ständer ist viel kleinerdimensioniert als andere Stützen, die als Basis für Vasen gedacht waren. Der Ständer hat eine breite, flache Oberfläche, die often in schwarz- oder rotfiguriger Malerei bemalt ist. Die breite Oberfläche sitzt auf einem Stiehl auf.</skos:definition>

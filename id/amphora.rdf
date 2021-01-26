@@ -33,7 +33,7 @@
         <skos:prefLabel xml:lang="es">Ánfora</skos:prefLabel>
         <skos:definition xml:lang="en">Meaning 'carry on both sides,' the amphora is made in all fabrics. It has two vertical handles, a wide body, and a narrower neck. Some have a broad foot, some have lids and their size can vary. Used for both liquids and solids, the three main types are: 1) Transport amphora -- a large coarse-ware shape with a long body, small toe and narrow mouth that can be stoppered. 2) Neck amphora -- there are many varieities in fine ware, all sharing an offset neck. In addition, there are specially named variants, e.g. Nikosthenic, Nolan, Panathenaic, and pointed. 3) Belly amphora -- the body and neck form a continuous curve. The forms of handles, mouth, and feet differ among the various types of amphorae.</skos:definition>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amphora"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5155"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5155"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300148696"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/amphora#provenance"/>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>

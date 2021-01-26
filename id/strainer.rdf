@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">Strainer</skos:prefLabel>
         <skos:definition xml:lang="en">The strainer is a perforated bowl that was used for straining wine or, in its larger form, used for cooking.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9364"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9364"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/strainer#provenance"/>
         <skos:prefLabel xml:lang="de">Sieb</skos:prefLabel>
         <skos:definition xml:lang="de">Das Sieb ist ein schalenförmiges Gefäß mit Löchern zum Abseihen von Wein oder in einer größeren Ausführung für den Küchengebrauch.</skos:definition>

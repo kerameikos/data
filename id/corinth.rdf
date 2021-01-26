@@ -86,7 +86,7 @@
       <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11981475r"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/246513497"/>
       <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/570180"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/place/x26645"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x26645"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7010734"/>
       <geo:location rdf:resource="http://kerameikos.org/id/corinth#this"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/corinth#provenance"/>

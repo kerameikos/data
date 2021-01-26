@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">Skyphos Krater</skos:prefLabel>
         <skos:definition xml:lang="en">The skyphos-krater is a very large, deep bowl with two horizontal strap handles with returns, and its rim is flanged or incurving to receive a domed lid. The bowl may be supported by an echinus foot, or joined to a conical stand. The skyphos-krater is an uncommon shape with a long history, being made from the Late Geometric period to the first quarter of the 6th c. BCE.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000160801"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105165"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x105165"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264950"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/skyphos_krater#provenance"/>
         <skos:prefLabel xml:lang="de">Skyphoskrater</skos:prefLabel>

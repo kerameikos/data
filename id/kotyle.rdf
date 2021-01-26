@@ -34,7 +34,7 @@
         <skos:prefLabel xml:lang="da">Kotyle</skos:prefLabel>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/02r1y3s"/>
         <skos:altLabel xml:lang="en">Cotyla</skos:altLabel>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7578"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7578"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kotyle#provenance"/>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="sq">Kotile</skos:prefLabel>

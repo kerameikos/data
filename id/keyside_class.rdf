@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Keyside Class denotes a group of Athenian black-figure painters active late 6th to early 5th c. BCE. The name derives from two vases (Würzburg, Martin von Wagner Museum 347; BAPD 303245; and Würzburg, Martin von Wagner Museum 345; BAPD 303249) with a key-pattern as a side border. Attributed to the class are the Leagros Group, Group of Vatican G49, Painter of Sèvres 100, and Class of Athens 581. The main shape is the oinochoe. Subjects include Dionysos and followers, Herakles, dancers, the symposion, and Amazon. Findspots are Vulci, other Etruscan sites, and sites in southern Italy and Sicily.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/keyside_class#class"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500023254"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59037"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59037"/>
     </foaf:Group>
    
    

@@ -21,7 +21,7 @@
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Incense Burner</skos:prefLabel>
         <skos:definition xml:lang="en">This shape is also known as a thymiaterion.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7347"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7347"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198817"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/incense_burner#provenance"/>
         <skos:prefLabel xml:lang="de">Räuchergefäß</skos:prefLabel>

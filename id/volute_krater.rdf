@@ -21,7 +21,7 @@
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Volute Krater</skos:prefLabel>
         <skos:definition xml:lang="en">A krater with volutes that curl over the rim, it is the most elaborate vase of its type. The ancient name is Laconian in origin.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9887"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9887"/>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/volute.htm"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198856"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/krater"/>

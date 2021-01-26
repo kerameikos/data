@@ -30,7 +30,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Based on Egyptian alabaster prototypes, this small vase for perfume or oil has a broad, flat mouth, narrow neck, a thin, bag-shaped body (sometimes with lugs), and is usually footless. Used for women's toilet and for cult, its contents were extracted with a dipstick.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5120"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5120"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198887"/>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/alabastron.htm"/>
         <skos:altLabel xml:lang="de">Alabastron</skos:altLabel>

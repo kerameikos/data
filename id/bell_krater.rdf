@@ -21,7 +21,7 @@
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Bell Krater</skos:prefLabel>
         <skos:definition xml:lang="en">The bell-krater is an innovation belonging to the red-figure technique. The body rises from a low disk-foot or sometimes a modified disk-foot into the hint of a stem before expanding into the shape of an inverted bell with a mildly flaring mouth with a torus lip. It has sturdy, horizontal, cylindrical handles that are located high up on the body opposite one another and are slightly upturned.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5427"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5427"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198857"/>
         <rdfs:seeAlso rdf:resource="https://www.beazley.ox.ac.uk/tools/pottery/shapes/bell.htm"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/krater"/>

@@ -27,7 +27,7 @@
       <skos:definition xml:lang="en">Nikosthenes was a potter of Greek black- and red-figure pottery in the time window 550-510 BC.[1] He signed as the potter on over 120 black-figure vases, but only 9 red-figure. Most of his vases were painted by someone else, called Painter N (for Nikosthenes).</skos:definition>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115427"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Nikosthenes"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59623"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59623"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/193825244"/>
       <skos:exactMatch rdf:resource="http://www.idref.fr/070405271/id"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/24138852"/>

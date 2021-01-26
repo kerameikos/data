@@ -29,7 +29,7 @@
       <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kleitias"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500089125"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59048"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59048"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/72190122"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/63942432"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/256311848"/>

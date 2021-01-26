@@ -22,7 +22,7 @@
         <skos:prefLabel xml:lang="en">One-handled Cup</skos:prefLabel>
         <skos:broader rdf:resource="http://kerameikos.org/id/cup"/>
         <skos:definition xml:lang="en">A low cup with one handle. The shape is common in Attic black-glazed pottery of the 5th c. and 4th c. BCE.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105148"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x105148"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/one-handled_cup#provenance"/>
         <skos:prefLabel xml:lang="de">einhenkelige Schale</skos:prefLabel>
         <skos:definition xml:lang="de">Eine flache Schale mit einem Henkel. Die Form ist in der attischen schwarzen Glanztonware des 5. und 4. Jhs. v.Chr. typisch.</skos:definition>

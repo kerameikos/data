@@ -25,7 +25,7 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="de">Fußlose Schale</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q55627962"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9325"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9325"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264997"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/stemless_cup#provenance"/>
         <skos:definition xml:lang="de">Die Schale ohne Standfuß hat die Form einer Kylix aber mit einem Ringfuß und keinem Stiehl.</skos:definition>

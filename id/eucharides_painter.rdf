@@ -24,7 +24,7 @@
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500027030"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Eucharides_Painter"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/95848529"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58208"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58208"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/eucharides_painter#provenance"/>
    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/eucharides_painter#provenance">

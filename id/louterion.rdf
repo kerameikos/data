@@ -33,7 +33,7 @@
         <skos:prefLabel xml:lang="es">Luterio</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1877790"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198902"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x118574"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x118574"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/louterion#provenance"/>
         <skos:definition xml:lang="de">Der Begriff bedeutet 'waschen' und bezeichnet eine Schüssel mit zwei Henkeln und einem Ausguß.</skos:definition>
     </kon:Shape>

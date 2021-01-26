@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Segment Class is the name assigned to a class of Athenian black-figure cups that have figure decoration covering their whole interior, while their exteriors are black. They date to the last quarter of the 6th c. BCE, and their subjects are mostly Dionysian. Findspots include Athens (Acropolis, Agora), Argos, Italy, Sicily, and the Black Sea.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/segment_class#class"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500068202"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/60499"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60499"/>
     </foaf:Group>
    
    

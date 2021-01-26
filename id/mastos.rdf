@@ -38,7 +38,7 @@
         <skos:prefLabel xml:lang="be">Мастос</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1545569"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198903"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7824"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7824"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/mastos#provenance"/>
         <skos:definition xml:lang="de">Der Name dieses Gefäßes stammt vom Wort 'Mastos', 'Brust' ab, da die Gefäßform einer weiblichen Brust ähnelt. Sie besitzt meistens einen vertikalen und einen horizontalen Henkel und hat manchmal einen Fuß anstelle der Brustwarze.</skos:definition>
     </kon:Shape>

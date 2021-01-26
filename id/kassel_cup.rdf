@@ -24,7 +24,7 @@
         <skos:definition xml:lang="en">Related to the Little Master cups, Kassel cups have a rather flat, band-cup shape and are generally small. Both the lip and body are usually covered with simple patterned bands. Tongues are common at the lip, as are rays above the foot, and some Kassel cups have silhouette figures in the handle zone.</skos:definition>
         <skos:prefLabel xml:lang="de">Kassel-Schale</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1486592"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x5830"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5830"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198908"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kassel_cup#provenance"/>
         <skos:definition xml:lang="de">Die Kasselschalen haben eine flache Gefäßform und sind meistens kleiner. Sowohl der Rand als auch der Gefäßkörper sind mit einfachen ornamentalen Bändern dekoriert. Zungenbänder finden sich üblicherweise am Rand sowie Strahlen im unteren Gefäßdrittel.</skos:definition>

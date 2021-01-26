@@ -29,7 +29,7 @@
         <skos:prefLabel xml:lang="es">Copa de Siana</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q505584"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198906"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x9069"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9069"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/siana_cup#provenance"/>
         <skos:definition xml:lang="de">Benannt nach einem Fundort auf Rhodos. Sianaschalen können von Komastenschalen durch den höheren Fuß und der längeren Lippe unterschieden werden. Im Gegensatz zur Komastenschale besitzen sie auf der Innenseite einen Dekor (Tondo). Für die Außenseite gibt es zwei Dekorschemata: der Doppeldecker-Typ umfasst zwei übereinander liegende Friese, einen auf der Lippe (meistens floral) und eine figürliche Darstellung am Gefäßkörper. Beim Knickfries-Typ ist eine einzige Dekorszene über den gesamten Gefäßkörper bis zur Lippe dargestellt. Teile der Form und Dekoration von Sianaschalen dürften auf ostgriechische Vorläufer zurückgehen.</skos:definition>
     </kon:Shape>

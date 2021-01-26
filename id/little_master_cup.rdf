@@ -26,7 +26,7 @@
         <skos:prefLabel xml:lang="de">Kleinmeister-Schalen</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Copas de los pequeños maestros</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1746957"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105146"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x105146"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198915"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/little_master_cup#provenance"/>
         <skos:definition xml:lang="de">Der Begriff spielt auf den kleinformatigen Dekor an. Diese Schale hat einen hohen Standfuß und eine abgesetzte, konkave Lippe. Die Gefäße werden in zwei Varianten unterteilt: Lippenschalen und Bandschalen.</skos:definition>

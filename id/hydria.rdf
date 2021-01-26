@@ -31,7 +31,7 @@
         <skos:definition xml:lang="en">Taking its name from the Greek 'hydor,' meaning 'water,' the hydria is a water-pot for the fountain. It has a capacious oval body, two horizontal handles, and one vertical handle. This type of vase was manufactured in bronze, in coarseware, and in fineware. See also kalpis.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7318"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7318"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198844"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hydria"/>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/hydria.htm"/>

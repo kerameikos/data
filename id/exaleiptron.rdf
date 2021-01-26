@@ -24,7 +24,7 @@
         <skos:altLabel xml:lang="en">Kothon</skos:altLabel>
         <skos:altLabel xml:lang="en">Plemochoe</skos:altLabel>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264928"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8460"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8460"/>
         <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
         <skos:altLabel xml:lang="de">Exaleiptron</skos:altLabel>
         <skos:altLabel xml:lang="fr">Exaleiptron</skos:altLabel>

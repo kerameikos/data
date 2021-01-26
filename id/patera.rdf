@@ -48,7 +48,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1109404"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300260178"/>
         <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/decor/lod/230"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8281"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8281"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/patera#provenance"/>
         <skos:definition xml:lang="de">Patera' ist ein lateinisches Wort für 'Schale', ähnlich der Phiale.</skos:definition>
     </kon:Shape>

@@ -22,7 +22,7 @@
       <skos:definition xml:lang="en">The Tyrrhenian Amphora or Ovoid Amphora displays less of an obvious shoulder.</skos:definition>
       <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
       <skos:altLabel xml:lang="en">Ovoid Amphora</skos:altLabel>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x105179"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x105179"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264917"/>
       <skos:broader rdf:resource="http://kerameikos.org/id/neck_amphora"/>
       <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/neck.htm"/>

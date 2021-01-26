@@ -71,7 +71,7 @@
         <skos:prefLabel xml:lang="he">מנה</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q746549"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4136283-4"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6452"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6452"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/dish#provenance"/>
         <skos:definition xml:lang="de">Kleine Variante der Schale.</skos:definition>
     </kon:Shape>

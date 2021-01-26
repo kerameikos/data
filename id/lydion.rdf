@@ -35,7 +35,7 @@
         <skos:prefLabel xml:lang="es">lidion</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q910961"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198874"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7752"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7752"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/lydion#provenance"/>
         <skos:definition xml:lang="de">Das Lydion ist nach dem Gebiet Lydien in Kleinasien benannt. Es ist ein breites, henkelloses Parfumtöpfchen mit ausgebogener Lippe. Es wurde für das lydische Bakkaris Parfume verwendet.</skos:definition>
     </kon:Shape>

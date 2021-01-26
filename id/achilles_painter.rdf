@@ -35,7 +35,7 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/88802961"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Achilles_Painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500019489"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57106"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57106"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/achilles_painter#provenance"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/achilles_painter#painter"/>
     </foaf:Person>

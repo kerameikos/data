@@ -21,7 +21,7 @@
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Cup Skyphos</skos:prefLabel>
         <skos:definition xml:lang="en">The cup-skyphos is a shallower version of the skyphos with a concave lip.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x6294"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6294"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300265005"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/cup_skyphos#provenance"/>
         <skos:prefLabel xml:lang="de">Schalenskyphos</skos:prefLabel>

@@ -35,7 +35,7 @@
       <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118579991"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Meidias_Painter"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500019503"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59444"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59444"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/meidias_painter#provenance"/>
    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/meidias_painter#provenance">

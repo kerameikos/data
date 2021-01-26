@@ -41,7 +41,7 @@
         <skos:prefLabel xml:lang="sl">Lebes</skos:prefLabel>
         <skos:prefLabel xml:lang="be">Лебес</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1237286"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7647"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7647"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300263134"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/lebes#provenance"/>
         <skos:definition xml:lang="de">Der Lebes bezeichnet ein Mischgefäß mit kugelförmigem Gefäßkörper auf einem Ständer. Er weist keinen Henkel oder Fuß auf und wird oft fälschlicherweise als 'Dinos' bezeichnet.</skos:definition>

@@ -102,7 +102,7 @@
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb150560668"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4184660-6"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300042991"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8446"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8446"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/plate#provenance"/>
         <skos:definition xml:lang="de">Der Teller ist keine übliche Gefäßform, die in der klassischen Zeit aus Ton hergestellt wurd, da die meisten wahrscheinlich aus Holz gefertigt wurden. Figürlich verzierte Teller (häufiger schwarzfigurig) dürften für religiöse Zwecke gemacht worden sein.</skos:definition>
     </kon:Shape>

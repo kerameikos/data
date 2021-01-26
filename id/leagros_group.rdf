@@ -26,7 +26,7 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500021673"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/123061669"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Leagros_Group"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59160"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59160"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/leagros_group#provenance"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q830436"/>
         <skos:prefLabel xml:lang="el">Εργαστήριο του Λεάγρου</skos:prefLabel>

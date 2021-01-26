@@ -22,7 +22,7 @@
       <skos:prefLabel xml:lang="en">Villa Giulia Painter</skos:prefLabel>
       <skos:definition xml:lang="en">An Athenian red figure painter whose name is unknown. He is named for the location of one of his vases.</skos:definition>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500023167"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/60975"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60975"/>
       <rdfs:seeAlso rdf:resource="http://www.getty.edu/art/gettyguide/artMakerDetails?maker=352"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/95824066"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/villa_giulia_painter#provenance"/>

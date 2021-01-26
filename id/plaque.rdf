@@ -21,7 +21,7 @@
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Plaque</skos:prefLabel>
         <skos:definition xml:lang="en">See pinax.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8441"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8441"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/plaque#provenance"/>
         <skos:prefLabel xml:lang="de">Tafel</skos:prefLabel>
         <skos:definition xml:lang="de">siehe Pinax</skos:definition>

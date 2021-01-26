@@ -28,7 +28,7 @@
         <skos:prefLabel xml:lang="pl">Amfora panatenajska</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Panathenäische Preisamphore</skos:prefLabel>
         <skos:definition xml:lang="en">Panathenaic amphorae are big, ovoid, lidded vases that were presented as prizes to winners of the Panathenaic Games, which were held once every four years in Athens in honor of Athena, patroness of the city. They were filled with olive oil from Athena's sacred trees. The series, presumed to date to the reorganization of the games about 560 BCE, was produced through the Hellenistic period and beyond. The Panathenaic amphorae of the Classical period are of the finest quality construction. Panathenaic amphorae were only decorated in the black-figure technique.</skos:definition>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x8240"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8240"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300200366"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Panathenaic_amphora"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>

@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Tyrrhenian Group is a group of Athenian black-figure painters active ca. 570-550 BCE who decorate the ovoid neck amphora with human figures and multiple animal friezes. The name derives from the large number of vessels discovered in Etruria (located in Italy along the Tyrrhenian Sea). Painters of the group include the Castellani Painter, the Goltyr Painter, the Guglielmi Painter, the Timiades Painter, and the Kyllenios Painter. Despite some controversy about their place of manufacture, petrographic analysis indicates that the vases were produced in Athens. Many of the vases have “nonsense inscriptions” in Greek. The major finds spots are sites in Etruria, while some have been discovered in Athens (Agora, Acropolis, Kerameikos), Miletus, Ionia (Turkey), Cyrene, and Naukratis.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/tyrrhenian_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500060745"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/60875"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60875"/>
     </foaf:Group>
    
    

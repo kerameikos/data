@@ -24,7 +24,7 @@
         <skos:definition xml:lang="en">The Type C cup has a rather shallow bowl and a plain or offset lip. The cup can be stemmed or stemless. The stem, when present, is very short with a fillet at its base, and the foot is a thick torus. In the stemless versions, there is simply a fillet between bowl and foot.</skos:definition>
         <skos:prefLabel xml:lang="de">Typ C Kylix</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q55627335"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x118536"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x118536"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kylix_type_c#provenance"/>
         <skos:definition xml:lang="de">Schale Typ C hat einen niedrigen Gefäßkörper und einen einfachen oder leicht abgesetzten Rand. Die Schale erscheint mit einem kurzen oder ohne Stiel.</skos:definition>
     </kon:Shape>

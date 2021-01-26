@@ -23,7 +23,7 @@
       <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
       <skos:altLabel xml:lang="en">Continuous-curve Hydria</skos:altLabel>
       <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/thesauri/x7460"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x7460"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198846"/>
       <skos:broader rdf:resource="http://kerameikos.org/id/hydria"/>
       <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=kalpis"/>

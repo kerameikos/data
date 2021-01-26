@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Altenburg Class denotes a group of Athenian black-figure painters active late 6th to early 5th c. BCE who mostly decorate the oinochoe. The name derives from an oinochoe from Vulci (Altenburg, Staatliches Lindenau-Museum 203A; BAPD 303211) showing a seated winged female. Attributed to the class are the Painter of Munich 1760 and the Leagros Group. The Altenburg Painter, a 6th c. BCE East Greek vase-painter of Fikellura style vessels, is not connected to this class. Scenes are Athena, Dionysos and followers, and the Struggle for the Delphic Tripod. Aside from Vulci, findspots include other Etruscan sites.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/altenburg_class#class"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500015051"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57161"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57161"/>
     </foaf:Group>
    
    

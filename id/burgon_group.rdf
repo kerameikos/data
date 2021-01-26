@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Burgon Group is a group of Athenian black-figure painters dated to the second quarter of the 6th c. BCE. Attributed to this group is the first complete Panathenaic amphora, the Burgon Vase (London, British Museum B130; BAPD 300828), named for the scholar who discovered it. Other shapes include the oinochoe, plate, and pyxis. Subjects are daily life and Ajax and Achilles. A pinax (plaque) from Athens represents a scene of prothesis (laying out the body of the deceased). Findspots include Athens, Rhodes, Naukratis, and Brauron.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/burgon_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500109195"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/57548"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57548"/>
     </foaf:Group>
    
    

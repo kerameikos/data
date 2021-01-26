@@ -26,7 +26,7 @@
       <skos:definition xml:lang="en">The Kleophrades Painter is the name given to the anonymous red-figure Athenian vase painter, who was active from approximately 510 – 470 BCE and whose work, considered amongst the finest of the red figure style, is identified by its stylistic traits.</skos:definition>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kleophrades_Painter"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115460"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/59051"/>
+      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59051"/>
       <rdfs:seeAlso rdf:resource="http://www.getty.edu/art/gettyguide/artMakerDetails?maker=305"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/kleophrades_painter#provenance"/>
    </foaf:Person>

@@ -24,7 +24,7 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/agrigento_painter#provenance"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/agrigento_painter#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500017517"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/191602"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG191602"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q18511587"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/agrigento_painter#provenance">

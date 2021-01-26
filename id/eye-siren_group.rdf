@@ -23,7 +23,7 @@
         <skos:definition xml:lang="en">The Eye-Siren Group is a group of Athenian black-figure painters active ca. 520-500 BCE. They are considered followers of the Antimenes Painter. The name derives from a neck amphora (London, British Museum B215; BAPD 320288) displaying sirens with large eyes on their bodies and showing Peleus and Thetis on one side with Apollo on the other. Though mainly decorating the amphora, including some Panathenaics, other shapes are the hydria and a cup. Subjects include warriors, Herakles, Amazons, and Dionysian scenes. Examples have been discovered in Etruria.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/eye-siren_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500046684"/>
-        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58236"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58236"/>
     </foaf:Group>
    
    
