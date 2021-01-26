@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Group rdf:about="http://kerameikos.org/id/segment_class">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Segment Class</skos:prefLabel>
+        <skos:definition xml:lang="en">The Segment Class is the name assigned to a class of Athenian black-figure cups that have figure decoration covering their whole interior, while their exteriors are black. They date to the last quarter of the 6th c. BCE, and their subjects are mostly Dionysian. Findspots include Athens (Acropolis, Agora), Argos, Italy, Sicily, and the Black Sea.</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/segment_class#class"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500068202"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/60499"/>
+    </foaf:Group>
+   
+   
+    <org:Membership rdf:about="http://kerameikos.org/id/segment_class#class">
+        <org:role rdf:resource="http://kerameikos.org/id/class"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/segment_class#provenance"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/segment_class#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/segment_class"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

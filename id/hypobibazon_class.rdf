@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Group rdf:about="http://kerameikos.org/id/hypobibazon_class">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Hypobibazon Class</skos:prefLabel>
+        <skos:definition xml:lang="en">The Hypobibazon Class denotes a group of Athenian black-figure vases made around 510 BCE. The name derives from an amphora discovered in the Athenian Kerameikos (Athens, Kerameikos 158; BAPD 301866) showing a warrior about to mount a horse. The shape associated with the class is a belly amphora (Type B) with rounded handles and feet. Painters of this class prefer daily life scenes. Findspots are sites in Athens (Agora, Acropolis, Kerameikos) and Eleusis.</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/hypobibazon_class#class"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500078005"/>
+    </foaf:Group>
+   
+   
+    <org:Membership rdf:about="http://kerameikos.org/id/hypobibazon_class#class">
+        <org:role rdf:resource="http://kerameikos.org/id/class"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/hypobibazon_class#provenance"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/hypobibazon_class#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/hypobibazon_class"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

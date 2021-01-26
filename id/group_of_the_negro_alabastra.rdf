@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Group rdf:about="http://kerameikos.org/id/group_of_the_negro_alabastra">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Group of The Negro Alabastra</skos:prefLabel>
+        <skos:definition xml:lang="en">The Group of the Negro Alabastra denotes a group of Athenian white-ground vases, decorated with figures in silhouette and outline and produced in the 480’s BCE. The name derives from the shape (alabastron) that is often decorated with African males. Aside from the alabastron, the group also decorated a few plates. Subjects include isolated figures: a draped African male sometimes holding objects, an Amazon, and a Thracian. Some findspots are Boeotia (Thebes, Tanagra), Camiros (Rhodes), Athenian Acropolis, and sites in southern Italy.</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_the_negro_alabastra#group"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500083375"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58571"/>
+    </foaf:Group>
+   
+   
+    <org:Membership rdf:about="http://kerameikos.org/id/group_of_the_negro_alabastra#group">
+        <org:role rdf:resource="http://kerameikos.org/id/group"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/group_of_the_negro_alabastra#provenance"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/group_of_the_negro_alabastra#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/group_of_the_negro_alabastra"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

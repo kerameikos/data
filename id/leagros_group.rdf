@@ -16,13 +16,13 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Organization rdf:about="http://kerameikos.org/id/leagros_group">
+   <foaf:Group rdf:about="http://kerameikos.org/id/leagros_group">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Leagros Group</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Leagros-Gruppe</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Gruppo di Leagros</skos:prefLabel>
-        <skos:definition xml:lang="en">The Leagros Group was a group of Attic black-figure vase painters active during the last two decades of the 6th century BC. The name given to the group by modern scholars is a conventional one, derived from a series of name vases.</skos:definition>
+        <skos:definition xml:lang="en">The Leagros Group is a group of black-figure painters active ca. 520-500 BCE. The name derives from the inscription “Leagros kalos” (“Leagros is beautiful”) on several vases. Painters identified with the group include the Acheloos Painter, Chiusi Painter, and Daybreak Painter. Also associated are the Antiope Group, Group of Würzburg 210, and Group of Vatican 424. Several hundred vessels are attributed to the group, including shapes like the neck amphora, hydria, lekythos, krater, and Panathenaic amphora. Favorite scenes of the group are Herakles and the Trojan War, as well as Dionysian themes. Findspots are Vulci and other Etruscan sites, southern Italy and Sicily, and the Athenian Agora.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500021673"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/123061669"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Leagros_Group"/>
@@ -32,8 +32,9 @@
         <skos:prefLabel xml:lang="el">Εργαστήριο του Λεάγρου</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">groupe de Leagros</skos:prefLabel>
         <skos:prefLabel xml:lang="ro">Grupul Leagros</skos:prefLabel>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/leagros_group#painter"/>
-    </foaf:Organization>
+        
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/leagros_group#group"/>
+    </foaf:Group>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/leagros_group#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/leagros_group"/>
         <prov:wasGeneratedBy>
@@ -60,12 +61,26 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:33:09.768-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://kerameikos.org/id/leagros_group#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
-        <edm:begin xmlns:edm="http://www.europeana.eu/schemas/edm/"
-                   rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0525</edm:begin>
-        <edm:end xmlns:edm="http://www.europeana.eu/schemas/edm/"
-                 rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0500</edm:end>
+    
+    <org:Membership rdf:about="http://kerameikos.org/id/leagros_group#group">
+        <org:role rdf:resource="http://kerameikos.org/id/group"/>
     </org:Membership>
 </rdf:RDF>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,33 +16,54 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Organization rdf:about="http://kerameikos.org/id/group_e">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Group E</skos:prefLabel>
-      <skos:definition xml:lang="en">A group of Athenian black-figure vase-painters whose names are unknown. Beazley called them collectively Group E. A large compact group, it is closely related to the work of Exekias (q.v.) though earlier.</skos:definition>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500055362"/>
-      <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58536"/>
-      <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Exekias#Group_E"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/group_e#provenance"/>
-   </foaf:Organization>
+   <foaf:Group rdf:about="http://kerameikos.org/id/group_e">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Group E</skos:prefLabel>
+        <skos:definition xml:lang="en">Group E is a large group of Athenian black-figure painters active ca. 560-540 BCE. The name derives from a close association to Exekias, who signs a Group E vase as potter ("epoiesen"). Group E painted the pelike, different amphora types, the lekythos, and kraters. Subjects include the Birth of Athena, Herakles, Amazons, Theseus and the Minotaur, as well as athletes, the symposion, and funerary scenes. Findspots are Athens (Acropolis, Agora, Kerameikos), Chalkidike, Vulci, Spina, North Africa, and Russia.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500055362"/>
+        <skos:exactMatch rdf:resource="http://collection.britishmuseum.org/id/person-institution/58536"/>
+        <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Exekias#Group_E"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/group_e#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/group_e#group"/>
+    </foaf:Group>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/group_e#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/group_e"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/group_e"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:33:37.469-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/group_e#group">
+        <org:role rdf:resource="http://kerameikos.org/id/group"/>
+    </org:Membership>
 </rdf:RDF>
