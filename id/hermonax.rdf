@@ -19,7 +19,7 @@
     <foaf:Person rdf:about="http://kerameikos.org/id/hermonax">
         <skos:prefLabel xml:lang="en">Hermonax</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Hermonax was a Greek vase painter working in the red-figure style. He painted between c. 470 and 440 BC in Athens. Ten vases signed with the phrase "Hermonax has painted it" survive, mainly stamnoi and lekythoi. He is generally a painter of large pots, though some cups survive.</skos:definition>
+        <skos:definition xml:lang="en">Hermonax is an Athenian red-figure painter active ca. 475-450 BCE. The name derives from the signature as painter (“egrapsen”) on several vases. Shapes are the stamnos, pelike, neck amphora, loutrophoros, oinochoe, lekythos, lekanis, and cups. Subjects include Dionysos and followers, revelers (“komasts”), weddings, warriors, the Death of Orpheus, Zeus and Ganymede, Boreas and Oreithyia, Eros and lovers, and youths and young women. Some findspots are sites in southern Italy and Sicily, Cerveteri, Ampurias (Spain), Athens (Agora, Acropolis), Argos, Brauron, Camiros (Rhodes), and Xanthos (Turkey).</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/hermonax#provenance"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/hermonax#painter"/>
@@ -43,6 +43,9 @@
         <skos:exactMatch rdf:resource="http://isni.org/0000000013504129"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/20476391"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58775"/>
+        <skos:prefLabel xml:lang="ja">ヘルモナクス</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Hermonaks</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q328215"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/hermonax#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/hermonax"/>
@@ -54,6 +57,15 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://kerameikos.org/id/hermonax#painter">
         <org:role rdf:resource="http://kerameikos.org/id/painter"/>

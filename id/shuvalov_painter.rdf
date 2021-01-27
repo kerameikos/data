@@ -40,6 +40,8 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/2050150085870815060003"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500004128"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000013723620"/>
+        <skos:prefLabel xml:lang="be">Вазапісец Шувалава</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q968196"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/shuvalov_painter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/shuvalov_painter"/>
@@ -51,6 +53,15 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://kerameikos.org/id/shuvalov_painter#painter">
         <org:role rdf:resource="http://kerameikos.org/id/painter"/>

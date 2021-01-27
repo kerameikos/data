@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/gorgon_painter">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Gorgon Painter</skos:prefLabel>
+        <skos:definition xml:lang="en">The Gorgon Painter is an Athenian black-figure painter who was active ca. 600-580 BCE. The name derives from a dinos (Paris, Louvre E874; BAPD 300055) showing Perseus and Gorgons. Other shapes include the oinochoe, lekythos, amphora, and the olpe. In addition to large animals, there are scenes of myth (Herakles, Hermes, centaurs). Findspots are Athens (Agora, Acropolis), Naukratis, Heraion, Vari, and Cortona (Italy).</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/gorgon_painter#painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500030016"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58495"/>
+        <skos:prefLabel xml:lang="de">Gorgo-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore della Gorgone</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pintor de la Gorgona</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Gorgon Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Peintre de la Gorgone</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Gorgon Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Malarz Gorgony</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Gorgon-maalari</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Gorgon Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Gorgon Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Gorgon Painter</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q256026"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/131537342"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/10981355"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000448862005"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/gorgon_painter#provenance"/>
+    </foaf:Person>
+    
+    
+    
+    <org:Membership rdf:about="http://kerameikos.org/id/gorgon_painter#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/gorgon_painter#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/gorgon_painter"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

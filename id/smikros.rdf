@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/smikros">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Smikros</skos:prefLabel>
+        <skos:definition xml:lang="en">Smikros is an Athenian red-figure painter and part of the Pioneer Group active ca. 510-500 BCE. The name is inscribed as painter (“egrapsen”) on several vases. Shapes include the stamnos, pelike, and psykter. Subjects are the symposion, musicians, Dionysos and satyrs, and the Abduction of Thetis by Peleus. Findspots include Etruria (Todi, Cerveteri, Elea) and Athens (Kerameikos).</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/smikros#painter"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60550"/>
+        <skos:prefLabel xml:lang="de">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Σμίκρος</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Esmicros</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="an">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="bs">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="co">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="cs">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="cy">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="fo">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="fy">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ga">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ht">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="is">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="lb">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="li">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="lt">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="lv">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="mt">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="nn">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="oc">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="pi">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="rm">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sc">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sk">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="wa">Smikros</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">スミクロス</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q510558"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/129676578"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/10930980"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500003533"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000015560925"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/smikros#provenance"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://kerameikos.org/id/smikros#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/smikros#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/smikros"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

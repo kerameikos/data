@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://kerameikos.org/id/euthymides">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Euthymides</skos:prefLabel>
+        <skos:definition xml:lang="en">Euthymides is an Athenian red-figure painter active ca. 515-500 BCE, who signed as both painter (“egrapsen”) and potter (“epoiesen”). Euthymides is considered a member of the Pioneer Group, along with Euphronios, Phintias, and other vase-painters. One of the best known works is an amphora (Munich, Antikensammlungen 2307; BAPD 200160) featuring revelers (“komasts”) and the inscription “as never Euphronios.” Shapes include different amphora types, the hydria, and cups. Scenes are Dionysos and followers, other gods, athletes, Theseus, Herakles, and the symposion. Some findspots are Vulci and other sites in Etruria, Athens (Acropolis, Agora), sites in Sicily and southern Italy, and Vix (France).</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/euthymides#potter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115442"/>
+        <skos:prefLabel xml:lang="pt">Eutimides</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Eutymides</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Euthymidès</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Евфимид</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Eutímides</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Eutímides</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Евфімід</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Eutimide</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Euthymides</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Euthymides</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Euthymides</skos:prefLabel>
+        <skos:prefLabel xml:lang="kk">Евфимид</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Еўфімід</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ευθυμίδης</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">エウテュミデス</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Euthymides</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Euthymides</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Euthymides</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q560260"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/25393817"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118531433"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000086370731"/>
+        <skos:exactMatch rdf:resource="http://www.idref.fr/130343579"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/euthymides#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/euthymides#painter"/>
+    </foaf:Person>
+    
+   
+   
+    
+    <org:Membership rdf:about="http://kerameikos.org/id/euthymides#potter">
+        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/euthymides#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/euthymides"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/euthymides#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+</rdf:RDF>

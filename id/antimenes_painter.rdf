@@ -19,7 +19,7 @@
     <foaf:Person rdf:about="http://kerameikos.org/id/antimenes_painter">
         <skos:prefLabel xml:lang="en">Antimenes Painter</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">The Antimenes Painter was an Attic vase painter of the black-figure style, active between circa 530 and 510 BC.</skos:definition>
+        <skos:definition xml:lang="en">The Antimenes Painter is an Athenian black-figure painter active ca. 530-510 BCE. The name derives from the inscription “kalos Antimenes” (“Antimenes is beautiful”) appearing on a hydria from Vulci (Leiden, (Rijksmuseum II167 [PC63]; BAPD 320011) showing men washing in a fountain-house. Shapes are mostly the hydria and neck amphora. The painter has a wide range of mythological scenes, including Herakles, Dionysos, Amazons, Theseus and the Minotaur, and the Gigantomachy, as well as everyday scenes of the fountain-house and olive picking. Most examples have been discovered in Vulci and Tarquinia.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/antimenes_painter#provenance"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/antimenes_painter#painter"/>
@@ -42,6 +42,8 @@
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0g4d92"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500003458"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000103319066"/>
+        <skos:prefLabel xml:lang="fi">Antimenes-maalari</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q577906"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/antimenes_painter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/antimenes_painter"/>
@@ -53,6 +55,15 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://kerameikos.org/id/antimenes_painter#painter">
         <org:role rdf:resource="http://kerameikos.org/id/painter"/>

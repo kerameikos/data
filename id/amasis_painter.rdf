@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,41 +17,71 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://kerameikos.org/id/amasis_painter">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Amasis Painter</skos:prefLabel>
-      <skos:prefLabel xml:lang="fr">Amasis (potier)</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Amasis-Maler</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Мастер Амасиса</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Amasis (keramiker)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Pittore di Amasis</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">阿马西斯画家</skos:prefLabel>
-      <skos:definition xml:lang="en">The Amasis Painter (active around 550-510 BCE in Athens) was an ancient Greek vase painter who worked in the black figure technique.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amasis_Painter"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/65427587"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/299536723"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/96544544"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116399"/>
-      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57164"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/amasis_painter#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Amasis Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Amasis (potier)</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Amasis-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Мастер Амасиса</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Amasis (keramiker)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Amasis</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">阿马西斯画家</skos:prefLabel>
+        <skos:definition xml:lang="en">The Amasis Painter is an Athenian black-figure painter active ca. 560-515 BCE. The name derives from the potter ("epoiesen") who signs as Amasis. Scholars debate if the painter and potter are one in the same. The painter sometimes combines the full black-figure technique with outline and at times employs a minituristic style. Shapes include different amphora types, lekythos, oinochoe, and alabastron. Subjects are Dionysos and his followers, other gods, draped figures, warriors, and revelers ("komasts"). Main findspots are Vulci and other sites in Etruria, Athens (Acropolis, Agora, Kerameikos), and Naukratis.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amasis_Painter"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/65427587"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/299536723"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/96544544"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116399"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57164"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/amasis_painter#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/amasis_painter#painter"/>
+        <skos:prefLabel xml:lang="he">אמאסיס</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Amasis Slikar</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pintor de Amasis</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Amasis</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Вазописець Амасіса</skos:prefLabel>
+        <skos:prefLabel xml:lang="hr">Amasis Slikar</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Amasismaleren</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Pintor d'Àmasis</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Amasis</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Amasis Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Malarz Amasisa</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アマシスの画家</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Майстар Амасіса</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Amasis Painter</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q707682"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/120354225"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120449194"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/amasis_painter#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/amasis_painter"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-26T14:25:12-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/amasis_painter"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-26T14:25:12-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/amasis_painter#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
 </rdf:RDF>

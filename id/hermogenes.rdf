@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://kerameikos.org/id/hermogenes">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Hermogenes</skos:prefLabel>
+        <skos:definition xml:lang="en">Hermogenes is an Athenian black-figure potter of Little Master cups active ca. 560-540 BCE. The name derives from vases signed as potter ("epoiesen") by Hermogenes, and it is possible the potter and painter may be one in the same. The potter specialized in lip-cups, many of which depict female heads in outline. Some band-cups are decorated with a warrior on a chariot and may be the work of a seperate painter. Findspots include Italy, Sicily, the Athenian Agora, and Miletos.</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/hermogenes#potter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500025623"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58773"/>
+        <skos:prefLabel xml:lang="de">Hermogenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Hermogenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Hermogénès</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ερμογένης</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Hermégenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Hermogenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Hermogenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Hermogenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Hermogenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Hermogenes</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Hermogenes (savenvalaja)</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">Hermogeno</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1613645"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95839702"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/hermogenes#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/hermogenes#painter"/>
+    </foaf:Person>
+   
+   
+    <org:Membership rdf:about="http://kerameikos.org/id/hermogenes#potter">
+        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/hermogenes#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/hermogenes"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/hermogenes#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+</rdf:RDF>

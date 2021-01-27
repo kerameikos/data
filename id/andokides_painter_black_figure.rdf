@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/andokides_painter_black_figure">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Andokides Painter</skos:prefLabel>
+        <skos:definition xml:lang="en">The Andokides Painter (sometimes referred to as the Lysippides Painter [Red-figure]) is an Athenian black-figure painter active during the second half of the 6th c. BCE. The name derives from vases signed by Andokides as potter ("epoiesen"). Though known for using the black-figure technique, the painter is also considered the first to regularly work in the red-figure technique after its invention ca. 530-520 BCE (see Andokides Painter [Red-figure]). As a black-figure vase-painter, the artist is best known for bilingual vases (decorated with the same scene on both sides, one in red-figure and the other in black-figure). It remains unclear whether the bilingual vases were painted by a single artist or by two. Shapes are mainly the amphora and cups, and scenes are mythological (Ajax and Achilles, Herakles, Dionysos). Findspots are Vulci, Orvieto, other sites in Italy, and the Athenian Acropolis.</skos:definition>
+        <skos:related rdf:resource="http://kerameikos.org/id/andokides_painter_red_figure"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/andokides_painter_black_figure#painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500030596"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57177"/>
+        <skos:prefLabel xml:lang="el">Ανδοκίδης</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Peintre d'Andokidès</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Andokides-schilder</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Pintor de Andokides</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Андокид</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Andokides-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Andocide</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">Andokidész</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Andócides</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Вазописець Андокіда</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Malarz Andokidesa</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Andokides-maleren</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">Андокид</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">アンドキデスの画家</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Andokides-skilder</skos:prefLabel>
+        <skos:prefLabel xml:lang="hy">Անդոկիդես</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Андокід</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Andokides Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Andokides Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">安多基德斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Andokides-maalari</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q492239"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95870311"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118649116"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/andokides_painter_black_figure#provenance"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://kerameikos.org/id/andokides_painter_black_figure#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/andokides_painter_black_figure#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/andokides_painter_black_figure"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

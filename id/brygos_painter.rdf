@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://kerameikos.org/id/brygos_painter">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Brygos Painter</skos:prefLabel>
+        <skos:definition xml:lang="en">The Brygos Painter is an Athenian red-figure painter active ca. 490-470 BCE who painted in white-ground. The name derives from the potter ("epoiesen") who signs as Brygos and collaborated with the Brygos Painter and other painters. Shapes are the cup (kylix), skyphos, lekythos, kyathos, kantharos in the shape of female heads, rhyton in the shape of animal heads, and kalathos. Subjects include revelers (“komasts”), the symposion, Dionysos and followers, warriors, athletes, Herakles, Zeus and Ganymede, and the Trojan War. Some findspots are Etruria (Vulci, Orvieto, Chiusi, Tarquinia, Cerveteri), sites in southern Italy and Sicily, Athens (Acropolis, Agora), sites in Attica (Brauron, Eleusis, Menidi), Thebes, Marseilles, and Olbia.</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/brygos_painter#painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500025426"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57531"/>
+        <skos:prefLabel xml:lang="ru">Бриг</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Brygos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Brygos-maalari</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Вазописець Брига</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">布吕戈斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Brigos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Brygos-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Brygos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">peintre de Brygos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Brygosmaleren</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Brygos</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Βρύγος</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Brygos Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Brygos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Malarz Brygosa</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Вазапісец Брыга</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">ブリュゴスの画家</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Brygos Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Brygos Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">צייר בריגוס</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q322192"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/129676802"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/74938415"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000017516557"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/brygos_painter#provenance"/>
+    </foaf:Person>
+   
+   
+    <org:Membership rdf:about="http://kerameikos.org/id/brygos_painter#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/brygos_painter#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/brygos_painter"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

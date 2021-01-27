@@ -19,13 +19,23 @@
     <foaf:Person rdf:about="http://kerameikos.org/id/agrigento_painter">
         <skos:prefLabel xml:lang="en">Agrigento Painter</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:definition xml:lang="en">Attic vase painter, active ca. 475-ca. 450 BCE. Red-figure vase painter active in the early Classical period.</skos:definition>
+        <skos:definition xml:lang="en">The Agrigento Painter is an Athenian red-figure painter active ca. 470-440 BCE and a member of the Mannerist Group. The name derives from a calyx krater from Agrigento (Agrigento, Archaeological Museum; BAPD 206657) showing Herakles and Nessos. Other shapes are the column-krater, bell krater, stamnos, pelike, dinos, amphora, and hydria. Scenes include Herakles, Theseus, Dionysos and followers, Amazons, the symposion, revelers (“komasts”), musicians, warriors, and generic males (youths, boys, men). Some findspots are Bologna, Spina, Tarquinia, sites in southern Italy and Sicily, the Athenian Agora, Corinth, Rheneia (Delos), Ampurias (Spain), and Naukratis.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/agrigento_painter#provenance"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/agrigento_painter#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500017517"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG191602"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q18511587"/>
+        <skos:prefLabel xml:lang="fr">Peintre d'Agrigente</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Agrigento-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Agrigento</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Agrigento Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Agrigento Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Agrigento Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Agrigento Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Agrigento Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Agrigento Painter</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95788664"/>
     </foaf:Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/agrigento_painter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/agrigento_painter"/>
@@ -37,6 +47,15 @@
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
     <org:Membership rdf:about="http://kerameikos.org/id/agrigento_painter#painter">
         <org:role rdf:resource="http://kerameikos.org/id/painter"/>

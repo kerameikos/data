@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,39 +17,64 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://kerameikos.org/id/lydos">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Lydos</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Lydos (Vasenmaler)</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Lido (ceramografo)</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Лидос (вазописец)</skos:prefLabel>
-      <skos:definition xml:lang="en">Lydos (Greek: Λυδός, the Lydian) was an Attic vase painter in the black-figure style. Active between about 560 and 540 BC, he was the main representative of the '’’Lydos Group’’’. His signature, ό Λυδός, ho Lydos, the Lydian, inscribed on two vases, is informative regarding the cultural background of the artist.</skos:definition>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/7200094"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95709665"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/40176569"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118890778"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500004732"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lydos"/>
-      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59254"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/lydos#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Lydos</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Lydos (Vasenmaler)</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Lido (ceramografo)</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Лидос (вазописец)</skos:prefLabel>
+        <skos:definition xml:lang="en">Lydos is an Athenian black-figure painter active ca. 560-540 BCE. The name derives from vases signed as “ho Lydos” (“the Lydian”), such as a dinos from the Athenian Acropolis (Athens, National Museum Acr. 607; BAPD 310147) where he is signed as painter ("egrapsen"). Lydos painted a variety of large and small shapes, including the column krater, amphora, hydria, Siana cup, cups of other types, and plates. Scenes include Herakles, Dionysos, Theseus, draped men, and the Trojan War. The vases have been found primarily in Athens (Acropolis, Agora, Kerameikos), southern Italy, Etruscan sites, and Sicily.</skos:definition>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/7200094"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95709665"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/40176569"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118890778"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500004732"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lydos"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59254"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/lydos#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/lydos#painter"/>
+        <skos:prefLabel xml:lang="el">Λυδός</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Lydos</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Лідос</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Lido</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Lydos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Lydos</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Lydos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Lydos</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Lydos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Lydos</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q946281"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000054512125"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/lydos#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/lydos"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/lydos"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/lydos#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
 </rdf:RDF>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,40 +17,79 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://kerameikos.org/id/onesimos">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Onesimos</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Onesimo</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Onesimos</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Онесим</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Onesimos</skos:prefLabel>
-      <skos:definition xml:lang="en">Onesimos was an ancient Athenian vase painter who flourished between 505 and 480 BC. He specialized in decorating cups, mostly of Type B, which comprise virtually all known examples of his work.</skos:definition>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115465"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/251077070"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/96538493"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/54943646"/>
-      <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118736337"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Onesimos_(vase_painter)"/>
-      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59700"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/onesimos#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Onesimo</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Онесим</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Onesimos</skos:prefLabel>
+        <skos:definition xml:lang="en">Onesimos is an Athenian red-figure painter active ca. 505-480 BCE, and associated with the Proto-Panaitian Group. The name derives from a cup found at Vulci signed as painter (“egrapsen”) by Onesimos and as potter (“epoiesen”) by Euphronios (Paris, Louvre G105; BAPD 203218) showing horsemen. The primary shape is the cup (kylix). Other shapes are the skyphos, plate, and pyxis. Subjects include Theseus, Herakles, the Trojan War, the symposion, revelers (“komasts”), athletes, and nude females. Some findspots are Etruria (Vulci, Cerveteri, Tarquinia, Chiusi, Orvieto), sites in southern Italy and Sicily, Athens (Acropolis, Agora), and Naukratis.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115465"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/251077070"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/96538493"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/54943646"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118736337"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Onesimos_(vase_painter)"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59700"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/onesimos#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/onesimos#painter"/>
+        <skos:prefLabel xml:lang="uk">Онесім</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Onésimo</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="la">Onesimus</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Анесім</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Onesimos</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Onesimos (vaasimaalari)</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q475054"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000448876087"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/onesimos#potter"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/onesimos#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/onesimos"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/onesimos"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/onesimos#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://kerameikos.org/id/onesimos#potter">
+        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    </org:Membership>
 </rdf:RDF>

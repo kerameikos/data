@@ -28,6 +28,16 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/athens_1826_painter#provenance"/>
         <skos:exactMatch rdf:resource="www.wikidata.org/entity/Q37632834"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/athens_1826_painter#painter"/>
+        <skos:prefLabel xml:lang="de">Painter of Athens 1826</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Painter of Athens 1826</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Painter of Athens 1826</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pintor de Atenas 1826</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Painter of Athens 1826</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Painter of Athens 1826</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Painter of Athens 1826</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Painter of Athens 1826</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Painter of Athens 1826</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q37632834"/>
     </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/athens_1826_painter#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/athens_1826_painter"/>
@@ -53,6 +63,15 @@
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T11:37:08.651-04:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>

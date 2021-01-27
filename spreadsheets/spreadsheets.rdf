@@ -41,4 +41,17 @@
         <dcterms:contributor rdf:resource="http://kerameikos.org/editor/slong"/>
         <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
     </prov:Entity>
+    <prov:Entity rdf:about="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml">
+					   <dcterms:format>application/vnd.google-apps.spreadsheet</dcterms:format>
+					   <dcterms:description xml:lang="en">Black- and red-figure Athenian painters and potters.</dcterms:description>
+					   <dcterms:creator rdf:resource="http://kerameikos.org/editor/egruber"/>
+				    <dcterms:contributor rdf:resource="http://kerameikos.org/editor/abradford"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/ccarter"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/cstratos"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/dmitchell"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nolya"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/rgondek"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/slong"/>
+        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
+    </prov:Entity>
 </rdf:RDF>

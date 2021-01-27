@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/oltos">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Oltos</skos:prefLabel>
+        <skos:definition xml:lang="en">Oltos is an Athenian red-figure painter active ca. 525-500 BCE that painted bilingual cups (black-figure interior, red-figure exterior). The name is inscribed on vases as both potter (“epoiesen”) and painter (“egrapsen”). The painter is thought to have collaborated with several potters, including Euxitheos and Kachrylion. Shapes are mainly cups, but also the Nikosthenic amphora, stamnos, and psykter. Subjects include gods, Herakles, the Trojan War, Theseus, Dionysos and followers, and warriors riding dolphins. Some findspots are Etruria (Vulci, Cerveteri, Orvieto, Chiusi), Athens (Acropolis, Agora), and Naukratis.</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/oltos#painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500011211"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59695"/>
+        <skos:prefLabel xml:lang="de">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Ольтос</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Ольтос</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Olto</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Ольтас</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">奧特斯</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Oltos</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">オルトス</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Oltos</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1360826"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/34336350"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/119046652"/>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000062998751"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/oltos#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/oltos#potter"/>
+    </foaf:Person>
+    
+    
+    <org:Membership rdf:about="http://kerameikos.org/id/oltos#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/oltos#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/oltos"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/oltos#potter">
+        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    </org:Membership>
+</rdf:RDF>

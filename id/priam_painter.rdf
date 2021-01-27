@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://kerameikos.org/id/priam_painter">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Priam Painter</skos:prefLabel>
+        <skos:definition xml:lang="en">The Priam Painter is an Athenian black-figure painter active in the last quarter of the 6th c. BCE. The name derives from a hydria discovered in Etruria (Madrid, Archaeological Museum 10920; BAPD 301795) showing Priam beside a chariot. Shapes are the amphora in different forms and the hydria. Scenes include chariots, Herakles, Dionysos, battles, and hoplites. Findspots are sites in Etruria and Sicily.</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/priam_painter#painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500059768"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60166"/>
+        <skos:prefLabel xml:lang="de">Priamos-Maler</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Priam Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Priam Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Priam Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Pittore di Priamo</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Priam Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Priam Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Priam Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Pintor de Príamo</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1438541"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/96083131"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/priam_painter#provenance"/>
+    </foaf:Person>
+    
+   
+   
+    
+    <org:Membership rdf:about="http://kerameikos.org/id/priam_painter#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/priam_painter#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/priam_painter"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <foaf:Person rdf:about="http://kerameikos.org/id/elbows_out">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Elbows Out</skos:prefLabel>
+        <skos:definition xml:lang="en">Elbows Out is an Athenian black-figure painter active ca. 550-530 BCE. The name derives from the exaggerated arm gestures of the figures. Like the Affecter, Elbows Out is classified as a mannerist painter. Shapes include band-cups, lip-cups, the skyphos, lekythos, and amphora. Subjects are animals, youths, women, and erotic scenes. Examples have been discovered in the Black Sea, Etruria, Naukratis, and Greece.</skos:definition>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/elbows_out#painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500030612"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG208460"/>
+        <skos:prefLabel xml:lang="de">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="sq">Elbows Out</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Elbows Out</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1325382"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95870437"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/elbows_out#provenance"/>
+    </foaf:Person>
+   
+   
+    <org:Membership rdf:about="http://kerameikos.org/id/elbows_out#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/elbows_out#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/elbows_out"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>

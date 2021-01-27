@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,32 +17,70 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <foaf:Person rdf:about="http://kerameikos.org/id/myson">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Myson</skos:prefLabel>
-      <skos:definition xml:lang="en">Athenian red-figure vase-painter and potter who signed 'egrapsen' (painted it) and 'epoiesen' (made it) on a vase dedicated on the Acropolis.</skos:definition>
-      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59543"/>
-      <skos:exactMatch rdf:resource="http://viaf.org/viaf/95705458"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500004080"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/myson#provenance"/>
-   </foaf:Person>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Myson</skos:prefLabel>
+        <skos:definition xml:lang="en">Myson is an Athenian red-figure painter active ca. 500-475 BCE. The name derives from signatures as painter (“egrapsen”) and potter (“epoiesen”) on a column krater from the Athenian Acropolis (Athens, National Museum Akr. 806; BAPD 202359) showing Athena. Other shapes are the pelike, calyx krater, psykter, and oinochoe. Scenes include revelers (“komasts”), the symposion, athletes, Dionysos and satyrs, Croesus seated on a pyre, Amazons, the Struggle for the Delphic Tripod, and other scenes with Herakles. Some findspots are Athens (Acropolis, Agora, Kerameikos), Etruria (Vulci, Cerveteri), Orvieto, Falerii, Locri (south Italy), and Kerch.</skos:definition>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59543"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95705458"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500004080"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/myson#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/myson#painter"/>
+        <skos:prefLabel xml:lang="it">Misone</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Misón</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Misone</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Myson</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Myson</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Myson</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Myson</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Myson</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Myson</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Myson</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Myson (vaasimaalari)</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3859036"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/myson#potter"/>
+    </foaf:Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/myson#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/myson"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/myson"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/myson#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+    <org:Membership rdf:about="http://kerameikos.org/id/myson#potter">
+        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    </org:Membership>
 </rdf:RDF>
