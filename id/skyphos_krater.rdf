@@ -27,6 +27,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/skyphos_krater#provenance"/>
         <skos:prefLabel xml:lang="de">Skyphoskrater</skos:prefLabel>
         <skos:definition xml:lang="de">Der Skyphoskrater ist eine sehr große, tiefe Schale mit zwei horizontalen Bandhenkeln und der Rand ist eingebogen, um den gewölbten Deckel zu halten. Die Schale bestit manchmal einen Echinusfuß, oder ist mit einem konischen Ständer verbunden. Der Skyphoskrater ist eine ungewöhnlich Form mit einer lange Geschichte: er wurde von der spätgeometrischen Zeit bis in das erste Viertel des 6. Jhs.v.Chr. hergestellt.</skos:definition>
+        <skos:prefLabel xml:lang="el">σκυφοειδής κρατήρας</skos:prefLabel>
+        <skos:definition xml:lang="el">Ο σκυφοειδής κρατήρας είναι μια μεγάλη βαθιά λεκάνη με δύο οριζόντιες ταινιωτές λαβές και το χείλος του προεξέχει ή έχει κλίση για να δεχθεί ένα θολωτό κάλυμμα. Το αγγείο μπορεί να στηρίζεται σε μια καμπύλη βάση ἠ να στηρίζεται σε ένα κωνικό υποστατό. Ο σκυφοειδής κρατήρας δεν είναι κοινό σχήμα, αλλά διαθέτει μια μακριά ιστορία, καθώς κατασκευάζεται από την Ύστερη Γεωμετρική περίοδο έως το πρώτο τέταρτο του 6ου αι. π.Χ.</skos:definition>
     </kon:Shape>
    
    
@@ -45,6 +47,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

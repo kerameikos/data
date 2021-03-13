@@ -35,6 +35,8 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264947"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/unguentarion#provenance"/>
         <skos:definition xml:lang="de">Die attische Variante wurde produziert, um sie mit importiertem Parfum zu befüllen. Die fremde Form war ein Indiz für die Identifikation des Inhaltes. Beginnend in hellenistische Zeit, als das spindelförmiges Ungentarium das üblich Exportgefäß für Parfum geworden war, ist das kleine, schwarze Attische Pendent überflüssig geworden.</skos:definition>
+        <skos:prefLabel xml:lang="el">μυροδοχείο</skos:prefLabel>
+        <skos:definition xml:lang="el">Η αττική εκδοχή παραγόταν για να φέρει εισηγμένο άρωμα, με το ξένο στην αττική κεραμική σχήμα να προδίδει το περιεχόμενο του αγγείου. Από την Πρώιμη Ελληνιστική περίοδο και εξής, όταν το ατρακτοειδές μυροδοχείο έχει γίνει το σύνηθες αγγείο εξαγωγής αρωμάτων, το μικρό αντίστοιχο μελαμβαφές αττικό προϊόν θα είχε καταστεί περιττό.</skos:definition>
     </kon:Shape>
    
    
@@ -53,6 +55,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

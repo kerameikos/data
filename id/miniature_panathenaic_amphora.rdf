@@ -25,6 +25,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/miniature_panathenaic_amphora#provenance"/>
         <skos:prefLabel xml:lang="de">Miniatur einer Panathenäischen Preisamphore</skos:prefLabel>
         <skos:definition xml:lang="de">Miniaturen der Panathenäischen Preisamphoren sind Salbgefäße mit kleinen Henkeln und schmalem Fuß. Sie sind meistens mit schwarz-figuriger Malerei verziert und sind zwischen 0,08 bis 0,19 m hoch.</skos:definition>
+        <skos:prefLabel xml:lang="el">μικρογραφικός παναθηναϊκός αμφορέας</skos:prefLabel>
+        <skos:definition xml:lang="el">Οι μικρογραφικοί παναθηναϊκοί αμφορείες είναι ελαιοδόχα αγγεία, το σχήμα των οποίων είναι όμοιο με τους κανονικού μεγέθους παναθηναϊκούς αμφορείς, με μικρές λαβές και ένα στενό πόδι. Συνήθως διακοσμούνται με τη μελανόμορφη τεχνική και έχουν ύψος περίπου από 8 έως 19 εκατοστά.</skos:definition>
     </kon:Shape>
    
    
@@ -51,6 +53,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

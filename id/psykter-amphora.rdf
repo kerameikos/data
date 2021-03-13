@@ -29,6 +29,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/psykter-amphora#provenance"/>
         <skos:prefLabel xml:lang="de">Psykter Amphore</skos:prefLabel>
         <skos:definition xml:lang="de">Die Psykter Amphore ist ein doppelwandiger Behälter dessen Wände am Hals und Fuß verbunden sind. Der äußere Gefäßkörper hat einen Ausguß, der zur Befüllung des Zwischenraums mit Eis oder Eiswasser gedient hat. Es hat üblicherweise einen Ausguß oberhalb vom Fuß. Die Gefäßform wurde wahrscheinlich nur im 6. Jh.n.Chr. produziert.</skos:definition>
+        <skos:prefLabel xml:lang="el">ψυκτήρας-αμφορέας</skos:prefLabel>
+        <skos:definition xml:lang="el">Ο ψυκτήρας-αμφορέας είναι ένα αγγείο με διπλά τοιχώματα, τα οποία προσαρτώνται στον λαιμό και στη βάση. Στην εξωτερική επιφάνεια του αγγείου υπάρχει μια προχοή, μέσω της οποίας γέμιζαν το διάστημα ανάμεσα στα δύο τοιχώματα με πάγο ή παγωμένο νερό. Διαθέτει συνήθως και μια προχοή απορροής, πάνω από το πόδι. Το σχήμα παραγόταν πιθανώς μόνο κατά τον 6ο αι. π. X.</skos:definition>
     </kon:Shape>
    
    
@@ -47,6 +49,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

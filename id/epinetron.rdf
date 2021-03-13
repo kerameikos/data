@@ -40,6 +40,7 @@
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6660"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/epinetron#provenance"/>
         <skos:definition xml:lang="de">Der Begriff bezeichnet ein langes, halbzylindrisches Gefäß zur Abdeckung von Knie und Oberschenkel. Es wurde im Herstellungsprozess von Wolle eingesetzt um daraus Schmutz zu entfernen.</skos:definition>
+        <skos:definition xml:lang="el">Ο όρος αναφέρεται σε ένα επίμηκες, ημικυλινδρικό αγγείο, που τοποθετούνταν στο γόνατο και στον μηρό και χρησίμευε στο γνέσιμο του μαλλιού. Είναι ευρύτερο στο ανοικτό του άκρο, όπου ο μηρός είναι πλατύτερος, και κλειστό στο στενότερο άκρο, ώστε να προσαρμόζεται πάνω στο γόνατο. Το άνω μέρος του επίνητρου καλυπτόταν με εγχάρακτο φολιδωτό μοτίβο, που δημιουργούσε την απαραίτητη τραχύτητα όταν τριβόταν το μαλλί πάνω σε αυτό. Το σχήμα δεν είναι κοινό στον μελανόμορφο ρυθμό.</skos:definition>
     </kon:Shape>
    
    
@@ -58,6 +59,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

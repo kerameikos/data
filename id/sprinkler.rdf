@@ -26,6 +26,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/sprinkler#provenance"/>
         <skos:prefLabel xml:lang="de">Sprenggefäß</skos:prefLabel>
         <skos:definition xml:lang="de">Das Sprenggefäß ist in unterschiedlichen Größen und Formen produziert worden, ist aber normalerweise ein rundes Gefäß mit ein oder zwei Henkeln und einem flachen, gelochten Boden. Ein kleines Loch an der Oberseite wurde verwendet, um es mit Flüssigkeit zu befüllen. Beim Schütteln des Gefäßes ist die Flüssigkeit aus den Löchern im Boden ausgetreten. Der Kontext in dem das Sprenggefäß verwendet wurde ist nicht eindeutig und es wurde mindestens eines im Kerameikos entdeckt. Es wurde u.U. für die rituelle Reinigung, für das Heben und Sieben von Wein aus einem größeren Gefäß, oder zum Belüften von Wein, als es in größere Gefäße gefüllt wurde. Die Form wird manchmal mit dem Mastos oder Rhyton verglichen und manchmal sogar (inkorrekt) als "Klepsydra" bezeichnet.</skos:definition>
+        <skos:prefLabel xml:lang="el">ραντιστήριο</skos:prefLabel>
+        <skos:definition xml:lang="el">Υπάρχουν διάφορες εκδοχές του ραντιστηρίου, που διαφέρουν σε μέγεθος και σχήμα, αλλά γενικά πρόκειται για ένα σφαιρικό αγγείο με μία ή δύο λαβές και έναν επίπεδο διάτρητο πυθμένα. Μια μικρή οπή στο πάνω μέρος χρησίμευε για την πλήρωση του αγγείου με υγρό και όταν κάποιος έσειε το αγγείο θα ξεπηδούσε το υγρό από τις οπές του πυθμένα. Τα συμφραζόμενα της χρήσης του ραντιστήριου δεν είναι απολύτως σαφή, τουλάχιστον για αυτό που βρέθηκε στον Κεραμεικό. Μπορεί να χρησίμευε για τελετουργικό καθαρμό, για την άντληση και το σούρωμα του οίνου από ένα μεγαλύτερο αγγείο ή για τον αερισμό του οίνου, καθώς εγχεόταν σε ένα αγγείο πόσης. Το σχήμα του είχε παρομοιαστεί μερικές φορές με τον μαστό και το ρυτό και ορισμένες φορές έχει (λανθασμένα) αποκληθεί κλεψύδρα.</skos:definition>
     </kon:Shape>
    
    
@@ -44,6 +46,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

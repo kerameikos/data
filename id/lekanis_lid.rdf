@@ -25,6 +25,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/lekanis_lid#provenance"/>
         <skos:prefLabel xml:lang="de">Lekanendeckel</skos:prefLabel>
         <skos:definition xml:lang="de">Lekanendeckel vom 6. bis zum frühen 5. Jh.v.Chr. sind konvex ausgeformt und zusammen mit der Lekane erwecken sie einen fast kugeligen Eindruck. Im restlichen 5. und im 4. Jh. wurde der Deckel flacher. Der Deckel weist einen Stiel oder Knauf als Deckelgriff auf.</skos:definition>
+        <skos:prefLabel xml:lang="el">κάλυμμα λεκανίδας</skos:prefLabel>
+        <skos:definition xml:lang="el">Τα καλύμματα της λεκανίδας από τον 6ο έως τον πρώιμο 5ο αι. π.Χ. έχουν καμπύλο σχήμα και μαζί με τη λεκανίδα δίνουν την εντύπωση ενός σχεδόν κυκλικού σχήματος. Κατά τον υπόλοιπο 5ο αι. και κατά τον 4ο, το κάλυμμα έγινε πιο επίπεδο, σε συνάρτηση με την ανάλογη εξέλιξη της λεκανίδας. Γενικά, το κάλυμμα διαθέτει ένα κεντρικό στέλεχος ή κομβίο ως λαβή.</skos:definition>
     </kon:Shape>
    
    
@@ -43,6 +45,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -43,6 +43,8 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/001487872"/>
         <skos:prefLabel xml:lang="de">Exaleiptron</skos:prefLabel>
         <skos:definition xml:lang="de">Der Begriff 'Exaleiptron' leitet sich ab vom Begriff "salben". Das Deckelgefäß besitzt eine flache Gefäßform mit breiten Schultern und hohem oder etwas niedrigerem Standfuß. Es dürfte als Behälter für parfümiertes Wasser für den privaten Gebrauch, bei religiösen Zeremonien oder bei Gräbern gedienten haben. Der Begriff dieses Gefäßes ist umstritten und es wird auch als 'Plemochoё' oder (inkorrekt) als 'Kothon' bezeichnet. Für die stielosen Gefäßen, vor allem die korinthischen Beispiele, wird nun überwiegend der Begriff Exaleiptron verwendet, die Gefäße mit hohem Stiel aus Athen werden hingegen als 'Plemochoё' bezeichnet und besitzen oft einen Deckel.</skos:definition>
+        <skos:prefLabel xml:lang="el">εξάλειπτρο</skos:prefLabel>
+        <skos:definition xml:lang="el">O όρος "εξάλειπτρο" προέρχεται από ρήμα ἐξαλείφω, αλείφω πλήρως, χρίω και προσδιορίζει ένα αγγείο με πλατύ σώμα και κάλυμμα που στηρίζεται σε ένα ψηλό ή χαμηλό πόδι. Θεωρείται ότι περιείχε αρωματισμένο νερό για προσωπική χρήση, για λατρευτικές αλλά και νεκρικές τελετές. Οι μελετητές δεν συμφωνούν πλήρως για το όνομα αυτού του αγγείου, το οποίο καλείται επίσης "πλημοχόη"και −λανθασμένα− "κόθων". Υπάρχει μια τάση να χρησιμοποιείται η ονομασία "εξάλειπτρο" για την άποδη εκδοχή του αγγείου, ειδικότερα για τα κορινθιακά παραδείγματα, και "πλημοχόη"για τα αθηναϊκά παραδείγματα με ψηλό πόδι, που συχνά φέρουν και κάλυμμα.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/exaleiptron#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/exaleiptron"/>
@@ -75,6 +77,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

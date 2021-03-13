@@ -27,6 +27,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/psykter-column_krater#provenance"/>
         <skos:prefLabel xml:lang="de">Psykter Kolonnetenkrater</skos:prefLabel>
         <skos:definition xml:lang="de">Der Psykter Kolonetenkrater ist seltener aber ähnlich der Psykter Amhore. Der doppelwandige Behälter wurde zum kühlen von Wein oder Wasser verwendet. Der äußere Gefäßkörper hat einen Ausguß nahe der Schulter, der zur Befüllung des Zwischenraums zwischen den Wänden mit Eis oder Eiswasser gedient hat. Es hat üblicherweise einen Ausguß oberhalb vom Fuß.</skos:definition>
+        <skos:prefLabel xml:lang="el">ψυκτήρας-κιονωτός κρατήρας</skos:prefLabel>
+        <skos:definition xml:lang="el">Σπανιότερος, ωστόσο παρόμοιος με τον ψυκτήρα-αμφορεά, ο ψυκτήρας-κιονωτός κρατήρας είναι ένα αγγείο με διπλά τοιχώματα που προοριζόταν για να διατηρείται δροσερός ο κεκραμένος οίνος. Στο εξωτερικό τοίχωμα του αγγείου υπάρχει μια προχοή κοντά στον ώμo, ενώ συνήθως διαθέτει μια προχοή απορροής ακριβώς πάνω από το πόδι.</skos:definition>
     </kon:Shape>
    
    
@@ -45,6 +47,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

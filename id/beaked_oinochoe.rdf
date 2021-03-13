@@ -26,6 +26,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/beaked_oinochoe#provenance"/>
         <skos:prefLabel xml:lang="de">Schnabelkanne</skos:prefLabel>
         <skos:definition xml:lang="de">Die Schnabelkanne ist eine Oinochoe mit Kleeblattmündung, schmalem Hals und die Gefäßform ist gerade bis auf eine etwas breiter ausgeformte Schulter. Die Gefäßform war in der korinthischen Keramik bis in das frühe 6. Jh.v. beliebt.</skos:definition>
+        <skos:prefLabel xml:lang="el">ραμφόστομη οινοχόη</skos:prefLabel>
+        <skos:definition xml:lang="el">Η ραμφόστομη οινοχόη διαθέτει τριφυλλόσχημο στόμιο, στενό λαιμό και ένα χαμηλό, πεπλατυσμένο σώμα. Κατά την πρώιμη πρωτοκορινθιακή κεραμική ο λαιμός γίνεται ψηλότερος και το περίγραμμα του σώματος πιο έντονο, πλησιάζοντας εκείνο του ρηχού κώνου. Το σχήμα παραμένει δημοφιλές στην κορινθιακή κεραμική έως και τον πρώιμο 6ο αι. π.Χ.</skos:definition>
     </kon:Shape>
    
    
@@ -44,6 +46,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

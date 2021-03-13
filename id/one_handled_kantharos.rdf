@@ -27,6 +27,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/one_handled_kantharos#provenance"/>
         <skos:prefLabel xml:lang="de">einhenkeliger Kantharos</skos:prefLabel>
         <skos:definition xml:lang="de">Eine ungewöhnliche Kantharosform, die nur einen Henkel besitzt, der von der oberen Hälfte der unteren Gefäßwand bis zum Rand. Die Gefäße sind schmaler als 'normale' Kantharoi und besitzen manchmal einen gerippten Dekor aber nie einen Stempeldekor.</skos:definition>
+        <skos:prefLabel xml:lang="el">μόνωτος κάνθαρος</skos:prefLabel>
+        <skos:definition xml:lang="el">Μια ασυνήθης μορφή κανθάρου. Ως προς το πόδι, τα κατώτερα και τα υψηλότερα τοιχώματα του σώματος και το χείλος είναι ίδιος με τον συνήθη κάνθαρο, αλλά η μοναδική λαβή του αγγείου εκτείνεται από το ανώτερο τμήμα του κατώτερου τοιχώματος έως το χείλος. To αγγείο είναι μικρότερο από τους τυπικούς κανθάρους και ενώ μερικές φορές μπορεί να φέρει ανάγλυφη ραβδωτή διακόσμηση, ποτέ δεν απαντά εμπίεστη.</skos:definition>
     </kon:Shape>
    
    
@@ -45,6 +47,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

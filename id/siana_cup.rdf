@@ -32,6 +32,8 @@
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x9069"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/siana_cup#provenance"/>
         <skos:definition xml:lang="de">Benannt nach einem Fundort auf Rhodos. Sianaschalen können von Komastenschalen durch den höheren Fuß und der längeren Lippe unterschieden werden. Im Gegensatz zur Komastenschale besitzen sie auf der Innenseite einen Dekor (Tondo). Für die Außenseite gibt es zwei Dekorschemata: der Doppeldecker-Typ umfasst zwei übereinander liegende Friese, einen auf der Lippe (meistens floral) und eine figürliche Darstellung am Gefäßkörper. Beim Knickfries-Typ ist eine einzige Dekorszene über den gesamten Gefäßkörper bis zur Lippe dargestellt. Teile der Form und Dekoration von Sianaschalen dürften auf ostgriechische Vorläufer zurückgehen.</skos:definition>
+        <skos:prefLabel xml:lang="el">κύλικα τύπου Σιάνων</skos:prefLabel>
+        <skos:definition xml:lang="el">Η ονομάσια προέρχεται από μια τοποθεσία της Ρόδου όπου βρέθηκαν παραδείγματα αυτών των κυλίκων. Οι κύλικες τύπου Σιάνων διακρίνονται από τις κύλικες των Κωμαστών από το ψηλότερό πόδι και χείλος τους. Επιπλέον, σε αντίθεση με τις κύλικες των Κωμαστών, φέρουν διακόσμηση εσωτερικά, στο μετάλλιό τους, ενώ εντοπίζονται δύο τρόποι διακόσμησης της εξωτερικής πλευράς. Μια διμερής διακόσμηση, όπου υπάρχουν δύο ζώνες σε κάθε πλευρά, μία στο χείλος (συνήθως με φυτικά μοτίβα) και μια εικονιστική σκηνή στο σώμα. Στην ενιαία διακόσμηση απαντά μία μόνο εικονιστική σκηνή που καταλαμβάνει ολόκληρο το σώμα και το χείλος. Οι κύλικες τύπου Σιάνων έχουν επηρεαστεί τόσο ως προς το σχήμα όσο και ως προς τη διακόσμηση από πρότυπα της ανατολικής Ελλάδας.</skos:definition>
     </kon:Shape>
    
    
@@ -50,6 +52,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -41,6 +41,8 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198888"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/plemochoe#provenance"/>
         <skos:definition xml:lang="de">Plemochoё' bedeutet 'gießen' und die Gefäßform ist eine flache Schüssel mit Deckel mit breiter Schulter und hohem Fuß. Es wird angenommen, dass es parfümiertes Wasser für persönlichen Gebrauch, für religiöse Zeremonien und für das Grab enthielt. Der Begriff dieses Gefäßes ist umstritten und es wird auch als 'Plemochoё' oder (inkorrekt) als 'Kothon' bezeichnet. Für die stielosen Gefäßen, vor allem die korinthischen Beispiele, wird nun überwiegend der Begriff Exaleiptron verwendet, die Gefäße mit hohem Stiel aus Athen werden hingegen als 'Plemochoё' bezeichnet und besitzen oft einen Deckel.</skos:definition>
+        <skos:prefLabel xml:lang="el">πλημοχόη</skos:prefLabel>
+        <skos:definition xml:lang="el">Η ονομασία προέρχεται από τις λέξεις πλήμη (πλημμύρα) και χέω.Το σχήμα του είναι ευρύ και αβαθές με πλατύ ώμο, διαθέτοντας ένα ψηλό πόδι. Θεωρείται ότι περιείχε αρωματισμένο νερό για προσωπική χρήση, για λατρευτικές τελετές και για προσφορές σε τάφους. Οι ειδικοί δεν συμφωνούν πλήρως για το όνομα του αγγείου και καλείται επίσης "εξάλειπτρο" και (λανθασμένα) " κώθων". Υπάρχει μια τάση να αποδίδεται η ονομασία "εξάλειπτρο" στην άποδη εκδοχή του αγγείου, ειδικότερα για τα κορινθιακά παραδείγματα, και η "πλημοχόη" για τα αθηναϊκά παραδείγματα με το ψηλό πόδι, που συχνά διαθέτουν κάλυμμα.</skos:definition>
     </kon:Shape>
    
    
@@ -59,6 +61,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

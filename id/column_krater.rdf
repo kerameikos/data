@@ -36,6 +36,7 @@
         <skos:prefLabel xml:lang="mk">столбен кратер</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1779587"/>
         <skos:definition xml:lang="de">Der Kolonettenkrater hat einen abgesetzten Hals mit weiter Mündung, die einen breiten Rand mit überhängender Lippe besitzt. Seinen Namen hat er von den zwei parallelen Stabhenkeln, die oben mit Henkelplatte angebracht waren und bis zur Kraterschulter reichen.</skos:definition>
+        <skos:definition xml:lang="el">Ο κιονωτός κρατήρας διαθέτει έναν λαιμό που αρθρώνεται ξεχωριστά από το σώμα του αγγείου, το ευρύ στόμιο του οποίου περιβάλλεται από ένα πλατύ χείλος που έχει κλίση προς τα έξω. Η ονομασία του προέρχεται από τα δύο ζεύγη κιονωτών λαβών, που προσαρτώνται στο πάνω μέρος τους σε οριζόντια πλακίδια και στον ώμο του αγγείου τους στη βάση τους.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/column_krater#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/column_krater"/>
@@ -68,6 +69,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -61,6 +61,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q668349"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4715607-7"/>
         <skos:definition xml:lang="de">Der Kylix ist eine große Schale zum Trinken von Wein. Es besitzt eine niedrige Gefäßform, zwei horizontale Henkel und meist einen hohen Stiel mit Standfuß. Es gibt viele unterschiedliche Typen an Kylixschalen, wie z.B. Komastenschalen, Bandschalen, Randschalen, Sianaschalen, Typ A und Typ B.</skos:definition>
+        <skos:definition xml:lang="el">Η κύλικα είναι ένα μεγάλου μεγέθους κύπελλο για την πόση οίνου. Διαθέτει ένα σχετικά αβαθές σώμα, δύο οριζόντιες λαβές και τις περισσότερες φορές ένα ψηλό πόδι (στέλεχος) πάνω από τη βάση. Υπάρχουν πολλοί τύποι κυλίκων, όπως των Κωμαστών, ταινιωτές, Σιάνων, τύπου Α και τύπου Β.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/kylix#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/kylix"/>
@@ -93,6 +94,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -27,6 +27,8 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/pyxis_type_c#provenance"/>
         <skos:prefLabel xml:lang="de">Pyxis Typ C</skos:prefLabel>
         <skos:definition xml:lang="de">Die Typ C Pyxis is eine breite, bauchige Version von Typ A und hat tiefe konkave Wände, die auf einem niedrigen Standfuß aufsitzen. Der gerippte Deckel ist konkav, oft mit einem Metallringhenkel. Die Schatulle ist oft doppelt so breit with hoch. Es wurde frühestens in der Mitte des 5. Jhs. hergestellt und war vom letzten Viertel des 5. Jhs bis in die erste Hälfte des 4. Jhs.v.Chr. beliebt.</skos:definition>
+        <skos:prefLabel xml:lang="el">πυξίδα τύπου Γ</skos:prefLabel>
+        <skos:definition xml:lang="el">Η πυξίδα τύπου Γ είναι μια ευρεία, πεπλατυσμένη εκδοχή του τύπου Α, με βαθιά κοίλες πλευρές και μια χαμηλή δαχτυλιόσχημη βάση. Το ημισφαιρικό κάλυμμα διαθέτει συχνά έναν μεταλλικό δακτύλιο για λαβή. Η πυξίδα είναι συνήθως δύο φορές πιο ευρεία από το ύψος της. Κατασκευαζόταν ήδη από τα μέσα του 5ου αι. π.Χ. και ήταν δημοφιλής από το τελευταίο τέταρτο του 5ου αι. έως και το πρώτο μισό του 4ου αι. π.Χ.</skos:definition>
     </kon:Shape>
    
    
@@ -45,6 +47,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

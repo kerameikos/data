@@ -105,6 +105,7 @@
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8446"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/plate#provenance"/>
         <skos:definition xml:lang="de">Der Teller ist keine übliche Gefäßform, die in der klassischen Zeit aus Ton hergestellt wurd, da die meisten wahrscheinlich aus Holz gefertigt wurden. Figürlich verzierte Teller (häufiger schwarzfigurig) dürften für religiöse Zwecke gemacht worden sein.</skos:definition>
+        <skos:definition xml:lang="el">Το πινάκιο δεν ήταν ένα κοινό σχήμα της κεραμικής, και φαίνεται να κατασκευαζόταν συνήθως από ξύλο. Πινάκια με εικονιστική διακόσμηση (συνηθέστερα στον μελανόμορφο ρυθμό) φαίνεται πως χρησιμοποιούνταν ως αναθήματα.</skos:definition>
     </kon:Shape>
    
    
@@ -123,6 +124,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
