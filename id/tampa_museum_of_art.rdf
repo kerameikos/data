@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <crm:E40_Legal_Body rdf:about="http://kerameikos.org/id/tampa_museum_of_art">
+        <skos:prefLabel xml:lang="en">Tampa Museum of Art</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Tampa Museum of Art is located in downtown Tampa, Florida. It exhibits modern and contemporary art, as well as Greek, Roman, and Etruscan antiquities.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <foaf:homepage rdf:resource="https://tampamuseum.org/"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/tampa_museum_of_art#provenance"/>
+        <foaf:thumbnail rdf:resource="https://tampamuseum.org/wp-content/uploads/2018/01/logo.svg"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7681719"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tampa_Museum_of_Art"/>
+        <skos:prefLabel xml:lang="uk">Тампський музей мистецтва</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://isni.org/0000000092126831"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/135015220"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0bwj62"/>
+    </crm:E40_Legal_Body>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/tampa_museum_of_art#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/tampa_museum_of_art"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T14:52:58.986-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
