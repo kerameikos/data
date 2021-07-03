@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/hermogenes_painter">
+        <skos:prefLabel xml:lang="en">Hermogenes Painter</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Hermogenes Painter is an Athenian black-figure painter associated with the potter, Hermogenes.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/hermogenes_painter#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/hermogenes_painter#painter"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500007240"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/hermogenes_painter#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/hermogenes_painter"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-02T10:02:49.113-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/hermogenes_painter#painter">
+        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    </org:Membership>
+</rdf:RDF>

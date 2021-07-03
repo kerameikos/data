@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <foaf:Person rdf:about="http://kerameikos.org/id/sokles_potter">
+        <skos:prefLabel xml:lang="en">Sokles</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">Sokles was an ancient Greek potter, active in the middle of the 6th century BCE, in Athens, who signed Little Masters cups.</skos:definition>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/sokles_potter#provenance"/>
+        <org:hasMembership rdf:resource="http://kerameikos.org/id/sokles_potter#potter"/>
+        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1269607"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sokles"/>
+        <skos:prefLabel xml:lang="de">Sokles</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Sokles</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Sokles</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Socles</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Sokles</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Sokles</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Sokles</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Sokles</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Sokles</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500034936"/>
+        <skos:exactMatch rdf:resource="http://viaf.org/viaf/95897738"/>
+        <skos:exactMatch rdf:resource="https://www.freebase.com/m/0h97tzm"/>
+    </foaf:Person>
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/sokles_potter#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/sokles_potter"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-07-02T09:37:00.236-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+    <org:Membership rdf:about="http://kerameikos.org/id/sokles_potter#potter">
+        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    </org:Membership>
+</rdf:RDF>
