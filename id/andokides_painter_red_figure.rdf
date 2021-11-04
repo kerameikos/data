@@ -19,7 +19,7 @@
     <foaf:Person rdf:about="http://kerameikos.org/id/andokides_painter_red_figure">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:prefLabel xml:lang="en">Andokides Painter</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Andokides Painter (red-figure)</skos:prefLabel>
         <skos:definition xml:lang="en">The Andokides Painter (sometimes referred to as the Lysippides Painter) is an Athenian red-figure painter active during the second half of the 6th c. BCE. The name derives from vases signed by Andokides as potter ("epoiesen"). Though known for using the black-figure technique, the painter is also considered the first to work regularly in the red-figure technique after its invention ca. 530-520 BCE (see Andokides Painter [Black-figure]; for the potter, see Andokides [Black-figure]; see Lysippides Painter [Black-figure]). As a red-figure vase-painter, the artist is best known for bilingual vases (decorated with the same scene on both sides: one in red-figure and the other in black-figure). It remains unclear whether the bilingual vases were painted by a single artist or by two. Shapes are mainly the amphora and cups, and scenes are mythological (Ajax and Achilles, Herakles, Dionysos). Findspots include Vulci, Orvieto, other sites in Italy, Athens (Acropolis, Agora), and Perachora.</skos:definition>
         <skos:related rdf:resource="http://kerameikos.org/id/andokides_painter_black_figure"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/andokides_painter_red_figure#painter"/>
@@ -67,5 +67,13 @@
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-03T09:56:42.24-04:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
     </dcterms:ProvenanceStatement>
 </rdf:RDF>
