@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/corinth">
+   <crm:E53_Place rdf:about="http://kerameikos.org/id/corinth">
       <skos:prefLabel xml:lang="en">Corinth</skos:prefLabel>
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:definition xml:lang="en">Corinth was a city-state (polis) on the Isthmus of Corinth, the narrow stretch of land that joins the Peloponnese to the mainland of Greece, roughly halfway between Athens and Sparta.</skos:definition>
@@ -90,11 +90,11 @@
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7010734"/>
       <geo:location rdf:resource="http://kerameikos.org/id/corinth#this"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/corinth#provenance"/>
-   </kon:ProductionPlace>
+   </crm:E53_Place>
    <geo:SpatialThing rdf:about="http://kerameikos.org/id/corinth#this">
       <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.933333</geo:lat>
       <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22.933333</geo:long>
-      <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+      <rdf:type rdf:resource="http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression"/>
    </geo:SpatialThing>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/corinth#provenance">
       <foaf:topic rdf:resource="http://kerameikos.org/id/corinth"/>

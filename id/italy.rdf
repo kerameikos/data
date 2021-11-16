@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/italy">
+   <crm:E53_Place rdf:about="http://kerameikos.org/id/italy">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
@@ -27,7 +27,7 @@
         <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/1052"/>
         <skos:broader rdf:resource="http://kerameikos.org/id/west_greece"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/italy#provenance"/>
-   </kon:ProductionPlace>
+   </crm:E53_Place>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/italy#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/italy"/>
         <prov:wasGeneratedBy>

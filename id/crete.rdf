@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/crete">
+   <crm:E53_Place rdf:about="http://kerameikos.org/id/crete">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Crete</skos:prefLabel>
@@ -26,7 +26,7 @@
         <skos:exactMatch rdf:resource="https://pleiades.stoa.org/places/589748"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/tgn/7012056"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/crete#provenance"/>
-   </kon:ProductionPlace>
+   </crm:E53_Place>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/crete#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/crete"/>
         <prov:wasGeneratedBy>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,41 +17,88 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Technique rdf:about="http://kerameikos.org/id/black_figure">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Black Figure</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Zwartfigurige stijl</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Svartfigurig keramik</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Registro de pintura negra em cerâmica grega</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Чернофигурная вазопись</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Cerámica de figuras negras</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Schwarzfigurige Vasenmalerei</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Styl czarnofigurowy</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Ceramica a figure nere</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">黑彩陶器</skos:prefLabel>
-      <skos:definition xml:lang="en">Black-figure pottery painting, also known as the black-figure style or black-figure ceramic (Greek, μελανόμορφα, melanomorpha) is one of the styles of painting on antique Greek vases. It was especially common between the 7th and 5th centuries BC, although there are specimens dating as late as the 2nd century BC.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Black-figure_pottery"/>
-      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14736"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387209"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/black_figure#provenance"/>
-   </kon:Technique>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Black-figure</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Zwartfigurige stijl</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Svartfigurig keramik</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Registro de pintura negra em cerâmica grega</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Чернофигурная вазопись</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cerámica de figuras negras</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Schwarzfigurige Vasenmalerei</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Styl czarnofigurowy</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ceramica a figure nere</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">黑彩陶器</skos:prefLabel>
+        <skos:definition xml:lang="en">Black-figure is a dark-on-light technique used for figure decoration on a wide variety of shapes. It was invented in Corinth ca. 700 BCE and was used in Athens by ca. 630 BCE. The decoration is created by applying silhouetted figures (see Silhouette) in clay slip to the surface of the vessel, incising linear details, and sometimes adding color before firing (see Added Color; see Added Red; see Added White). Vases are fired in three stages, resulting in black figures (human and animal) against an untreated (or lightly treated) lighter colored background. The creation of the black-figure technique has been attributed to the influence of minor arts from the Near East, most likely ivories and metalwork. Regional versions of the black-figure technique were also used in Laconia, Boeotia, East Greece, northern Greece, West Greece, and Etruria.</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Black-figure_pottery"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14736"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387209"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/black_figure#provenance"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/silhouette"/>
+        <skos:broader rdf:resource="http://kerameikos.org/id/incised"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300020195"/>
+        <skos:prefLabel xml:lang="ca">ceràmica de figures negres</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Μελανόμορφη αγγειογραφία</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Crne figure na crvenoj podlozi</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">црне фигуре на црвеној подлози</skos:prefLabel>
+        <skos:prefLabel xml:lang="tr">Siyah figür tekniği</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Чорнофігурний вазопис</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Sortfigurs-keramik</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">céramique à figures noires</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">Svartfigurvaser</skos:prefLabel>
+        <skos:prefLabel xml:lang="et">Mustafiguuriline stiil</skos:prefLabel>
+        <skos:prefLabel xml:lang="ms">Tembikar figura hitam</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">黒絵式</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">црнофигурен вазопис</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Črnofiguralni dekorativni slog</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">קדרות הדמות השחורה</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Чорнафігурны вазапіс</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Swartfiguurstyl</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">nigrafigura ceramiko</skos:prefLabel>
+        <skos:prefLabel xml:lang="gl">cerámica de figuras negras</skos:prefLabel>
+        <skos:prefLabel xml:lang="ro">ceramică cu figuri negre</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Tembikar sosok-hitam</skos:prefLabel>
+        <skos:prefLabel xml:lang="cv">Хура кӗлеткеллӗ ваза ӳнерӗ</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Mustakuviokeramiikka</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q629602"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387206"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4124160-5"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12089196d"/>
+    </kon:Technique>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/black_figure#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/black_figure"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-03T23:31:41-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/black_figure"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-03T23:31:41-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:26:34.346-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

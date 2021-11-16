@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,41 +17,83 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Technique rdf:about="http://kerameikos.org/id/red_figure">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">Red Figure</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Cerámica de figuras rojas</skos:prefLabel>
-      <skos:prefLabel xml:lang="nl">Roodfigurige stijl</skos:prefLabel>
-      <skos:prefLabel xml:lang="sv">Rödfigurig keramik</skos:prefLabel>
-      <skos:prefLabel xml:lang="pl">Styl czerwonofigurowy</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Ceramica a figure rosse</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Rotfigurige Vasenmalerei</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Краснофигурная вазопись</skos:prefLabel>
-      <skos:prefLabel xml:lang="zh">紅彩陶器</skos:prefLabel>
-      <skos:prefLabel xml:lang="pt">Registro de pintura vermelha em cerâmica grega</skos:prefLabel>
-      <skos:definition xml:lang="en">The term refers to a form of decoration on Greek vases, in which figures appear in red, with slip-painted background and details.</skos:definition>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Red-figure_pottery"/>
-      <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14796"/>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387208"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/red_figure#provenance"/>
-   </kon:Technique>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Red-figure</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Cerámica de figuras rojas</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">Roodfigurige stijl</skos:prefLabel>
+        <skos:prefLabel xml:lang="sv">Rödfigurig keramik</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">Styl czerwonofigurowy</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Ceramica a figure rosse</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Rotfigurige Vasenmalerei</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Краснофигурная вазопись</skos:prefLabel>
+        <skos:prefLabel xml:lang="zh">紅彩陶器</skos:prefLabel>
+        <skos:prefLabel xml:lang="pt">Registro de pintura vermelha em cerâmica grega</skos:prefLabel>
+        <skos:definition xml:lang="en">Red-figure is a light-on-dark technique used for figure decoration on a wide variety of shapes. It was invented in Athens ca. 530-520 BCE. Red-figure decoration is created by leaving figures and shapes in reserve (see Reserving) on the untreated or lightly treated surface of the vessel, often outlining them. Linear details are then created using gloss, dilute gloss, and relief lines. The areas outside the outlined figures are painted with clay slip. Vases are fired in three stages, resulting in reserved red figures (human and animal) against a black background. The red-figure technique was first used by the Andokides Painter (see Andokides Painter [Red-figure]; see Andokides Painter [Black-figure]), who is best known for bilingual vases (vessels decorated with the same scene on both sides, one in red-figure and the other in black-figure).</skos:definition>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Red-figure_pottery"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14796"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387208"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/red_figure#provenance"/>
+        <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300020201"/>
+        <skos:prefLabel xml:lang="fr">céramique à figures rouges</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">ceràmica de figures vermelles</skos:prefLabel>
+        <skos:prefLabel xml:lang="el">Ερυθρόμορφος ρυθμός</skos:prefLabel>
+        <skos:prefLabel xml:lang="sh">Crvene figure na crnoj pozadini</skos:prefLabel>
+        <skos:prefLabel xml:lang="sr">црвене фигуре на црној позадини</skos:prefLabel>
+        <skos:prefLabel xml:lang="uk">Червонофігурний вазопис</skos:prefLabel>
+        <skos:prefLabel xml:lang="nb">rødfigurvaser</skos:prefLabel>
+        <skos:prefLabel xml:lang="da">Rødfigurs-keramik</skos:prefLabel>
+        <skos:prefLabel xml:lang="eu">Irudi gorrien zeramika</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">赤絵式</skos:prefLabel>
+        <skos:prefLabel xml:lang="mk">црвенофигурен вазопис</skos:prefLabel>
+        <skos:prefLabel xml:lang="eo">ruĝfigura ceramiko</skos:prefLabel>
+        <skos:prefLabel xml:lang="sl">Rdečefiguralni dekorativni slog</skos:prefLabel>
+        <skos:prefLabel xml:lang="he">קדרות הדמות האדומה</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Чырвонафігурны вазапіс</skos:prefLabel>
+        <skos:prefLabel xml:lang="hu">vörösalakos vázafestészet</skos:prefLabel>
+        <skos:prefLabel xml:lang="af">Rooifiguurstyl</skos:prefLabel>
+        <skos:prefLabel xml:lang="cv">Хӗрлӗ кӗлеткеллӗ ваза ӳнерӗ</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Punakuviokeramiikka</skos:prefLabel>
+        <skos:prefLabel xml:lang="id">Tembikar sosok-merah</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q633683"/>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020201"/>
+        <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4124079-0"/>
+        <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119572453"/>
+    </kon:Technique>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/red_figure#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/red_figure"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-03T23:31:41-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/red_figure"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-03T23:31:41-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:26:44.18-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

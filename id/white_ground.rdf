@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,35 +17,54 @@
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
    <kon:Technique rdf:about="http://kerameikos.org/id/white_ground">
-      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-      <skos:prefLabel xml:lang="en">White Ground</skos:prefLabel>
-      <skos:prefLabel xml:lang="it">Tecnica a fondo bianco</skos:prefLabel>
-      <skos:prefLabel xml:lang="de">Weißgrundige Vasenmalerei</skos:prefLabel>
-      <skos:prefLabel xml:lang="es">Técnica de fondo blanco</skos:prefLabel>
-      <skos:prefLabel xml:lang="ru">Вазопись по белому фону</skos:prefLabel>
-      <skos:definition xml:lang="en">White-ground technique is a style of ancient Greek vase painting in which figures appear on a white background. It developed in the region of Attica, dated to about 500 B.C.</skos:definition>
-      <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020204"/>
-      <skos:exactMatch rdf:resource="http://dbpedia.org/resource/White_ground_technique"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/white_ground#provenance"/>
-   </kon:Technique>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">White Ground</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Tecnica a fondo bianco</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Weißgrundige Vasenmalerei</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Técnica de fondo blanco</skos:prefLabel>
+        <skos:prefLabel xml:lang="ru">Вазопись по белому фону</skos:prefLabel>
+        <skos:definition xml:lang="en">The white-ground technique refers to the application of a white clay slip on the surface of a vessel before adding figure decoration. It is first found on some Geometric (see Geometric) and Orientalizing (see Orientalizing) vessels made in Athens and Attica. Around 530 BCE, the technique appears on Athenian black-figure vases (see Black-figure), like those from the workshops of Nikosthenes (see Nikosthenes), the Andokides Painter (see Andokides Painter [black-figure]), and Psiax (see Psiax), but the inventor is uncertain. By the late 6th c. BCE, painters use the technique to decorate the black-figure lekythos and other shapes. After ca. 480 BCE, the white-ground technique is used primarily for funerary subjects on the lekythos, and the figures are painted in outline, semi-outline, and later polychrome. White-ground may have been inspired by stone vessels and has been connected to wall and panel painting.</skos:definition>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020204"/>
+        <skos:exactMatch rdf:resource="http://dbpedia.org/resource/White_ground_technique"/>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/white_ground#provenance"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14817"/>
+        <skos:prefLabel xml:lang="uk">Вазопис на білому тлі</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">technique à fond blanc</skos:prefLabel>
+        <skos:prefLabel xml:lang="ca">Tècnica de fons blanc</skos:prefLabel>
+        <skos:prefLabel xml:lang="be">Вазапіс па белым фоне</skos:prefLabel>
+        <skos:prefLabel xml:lang="pl">ceramika białogruntowana</skos:prefLabel>
+        <skos:prefLabel xml:lang="ja">白地技法</skos:prefLabel>
+        <skos:prefLabel xml:lang="nl">witgrondig</skos:prefLabel>
+        <skos:prefLabel xml:lang="fi">Valkopohjakeramiikka</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q763709"/>
+    </kon:Technique>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/white_ground#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/white_ground"/>
-      <prov:wasGeneratedBy>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:wasGeneratedBy>
-      <prov:activity>
-         <prov:Activity>
-            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
-            <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
-            <dcterms:type>manual</dcterms:type>
-         </prov:Activity>
-      </prov:activity>
-   </dcterms:ProvenanceStatement>
+        <foaf:topic rdf:resource="http://kerameikos.org/id/white_ground"/>
+        <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:wasGeneratedBy>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+                <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
+                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <dcterms:type>manual</dcterms:type>
+            </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+    </dcterms:ProvenanceStatement>
 </rdf:RDF>

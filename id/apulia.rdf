@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/apulia">
+   <crm:E53_Place rdf:about="http://kerameikos.org/id/apulia">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Apulia</skos:prefLabel>
@@ -40,9 +40,9 @@
         <skos:broader rdf:resource="http://kerameikos.org/id/south_italy"/>
         <geo:location rdf:resource="http://kerameikos.org/id/apulia#this"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/apulia#provenance"/>
-   </kon:ProductionPlace>
+   </crm:E53_Place>
    <geo:SpatialThing rdf:about="http://kerameikos.org/id/apulia#this">
-        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+        <rdf:type rdf:resource="http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression"/>
         <osgeo:asGeoJSON>{"type": "Polygon", "coordinates": [[[16.0, 41.0], [16.0, 41.5], [15.5, 41.5], [15.5, 41.0], [16.0, 41.0]]]}</osgeo:asGeoJSON>
         <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/south_italy#this"/>
    </geo:SpatialThing>

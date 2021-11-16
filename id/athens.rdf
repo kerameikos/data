@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:ProductionPlace rdf:about="http://kerameikos.org/id/athens">
+   <crm:E53_Place rdf:about="http://kerameikos.org/id/athens">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Athens</skos:prefLabel>
@@ -39,9 +39,9 @@
         <skos:broader rdf:resource="http://kerameikos.org/id/attica"/>
         <geo:location rdf:resource="http://kerameikos.org/id/athens#this"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/athens#provenance"/>
-   </kon:ProductionPlace>
+   </crm:E53_Place>
    <geo:SpatialThing rdf:about="http://kerameikos.org/id/athens#this">
-        <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+        <rdf:type rdf:resource="http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression"/>
         <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">37.972</geo:lat>
         <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">23.726443</geo:long>
         <dcterms:isPartOf rdf:resource="http://kerameikos.org/id/attica#this"/>
