@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+    <kon:Technique rdf:about="http://kerameikos.org/id/reserving">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:prefLabel xml:lang="en">Reserving</skos:prefLabel>
+        <skos:definition xml:lang="en">Reserving is the practice of deliberately leaving a figure or detail unpainted. The reserved surface is the color of the fired clay, such as the orange-red of Athenian black-figure (see Black-figure) and red-figure (see Red-figure) vases. The technique is used on some Orientalizing vessels (see Orientalizing) as well as in East Greek and Boeotian black-figure.</skos:definition>
+        <skos:changeNote rdf:resource="http://kerameikos.org/id/reserving#provenance"/>
+    </kon:Technique>
+   
+   
+    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/reserving#provenance">
+					   <foaf:topic rdf:resource="http://kerameikos.org/id/reserving"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
