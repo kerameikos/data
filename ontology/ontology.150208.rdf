@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:kon="http://kerameikos.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://kerameikos.org/ontology#">
+        <rdfs:label xml:lang="en">Kerameikos.org Ontology</rdfs:label>
+        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-07-21</dcterms:created>
+        <rdfs:comment xml:lang="en">Vocabulary for defining classes and properties that apply to ceramics, filling in gaps left between existing ontologies, such as
+            CIDOC-CRM</rdfs:comment>
+        <dcterms:contributor rdf:parseType="Resource">
+            <foaf:mbox>ewg4xuva@gmail.com</foaf:mbox>
+            <foaf:name>Ethan Gruber</foaf:name>
+        </dcterms:contributor>
+        <rdfs:seeAlso rdf:resource="http://kerameikos.org/ontology"/>
+        <owl:versionInfo>0.1</owl:versionInfo>
+    </owl:Ontology>
+    <owl:Class rdf:about="http://kerameikos.org/ontology#ProductionPlace">
+        <rdfs:label xml:lang="en">Production Place</rdfs:label>
+        <rdfs:comment xml:lang="en">Stub for the description of Production Place, as a concept. To be differentiated from ecrm:E53_Place and geo:SpatialThing, which are physical locations.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:isDefinedBy rdf:resource="http://kerameikos.org/ontology"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://kerameikos.org/ontology#Shape">
+        <rdfs:label xml:lang="en">Shape</rdfs:label>
+        <rdfs:comment xml:lang="en">Stub for the description of Shape</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:isDefinedBy rdf:resource="http://kerameikos.org/ontology"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://kerameikos.org/ontology#Style">
+        <rdfs:label xml:lang="en">Style</rdfs:label>
+        <rdfs:comment xml:lang="en">Stub for the description of Style</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:isDefinedBy rdf:resource="http://kerameikos.org/ontology"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://kerameikos.org/ontology#Technique">
+        <rdfs:label xml:lang="en">Technique</rdfs:label>
+        <rdfs:comment xml:lang="en">Stub for the description of Technique</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:isDefinedBy rdf:resource="http://kerameikos.org/ontology"/>
+    </owl:Class>
+    <owl:Class rdf:about="http://kerameikos.org/ontology#Ware">
+        <rdfs:label xml:lang="en">Ware</rdfs:label>
+        <rdfs:comment xml:lang="en">Stub for the description of Ware</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+        <rdfs:isDefinedBy rdf:resource="http://kerameikos.org/ontology"/>
+    </owl:Class>
+    <owl:ObjectProperty rdf:about="http://kerameikos.org/ontology#hasShape">
+        <rdfs:label xml:lang="en">Has Shape</rdfs:label>
+        <rdfs:comment xml:lang="en">A physical object (vase or other ceramic vessel) has a shape, defined by a resource of kon:Shape class.</rdfs:comment>
+        <rdfs:range rdf:resource="http://erlangen-crm.org/140617/E18_Physical_Thing"/>
+        <rdfs:domain rdf:resource="http://kerameikos.org/ontology#Shape"/>
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:ObjectProperty>
+</rdf:RDF>
