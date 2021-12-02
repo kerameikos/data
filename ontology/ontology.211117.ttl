@@ -4,6 +4,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix kon: <http://kerameikos.org/ontology#> .
 
 <http://kerameikos.org/ontology#>
     dcterms:created "2014-07-21"^^xsd:date ;
@@ -15,39 +16,33 @@
     rdfs:seeAlso <http://kerameikos.org/ontology> ;
     owl:versionInfo "1.0" .
 
-<http://kerameikos.org/ontology#Shape>
+kon:Shape
     a rdfs:Class, owl:Class ;
-    rdfs:comment "Stub for the description of Shape"@en ;
+    rdfs:comment """The form of an object can be expressed as specific terminology, e.g. 'olpe', or in generic terms, 'pitcher'. Scholars of
+			ceramics typically refer to this form as the 'shape' of a vessel, whereas museum catalogers classify the form as an 'object type'."""@en ;
     rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
     rdfs:label "Shape"@en ;
     rdfs:subClassOf crm:E55_Type .
 
-<http://kerameikos.org/ontology#Style>
+kon:Style
     a rdfs:Class, owl:Class ;
-    rdfs:comment "Stub for the description of Style"@en ;
+    rdfs:comment "Illustrative motif on a vessel, whether decorative or figural. A style often has a cultural and/or period component."@en ;
     rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
     rdfs:label "Style"@en ;
     rdfs:subClassOf crm:E55_Type .
 
-<http://kerameikos.org/ontology#Technique>
+kon:Technique
     a rdfs:Class, owl:Class ;
-    rdfs:comment "Stub for the description of Technique"@en ;
+    rdfs:comment "The technical method by which a vessel is formed, decorated, and/or fired. Complex techniques, such as black-figure, may comprise more than one technique."@en ;
     rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
     rdfs:label "Technique"@en ;
     rdfs:subClassOf crm:E55_Type .
 
-<http://kerameikos.org/ontology#Ware>
-    a rdfs:Class, owl:Class ;
-    rdfs:comment "Stub for the description of Ware"@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
-    rdfs:label "Ware"@en ;
-    rdfs:subClassOf crm:E55_Type .
-
-<http://kerameikos.org/ontology#hasShape>
+kon:hasShape
     a rdf:Property, owl:ObjectProperty ;
     rdfs:comment "A physical object (vase or other ceramic vessel) has a shape, defined by a resource of kon:Shape class."@en ;
-    rdfs:domain <http://kerameikos.org/ontology#Shape> ;
+    rdfs:domain crm:E22_Human-Made_Object ;
     rdfs:label "Has Shape"@en ;
-    rdfs:range crm:E18_Physical_Thing ;
+    rdfs:range kon:Shape ;
     rdfs:subPropertyOf crm:P2_has_type .
 
