@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Person rdf:about="http://kerameikos.org/id/amasis_painter">
+   <crm:E21_Person rdf:about="http://kerameikos.org/id/amasis_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Amasis Painter</skos:prefLabel>
@@ -52,7 +52,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q707682"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/120354225"/>
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb120449194"/>
-    </foaf:Person>
+    </crm:E21_Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/amasis_painter#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/amasis_painter"/>
         <prov:wasGeneratedBy>

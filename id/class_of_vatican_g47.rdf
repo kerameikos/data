@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Group rdf:about="http://kerameikos.org/id/class_of_vatican_g47">
+    <crm:E74_Group rdf:about="http://kerameikos.org/id/class_of_vatican_g47">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Class of Vatican G47</skos:prefLabel>
@@ -24,7 +24,7 @@
         <org:hasMembership rdf:resource="http://kerameikos.org/id/class_of_vatican_g47#class"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116392"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57817"/>
-    </foaf:Group>
+    </crm:E74_Group>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/class_of_vatican_g47#class">

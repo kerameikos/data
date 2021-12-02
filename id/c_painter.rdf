@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/c_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/c_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">C Painter</skos:prefLabel>
@@ -33,7 +33,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1022300"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/96226361"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/c_painter#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
     
     
     

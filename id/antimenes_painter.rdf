@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/antimenes_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/antimenes_painter">
         <skos:prefLabel xml:lang="en">Antimenes Painter</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">The Antimenes Painter is an Athenian black-figure painter active ca. 530-510 BCE. The name derives from the inscription “kalos Antimenes” (“Antimenes is beautiful”) appearing on a hydria from Vulci (Leiden, (Rijksmuseum II167 [PC63]; BAPD 320011) showing men washing in a fountain-house. Shapes are mostly the hydria and neck amphora. The painter has a wide range of mythological scenes, including Herakles, Dionysos, Amazons, Theseus and the Minotaur, and the Gigantomachy, as well as everyday scenes of the fountain-house and olive picking. Most examples have been discovered in Vulci and Tarquinia.</skos:definition>
@@ -44,7 +44,7 @@
         <skos:exactMatch rdf:resource="http://isni.org/0000000103319066"/>
         <skos:prefLabel xml:lang="fi">Antimenes-maalari</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q577906"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/antimenes_painter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/antimenes_painter"/>
 				    <prov:wasGeneratedBy>

@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Person rdf:about="http://kerameikos.org/id/bareiss_painter">
+   <crm:E21_Person rdf:about="http://kerameikos.org/id/bareiss_painter">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
       <skos:prefLabel xml:lang="en">Bareiss Painter</skos:prefLabel>
@@ -26,7 +26,7 @@
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/96050298"/>
       <skos:broader rdf:resource="http://kerameikos.org/id/medea_group"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/bareiss_painter#provenance"/>
-   </foaf:Person>
+   </crm:E21_Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/bareiss_painter#provenance">
       <foaf:topic rdf:resource="http://kerameikos.org/id/bareiss_painter"/>
       <prov:wasGeneratedBy>

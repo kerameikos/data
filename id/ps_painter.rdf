@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://kerameikos.org/id/ps_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/ps_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">PS Painter</skos:prefLabel>
         <skos:definition xml:lang="en">The P.S. Painter is an Athenian red-figure painter connected to the Syriskos Group, active ca. 470’s BCE and earlier. The name derives from the signature as potter (“Pistoxenos Syriskos epoiesen”) on two vessels (the skyphos) belonging to a private collection in England (Whitby, UK, Mulgrave Castle). Subjects on both sides of one skyphos are women at a fruit tree (BAPD 352513), and on the other skyphos are Theseus and Prokrustes and Theseus and Sinis (BAPD 352514). Findspots are unknown.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/ps_painter#painter"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/ps_painter#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/ps_painter#painter">

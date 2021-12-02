@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/python_athens">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/python_athens">
         <skos:prefLabel xml:lang="en">Python</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Greek potter, active ca. 500-480 BCE in Athens, Greece.</skos:definition>
@@ -26,7 +26,7 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500115246"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG142341"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/python_athens#potter"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/python_athens#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/python_athens"/>
 				    <prov:wasGeneratedBy>

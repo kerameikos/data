@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://kerameikos.org/id/klitomenes">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/klitomenes">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Klitomenes</skos:prefLabel>
         <skos:definition xml:lang="en">Klitomenes is an Athenian black-figure potter of Little Master cups active in the mid-6th c. BCE. The signature of potter (“epoiesen”) appears on a skyphos found at Sardis (Princeton, University Art Museum 29.180; BAPD 310585), showing a swan in the tondo.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/klitomenes#potter"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/klitomenes#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/klitomenes#potter">

@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/oinanthe_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/oinanthe_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Oinanthe Painter</skos:prefLabel>
@@ -24,7 +24,7 @@
         <org:hasMembership rdf:resource="http://kerameikos.org/id/oinanthe_painter#painter"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59687"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/oinanthe_painter#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
     
     
     

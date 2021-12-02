@@ -16,14 +16,14 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/prometheus_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/prometheus_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Prometheus Painter</skos:prefLabel>
         <skos:definition xml:lang="en">The Prometheus Painter is an Athenian black-figure painter of the Tyrrhenian Group active ca. 570-555 BCE. The name derives from an amphora (Florence, Archaeological Museum 76359; BAPD 310028) showing Herakles freeing Prometheus. Shapes are the neck amphora, hydria, and column krater. Subjects include Herakles/Amazons, Trojan War, and Birth of Athena. Findspots include Etruria, Clazomenae, Cyrene, and the Athenian Agora.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/prometheus_painter#painter"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/prometheus_painter#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
     
     
     

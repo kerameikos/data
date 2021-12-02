@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://kerameikos.org/id/syriskos">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/syriskos">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Syriskos</skos:prefLabel>
         <skos:definition xml:lang="en">The Syriskos Painter is an Athenian red-figure painter connected to the Syriskos Group, active ca. 470’s BCE and earlier, who uses white-ground. The name (meaning “Little Syrian”) derives from the signature as potter (“epoiesen”) on an astragalos (knucklebone-shaped vase) (Rome, Villa Giulia 866; BAPD 202749), showing Nike, Eros, and a lion. Shapes are the pelike, rhyton in the shape of a ram’s head, kantharos in the shape of a woman’s head, amphora, krater, alabastron, psykter, hydria, and lekythos. Subjects include Dionysos and followers, the symposion, warriors, athletes, and Theseus and the Minotaur. Some findspots are the Athenian Acropolis, Tanagra, sites in Etruria (Vulci, Tarquinia, Cerveteri, Orvieto), southern Italy, Sicily, Naukratis, and Ampurias (Spain).</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/syriskos#painter"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/syriskos#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/syriskos#painter">

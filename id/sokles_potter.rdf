@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/sokles_potter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/sokles_potter">
         <skos:prefLabel xml:lang="en">Sokles</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Sokles was an ancient Greek potter, active in the middle of the 6th century BCE, in Athens, who signed Little Masters cups.</skos:definition>
@@ -37,7 +37,7 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500034936"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/95897738"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0h97tzm"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/sokles_potter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/sokles_potter"/>
 				    <prov:wasGeneratedBy>

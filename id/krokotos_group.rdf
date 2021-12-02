@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Group rdf:about="http://kerameikos.org/id/krokotos_group">
+    <crm:E74_Group rdf:about="http://kerameikos.org/id/krokotos_group">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Krokotos Group</skos:prefLabel>
         <skos:definition xml:lang="en">The Krokotos Group is a group of Athenian black-figure painters active at the end of the 6th c. BCE. It includes the Group of Walters 48.42, Durand Painter, and Painter of Munich 2100. The name derives from the added saffron-yellow applied to garments and animals. Shapes include the skyphos, and the imagery pertains to Dionysos. Findspots are Etruria, the Athenian Acropolis, Corinth, Thebes, and Sicily.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/krokotos_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500087234"/>
-    </foaf:Group>
+    </crm:E74_Group>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/krokotos_group#group">

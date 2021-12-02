@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://kerameikos.org/id/epitimos_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/epitimos_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Epitimos Painter</skos:prefLabel>
         <skos:definition xml:lang="en">The Epitimos Painter is an Athenian black-figure painter of Little Master cups active in mid-6th c. BCE. The name derives from vases signed as potter ("epoiesen") by Epitimos. Subjects include youths, warriors, and erotic scenes. The main findspot is Vulci.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/epitimos_painter#painter"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/epitimos_painter#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/epitimos_painter#painter">

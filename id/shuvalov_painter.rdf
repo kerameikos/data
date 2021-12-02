@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/shuvalov_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/shuvalov_painter">
         <skos:prefLabel xml:lang="en">Shuvalov Painter</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">The Shuvalov Painter was an Attic vase painter of the red-figure style, active between 440 and 410 BC, i.e. in the High Classical period (Parthenon period). The Shuvalov painter's conventional name was allocated by John Beazley, who chose for a name vase an amphora that is now at the Hermitage Museum, St. Petersburg.</skos:definition>
@@ -42,7 +42,7 @@
         <skos:exactMatch rdf:resource="http://isni.org/0000000013723620"/>
         <skos:prefLabel xml:lang="be">Вазапісец Шувалава</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q968196"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/shuvalov_painter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/shuvalov_painter"/>
 				    <prov:wasGeneratedBy>

@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/amasis">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/amasis">
         <skos:prefLabel xml:lang="en">Amasis</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Amasis was an ancient Attic potter, active in Athens between 560/550 and 530/520 BCE. Amasis’s pottery workshop also employed a well-known painter, who is conventionally named the Amasis Painter after the potter, and generally considered as one of the best Archaic vase painters.</skos:definition>
@@ -42,7 +42,7 @@
         <skos:exactMatch rdf:resource="http://www.idref.fr/088543315"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/amasis#potter"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57163"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/amasis#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/amasis"/>
 				    <prov:wasGeneratedBy>

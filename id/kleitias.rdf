@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Person rdf:about="http://kerameikos.org/id/kleitias">
+   <crm:E21_Person rdf:about="http://kerameikos.org/id/kleitias">
         <skos:prefLabel xml:lang="en">Kleitias</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Klitias</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">克利提亚斯</skos:prefLabel>
@@ -53,7 +53,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q722963"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118777416"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000010590068"/>
-    </foaf:Person>
+    </crm:E21_Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/kleitias#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/kleitias"/>
         <prov:wasGeneratedBy>

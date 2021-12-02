@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Group rdf:about="http://kerameikos.org/id/group_of_the_courting_cups">
+    <crm:E74_Group rdf:about="http://kerameikos.org/id/group_of_the_courting_cups">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Group of The Courting Cups</skos:prefLabel>
         <skos:definition xml:lang="en">The Group of the Courting Cups is a group of Athenian black-figure eye cups (Type A) dating to the late 6th c. BCE. The name derives from homosexual courting couples shown on the exterior. A gorgoneion is portrayed in the interior. Some examples are attributed to the FP Class. Findspots are Berezan, Vulci, Thebes, Sicily, and Ampurias (Spain).</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_the_courting_cups#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500113782"/>
-    </foaf:Group>
+    </crm:E74_Group>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/group_of_the_courting_cups#group">

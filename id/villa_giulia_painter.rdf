@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Person rdf:about="http://kerameikos.org/id/villa_giulia_painter">
+   <crm:E21_Person rdf:about="http://kerameikos.org/id/villa_giulia_painter">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
       <skos:prefLabel xml:lang="en">Villa Giulia Painter</skos:prefLabel>
@@ -26,7 +26,7 @@
       <rdfs:seeAlso rdf:resource="http://www.getty.edu/art/gettyguide/artMakerDetails?maker=352"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/95824066"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/villa_giulia_painter#provenance"/>
-   </foaf:Person>
+   </crm:E21_Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/villa_giulia_painter#provenance">
       <foaf:topic rdf:resource="http://kerameikos.org/id/villa_giulia_painter"/>
       <prov:wasGeneratedBy>

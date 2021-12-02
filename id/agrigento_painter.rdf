@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/agrigento_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/agrigento_painter">
         <skos:prefLabel xml:lang="en">Agrigento Painter</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">The Agrigento Painter is an Athenian red-figure painter active ca. 470-440 BCE and a member of the Mannerist Group. The name derives from a calyx krater from Agrigento (Agrigento, Archaeological Museum; BAPD 206657) showing Herakles and Nessos. Other shapes are the column-krater, bell krater, stamnos, pelike, dinos, amphora, and hydria. Scenes include Herakles, Theseus, Dionysos and followers, Amazons, the symposion, revelers (“komasts”), musicians, warriors, and generic males (youths, boys, men). Some findspots are Bologna, Spina, Tarquinia, sites in southern Italy and Sicily, the Athenian Agora, Corinth, Rheneia (Delos), Ampurias (Spain), and Naukratis.</skos:definition>
@@ -36,7 +36,7 @@
         <skos:prefLabel xml:lang="da">Agrigento Painter</skos:prefLabel>
         <skos:prefLabel xml:lang="sv">Agrigento Painter</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/95788664"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/agrigento_painter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/agrigento_painter"/>
 				    <prov:wasGeneratedBy>

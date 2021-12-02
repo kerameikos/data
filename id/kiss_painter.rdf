@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/kiss_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/kiss_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Kiss Painter</skos:prefLabel>
@@ -29,7 +29,7 @@
         <skos:prefLabel xml:lang="sq">Kuss-Maler</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1794581"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kiss_painter#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
     
     
     <org:Membership rdf:about="http://kerameikos.org/id/kiss_painter#painter">

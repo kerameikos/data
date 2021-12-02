@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/euphronios">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/euphronios">
         <skos:prefLabel xml:lang="en">Euphronios</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Euphronios is an Athenian red-figure painter active ca. 520-505 BCE, who signed as both painter (“egrapsen”) and potter (“epoiesen”). Euphronios is considered a member of the Pioneer Group, along with Euthymides, Phintias, and other vase-painters. Shapes connected to the painter are cups, the calyx krater, stamnos, psykter, and pelike. The cup is the main shape connected to the potter. Scenes include Herakles and Antaios, athletes, the symposion, and Amazons. One of the best known works is a krater formerly in the Metropolitan Museum of Art (1972.11.10; BAPD 187) showing the personifications of Sleep (“Hypnos”) and Death (“Thanatos”) carrying Sarpedon from the battlefield at Troy. Some findspots are sites in Etruria (Vulci, Cerveteri, Orvieto, Tarquinia), Athens (Agora, Acropolis), Thasos, and Olbia (Black Sea).</skos:definition>
@@ -60,7 +60,7 @@
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58219"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000080854890"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/euphronios#potter"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/euphronios#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/euphronios"/>
 				    <prov:wasGeneratedBy>

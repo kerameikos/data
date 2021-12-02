@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/brygos">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/brygos">
         <skos:prefLabel xml:lang="en">Brygos</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Brygos was an ancient Greek potter, active in Athens between 490 and 470 BC. He is known as a producer of excellent drinking cups.</skos:definition>
@@ -39,7 +39,7 @@
         <skos:prefLabel xml:lang="fi">Brygos (savenvalaja)</skos:prefLabel>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/brygos#potter"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57530"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/brygos#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/brygos"/>
 				    <prov:wasGeneratedBy>

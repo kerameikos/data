@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/xenokles_potter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/xenokles_potter">
         <skos:prefLabel xml:lang="en">Xenokles</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Attic Black-figure potter, active 560-530 BCE.</skos:definition>
@@ -26,7 +26,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1383614"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500009688"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG61127"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/xenokles_potter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/xenokles_potter"/>
 				    <prov:wasGeneratedBy>

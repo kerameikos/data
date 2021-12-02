@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Group rdf:about="http://kerameikos.org/id/group_of_the_paidikos_alabastra">
+    <crm:E74_Group rdf:about="http://kerameikos.org/id/group_of_the_paidikos_alabastra">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Group of The Paidikos Alabastra</skos:prefLabel>
@@ -24,7 +24,7 @@
         <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_the_paidikos_alabastra#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500074721"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58573"/>
-    </foaf:Group>
+    </crm:E74_Group>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/group_of_the_paidikos_alabastra#group">

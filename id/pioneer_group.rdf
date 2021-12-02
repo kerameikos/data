@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Group rdf:about="http://kerameikos.org/id/pioneer_group">
+    <crm:E74_Group rdf:about="http://kerameikos.org/id/pioneer_group">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Pioneer Group</skos:prefLabel>
         <skos:definition xml:lang="en">The Pioneer Group (or “Pioneers”) is a group of Athenian red-figure painters active ca. 520-500 BCE. The name is associated with artists whose work is related stylistically and who refer to each other by name using inscriptions. Painters identified with the group include Euphronios, Euthymides, Smikros, Phintias, and the Dikaios Painter. Shapes are often large vessels, like the krater, amphora (Type A), hydria, and psykter. Scenes include both myths and daily life: Herakles, the Trojan War, athletes, and the symposion. Some findspots are Vulci, Athens (Agora, Acropolis), Xanthos (Turkey), Gela, and Cyrene.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/pioneer_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500067990"/>
-    </foaf:Group>
+    </crm:E74_Group>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/pioneer_group#group">

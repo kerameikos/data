@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://kerameikos.org/id/matsch_painter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/matsch_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Matsch Painter</skos:prefLabel>
@@ -24,7 +24,7 @@
         <org:hasMembership rdf:resource="http://kerameikos.org/id/matsch_painter#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500043043"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/matsch_painter#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/matsch_painter#painter">

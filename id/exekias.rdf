@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Person rdf:about="http://kerameikos.org/id/exekias">
+   <crm:E21_Person rdf:about="http://kerameikos.org/id/exekias">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Exekias</skos:prefLabel>
@@ -65,7 +65,7 @@
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb16598556n"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/13149365916385600862"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/exekias#potter"/>
-    </foaf:Person>
+    </crm:E21_Person>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/exekias#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/exekias"/>
         <prov:wasGeneratedBy>

@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Group rdf:about="http://kerameikos.org/id/group_e">
+   <crm:E74_Group rdf:about="http://kerameikos.org/id/group_e">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Group E</skos:prefLabel>
@@ -26,7 +26,7 @@
         <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Exekias#Group_E"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/group_e#provenance"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/group_e#group"/>
-    </foaf:Group>
+    </crm:E74_Group>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/group_e#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/group_e"/>
         <prov:wasGeneratedBy>

@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <foaf:Person rdf:about="http://kerameikos.org/id/andokides_painter">
+   <crm:E21_Person rdf:about="http://kerameikos.org/id/andokides_painter">
       
       
         <skos:prefLabel xml:lang="en">Andodikes Painter</skos:prefLabel>
@@ -37,6 +37,6 @@
       
       
         <dcterms:isReplacedBy rdf:resource="http://kerameikos.org/id/andokides_painter_red_figure"/>
-    </foaf:Person>
+    </crm:E21_Person>
    
 </rdf:RDF>

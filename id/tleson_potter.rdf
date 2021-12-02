@@ -16,7 +16,7 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <foaf:Person rdf:about="http://kerameikos.org/id/tleson_potter">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/tleson_potter">
         <skos:prefLabel xml:lang="en">Tleson</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Tleson (active around 555-535 BCE) was an Athenian potter and perhaps also a vase painter in the black-figure style. He was the son of the famous potter Nearchos and brother of Ergoteles. His workshop apparently produced mostly Little-master cups.</skos:definition>
@@ -38,7 +38,7 @@
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116420"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/96544724"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0h98qpv"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/tleson_potter#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/tleson_potter"/>
 				    <prov:wasGeneratedBy>

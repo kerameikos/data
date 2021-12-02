@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Group rdf:about="http://kerameikos.org/id/three-line_group">
+    <crm:E74_Group rdf:about="http://kerameikos.org/id/three-line_group">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Three-line Group</skos:prefLabel>
         <skos:definition xml:lang="en">The Three-Line Group is a workshop of Athenian black-figure painters active ca. 530-510 BCE. The name derives from the three lines featured between each decorative zone on the body of the vessel. The main shape is the small neck amphora. Scenes include gods and goddesses, Herakles, Amazons, and the Trojan War. Findspots are Etruscan sites, Samos, and Olbia.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/three-line_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500002303"/>
-    </foaf:Group>
+    </crm:E74_Group>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/three-line_group#group">

@@ -7,15 +7,16 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:org="http://www.w3.org/ns/org#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">    
-    <foaf:Person rdf:about="http://kerameikos.org/editor/nhighsteskal">
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">    
+    <crm:E21_Person rdf:about="http://kerameikos.org/editor/nhighsteskal">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Nicole High-Steskal</skos:prefLabel>
         <skos:exactMatch rdf:resource="https://orcid.org/0000-0002-9823-5507"/>
         <org:hasMembership rdf:resource="http://kerameikos.org/editor/nhighsteskal#membership"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
-    </foaf:Person>
+    </crm:E21_Person>
     <org:Membership rdf:about="http://kerameikos.org/editor/nhighsteskal#membership">
         <org:organization rdf:resource="http://viaf.org/viaf/125130162"/>
     </org:Membership>

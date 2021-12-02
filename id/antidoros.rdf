@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Person rdf:about="http://kerameikos.org/id/antidoros">
+    <crm:E21_Person rdf:about="http://kerameikos.org/id/antidoros">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Antidoros</skos:prefLabel>
@@ -35,7 +35,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q575070"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/95877908"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/antidoros#provenance"/>
-    </foaf:Person>
+    </crm:E21_Person>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/antidoros#potter">

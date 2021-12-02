@@ -16,14 +16,14 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <foaf:Group rdf:about="http://kerameikos.org/id/syriskos_group">
+    <crm:E74_Group rdf:about="http://kerameikos.org/id/syriskos_group">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Syriskos Group</skos:prefLabel>
         <skos:definition xml:lang="en">The Syriskos Group is a group of Athenian red-figure painters active ca. 470 BCE and earlier. The main painters are the Copenhagen Painter, the Syriskos Painter, and the P.S. Painter. The group decorates vases of both common and unusual shapes.</skos:definition>
         <org:hasMembership rdf:resource="http://kerameikos.org/id/syriskos_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116601"/>
-    </foaf:Group>
+    </crm:E74_Group>
    
    
     <org:Membership rdf:about="http://kerameikos.org/id/syriskos_group#group">

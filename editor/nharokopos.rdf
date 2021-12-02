@@ -7,12 +7,13 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
     xmlns:org="http://www.w3.org/ns/org#"
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">    
-    <foaf:Person rdf:about="http://kerameikos.org/editor/nharokopos">
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">    
+    <crm:E21_Person rdf:about="http://kerameikos.org/editor/nharokopos">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Nicholas A. Harokopos</skos:prefLabel>  
      	<skos:prefLabel xml:lang="el">Νικόλαος Αντ. Χαροκόπος</skos:prefLabel>
         <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
-    </foaf:Person>     
+    </crm:E21_Person>     
 </rdf:RDF>

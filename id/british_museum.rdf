@@ -35,7 +35,7 @@
       <foaf:homepage rdf:resource="http://www.britishmuseum.org/"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/134857252"/>
       <skos:exactMatch rdf:resource="http://d-nb.info/gnd/16271977-2"/>
-      <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11871460b#foaf:Person"/>
+      <skos:exactMatch rdf:resource="http://data.bnf.fr/ark:/12148/cb11871460b#crm:E21_Person"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/British_Museum"/>
       <skos:changeNote rdf:resource="http://kerameikos.org/id/british_museum#provenance"/>
    </crm:E40_Legal_Body>
