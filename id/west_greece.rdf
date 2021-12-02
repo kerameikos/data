@@ -15,7 +15,8 @@
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
-         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:crmgeo="http://www.ics.forth.gr/isl/CRMgeo/">
    <crm:E53_Place rdf:about="http://kerameikos.org/id/west_greece">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
