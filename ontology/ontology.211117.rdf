@@ -45,8 +45,8 @@
 		<rdfs:label xml:lang="en">Has Shape</rdfs:label>
 		<rdfs:comment xml:lang="en">A physical object (vase or other ceramic vessel) has a shape, defined by a resource of kon:Shape class.</rdfs:comment>
 		<rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P2_has_type"/>
-		<rdfs:domain rdf:resource="http://kerameikos.org/ontology#Shape"/>
-		<rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+		<rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+		<rdfs:range rdf:resource="http://kerameikos.org/ontology#Shape"/>
 		<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
 	</owl:ObjectProperty>
 </rdf:RDF>
