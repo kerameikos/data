@@ -10,6 +10,7 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:crmgeo="http://www.ics.forth.gr/isl/CRMgeo/"
          xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
@@ -22,14 +23,16 @@
         <skos:definition xml:lang="en">Term used to describe ancient Mediterranean vessels in the form of heads or animals or groups that were partially formed in molds like terracotta statuettes.</skos:definition>
         <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="http://kerameikos.org/id/plastic_vase#provenance"/>
-        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300265034"/>
+        <skos:prefLabel xml:lang="fr">Vase Plastique</skos:prefLabel>
+        <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198865"/>
+        <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x314465"/>
     </kon:Shape>
     <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/plastic_vase#provenance">
 					   <foaf:topic rdf:resource="http://kerameikos.org/id/plastic_vase"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
-					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T11:23:05.164-05:00</prov:atTime>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-03T09:14:08.593-05:00</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
