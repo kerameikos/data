@@ -14,6 +14,7 @@
 						  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 						  <skos:prefLabel xml:lang="en">Dylan Rogers</skos:prefLabel>
 						  <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
+					     <org:memberOf>Florida State University</org:memberOf>
 					   <skos:exactMatch rdf:resource="https://orcid.org/0000-0002-7142-5677"/>
     </crm:E21_Person>
 				</rdf:RDF>

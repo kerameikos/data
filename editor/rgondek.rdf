@@ -14,10 +14,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Renee Gondek</skos:prefLabel>
         <skos:exactMatch rdf:resource="https://orcid.org/0000-0002-2184-3539"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/editor/rgondek#membership"/>
+        <org:memberOf>Hanover Research</org:memberOf>
         <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
-    </crm:E21_Person>
-    <org:Membership rdf:about="http://kerameikos.org/editor/rgondek#membership">
-        <org:organization rdf:resource="http://viaf.org/viaf/142703516"/>
-    </org:Membership>
+    </crm:E21_Person>    
 </rdf:RDF>
