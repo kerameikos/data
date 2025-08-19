@@ -67,6 +67,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q831869"/>
         <skos:definition xml:lang="de">Der Begriff 'Oinochoe' bedeutet 'Wein-Ausgießer'. Die Gefäßform des Weinkruges gibt es in verschiedenen Ausformungen (konisch, konkav, konvex). Alle besitzen aber einen vertikalen Henkel. Die Mündung ist rund, kleeblattförmig oder schnabelförmig gestaltet.</skos:definition>
         <skos:definition xml:lang="el">Η ονομασία "οινοχόη" προέρχεται από τις λέξεις οἶνος και χέω,δηλαδή σερβίρω οίνο. Υπάρχουν διάφορες παραλλαγές του σχήματος της οινοχόης (κωνικό, κοίλο, καμπύλο) και συνήθως διαθέτουν μία μόνο κάθετη λαβή. Το στόμιο μπορεί να είναι κυκλικό, τριφυλλόσχημο ή ραμφόσχημο.</skos:definition>
+        <skos:definition xml:lang="he">פרוש המונח 'אוינוכה' הינו 'כד/קנקן יין'. קנקן היין מעוצב באופנים שונים (חרוט, קעור, קמור) אך בדרך כלל מצוייד בידית אנכית אחת. הפה יכול להיות עגול, בצורת תילתן או בצורת מקור.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/oinochoe#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/oinochoe"/>
@@ -108,6 +109,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

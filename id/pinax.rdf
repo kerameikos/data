@@ -45,6 +45,7 @@
         <skos:definition xml:lang="de">Pinax ist ein griechischer Begriff für 'Teller'. Der Begriff wird jetzt für flache, rechteckige Platten verwendet, die dekoriert in Gräbern oder Heiligtümern aufgehängt wurden.</skos:definition>
         <skos:prefLabel xml:lang="el">πίνακας</skos:prefLabel>
         <skos:definition xml:lang="el">Οι πίνακες είναι επίπεδες ορθογώνιες πλάκες με γραπτή ή ανάγλυφη διακόσμηση, που χρηιμοποιούνταν για τη διακόσμηση ταφικών κτισμάτων ή αναρτόνταν στα ιερά ως αναθήματα.</skos:definition>
+        <skos:definition xml:lang="he">פינאקס היא המילה היוונית ל - 'לוח.' לרוב משמש המונח בימנו לתיאור לוח מלבני שטוח שקושט ונתלה על קברים או במקדשים.</skos:definition>
     </kon:Shape>
    
    
@@ -72,6 +73,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -30,6 +30,7 @@
         <skos:definition xml:lang="de">Die Kasselschalen haben eine flache Gefäßform und sind meistens kleiner. Sowohl der Rand als auch der Gefäßkörper sind mit einfachen ornamentalen Bändern dekoriert. Zungenbänder finden sich üblicherweise am Rand sowie Strahlen im unteren Gefäßdrittel.</skos:definition>
         <skos:prefLabel xml:lang="el">κύλικα τύπου Κάσσελ</skos:prefLabel>
         <skos:definition xml:lang="el">Συγγενείς προς τις μικρογραφικές κύλικες, οι κύλικες τύπου Κάσσελ έχουν ένα μάλλον επίπεδο σχήμα όμοιο με εκείνο των ταινιωτών κυλίκων και είναι γενικά μικρού μεγέθους. Τόσο το χείλος όσο και το σώμα καλύπτονται με ζώνες απλών διακοσμητικών μοτίβων. Γλωσσοειδή κοσμήματα είναι κοινά στο χείλος, όπως και οι ακτίνες πάνω από το πόδι, ενώ ορισμένες κύλικες αυτού του τύπου φέρουν μορφές στην τεχνική της σκιαγραφίας στη ζώνη των λαβών.</skos:definition>
+        <skos:definition xml:lang="he">גביעי קאסל (Kassel cups) מקורבים לגביעי המאסטר הקטן, הם בעלי צורת רצועה שטוחה ונוטים להיות קטנים. גם שפת הגביע וגם גופו מעוטרים לרוב בתבניות פסים פשוטות. איורי לשונות (tongues) נפוצים בשפתי הגביע ואיורי קרניים - מעל התחתית. חלק מגביעי הקאסל כוללים דמויות סילואט (צלליות אנשים)באיזור הידית.</skos:definition>
     </kon:Shape>
    
    
@@ -57,6 +58,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

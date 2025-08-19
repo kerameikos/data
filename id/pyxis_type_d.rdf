@@ -29,6 +29,7 @@
         <skos:definition xml:lang="de">Die Typ C pyxis (oder Schatullenpyxis) ist im Bezug auf die Größe ähnlich der Puderpyxis, aber sie ist solider hergestellt und war im späten 5. und 4. Jh. beliebt. Sie besteht aus kleinen Zylindern mit einem flachen Deckel und kann aufgrund der Deckelform in zwei Gruppen unterteilt werden.</skos:definition>
         <skos:prefLabel xml:lang="el">πυξίδα τύπου Δ</skos:prefLabel>
         <skos:definition xml:lang="el">Ως προς το μέγεθος, η πυξίδα τύπου Δ πλησίαζει την κυλινδρική πυξίδα ("πουδριέρα"), αλλά είναι πιο συμπαγής στην κατασκευή και ήταν δημοφιλής τον ύστερο 5ο και τον 4ο αι. Αποτελείται από ένα μικρό κυλινδρικό σώμα με ένα επίπεδο κάλυμμα και μπορεί να διαιρεθεί σε δύο κατηγορίες ανάλογα με το διαφορετικά σχήματα του καλύμματος. Το κάλυμμα αποτελείται από έναν λεπτό επίπεδο δίσκο με παχύτερο χείλος, παρόμοια με τους δίσκους και τα υπόστατα, αλλά διαθέτει ένα επίπεδο τμήμα στην κάτω επιφάνεια που εφάπτεται εσωτερικά με το στόμιο της πυξίδας.</skos:definition>
+        <skos:definition xml:lang="he">הפיקסיס מסוג D (או פיקסיס-קופסה), בגודלו דומה לפיקסיס הפודרה, אך היה מיוצר באופן משמעותי יותר ופופולרי בסוף המאה ה-5 וה-4 לפנה"ס. הוא מורכב מצילינדר קטן עם מכסה שטוח וניתן לחלק אותו לשתי קטגוריות לפי הצורות השונות של המכסה.</skos:definition>
     </kon:Shape>
    
    
@@ -56,6 +57,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

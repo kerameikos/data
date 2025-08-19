@@ -40,6 +40,7 @@
         <skos:definition xml:lang="de">Das Lydion ist nach dem Gebiet Lydien in Kleinasien benannt. Es ist ein breites, henkelloses Parfumtöpfchen mit ausgebogener Lippe. Es wurde für das lydische Bakkaris Parfume verwendet.</skos:definition>
         <skos:prefLabel xml:lang="el">λύδιον</skos:prefLabel>
         <skos:definition xml:lang="el">Η ονομασία του προέρχεται από την περιοχή της Λυδίας στην κεντρική Μικρά Ασία. Είναι ένα ευρύ, άωτο αγγείο, με ένα επίπεδο χείλος και πόδι. Χρησιμοποιείτο για τη φύλαξη του λυδικού αρώματος βάκκαρις.</skos:definition>
+        <skos:definition xml:lang="he">מקור השם לידיון באזור לידיה שבאסיה הקטנה. זהו סיר בושם שמנמן, חסר ידיות בעל שפה שטוחה הפונה כלפי חוץ ששימש לבושם הבאקריס (שם הבושם שיוצר מצמח בעל אותו השם) הלידיאני.</skos:definition>
     </kon:Shape>
    
    
@@ -67,6 +68,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

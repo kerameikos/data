@@ -27,6 +27,7 @@
         <skos:definition xml:lang="de">Der Pyxidendeckel variert je nach Form der Pyxis. Der Deckel kann flach, konkav, kuppelförmig oder konisch sein. Er sitzt entweder oben auf der Pyxis auf oder er kann tief sitzen und hängt auf allen Seiten über die Schatulle. Die Henkel sind often Knaufe oder Metallringe.</skos:definition>
         <skos:prefLabel xml:lang="el">κάλυμμα πυξίδας</skos:prefLabel>
         <skos:definition xml:lang="el">Tα καλύμματα των πυξίδων διαφέρουν ανάλογα με τον κάθε τύπο της πυξίδας. Μπορούν να είναι επίπεδα, κοίλα, θολωτά ή κωνικά και να εφάπτονται στο πάνω μέρος της πυξίδας ή μπορούν να έχουν βαθειές πλευρές και να προεξέχουν περιμετρικά από το σώμα της πυξίδας. Οι λαβές είναι συχνά κομβόσχημες ή μεταλλικοί δακτύλιοι.</skos:definition>
+        <skos:definition xml:lang="he">מכסה הפיקסיס משתנה מאוד בהתאם לצורת הפיקסיס עצמה. המכסים יכולים להיות שטוחים, קעורים, כיפתיים או חרוטיים, והם מונחים על גבי הפיקסיס או יכולים להיות בעלי צדדים עמוקים ולהחליק על צידי הקופסה. הידיות הן בדרך כלל בליטות או טבעות מתכת.</skos:definition>
     </kon:Shape>
    
    
@@ -54,6 +55,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

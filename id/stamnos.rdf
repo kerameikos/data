@@ -50,6 +50,7 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/stamnos#provenance"/>
         <skos:definition xml:lang="de">Der Begriff "Stamnos" wird allgemeint (und fälschlicherweise) verwendet, um ein Aufbewahrungs- und Mischgefäß zu bezeichnen, das zwei kleine horizontale Henkel besitzt, die am kompakten runden Körper angebracht sind und auch einen kurzen Hals und einen Deckel aufweist</skos:definition>
         <skos:definition xml:lang="el">Η ονομασία "στάμνος" χρησιμοποιείται συμβατικά (και λανθασμένα) για να προσδιορίσει ένα αγγείο φύλαξης και ανάμειξης με δύο μικρές οριζόντιες λαβες προσαρτημένες σε ένα συμπαγές, βολβοειδές σώμα, με βραχύ λαιμό και κάλυμμα.</skos:definition>
+        <skos:definition xml:lang="he">המונח 'סטמנוס' משמש באופן מקובל (ואף מוטעה) לציון קערת אחסון וערבוב בעלת שתי ידיות אופקיות קטנות המחוברות לגוף קומפקטי ובולבוסי (תפוח), צוואר קצר ומכסה.</skos:definition>
     </kon:Shape>
    
    
@@ -77,6 +78,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

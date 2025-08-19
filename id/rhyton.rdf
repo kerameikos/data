@@ -64,6 +64,7 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/rhyton#provenance"/>
         <skos:definition xml:lang="de">Rhyton' kommt vom Wort für 'fließen'. Der Begriff bezeichnet eine einhenkelige Trinkschale, die in der Form eines Tierprotoms (Schaf, Esel, etc.) oder manchmal eine komplexere Kreation (Pygmäe und Kranich, afrikanisches Kind und Krokodil, berittene Amazone, Kamel und Führer). Es wurde ursprünglich aus Horn hergestellt, daher die Form. Die Idee stammt aus Persien.</skos:definition>
         <skos:definition xml:lang="el">Η ονομασία "ρυτό" προέρχεται από το ρήμα ῥέω και προσδιορίζει ένα μόνωτο αγγείο πόσης, το σώμα του οποίου διαμορφώνεται στο σχήμα της κεφαλής ενός ζώου (πρόβατο, γάιδαρος κ.ά.) ή ενίοτε σε πιο σύνθετες δημιουργίες (πυγμαίος και γερανός, νέγρος παις και κροκόδειλος, έφιππη Αμαζόνα, καμήλα και καμηλιέρης). Αρχικά κατασκευάζονταν από κέρατα, εξού και το σχήμα. Η ιδέα του αγγείου προήλθε από την Περσία.</skos:definition>
+        <skos:definition xml:lang="he">ריטון' מקורו במילה: 'זרימה'. המונח מתאר כוס שתייה עם ידית אחת, כאשר הקערה שלה מעוצבת בצורת ראש של בעל חיים (כבש, חמור, וכו') או לעיתים יצירה יותר מורכבת (פיגמי ועגור, ילד אפריקאי ותנין, אמזונה רכובה, גמל ורוכבו). במקור הריטון היה עשוי מקרן, ולכן הצורה שלו. הרעיון הושאל מפרס.</skos:definition>
     </kon:Shape>
    
    
@@ -99,6 +100,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

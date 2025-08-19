@@ -51,6 +51,7 @@
         <skos:definition xml:lang="de">Die Form geht auf östliche Prototypen zurück und findet sich sehr oft bei Metallgefäßen. Es ist eine flache, henkellose Opferschale, manchmal mit abgesetztem Rand. Am Schalenboden erhebt sich in der Mitte ein Mittelbuckel (Omphalos), wodurch der Finger die Schale beim Ausgießen besser fassen kann.</skos:definition>
         <skos:prefLabel xml:lang="el">φιάλη</skos:prefLabel>
         <skos:definition xml:lang="el">Το σχήμα προέρχεται από ανατολίτικα πρότυπα και απαντά συχνά σε μεταλλικά αγγεία. Είναι ένα ρηχό, ανοικτό αγγείο, μερικές φορές με ένα έξω νεύον χείλος, που χρησιμοποιείτο για την τελετουργική προσφορά υγρών, τις σπονδές. Στο κέντρο του φέρει ένα εξόγκωμα, τον ομφαλό, που επιτρέπει να τοποθετηθεί στην κοιλότητα στο κάτω επιφάνεια του αγγείου ο δείκτης για την έκχυση του υγρού της φιάλης κατά τη σπονδή.</skos:definition>
+        <skos:definition xml:lang="he">הצורה, שמקורה באבות טיפוס מזרחיים, נמצאת לעיתים קרובות במתכת. מדובר בקערת נסך (מזיגת משקה) שטוחה וחסרת ידיות, שלעתים יש לה שפה מאופקת. במרכז התחתית של הקערה נמצאת בליטה מוגבהת (אומפאלוס - טבור), המאפשרת להכניס אצבע מתחתיה בעת הטיית הקערה.</skos:definition>
     </kon:Shape>
    
    
@@ -78,6 +79,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

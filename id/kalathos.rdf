@@ -43,6 +43,7 @@
         <skos:definition xml:lang="de">Bedeutet 'Korb' für Wolle, usw. Die Gefäßform bezeichnet ein relativ kleines henkelloses, konisches Gefäß.</skos:definition>
         <skos:prefLabel xml:lang="el">κάλαθος</skos:prefLabel>
         <skos:definition xml:lang="el">Το σχήμα του αγγείου προέρχεται από το ψάθινο πρότυπο και προσδιορίζει ένα σχετικά μικρού μεγέθους, άωτο κωνικό αγγείο.</skos:definition>
+        <skos:definition xml:lang="he">פירוש המילה "סל' לצמר וכו'. הצורה בחימר מתייחסת בדרך כלל לכלי חרוטי קטן למדי וחסר ידיות.</skos:definition>
     </kon:Shape>
    
    
@@ -70,6 +71,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

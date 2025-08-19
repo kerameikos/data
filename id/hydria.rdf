@@ -68,6 +68,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q745783"/>
         <skos:definition xml:lang="de">Von griechisch 'hydor', bezeichnet 'Wasser'. Die Hydria diente als Wasserkrug für Brunnen. Sie besitzt einen ovalen Gefäßkörper, zwei horizontale und einen vertikalen Henkel. Diese Gefäße wurden aus Bronze sowie Ton (Gebrauchskeramik und Feinware) hergestellt. Siehe auch Kalpis.</skos:definition>
         <skos:definition xml:lang="el">Η ονομασία προέρχεται από την αρχαία ελληνική λέξη για το νερό, ὕδωρ, και το αγγείο χρησίμευε για τη μεταφορά του νερού από τις κρήνες. Διαθέτει ένα ευρύ, ωοειδές σώμα, δύο οριζόντιες και μία κάθετη λαβή. Το αγγείο απαντά σε μέταλλο, στην τραχεία και γραπτή κεραμική. Βλ. επίσης καλπίς</skos:definition>
+        <skos:definition xml:lang="he">הידרה - השם נגזר מהמילה היוונית 'הידור,' ('hydor) שמשמעותה 'מים'. ההידרה הינה כד מים לנשיאת מים מהמזרקה. היא בעלת גוף אליפטי/מעוגל ומרווח, שתי ידיות אופקיות, וידית אנכית אחת. סוג כלי זה יוצר בברונזה, בכלי גס (coarseware), ובכלי דק (fineware). ראה גם קלפיס (kalpis).</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/hydria#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/hydria"/>
@@ -109,6 +110,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

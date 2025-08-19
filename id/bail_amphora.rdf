@@ -31,6 +31,7 @@
         <skos:definition xml:lang="de">Die Henkel der Bügelamphoren reichen über die Mündung. Dieser Amphorentyp wurde für die Lagerung und den Transport von Wein, Öl und anderen Inhalten, zum Servieren von Wein am Tisch, oder als Aschenurnen für die Toten.</skos:definition>
         <skos:prefLabel xml:lang="el">καδόσχημος αμφορέας</skos:prefLabel>
         <skos:definition xml:lang="el">Ο καδόσχημος αμφορέας διαθέτει μια γεφυρόστομη λαβή πάνω από το χείλος του. Αυτός ο τύπος αμφορέα χρησιμοποιείτο για την αποθήκευση και τη μεταφορά οίνου και άλλων προϊόντων, για το σερβίρισμα του οίνου στο τραπέζι, καθώς και για τεφροδόχος για τους νεκρούς.</skos:definition>
+        <skos:definition xml:lang="he">ידיות אמפורת הערבות (bail) מגיעות מעל הפיה. סוג זה של אמפורה שימש לאחסון ונשיאת יין, שמן, וסחורות אחרות, להגשת יין לשולחן וככלי לקבורת אפר המתים.</skos:definition>
     </kon:Shape>
    
    
@@ -58,6 +59,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

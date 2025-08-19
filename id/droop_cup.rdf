@@ -30,6 +30,7 @@
         <skos:definition xml:lang="de">Nach dem Wissenschaftler benannt, der sie zuerst untersucht hat. Droop cups sind eine Variante der Kleinmeisterschale. Die Schale hat eine konkave, schwarz bemalte Randzone, die vom Bauch stark abgesetzt ist. Der Gefäßkörper ist mit einem Wulst und einem tongrundigen Band (manchmal gerillt) vom hohen Stiel getrennt. Die dicke Fußplatte ist schwarz bemalt.</skos:definition>
         <skos:prefLabel xml:lang="el">κύλικα τύπου Ντρόουπ</skos:prefLabel>
         <skos:definition xml:lang="el">Η ονομασία των κυλικών αυτού του τύπου προέρχεται από τον πρώτο τους μελετητή, Γ. Π. Ντρόουπ (J. P. Droop). Αποτελούν μια παραλλαγή των μικρογραφικών κυλίκων και διαθέτουν μελαβαμφές καμπύλο χείλος, που ξεχωρίζει από το σώμα πιο έντονα από τις μικρογραφικές κύλικες,ψηλό πόδι με έναν πλαστικό δακτύλιο και μια εξηρημένη -εδαφόχρωμη- ζώνη (ορισμένες φορές με αυλακώσεις) στο πάνω μέρος του και ένα μελαμβαφές πέλμα. Στο εσωτερικό του κοίλου ποδιού υπάρχει μια πλατιά μελανή ταινία και στο κύπελλο της κύλικας μια εξηρημένη ταινία χαμηλά στο χείλος, ενίοτε και έναν εξηρημένο δίσκο εσωτερικά.</skos:definition>
+        <skos:definition xml:lang="he">מכונה על שמו של החוקר שהיה הראשון לחקור אותם, גביעי דרופ - Droop cups מקבלים את צורתם מגביעי המאסטר הקטן. הם בעלי שפתיים קעורות ושחורות המובדלות בבירור מגוף הגביע, בשונה מגביעי המאסטר הקטן. לגביעי הדרופ תחתית עם רגל גבוהה עם פס דק בחלקה העליון (לפעמים עם חריצים) וחלקה התחתון שחור. קיים פס שחור רחב בתוך התחתית החלולה. בתוך הקערה יש פס רחב שמובדל ונמוך בשפה, ולעיתים דיסק מרכזי מופרד.</skos:definition>
     </kon:Shape>
    
    
@@ -57,6 +58,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -32,6 +32,7 @@
         <skos:definition xml:lang="de">Hauptsächlich eine rotfigurige Form, die kurz nach dem Aufkommen der rotfiguren Vasenmalerei entstanden ist. In der schwarzfigurigen Vasenmalerei war diese Form nie beliebt. Der Gefäßkörper der Schale geht nahtlos in den Stiel über.</skos:definition>
         <skos:prefLabel xml:lang="el">κύλικα τύπου Β</skos:prefLabel>
         <skos:definition xml:lang="el">Βασικά ένα σχήμα του ερυθρόμορφου ρυθμού, η κύλικα τύπου Β εμφανίστηκε λίγο μετά την εφεύρεση της ερυθρόμορφης τεχνικής και δεν υπήρξε ποτέ δημοφιλής στον μελανόμορφο ρυθμό. Το σώμα του αγγείου συνδέεται με μια συνεχή καμπύλη με το πόδι, που απολήγει σε μια δισκοειδή επίπεδη βάση, που συνήθως έχει μια μικρή λοξότμηση στην άνω επιφάνειά της, κοντά στην άκρη της.</skos:definition>
+        <skos:definition xml:lang="he">מופיע בעיקר בטכניקת הדמות האדומה. גביע סוג B הופיע זמן קצר לאחר המצאת טכניקה זו ומעולם לא היה פופולרי בקרב טכניקת הדמות השחורה. קערת הגביע עוברת ישירות אל הרגל ללא הפרעה. צורת התחתית היא טורוס (מבנה גיאומטרי מעגלי תלת מימדי), ולרוב קיים שיפוע קטן על פני השטח העליון על יד הקצה.</skos:definition>
     </kon:Shape>
    
    
@@ -59,6 +60,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

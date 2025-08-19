@@ -34,6 +34,7 @@
         <skos:definition xml:lang="de">Der Begriff Phormiskos wird in der antiken Literatur verwendet, um jede Form von gewebtem Taschen, Säcken oder Körben zu bezeichnen, die aus Stoff, Leder oder Binsen hergestellt wurden. Der tönerne attische Phormiskos imitiert diese Tragebehälter aus organischem Material. Er ist ein seltener Typ mit einer birnen- oder beutelförmige Gefäßform, die vom 6. Jh.v. bis um 480 v.Chr. hergestellt wurde. Alle haben einen schmalen Hals.</skos:definition>
         <skos:prefLabel xml:lang="el">φορμίσκος</skos:prefLabel>
         <skos:definition xml:lang="el">Η ονομασία "φορμίσκος" απαντά στην αρχαία γραμματεία για κάθε είδους πλεκτό πουγκί,σακίδιο ή καλάθι κατασκευασμένο από υλικά όπως ύφασμα, δέρμα ή καλάμια. Ο πήλινος αθηναϊκός φορμίσκος είναι ένα σπάνιο αγγείο σε σχήμα φλασκιού που παραγόταν από τον 6ο αι. π.Χ. έως περίπου το 480 π.Χ. Το σχήμα ποικίλει από σφαιρικό σε απιόσχημο, σε ωοειδές και σε επίμηκες ωοειδές. Όλα έχουν έναν λεπτό λαιμό που σχηματίζει μια συνεχή καμπύλη από το χείλος έως τον σφαρικό πυθμένα. Δεν πρόκειται για πραγματικά αγγεία, καθώς το κοίλο εσωτερικό του σώματος συνδέεται με έναν συμπαγή λαιμό. Εξαιτίας αυτού, όπως φαίνεται και από την εικονογραφία των ταφικών θεμάτων, οι φορμίσκοι προφανώς κατασκευάζονταν ως ένα είδος ταφικού κτερίσματος που μιμείτο το πουγκί από φθαρτό υλικό, στο οποίο μετέφεραν τους αστραγάλους (κότσια).</skos:definition>
+        <skos:definition xml:lang="he">המונח פורמיסקוס במקורות ספרותיים עתיקים מתייחס לכל סוגי התיקים, השקים או הסלים הארוגים שנעשו מחומרים כגון בד, עור, או קני סוף. הפורמיסקוס האתונאי הקרמי הוא סוג נדיר של כד בצורת דלעת, שיוצר מהמאה ה-6 לפנה״ס עד לסביבות 480 לפנה״ס. צורתו משתנה בין צורה כדורית, אגסית, ביצתית, ועד ביצתית מאורכת. לכולם צוואר דק שיוצר קו מתאר אחיד מהשפה ועד לתחתית מעוגלת. אלו כדים מדומים, מכיוון שהחלל הפנימי של הגוף מתחבר לצוואר מוצק. בשל כך, יחד עם שמם והאיקונוגרפיה שלהם בעלת אופי קבורה ברובה, יש להניח שהם יוצרו במיוחד כסוג של מנחת קבר, אשר חיקתה שקי אסטרגל (עצמות קרסול) שהיו עשויים מחומרים מתכלים.</skos:definition>
     </kon:Shape>
    
    
@@ -61,6 +62,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

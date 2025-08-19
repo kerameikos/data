@@ -59,6 +59,7 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/kantharos#provenance"/>
         <skos:definition xml:lang="de">Das griechische Wort kommt von 'Käfer'. Der Begriff Kantharos wird jetzt allgemein verwendet für Trinkgefäße mit zwei vertikalen, meist hochgeschwungenen Henkeln. Es gibt verschiedene Typen von Kantharoi dessen Vorbild bei Metalgefäßen zu finden ist. Sie werden in Darstellungen oft in den Händen von Dionysos, dem Gott des Weins, abgebildet. Der Kantharos besitzt unterschiedliche Gefäßformen.</skos:definition>
         <skos:definition xml:lang="el">Η ονομάσια του αγγείου προέρχεται από την αρχαία ελληνική λέξη για το σκαθάρι. Ο όρος "κάνθαρος" χρησιμοποιείται σήμερα γενικά για το αγγείο πόσης με δύο κάθετες, συνήθως καμπύλες λαβές. Το αγγείο, το σχήμα του οποίου προέρχεται πιθανότατα από μεταλλικά πρότυπα, βρίσκεται συχνά στα χέρια του Διονύσου, θεού του οίνου. Ο κάνθαρος απαντά σε διάφορες μορφές.</skos:definition>
+        <skos:definition xml:lang="he">מהמילה היוונית 'חיפושית,' המונח קנתרוס (kantharos) משמש כיום באופן קונבנצונלי לכינויו של גביע שתייה בעל שתי ידיות מאונכות, שבדרך כלל מתנשאות כלפי מעלה. הצורה, שככל הנראה התפתחה מאב-טיפוס של מתכת הינה מסימני ההיכר של דיוניסוס - אל היין. לקנתרוס יש מגוון צורות שונות.</skos:definition>
     </kon:Shape>
    
    
@@ -86,6 +87,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -31,6 +31,7 @@
         <skos:definition xml:lang="de">Die Mastoid Schale besitzt keinen Fuß und hat im Gegensatz zur Mastosschale einen flachen Boden. Die Lippe ist ausgestellt. Manche Gefäße besitzen einen horizontalen Henkel, der direkt unter dem Rand angebracht ist.</skos:definition>
         <skos:prefLabel xml:lang="el">μαστοειδές κύπελλο</skos:prefLabel>
         <skos:definition xml:lang="el">Το μαστοειδές κύπελλο είναι μια παραλλαγή του μαστού χωρίς πόδι, με επίπεδο πυθμένα και έξω νεύον χείλος. Το αγγείο είναι άωτο ή έχει οριζόντιες λαβές λίγο πιο κάτω από το χείλος.</skos:definition>
+        <skos:definition xml:lang="he">כוס המסטואיד הינה גרסה חסרת רגל, בעלת תחתית שטוחה כשל המסטוס עם שפה הפונה כלפי חוץ. הכוס חסרת ידיות, או בעלת ידיות אופקיות המחוברות מעט מתחת לשפה.</skos:definition>
     </kon:Shape>
    
    
@@ -58,6 +59,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -38,6 +38,7 @@
         <skos:definition xml:lang="de">Vom Verb "ausgießen". Krug mit gedrungenem Gefäßkörper, tiefsitzendem Henkel und Kleeblattmündung. Es wurde im Anthesterienfest als Maßeinheit für Wetttrinken verwendet (3.28 Liter). Kleine Choenkännchen wurden dreijährigen Kindern geschenkt.</skos:definition>
         <skos:prefLabel xml:lang="el">χους</skos:prefLabel>
         <skos:definition xml:lang="el">Η ονομασία του αγγείου προέρχεται από το ρήμα χέω. Πρόκειται για έναν τύπο οινοχόης με ευρύ σώμα, χαμηλά τοποθετημένη λαβή και τριφυλλόσχημο στόμιο. Χρησιμοποιείτο στην εορτή των Ανθεστηρίων και σαν μέτρο χωρητικότητας (3,28 λίτρα) στον διαγωνισμό πόσης που λάμβανε χώρα τη δεύτερη ημέρα της εορτής. Μικρού μεγέθους χόες δίνονταν ως δώρα σε παιδιά ηλικίας τριών ετών κατά την εορτή.</skos:definition>
+        <skos:definition xml:lang="he">מהפועל 'למזוג', הכוס (chous באנגלית) היא קנקן רחב גוף עם ידית נמוכה ופה בצורת תילתן. נעשה בה שימוש בפסטיבל האנתסטריה (Anthesteria festival) וככוס מדידה קבועה למשתתפים במסיבות/ארועי שתייה (3.28 ליטר). שימוש בכוסות קטנות נעשה ב'יום הילדים', כאשר ילדים בני שלוש קיבלו אותן.</skos:definition>
     </kon:Shape>
    
    
@@ -65,6 +66,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -50,6 +50,7 @@
         <skos:definition xml:lang="de">Die Loutrophoros bedeutet 'zum Bad tragen' und war ein Gefäß für rituelles Waschen. Sie ist eine Variante der Halsamphore mit zwei sehr langen vertikalen Henkeln. Eine leicht veränderte Variante imitiert die Hydria mit zwei horizontalen und einem vertikalen Henkel ('Loutrophoros-Hydria').</skos:definition>
         <skos:prefLabel xml:lang="el">λουτροφόρος</skos:prefLabel>
         <skos:definition xml:lang="el">Η ονομασία "λουτροφόρος", που προέρχεται από τις λέξεις λουτρὸν και φέρω, αποδίδεται σε ένα αγγείο τελετουργικού καθαρμού. Είναι μια επιμήκης εκδοχή του αμφορέα με λαιμό, με δυό κάθετες λαβές. Μια ελαφρώς διαφορετική εκδοχή μιμείται την υδρία με δύο κάθετες και μια οριζόντια λαβή ("λουτροφόρος-υδρία").</skos:definition>
+        <skos:definition xml:lang="he">הלוטרופורוס שמשמעותו 'נשיאה למרחץ,' היה כלי ששימש לטיהור טקסי. זוהי גרסה גבוהה של אמפורת הצוואר בעלת שתי ידיות אנכיות וארוכות מאוד. גרסה מעט שונה מחקה את ההידריה, בעלת שתי ידיות אופקיות וידית אחת אנכית ('לוטרופורוס-הידריה').</skos:definition>
     </kon:Shape>
    
    
@@ -77,6 +78,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

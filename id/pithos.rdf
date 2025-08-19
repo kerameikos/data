@@ -59,6 +59,7 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/pithos#provenance"/>
         <skos:definition xml:lang="de">Pithoi waren lange, massive Vorratsgefäße für Getreide, usw. Sie wurden auch für Bestattungen verwendet und sind manchmal mit Reliefdekor verziert.</skos:definition>
         <skos:definition xml:lang="el">Oι πίθοι είναι μεγάλου μεγέθους και χωρητικότητας αγγεία για τη φύλαξη σιτηρών και άλλων προϊόντων. Επίσης χρησιμοποιούνταν για ταφές και μερικές φορές φέρουν ανάγλυφο διάκοσμο. Μκρότερες εκδοχές καλούνταν πιθάριον (πληθ. πιθάρια).</skos:definition>
+        <skos:definition xml:lang="he">פיתוי (ביחיד פיתוס) היו כדי אחסון גדולים וכבדים (כדים בסגנון עלי באבא) ששימשו לאחסון תבואה וחומרים אחרים. הם שימשו גם לקבורה ולעיתים היו מעוטרים בתבליטים. גרסאות קטנות יותר נקראות פיתאריון (ברבים: פיתאריה).</skos:definition>
     </kon:Shape>
    
    
@@ -86,6 +87,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

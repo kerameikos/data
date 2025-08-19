@@ -41,6 +41,7 @@
         <skos:definition xml:lang="de">Der Nestoris ist ein Gefäß mit breiter Mündung und zwei hoch geschwungenen Henkeln, die von der Lippe bis zur Schulter reichen. Es wird aus Süditalien, von einer lokalen, nicht-griechischen Form abgeleitet.</skos:definition>
         <skos:prefLabel xml:lang="el">νεστορίς</skos:prefLabel>
         <skos:definition xml:lang="el">Η νεστορίς είναι ένα ευρύστομο αγγείο με δύο, συνήθως, οριζόντιες και δύο κάθετες τοξωτές λαβές από τον ώμο στο χείλος. Είναι προϊόν των κεραμεικών εργαστηρίων της Κάτω Ιταλίας και μιμείται το σχήμα ενός τοπικού, μη ελληνικού αγγείου.</skos:definition>
+        <skos:definition xml:lang="he">הנסטוריס הוא קנקן בעל פתח רחב עם שתי ידיות אופקיות גבוהות ומקושתות מהכתף לשפה. מקורו בדרום איטליה מהילידים המקומיים (צורה שאיננה יוונית).</skos:definition>
     </kon:Shape>
    
    
@@ -68,6 +69,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

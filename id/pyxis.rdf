@@ -52,6 +52,7 @@
         <skos:changeNote rdf:resource="http://kerameikos.org/id/pyxis#provenance"/>
         <skos:definition xml:lang="de">Pyxiden sind runde Schatullen mit Deckel in unterschiedlichen Größen und Formen. Sie wurden zur Aufbewahrung von Kosmetik, Puder oder Schmuck verwendet. Manche wurden in Gräbern gelegt.</skos:definition>
         <skos:definition xml:lang="el">Οι πυξίδες είναι κυλινδρικά αγγεία με κάλλυμα, που χρησιμοποιούνταν για τη φυλαξή ειδών καλλωπισμού, πούδρας ή κοσμημάτων. Ορισμένες τοποθετούνταν στους τάφους ως κτερίσματα. Ο όρος "σκυφοειδής πυξίδα" προσδιορίζει ένα σχήμα που αποτελούσε ειδικό προϊόν του σικελικού εργαστηρίου, με ωοειδές σώμα, κάλυμμα και δύο οριζόντιες λαβές.</skos:definition>
+        <skos:definition xml:lang="he">פיקסידס הן קופסאות עגולות עם מכסה, הבאות במגוון צורות וגדלים, ואשר שימשו לקופסת איפור, פודרה או תכשיטים. חלקן הוצבו בקברים. המונח 'סקיפויד-פיקסיס' משמש לציון צורה שהפכה למומחיות סיציליאנית, בעלת גוף ביצתי, מכסה ושתי ידיות אופקיות.</skos:definition>
     </kon:Shape>
    
    
@@ -79,6 +80,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

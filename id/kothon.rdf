@@ -39,6 +39,7 @@
         <skos:definition xml:lang="de">Der Begriff Kothon wird für mehrere unterschiedliche Gefäßformen verwendet. Manche setzen es (inkorrekt) mit dem Exaleiptron gleich, während andere hingegen den Begriff für ein tiefes einhenkeliges Trinkgefäß verwenden. Das Gefäß ist manchmal gerippt und wurde von Soldaten und Reisenden mitgeführt. Der Begriff Kothon kann auch eine Pilgerflasche bezeichnen.</skos:definition>
         <skos:prefLabel xml:lang="el">κόθων</skos:prefLabel>
         <skos:definition xml:lang="el">Ο όρος "κόθων" χρησιμοποιείται για διάφορα σχήματα. Ορισμένοι μελετητές τον εξισώνουν (λανθασμένα) με το εξάλειπτρο, ενώ άλλοι τον χρησιμοποιούν για ένα βαθύ μόνωτο κύπελο. Το αγγείο φέρει ενίοτε ραβδωτή διακόσμηση και το έπαιρναν μαζί τους στρατιώτες και ταξιδευτές. Η λέξη "κόθων" μπορεί επίσης να προσδιορίζει και το σχήμα του φιαλίδου ευλογίας.</skos:definition>
+        <skos:definition xml:lang="he">המונח קותון (kothon) משמש לתיאור מגוון צורות שונות. יש המשווים אותו (בטעות) לאקסליפטרון, בעוד אחרים משתמשים במילה לתיאור כוס שתייה עמוקה בעלת ידית אחת. הכלי לעתים מצולע ונישא על ידי חיילים ועוברי אורח. המילה קותון יכולה גם להתייחס לצורת צפחת (כד/קנקן) הצליינים (pilgrim flask shape).</skos:definition>
     </kon:Shape>
    
    
@@ -66,6 +67,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -43,6 +43,7 @@
         <skos:definition xml:lang="de">Der Name dieses Gefäßes stammt vom Wort 'Mastos', 'Brust' ab, da die Gefäßform einer weiblichen Brust ähnelt. Sie besitzt meistens einen vertikalen und einen horizontalen Henkel und hat manchmal einen Fuß anstelle der Brustwarze.</skos:definition>
         <skos:prefLabel xml:lang="el">μαστός</skos:prefLabel>
         <skos:definition xml:lang="el">Όπως φαίνεται και από την ονομασία του, το σχήμα του αγγείου είναι αυτό του γυναικείο στήθους.Συνήθως διαθέτει μια κάθετη και μια οριζόντια λαβή και μερικές φορές η θηλή έχει αντικατασταθεί με πόδι.</skos:definition>
+        <skos:definition xml:lang="he">שמו של כלי זה מקורו במילה 'מסטוס', שמשמעותה 'שד', וזאת מאחר וצורת הגביע מזכירה צורת שד של אישה. בדרך כלל הכלי בעל ידית אנכית אחת וידית אופקית אחת, ולעיתים הוא גם בעל תחתית במקום פטמה.</skos:definition>
     </kon:Shape>
    
    
@@ -70,6 +71,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

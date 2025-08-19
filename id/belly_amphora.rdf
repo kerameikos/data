@@ -39,6 +39,7 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q11077005"/>
         <skos:definition xml:lang="de">Die Gefäßform der Bauchamphore ist von der Lippe bis zum Fuß durchgehend und fließend. Diese Amphoren werden eingeteilt in Typ A, B, C auf Grund von unterschiedlichen Lippen-, Fuß-, und Henkelformen.</skos:definition>
         <skos:definition xml:lang="el">Ο ενιαίος αμφορέας διαθέτει ένα συνεχές, ρέον περίγραμμα από το χείλος έως τη βάση. Οι αμφορείς αυτής της κατηγορίας ταξινομούνται ως Α, Β και Γ ανάλογα με τις διαφορές των χειλών, των βάσεων και των λαβών τους.</skos:definition>
+        <skos:definition xml:lang="he">לאמפורת הבטן יש עיקול מתמשך וחלק משפתיה ועד לתחתית. אמפורות אלו מסווגות לסוגי A, B ו C, בהתבסס על השוני בצורת השפתיים, התחתית, וידיות הכלי.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/belly_amphora#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/belly_amphora"/>
@@ -80,6 +81,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -57,6 +57,7 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/175842611"/>
         <skos:definition xml:lang="de">Basiert auf einem ägyptischen Prototyp aus Alabaster. Dieses kleine Gefäß für Parfum und Salb-Öl hat einen breiten, flachen Mund, schmalen Hals, einen dünnen schmallen Körper (manchmal mit Ösen) und meistens ohne Fuß. Verwendung von Frauen als Toilettenartikel und im Kult als Salbgefäß. Der Inhalt wurde mit einem Stäbchen entnommen.</skos:definition>
         <skos:definition xml:lang="el">Βασισμένο σε αιγυπτιακά πρότυπα που κατασκευάζονται από τον ομώνυμο λευκό ημιδιαφανή λίθο, αυτό το μικρού μεγέθους αγγείο χρησιμοποιείτο για τη φύλαξη αρωματικών ελαίων. Διαθέτει ένα πλατύ, επίπεδο χείλος, στενό λαιμό, επίμηκες σώμα, μερικές φορές με αποφύσεις ("ώτα"), και συνήθως δεν έχει βάση. Αποτελούσε τμήμα της σκευής καλλωπισμού των γυναικών και είχε και λατρευτική χρήση. Το περιεχόμενό του εξαγόταν με μια σπαθίδα (σπάτουλα).</skos:definition>
+        <skos:definition xml:lang="he">בהתבסס על דיגמי אבן אלבסטר שבמצריים, לכד קטן זה, המשמש כלי קיבול לבושם או לשמן, יש פיה רחבה ושטוחה, צוואר צר, צורת גוף דקה כצורת תיק (לפעמים עם זיזים), ובדרך כלל חסרת תחתית. כד זה שימש ככלי לתמרוקי נשים, ולשימוש פולחני, ותכולתו הוצאה בעזרת מקל .</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/alabastron#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/alabastron"/>
@@ -98,6 +99,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

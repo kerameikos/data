@@ -27,6 +27,7 @@
         <skos:definition xml:lang="de">Die Schale hat keinen Stiel und der Gefäßkörper ist direkt auf einem hohen Fuß angebracht. Diese Gefäßform ist eine Sonderform der attischen Augenschale und wird als chalkidisierende Schalen bezeichnet, weil sie von chalkidischen Töpfern in Unteritalien entwickelt wurden.</skos:definition>
         <skos:prefLabel xml:lang="el">χαλκιδίζουσα κύλικα</skos:prefLabel>
         <skos:definition xml:lang="el">Η κύλικα δεν διαθέτει πόδι και το σώμα συνδέεται απευθείας με μια ψηλή εδαφόχρωμη βάση. Το σχήμα αυτής της κύλικας αναφέρεται ως "χαλκιδίζον", επειδή μιμείται οφθαλμωτές κύλικες που παράγονταν από το μελανόμορφο κεραμικό εργαστήριο που είναι γνωστό ως Χαλκιδικό και αναπτύχθηκε από Έλληνες αποίκους στη Μεγάλη Ελλάδα.</skos:definition>
+        <skos:definition xml:lang="he">גביע מסוג זה הינו חסר רגל וקערתו מונחת ישירות על תחתית גבוהה עם קצה מופרד. צורת הגביע מכונה "כלקידית״ (Chalcidising) מאחר והיא מחקה את גביעי העין שיוצרו בכלי הדמויות השחורות, הידועים ככלים כלקידיים הנעשו על ידי מתיישבים יוונים באיטליה.</skos:definition>
     </kon:Shape>
    
    
@@ -63,6 +64,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

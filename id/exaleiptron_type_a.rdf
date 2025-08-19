@@ -28,6 +28,7 @@
         <skos:definition xml:lang="de">Typ A Exaleiptron ist die frühere Variante der zwei Typen und ist charakterisiert durch einen kürzeren breiten Fuß. Der Begriff dieses Gefäßes ist umstritten und es wird auch als 'Plemochoё' oder (inkorrekt) als 'Kothon' bezeichnet. Siehe 'Exaleiptron'</skos:definition>
         <skos:prefLabel xml:lang="el">εξάλειπτρο τύπου Α</skos:prefLabel>
         <skos:definition xml:lang="el">Το εξάλειπτρο τύπου Α είναι η πρωιμότερη εκδοχή των δύο τύπων και διακρίνεται από το βραχύτερο, πλατύτερο και διευρυνόμενο πόδι. Οι μελετητές δεν συμφωνούν πλήρως για το όνομα του αγγείου και αποκαλείται επίσης "πλημοχόη"και −λανθασμένα− "κόθων", Βλ. "εξάλειπτρο".</skos:definition>
+        <skos:definition xml:lang="he">סוג A של ה-'אקסליפטרון' (exaleiptron) הוא הקדום מבין שני הסוגים ומבדיל את עצמו ברגל היותר נמוכה ורחבה שלו. אין הסכמה מוחלטת על שם הכלי, ולעיתים מכנים אותו גם 'פלאמוכוי' (plemochoё), ו(בשוגג) ״קוטהון״ (kothon). למידע נוסף על המונח, ראה 'אקסליפטרון' (exaleiptron).</skos:definition>
     </kon:Shape>
    
    
@@ -55,6 +56,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

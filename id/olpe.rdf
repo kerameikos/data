@@ -48,6 +48,7 @@
         <skos:definition xml:lang="de">Ein griechisches Wort 'Olpe' bezeichnet 'Kanne' und wird allgemein für eine schlanke Kanne ohne separatem Hals verwendet. Sie besitzt meistens einen niedrigen Henkel</skos:definition>
         <skos:prefLabel xml:lang="el">όλπη</skos:prefLabel>
         <skos:definition xml:lang="el">Η λέξη "όλπη" προσδιορίζει έναν τύπο οινοχόης με ενιαίο, ραδινό σώμα, με συνεχή καμπύλη και μια χαμηλή λαβή.</skos:definition>
+        <skos:definition xml:lang="he">משמעות המילה היוונית 'אולפה' הינה 'קנקן' ובאופן קונבנציונאלי משמשת לתיאור קנקן בעל צורה דקיקה/רזה, ידית נמוכה וללא צוואר נפרד.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/olpe#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/olpe"/>
@@ -97,6 +98,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -55,6 +55,7 @@
         <skos:definition xml:lang="de">Die Klepsydra oder Wasseruhr wurde verwendet, um Redezeiten in Athen bei Gericht zu limitieren. Ein Topf wurde bis zu einer bestimmten Marke mit Wasser gefüllt. Aus einem Loch, das sich nahe am Boden befand. Sobald das Wasser abgefloßen war, war die Redezeit zu Ende.</skos:definition>
         <skos:prefLabel xml:lang="el">κλεψύδρα</skos:prefLabel>
         <skos:definition xml:lang="el">Η κλεψύδρα χρησιμοποιείτο στα αθηναϊκά δικαστήρια για να περιορίσει τον χρόνο αγόρευσης των διαδίκων. Τα αγγεία γεμίζονταν με νερό μέχρι ενός σημείου και το νερό έρεε από μια οπή κοντά στον πυθμένα του αγγείου, επισημαίνοντας το χρονικό όριο. Καθώς τελείωνε ο διαθέσιμος χρόνος, η ροή του νερού θα μειωνόταν αισθήτα, αφού μειωνόταν η πίεση, και θα γινόταν αντιληπτό όχι μόνο στον ομιλητή αλλά και στο ακροατήριο.</skos:definition>
+        <skos:definition xml:lang="he">הקלפסידרה הוא שעון מים, ששימש לקציבת זמן הנאומים בבתי הדין באתונה. הסירים מולאו בכמות מדודה של מים, וזמן התרוקנות המים מחור שהיה מצוי בקרבת התחתית, סימן את משך הזמן שנותר לנואם לשאת דבריו. לקראת סיום הזמן הקצוב, זרם המים היה פוחת במידה ניכרת ככל שהלחץ ירד, דבר שהיה ברור לא רק לנואם אלא גם למאזיניו.</skos:definition>
     </kon:Shape>
    
    
@@ -82,6 +83,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

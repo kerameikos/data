@@ -34,6 +34,7 @@
         <skos:definition xml:lang="de">Benannt nach einem Fundort auf Rhodos. Sianaschalen können von Komastenschalen durch den höheren Fuß und der längeren Lippe unterschieden werden. Im Gegensatz zur Komastenschale besitzen sie auf der Innenseite einen Dekor (Tondo). Für die Außenseite gibt es zwei Dekorschemata: der Doppeldecker-Typ umfasst zwei übereinander liegende Friese, einen auf der Lippe (meistens floral) und eine figürliche Darstellung am Gefäßkörper. Beim Knickfries-Typ ist eine einzige Dekorszene über den gesamten Gefäßkörper bis zur Lippe dargestellt. Teile der Form und Dekoration von Sianaschalen dürften auf ostgriechische Vorläufer zurückgehen.</skos:definition>
         <skos:prefLabel xml:lang="el">κύλικα τύπου Σιάνων</skos:prefLabel>
         <skos:definition xml:lang="el">Η ονομάσια προέρχεται από μια τοποθεσία της Ρόδου όπου βρέθηκαν παραδείγματα αυτών των κυλίκων. Οι κύλικες τύπου Σιάνων διακρίνονται από τις κύλικες των Κωμαστών από το ψηλότερό πόδι και χείλος τους. Επιπλέον, σε αντίθεση με τις κύλικες των Κωμαστών, φέρουν διακόσμηση εσωτερικά, στο μετάλλιό τους, ενώ εντοπίζονται δύο τρόποι διακόσμησης της εξωτερικής πλευράς. Μια διμερής διακόσμηση, όπου υπάρχουν δύο ζώνες σε κάθε πλευρά, μία στο χείλος (συνήθως με φυτικά μοτίβα) και μια εικονιστική σκηνή στο σώμα. Στην ενιαία διακόσμηση απαντά μία μόνο εικονιστική σκηνή που καταλαμβάνει ολόκληρο το σώμα και το χείλος. Οι κύλικες τύπου Σιάνων έχουν επηρεαστεί τόσο ως προς το σχήμα όσο και ως προς τη διακόσμηση από πρότυπα της ανατολικής Ελλάδας.</skos:definition>
+        <skos:definition xml:lang="he">גביעי סיאנה (Siana cups) נקראים על שם אתר ברודוס שבו נמצאו דוגמאות של גביעים אלו. הם מובדלים מגביעי הקומסט - Komast cup בזכות התחתית והשפה שלהם שגבוהות יותר. הם מעוטרים בטונדו (הבדל נוסף הקיים בין גביעים אלו לגביעי הקומסט) וישנן שתי סכמות לעיטור החלק החיצוני: הסוג ה-'דו-קומתי' שקולל שני אפריזים בכל צד: האחד על השפה (בדרך כלל פרחוני), והשני שהינו סצנת דמויות - על הגוף. הסוג השני הינו סוג ה-'חפיפה' המשתמש באפריז אחד בכל צד על-מנת לכסות את גובה הגוף והשפה של הגביע. נראה כי סגנונות הצורה והעיטור של גביעי הסיאנה מקורם במודלים ממזרח יוון.</skos:definition>
     </kon:Shape>
    
    
@@ -61,6 +62,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

@@ -81,6 +81,7 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4001770-9"/>
         <skos:definition xml:lang="de">Bedeutet "auf beiden Seiten tragen". Die Amphore wurde aus allen Fabrikaten hergestellt. Es hat zwei vertikale Henkel, einen breiten Körper und schmalen Hals. Manche haben einen breiten Fuß (Knauf), wurden in unterschiedlichen Größe produziert und manche haben einen Deckel. Verwendung für flüssige und feste Nahrungsmittel. Die Haupttypen sind: 1) Transportamphore - eine große, grobe Form mit langem Körper, schmaler Fuß (Knauf), und enger Mündung, die verschlossen werden kann. 2) Halsamphore - viele Varianten in Feinware; Hals vom Körper abgesetzt. Spezielle Typen sind z.B. Nikostenische, Nolan, Panathenäische Preisamphore, Spitzamphore 3) Bauchamphore - gleitender Übergang vom Körper zum Hals. Gestaltung der Henkel, der Mündung und der Füße variieren.</skos:definition>
         <skos:definition xml:lang="el">Αποτελεί απλολογία της λέξης ἀμφιφορεύς, δηλαδή το αγγείο που φέρεται και από τις δύο λαβές του. Ο αμφορέας απαντά σε όλες τις κατηγορίες κεραμικής. Έχει δύο κάθετες λαβές, ευρύ σώμα και στενότερο λαιμό. Οι αμφορείς κατασκευάζονταν σε διάφορα μεγέθη και ορισμένοι μπορεί να διαθέτουν μια πλατιά βάση ή κάλυμμα. Χρησιμοποιούνταν για τη φύλαξη στερεών τροφίμων, καθώς και υγρών. Οι τρεις βασικοί τύποι αμφορέα είναι:1) Ο οξυπύθμενος αμφορέας, ένα μεγάλου μεγέθους αγγείο, που ανήκει στην τραχεία, χρηστική κεραμική, με επίμηκες σώμα, οξύληκτη απόληξη (το λεγόμενο έμβολο) και στενό λαιμό που μπορούσε να σφραγιστεί. 2) Αμφορέας με λαιμό - υπάρχουν διάφορες παραλλαγές του στη γραπτή κεραμική, με κοινό τους στοιχείο τον λαιμό που διακρίνεται από το σώμα του αγγείου. Επιπλέον, υπάρχουν ειδικά ονοματισμένες παραλλαγές, π.χ. νικοσθένειοι αμφορείς, τύπου Νόλα, παναθηναϊκοί και οξυπύθμενοι. 3) Ενιαίου σχήματος, στους οποίους σχηματίζεται μια συνεχής καμπύλη από τον λαιμό στο σώμα. Το σχήμα των λαβών, του χείλους και της βάσης διαφέρει ανάμεσα στους διάφορους τύπους του ενιαίου αμφορέα.</skos:definition>
+        <skos:definition xml:lang="he">'ניתנת לנשיאה משני הצדדים', האמפורה עשויה מכל סוגי המרקמים. בעלת שתי ידיות אנכיות, גוף רחב, וצוואר צר יותר. לחלק מהאמפורות יש תחתית רחבה, לחלקן יש מכסים וגודלן מגוון. האמפורה שימשה גם לאיחסון נוזלים וגם לאיחסון מוצקים. שלושת סוגי האמפורה הם: 1) אמפורת הובלה - צורת כלי גס גדול עם גוף ארוך, תחתית בצורת בוהן קטנה ופיה צרה שניתנת לאטימה. 2) אמפורת צוואר - קיים מגוון רחב של סוגי אמפורות הנכללות בקטגוריה זו, כולן בעלות צוואר מאופק - כלומר העיקול והצורה משתנים באופן קיצוני במקום שבו הצוואר פוגש את הכתף. בנוסף, יש לאמפורת הצוואר וריאנטים להם ניתן שם מיוחד, לדוגמא ניקוסתנית (Nikosthenic), נולית (Nolan), פנאתנאית (Panathenaic), מחודדת (pointed). 3) אמפורת בטן -- המעבר בין צוואר הכלי לגופו - חלק - אין לה צוואר ממשי. חלקה העליון ממשיך את עוקמת הגוף. צורות הידיות, הפיה, והרגליים משתנות בהתאם לסוגי האמפורות.</skos:definition>
     </kon:Shape>
    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/amphora#provenance">
         <foaf:topic rdf:resource="http://kerameikos.org/id/amphora"/>
@@ -122,6 +123,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>

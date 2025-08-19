@@ -28,6 +28,7 @@
         <skos:definition xml:lang="de">Der Ständer ist viel kleinerdimensioniert als andere Stützen, die als Basis für Vasen gedacht waren. Der Ständer hat eine breite, flache Oberfläche, die often in schwarz- oder rotfiguriger Malerei bemalt ist. Die breite Oberfläche sitzt auf einem Stiehl auf.</skos:definition>
         <skos:prefLabel xml:lang="el">υποστατό</skos:prefLabel>
         <skos:definition xml:lang="el">Το υποστατό είναι πολύ μικρότερο σε μέγεθος από άλλα στηρίγματα που προορίζονταν ως βάσεις για αγγεία. Το υποστατό έχει μια πλατιά, επίπεδη επιφάνεια στο άνω μέρος που συχνά φέρει μελανόμορφο ή ερυθρόμορφο διάκοσμο. Το ευρύ άνω μέρος στηρίζεται σε ένα διευρυνόμενο πόδι, συνήθως με έναν πλαστικό δακτύλιο στον κορμό του.</skos:definition>
+        <skos:definition xml:lang="he">המעמד קטן משמעותית בגודלו בהשוואה לתומכים אחרים שנועדו לשמש כבסיסים לכדים. בחלקו העליון והרחב של המעמד יש משטח רחב ושטוח, שלרוב מקושט בטכניקת הדמות השחורה או האדומה. המשטח הרחב נתמך על ידי תחתית גבוהה עם רגל, לרוב מעוטר בפס בולט לאורך הרגל.</skos:definition>
     </kon:Shape>
    
    
@@ -55,6 +56,15 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
+					           <dcterms:type>spreadsheet</dcterms:type>
+				        </prov:Activity>
+        </prov:activity>
+        <prov:activity>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
 					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
