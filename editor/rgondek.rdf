@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  
-    xmlns:dcterms="http://purl.org/dc/terms/"
-    xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:prov="http://www.w3.org/ns/prov#"
-    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-    xmlns:edm="http://www.europeana.eu/schemas/edm/"
-    xmlns:org="http://www.w3.org/ns/org#"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">    
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">    
     <crm:E21_Person rdf:about="http://kerameikos.org/editor/rgondek">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
