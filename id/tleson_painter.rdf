@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,12 +16,12 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/tleson_painter">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/tleson_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Tleson Painter</skos:prefLabel>
         <skos:definition xml:lang="en">The Tleson Painter is an Athenian black-figure painter of Little Master cups active from ca. 555 to 535 BCE. The name derives from vases signed by the potter “Tleson, son of Nearchos” (“Tleson ho Nearcho epoiesen”), and it is possible that painter and potter are one in the same. Decorated shapes are band-cups and lip-cups, and subjects include animals, Herakles, and Theseus. Findspots are in Vulci and elsewhere in Italy, Sicily, Berezan, Naukratis, and the Athenian Acropolis.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/tleson_painter#painter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/tleson_painter#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500023750"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60825"/>
         <skos:prefLabel xml:lang="de">Tleson-Maler</skos:prefLabel>
@@ -39,21 +39,21 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/13282714X"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000019433771"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/52860089"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/tleson_painter#provenance"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/tleson_painter#potter"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/tleson_painter#provenance"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/tleson_painter#potter"/>
     </crm:E21_Person>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/tleson_painter#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/tleson_painter#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/tleson_painter#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/tleson_painter"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/tleson_painter#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/tleson_painter"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -62,13 +62,13 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://kerameikos.org/id/tleson_painter#potter">
-        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/tleson_painter#potter">
+        <org:role rdf:resource="https://kerameikos.org/id/potter"/>
     </org:Membership>
 </rdf:RDF>

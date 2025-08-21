@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,23 +16,23 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <kon:Technique rdf:about="http://kerameikos.org/id/coral_red">
+    <kon:Technique rdf:about="https://kerameikos.org/id/coral_red">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Coral Red</skos:prefLabel>
         <skos:definition xml:lang="en">Coral red (or “intentional red”) is the term used to describe a color applied to some vases in the 6th and 5th c. BCE. The color was painted onto entire vases (called “red-bodied” vessels) but did not adhere well to the surface. It is debated whether coral red derives from a mixture of red ochre or comes from a refined form of natural clay and yellow ochre that transforms to coral red when fired. The earliest known example of coral red is a kylix signed as potter (“epoiesen”) by Exekias (Munich, Antikensammlungen 2044; BAPD 310403) showing Dionysos reclining inside a ship on the cup’s interior (see Exekias). The technique appears mostly on small shapes and on a volute krater attributed to the Kleophrades Painter (see Kleophrades Painter).</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300265014"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/coral_red#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/coral_red#provenance"/>
     </kon:Technique>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/coral_red#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/coral_red"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/coral_red#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/coral_red"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

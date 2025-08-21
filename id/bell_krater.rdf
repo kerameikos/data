@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,16 +16,16 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Shape rdf:about="http://kerameikos.org/id/bell_krater">
+   <kon:Shape rdf:about="https://kerameikos.org/id/bell_krater">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Bell Krater</skos:prefLabel>
         <skos:definition xml:lang="en">The bell-krater is an innovation belonging to the red-figure technique. The body rises from a low disk-foot or sometimes a modified disk-foot into the hint of a stem before expanding into the shape of an inverted bell with a mildly flaring mouth with a torus lip. It has sturdy, horizontal, cylindrical handles that are located high up on the body opposite one another and are slightly upturned.</skos:definition>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5427"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198857"/>
         <rdfs:seeAlso rdf:resource="https://www.beazley.ox.ac.uk/tools/pottery/shapes/bell.htm"/>
-        <skos:broader rdf:resource="http://kerameikos.org/id/krater"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/bell_krater#provenance"/>
+        <skos:broader rdf:resource="https://kerameikos.org/id/krater"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/bell_krater#provenance"/>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000188572"/>
         <skos:prefLabel xml:lang="de">Glockenkrater</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">cratère en cloche</skos:prefLabel>
@@ -39,13 +39,13 @@
         <skos:definition xml:lang="el">Ο κωδωνόσχημος κρατήρας είναι μια καινοτομία του ερυθρόμορφου ρυθμού. Διαθέτει μια χαμηλή δισκοειδή βάση, που μερικές φορές τροποποιημένη απολήγει σε ένα βραχύ στέλεχος. Το σχήμα του σώματος του αγγείου θυμίζει ανεστραμμένο κώδωνα, με ένα ελάφρά έξω νεύον στόμιο και καμπύλο χείλος. Oι συμπαγείς οριζόντιες και κυλινδρικές λαβἐς του αγγείου, ελαφρά στραμμένες προς τα άνω, τοποθετούνται συμμετρικά ψηλά στο σώμα του αγγείου.</skos:definition>
         <skos:definition xml:lang="he">,פעמון הקרטר (bell-krater), הינו חידוש השייך לטכניקת הדמות האדומה. גוף הכד עולה מהתחתית שהינה בצורת דיסק, או לעיתים מתחתית-דיסק משופרת, אל תוך דבר המזכיר 'גבעול', לפני שמתרחב לצורת פעמון הפוך עם התרחבות קלה בפיה ששפתיה טורוס. הוא בעל ידיות יציבות, אופקיות, וגליליות הממוקמות גבוה על גוף הכלי, אחת מול השנייה והפוכות מעט כלפי מעלה.</skos:definition>
     </kon:Shape>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/bell_krater#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/bell_krater"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/bell_krater#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/bell_krater"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-02T15:29:54-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -53,7 +53,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -61,7 +61,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -70,7 +70,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -79,7 +79,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -88,7 +88,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

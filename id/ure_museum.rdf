@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,23 +16,23 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <crm:E40_Legal_Body rdf:about="http://kerameikos.org/id/ure_museum">
+   <crm:E40_Legal_Body rdf:about="https://kerameikos.org/id/ure_museum">
       <skos:prefLabel xml:lang="en">Ure Museum of Greek Archaeology</skos:prefLabel>
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:definition xml:lang="en">The Ure Museum of Greek Archaeology contains one of the most important collections of Greek antiquities in the United Kingdom. The Museum forms part of the Department of Classics at the University of Reading and is situated on the university's Whiteknights Campus, about two miles from the centre of the English town of Reading, Berkshire.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <foaf:homepage rdf:resource="http://www.reading.ac.uk/Ure/index.php"/>
       <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7900347"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ure_Museum_of_Greek_Archaeology"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/ure_museum#provenance"/>
+      <skos:changeNote rdf:resource="https://kerameikos.org/id/ure_museum#provenance"/>
    </crm:E40_Legal_Body>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/ure_museum#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/ure_museum"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/ure_museum#provenance">
+      <foaf:topic rdf:resource="https://kerameikos.org/id/ure_museum"/>
       <prov:wasGeneratedBy>
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T19:37:43+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:wasGeneratedBy>
@@ -40,7 +40,7 @@
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T19:37:43+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:activity>

@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <crm:E74_Group rdf:about="http://kerameikos.org/id/leagros_group">
+   <crm:E74_Group rdf:about="https://kerameikos.org/id/leagros_group">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Leagros Group</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Leagros-Gruppe</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Gruppo di Leagros</skos:prefLabel>
@@ -27,21 +27,21 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/123061669"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Leagros_Group"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59160"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/leagros_group#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/leagros_group#provenance"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q830436"/>
         <skos:prefLabel xml:lang="el">Εργαστήριο του Λεάγρου</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">groupe de Leagros</skos:prefLabel>
         <skos:prefLabel xml:lang="ro">Grupul Leagros</skos:prefLabel>
         
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/leagros_group#group"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/leagros_group#group"/>
     </crm:E74_Group>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/leagros_group#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/leagros_group"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/leagros_group#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/leagros_group"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -49,7 +49,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -57,7 +57,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T09:11:25.702-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
@@ -65,7 +65,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -74,13 +74,13 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:33:09.768-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
     
-    <org:Membership rdf:about="http://kerameikos.org/id/leagros_group#group">
-        <org:role rdf:resource="http://kerameikos.org/id/group"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/leagros_group#group">
+        <org:role rdf:resource="https://kerameikos.org/id/group"/>
     </org:Membership>
 </rdf:RDF>

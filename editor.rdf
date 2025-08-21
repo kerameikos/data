@@ -8,7 +8,7 @@
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <skos:ConceptScheme rdf:about="http://kerameikos.org/editor/">
+    <skos:ConceptScheme rdf:about="https://kerameikos.org/editor/">
     	<rdfs:label>Kerameikos.org Editors</rdfs:label>
     	<rdfs:comment>The Kerameikos.org concept scheme for data editors in the editor/ namespace.</rdfs:comment>
     	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-10</dcterms:created>

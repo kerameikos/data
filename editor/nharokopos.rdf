@@ -9,11 +9,11 @@
     xmlns:edm="http://www.europeana.eu/schemas/edm/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">    
-    <crm:E21_Person rdf:about="http://kerameikos.org/editor/nharokopos">
+    <crm:E21_Person rdf:about="https://kerameikos.org/editor/nharokopos">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Nicholas A. Harokopos</skos:prefLabel>  
      	<skos:prefLabel xml:lang="el">Νικόλαος Αντ. Χαροκόπος</skos:prefLabel>
-        <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/editor/"/>
     </crm:E21_Person>     
 </rdf:RDF>

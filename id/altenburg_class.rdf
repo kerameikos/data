@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,28 +16,28 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E74_Group rdf:about="http://kerameikos.org/id/altenburg_class">
+    <crm:E74_Group rdf:about="https://kerameikos.org/id/altenburg_class">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Altenburg Class</skos:prefLabel>
         <skos:definition xml:lang="en">The Altenburg Class denotes a group of Athenian black-figure painters active late 6th to early 5th c. BCE who mostly decorate the oinochoe. The name derives from an oinochoe from Vulci (Altenburg, Staatliches Lindenau-Museum 203A; BAPD 303211) showing a seated winged female. Attributed to the class are the Painter of Munich 1760 and the Leagros Group. The Altenburg Painter, a 6th c. BCE East Greek vase-painter of Fikellura style vessels, is not connected to this class. Scenes are Athena, Dionysos and followers, and the Struggle for the Delphic Tripod. Aside from Vulci, findspots include other Etruscan sites.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/altenburg_class#class"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/altenburg_class#class"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500015051"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57161"/>
     </crm:E74_Group>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/altenburg_class#class">
-        <org:role rdf:resource="http://kerameikos.org/id/class"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/altenburg_class#provenance"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/altenburg_class#class">
+        <org:role rdf:resource="https://kerameikos.org/id/class"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/altenburg_class#provenance"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/altenburg_class#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/altenburg_class"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/altenburg_class#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/altenburg_class"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

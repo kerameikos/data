@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,12 +16,12 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/the_paris_gigantomachy_painter">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/the_paris_gigantomachy_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Painter of The Paris Gigantomachy</skos:prefLabel>
         <skos:definition xml:lang="en">The Painter of the Paris Gigantomachy is an Athenian red-figure painter active ca. 480-460 BCE. The name derives from a cup found at Vulci (Paris, Cabinet de Médailles 573; BAPD 204546) showing the Gigantomachy on the interior and exterior. Shapes are primarily the cup, but also the lekythos, oinochoe, and neck amphora. Subjects include athletes, revelers (“komasts”), centaurs, satyrs, the symposion, and religion. Some findspots include Adria, Etruria (Vulci, Orvieto, Tarquinia, Cerveteri, Chiusi), Nola, Gela, the Athenian Agora, Tanagra, and Ampurias (Spain).</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/the_paris_gigantomachy_painter#painter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/the_paris_gigantomachy_painter#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500060835"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59983"/>
         <skos:prefLabel xml:lang="de">Maler der Pariser Gigantomachie</skos:prefLabel>
@@ -34,20 +34,20 @@
         <skos:prefLabel xml:lang="sq">Painter of the Paris Gigantomachy</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1887164"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/96092008"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/the_paris_gigantomachy_painter#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/the_paris_gigantomachy_painter#provenance"/>
     </crm:E21_Person>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/the_paris_gigantomachy_painter#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/the_paris_gigantomachy_painter#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/the_paris_gigantomachy_painter#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/the_paris_gigantomachy_painter"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/the_paris_gigantomachy_painter#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/the_paris_gigantomachy_painter"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

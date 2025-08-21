@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,22 +16,22 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Shape rdf:about="http://kerameikos.org/id/shoulder_hydria">
+   <kon:Shape rdf:about="https://kerameikos.org/id/shoulder_hydria">
       <skos:prefLabel xml:lang="en">Shoulder Hydria</skos:prefLabel>
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:definition xml:lang="en">The so-called Shoulder Hydria is primarily a black-figure shape and dates mostly from ca. 525 through the second quarter of the fifth century B.C.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300265017"/>
-      <skos:broader rdf:resource="http://kerameikos.org/id/hydria"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/shoulder_hydria#provenance"/>
+      <skos:broader rdf:resource="https://kerameikos.org/id/hydria"/>
+      <skos:changeNote rdf:resource="https://kerameikos.org/id/shoulder_hydria#provenance"/>
    </kon:Shape>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/shoulder_hydria#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/shoulder_hydria"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/shoulder_hydria#provenance">
+      <foaf:topic rdf:resource="https://kerameikos.org/id/shoulder_hydria"/>
       <prov:wasGeneratedBy>
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:wasGeneratedBy>
@@ -39,7 +39,7 @@
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:activity>

@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,28 +16,28 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E74_Group rdf:about="http://kerameikos.org/id/class_of_athens_581">
+    <crm:E74_Group rdf:about="https://kerameikos.org/id/class_of_athens_581">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Class of Athens 581</skos:prefLabel>
         <skos:definition xml:lang="en">The Class of Athens 581 denotes a group of Athenian black-figure painters active in the early 5th c. BCE, who sometimes apply black-figure to white-ground. The name derives from a lekythos (Athens, National Museum 581; BAPD 303599) showing a symposion with Dionysos reclining. The main shape is the lekythos with palmettes, buds, or rays on the shoulder. Connected to the class are the Marathon Painter, Campana Painter, Haimon Painter, the Kalinderu Group, Cock Group, and Group of Brussels A 1311. Findspots include Athens, Perachora, Rhodes, southern Italy, Sicily, and Cyprus.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/class_of_athens_581#class"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/class_of_athens_581#class"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116383"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57807"/>
     </crm:E74_Group>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/class_of_athens_581#class">
-        <org:role rdf:resource="http://kerameikos.org/id/class"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/class_of_athens_581#provenance"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/class_of_athens_581#class">
+        <org:role rdf:resource="https://kerameikos.org/id/class"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/class_of_athens_581#provenance"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/class_of_athens_581#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/class_of_athens_581"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/class_of_athens_581#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/class_of_athens_581"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

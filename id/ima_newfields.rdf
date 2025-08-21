@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,13 +16,13 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E40_Legal_Body rdf:about="http://kerameikos.org/id/ima_newfields">
+    <crm:E40_Legal_Body rdf:about="https://kerameikos.org/id/ima_newfields">
         <skos:prefLabel xml:lang="en">Indianapolis Museum of Art at Newfields</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">The Indianapolis Museum of Art (IMA) is an encyclopedic art museum located at Newfields, a 152-acre campus near downtown Indianapolis. The Indianapolis Museum of Art is the ninth oldest and eighth largest encyclopedic art museum in the United States. The permanent collection comprises over 54,000 works, including African, American, Asian, and European pieces.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <foaf:homepage rdf:resource="https://discovernewfields.org/"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/ima_newfields#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/ima_newfields#provenance"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1117704"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Indianapolis_Museum_of_Art"/>
         <skos:exactMatch rdf:resource="https://www.freebase.com/m/0fb07m"/>
@@ -35,13 +35,13 @@
         <skos:exactMatch rdf:resource="http://www.idref.fr/026615525"/>
         <foaf:thumbnail rdf:resource="https://discovernewfields.org/application/themes/newfields/images/newfields_logo.svg"/>
     </crm:E40_Legal_Body>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/ima_newfields#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/ima_newfields"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/ima_newfields#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/ima_newfields"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-30T16:02:04.269-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>

@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,27 +16,27 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E74_Group rdf:about="http://kerameikos.org/id/krokotos_group">
+    <crm:E74_Group rdf:about="https://kerameikos.org/id/krokotos_group">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Krokotos Group</skos:prefLabel>
         <skos:definition xml:lang="en">The Krokotos Group is a group of Athenian black-figure painters active at the end of the 6th c. BCE. It includes the Group of Walters 48.42, Durand Painter, and Painter of Munich 2100. The name derives from the added saffron-yellow applied to garments and animals. Shapes include the skyphos, and the imagery pertains to Dionysos. Findspots are Etruria, the Athenian Acropolis, Corinth, Thebes, and Sicily.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/krokotos_group#group"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/krokotos_group#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500087234"/>
     </crm:E74_Group>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/krokotos_group#group">
-        <org:role rdf:resource="http://kerameikos.org/id/group"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/krokotos_group#provenance"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/krokotos_group#group">
+        <org:role rdf:resource="https://kerameikos.org/id/group"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/krokotos_group#provenance"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/krokotos_group#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/krokotos_group"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/krokotos_group#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/krokotos_group"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

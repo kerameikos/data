@@ -2,10 +2,10 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,9 +16,9 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E4_Period rdf:about="http://kerameikos.org/id/archaic_greece">
+    <crm:E4_Period rdf:about="https://kerameikos.org/id/archaic_greece">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Archaic</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Archaisch</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Αρχαϊκός, -ή, -ό</skos:prefLabel>
@@ -83,15 +83,15 @@
         <skos:exactMatch rdf:resource="http://n2t.net/ark:/99152/p0qhb66mj5z"/>
         <skos:exactMatch rdf:resource="http://chronontology.dainst.org/period/LBnJ3GkRUjSyy"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x13613"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/archaic_greece#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/archaic_greece#provenance"/>
     </crm:E4_Period>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/archaic_greece#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/archaic_greece"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/archaic_greece#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/archaic_greece"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-20T13:37:32.994-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1nVRnobSSKu09A86y27mBsmcgIZqX56mQiMn7kO10M68/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

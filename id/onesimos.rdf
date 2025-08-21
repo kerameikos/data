@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <crm:E21_Person rdf:about="http://kerameikos.org/id/onesimos">
+   <crm:E21_Person rdf:about="https://kerameikos.org/id/onesimos">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Onesimos</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Onesimo</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Onesimos</skos:prefLabel>
@@ -32,8 +32,8 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118736337"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Onesimos_(vase_painter)"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59700"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/onesimos#provenance"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/onesimos#painter"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/onesimos#provenance"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/onesimos#painter"/>
         <skos:prefLabel xml:lang="uk">Онесім</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Onesimos</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Onésimo</skos:prefLabel>
@@ -47,15 +47,15 @@
         <skos:prefLabel xml:lang="fi">Onesimos (vaasimaalari)</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q475054"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000448876087"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/onesimos#potter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/onesimos#potter"/>
     </crm:E21_Person>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/onesimos#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/onesimos"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/onesimos#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/onesimos"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -63,7 +63,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -71,7 +71,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -80,16 +80,16 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://kerameikos.org/id/onesimos#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/onesimos#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <org:Membership rdf:about="http://kerameikos.org/id/onesimos#potter">
-        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/onesimos#potter">
+        <org:role rdf:resource="https://kerameikos.org/id/potter"/>
     </org:Membership>
 </rdf:RDF>

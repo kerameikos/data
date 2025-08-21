@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,23 +16,23 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <crm:E21_Person rdf:about="http://kerameikos.org/id/vouni_painter">
+   <crm:E21_Person rdf:about="https://kerameikos.org/id/vouni_painter">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <skos:prefLabel xml:lang="en">Vouni Painter</skos:prefLabel>
       <skos:definition xml:lang="en">A white-ground artist active in Athens from 470-460 B.C.</skos:definition>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116429"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/96544782"/>
       <rdfs:seeAlso rdf:resource="http://www.getty.edu/art/gettyguide/artMakerDetails?maker=3558"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/vouni_painter#provenance"/>
+      <skos:changeNote rdf:resource="https://kerameikos.org/id/vouni_painter#provenance"/>
    </crm:E21_Person>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/vouni_painter#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/vouni_painter"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/vouni_painter#provenance">
+      <foaf:topic rdf:resource="https://kerameikos.org/id/vouni_painter"/>
       <prov:wasGeneratedBy>
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:wasGeneratedBy>
@@ -40,7 +40,7 @@
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:activity>

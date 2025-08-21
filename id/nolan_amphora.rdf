@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,25 +16,25 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Shape rdf:about="http://kerameikos.org/id/nolan_amphora">
+   <kon:Shape rdf:about="https://kerameikos.org/id/nolan_amphora">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <skos:prefLabel xml:lang="en">Nolan Amphora</skos:prefLabel>
       <skos:definition xml:lang="en">A subtype of amphora</skos:definition>
       <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198849"/>
       <skos:related rdf:resource="http://www.jstor.org/stable/497320"/>
-      <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
-      <skos:broader rdf:resource="http://kerameikos.org/id/neck_amphora"/>
+      <skos:broader rdf:resource="https://kerameikos.org/id/amphora"/>
+      <skos:broader rdf:resource="https://kerameikos.org/id/neck_amphora"/>
       <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/neck.htm"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/nolan_amphora#provenance"/>
+      <skos:changeNote rdf:resource="https://kerameikos.org/id/nolan_amphora#provenance"/>
    </kon:Shape>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/nolan_amphora#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/nolan_amphora"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/nolan_amphora#provenance">
+      <foaf:topic rdf:resource="https://kerameikos.org/id/nolan_amphora"/>
       <prov:wasGeneratedBy>
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-26T23:48:50-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:wasGeneratedBy>
@@ -42,7 +42,7 @@
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:activity>

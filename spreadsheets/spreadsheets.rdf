@@ -12,59 +12,59 @@
     <prov:Entity rdf:about="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml">
 					   <dcterms:format>application/vnd.google-apps.spreadsheet</dcterms:format>
 					   <dcterms:description xml:lang="en">Archaic and Classical Greek (non-South Italian) shapes.</dcterms:description>
-					   <dcterms:creator rdf:resource="http://kerameikos.org/editor/egruber"/>
-				    <dcterms:contributor rdf:resource="http://kerameikos.org/editor/abradford"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nolya"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/rgondek"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nhighsteskal"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/lrembart"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nharokopos"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/mgoldstein"/>
+					   <dcterms:creator rdf:resource="https://kerameikos.org/editor/egruber"/>
+				    <dcterms:contributor rdf:resource="https://kerameikos.org/editor/abradford"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/nolya"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/rgondek"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/tjsmith"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/nhighsteskal"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/lrembart"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/nharokopos"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/mgoldstein"/>
     </prov:Entity>
     <prov:Entity rdf:about="https://docs.google.com/spreadsheets/d/1nVRnobSSKu09A86y27mBsmcgIZqX56mQiMn7kO10M68/pubhtml">
 					   <dcterms:format>application/vnd.google-apps.spreadsheet</dcterms:format>
 					   <dcterms:description xml:lang="en">Primary time periods related to Greek ceramics from post-Bronze Age until the end of the Classical era.</dcterms:description>
-					   <dcterms:creator rdf:resource="http://kerameikos.org/editor/egruber"/>
-				    <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nharokopos"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nhighsteskal"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/rgondek"/>
+					   <dcterms:creator rdf:resource="https://kerameikos.org/editor/egruber"/>
+				    <dcterms:contributor rdf:resource="https://kerameikos.org/editor/nharokopos"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/nhighsteskal"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/tjsmith"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/rgondek"/>
     </prov:Entity>
     <prov:Entity rdf:about="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml">
 					   <dcterms:format>application/vnd.google-apps.spreadsheet</dcterms:format>
 					   <dcterms:description xml:lang="en">Notable groups derived from the Beazley Archive.</dcterms:description>
-					   <dcterms:creator rdf:resource="http://kerameikos.org/editor/egruber"/>
-				    <dcterms:contributor rdf:resource="http://kerameikos.org/editor/abradford"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/ccarter"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/cstratos"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/dmitchell"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/rgondek"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/slong"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
+					   <dcterms:creator rdf:resource="https://kerameikos.org/editor/egruber"/>
+				    <dcterms:contributor rdf:resource="https://kerameikos.org/editor/abradford"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/ccarter"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/cstratos"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/dmitchell"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/rgondek"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/slong"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/tjsmith"/>
     </prov:Entity>
     <prov:Entity rdf:about="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml">
 					   <dcterms:format>application/vnd.google-apps.spreadsheet</dcterms:format>
 					   <dcterms:description xml:lang="en">Black- and red-figure Athenian painters and potters.</dcterms:description>
-					   <dcterms:creator rdf:resource="http://kerameikos.org/editor/egruber"/>
-				    <dcterms:contributor rdf:resource="http://kerameikos.org/editor/abradford"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/ccarter"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/cstratos"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/dmitchell"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nolya"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/rgondek"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/slong"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
+					   <dcterms:creator rdf:resource="https://kerameikos.org/editor/egruber"/>
+				    <dcterms:contributor rdf:resource="https://kerameikos.org/editor/abradford"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/ccarter"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/cstratos"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/dmitchell"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/nolya"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/rgondek"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/slong"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/tjsmith"/>
     </prov:Entity>
     <prov:Entity rdf:about="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml">
 					   <dcterms:format>application/vnd.google-apps.spreadsheet</dcterms:format>
 					   <dcterms:description xml:lang="en">Greek vase-making techniques derived and augmented from the Beazley Archive Pottery Database.</dcterms:description>
-					   <dcterms:creator rdf:resource="http://kerameikos.org/editor/egruber"/>
-				    <dcterms:contributor rdf:resource="http://kerameikos.org/editor/abradford"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/ccarter"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/dmitchell"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/nolya"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/rgondek"/>
-        <dcterms:contributor rdf:resource="http://kerameikos.org/editor/tjsmith"/>
+					   <dcterms:creator rdf:resource="https://kerameikos.org/editor/egruber"/>
+				    <dcterms:contributor rdf:resource="https://kerameikos.org/editor/abradford"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/ccarter"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/dmitchell"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/nolya"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/rgondek"/>
+        <dcterms:contributor rdf:resource="https://kerameikos.org/editor/tjsmith"/>
     </prov:Entity>
 </rdf:RDF>

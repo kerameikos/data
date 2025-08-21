@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,24 +16,24 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <kon:Technique rdf:about="http://kerameikos.org/id/stamped">
+    <kon:Technique rdf:about="https://kerameikos.org/id/stamped">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Stamped</skos:prefLabel>
         <skos:definition xml:lang="en">Stamped describes the technique of using a mold-made terracotta stamp for decoration. Designs are stamped or impressed (see Impressed) into the soft clay surface of the vessel before it is painted. In Athens, stamped or impressed decoration first appears around the middle of the 5th c. BCE, perhaps in the work of the Sotades Painter (see Sotades Painter). The ornament generally consists of small and simple motifs, such as rosettes, concentric circles, palmettes, ovules, and tongues. Stamped decoration usually appears on the interiors of drinking vessels, some of which have red-figure on their exteriors.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300053138"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x12363"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/stamped#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/stamped#provenance"/>
     </kon:Technique>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/stamped#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/stamped"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/stamped#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/stamped"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

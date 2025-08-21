@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,15 +16,15 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <kon:Shape rdf:about="http://kerameikos.org/id/pyxis_type_d">
+    <kon:Shape rdf:about="https://kerameikos.org/id/pyxis_type_d">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Pyxis Type D</skos:prefLabel>
-        <skos:broader rdf:resource="http://kerameikos.org/id/pyxis"/>
+        <skos:broader rdf:resource="https://kerameikos.org/id/pyxis"/>
         <skos:definition xml:lang="en">In size, the Type D pyxis (or box-pyxis) is close to the powder pyxis, but it is more substantially made and was popular during the late 5th and 4th centuries. It consists of a small cylinder with a flat cover and can be divided into two classes according to the differing shapes of the lid. The lid consists of a slim flat disc with thickened rim, not unlike the discs and stands, but provided with a flat area beneath, made to fit the inside of the mouth of the bowl.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000153237"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264945"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/pyxis_type_d#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/pyxis_type_d#provenance"/>
         <skos:prefLabel xml:lang="de">Pyxis Typ D</skos:prefLabel>
         <skos:definition xml:lang="de">Die Typ C pyxis (oder Schatullenpyxis) ist im Bezug auf die Größe ähnlich der Puderpyxis, aber sie ist solider hergestellt und war im späten 5. und 4. Jh. beliebt. Sie besteht aus kleinen Zylindern mit einem flachen Deckel und kann aufgrund der Deckelform in zwei Gruppen unterteilt werden.</skos:definition>
         <skos:prefLabel xml:lang="el">πυξίδα τύπου Δ</skos:prefLabel>
@@ -33,13 +33,13 @@
     </kon:Shape>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/pyxis_type_d#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/pyxis_type_d"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/pyxis_type_d#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/pyxis_type_d"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -48,7 +48,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -57,7 +57,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -66,7 +66,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

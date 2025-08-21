@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -17,23 +17,23 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <kon:Shape rdf:about="http://kerameikos.org/id/plastic_vase">
+    <kon:Shape rdf:about="https://kerameikos.org/id/plastic_vase">
         <skos:prefLabel xml:lang="en">Plastic Vase</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Term used to describe ancient Mediterranean vessels in the form of heads or animals or groups that were partially formed in molds like terracotta statuettes.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/plastic_vase#provenance"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/plastic_vase#provenance"/>
         <skos:prefLabel xml:lang="fr">Vase Plastique</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198865"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x314465"/>
     </kon:Shape>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/plastic_vase#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/plastic_vase"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/plastic_vase#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/plastic_vase"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-12-03T09:14:08.593-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>

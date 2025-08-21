@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,12 +16,12 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E57_Material rdf:about="http://kerameikos.org/id/rock">
+    <crm:E57_Material rdf:about="https://kerameikos.org/id/rock">
         <skos:prefLabel xml:lang="en">Rock</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">A rock is any naturally occurring solid mass or aggregate of minerals or mineraloid matter. It is categorized by the minerals included, its chemical composition and the way in which it is formed. Rocks are usually grouped into three main groups: igneous rocks, metamorphic rocks and sedimentary rocks.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/rock#provenance"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/rock#provenance"/>
         <skos:altLabel xml:lang="en">Stone</skos:altLabel>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300011692"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q8063"/>
@@ -133,13 +133,13 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4020734-1"/>
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119327106"/>
     </crm:E57_Material>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/rock#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/rock"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/rock#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/rock"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T13:12:31.599-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>

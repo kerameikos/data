@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,12 +16,12 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/acropolis_606_painter">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/acropolis_606_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Painter of Acropolis 606</skos:prefLabel>
         <skos:definition xml:lang="en">The Painter of Acropolis 606 is an Athenian black-figure painter active ca. 570-560 BCE. The name derives from a dinos found on the Athenian Acropolis (Athens, National Museum Acr. 606 [15116]; BAPD 300754) that displays warriors and battle. Shapes include the column krater, neck amphora, amphora, dinos (lebes), and hydria. Findspots are in Athens and Attica, as well as Odessa (Black Sea), Sicily, and Cyprus.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/acropolis_606_painter#painter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/acropolis_606_painter#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500020730"/>
         <skos:prefLabel xml:lang="de">Maler von Akropolis 606</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Pittore dell'Acropoli 606</skos:prefLabel>
@@ -34,20 +34,20 @@
         <skos:prefLabel xml:lang="sv">Painter of Acropolis 606</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1887189"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/95808825"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/acropolis_606_painter#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/acropolis_606_painter#provenance"/>
     </crm:E21_Person>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/acropolis_606_painter#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/acropolis_606_painter#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/acropolis_606_painter#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/acropolis_606_painter"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/acropolis_606_painter#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/acropolis_606_painter"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

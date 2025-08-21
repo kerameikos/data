@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,11 +16,11 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <crm:E40_Legal_Body rdf:about="http://kerameikos.org/id/harvardartmuseums">
+   <crm:E40_Legal_Body rdf:about="https://kerameikos.org/id/harvardartmuseums">
       <skos:prefLabel xml:lang="en">Harvard Art Museums</skos:prefLabel>
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:definition xml:lang="en">The Harvard Art Museums is part of Harvard University and comprise three museums: the Fogg Museum (established in 1895), the Busch-Reisinger Museum (established in 1903), and the Arthur M. Sackler Museum (established in 1985) and four research centers: the Archaeological Exploration of Sardis (founded in 1958), the Center for the Technical Study of Modern Art (founded in 2002), the Harvard Art Museums Archives, and the Straus Center for Conservation and Technical Studies (founded in 1928). The three museums that comprise the Harvard Art Museums were initially integrated into a single institution under the name Harvard University Art Museums in 1983. University was dropped from the institutional name in 2008.</skos:definition>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <foaf:homepage rdf:resource="http://www.harvardartmuseums.org/"/>
       <foaf:thumbnail rdf:resource="http://www.harvardartmuseums.org/assets/images/logo.png"/>
       <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q3783572"/>
@@ -35,15 +35,15 @@
       <skos:exactMatch rdf:resource="http://d-nb.info/gnd/10365386-7"/>
       <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb16710756z"/>
       <skos:exactMatch rdf:resource="http://www.idref.fr/174126654"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/harvardartmuseums#provenance"/>
+      <skos:changeNote rdf:resource="https://kerameikos.org/id/harvardartmuseums#provenance"/>
    </crm:E40_Legal_Body>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/harvardartmuseums#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/harvardartmuseums"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/harvardartmuseums#provenance">
+      <foaf:topic rdf:resource="https://kerameikos.org/id/harvardartmuseums"/>
       <prov:wasGeneratedBy>
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T15:49:35+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:wasGeneratedBy>
@@ -51,7 +51,7 @@
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T15:51:33+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:activity>

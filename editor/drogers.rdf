@@ -9,11 +9,11 @@
          xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
-					<crm:E21_Person rdf:about="http://kerameikos.org/editor/drogers">
+					<crm:E21_Person rdf:about="https://kerameikos.org/editor/drogers">
 						  <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
 						  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 						  <skos:prefLabel xml:lang="en">Dylan Rogers</skos:prefLabel>
-						  <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
+						  <skos:inScheme rdf:resource="https://kerameikos.org/editor/"/>
 					     <org:memberOf>Florida State University</org:memberOf>
 					   <skos:exactMatch rdf:resource="https://orcid.org/0000-0002-7142-5677"/>
     </crm:E21_Person>

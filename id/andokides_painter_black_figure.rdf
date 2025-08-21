@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,13 +16,13 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/andokides_painter_black_figure">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/andokides_painter_black_figure">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Andokides Painter (black-figure)</skos:prefLabel>
         <skos:definition xml:lang="en">The Andokides Painter (sometimes referred to as the Lysippides Painter [Red-figure]) is an Athenian black-figure painter active during the second half of the 6th c. BCE. The name derives from vases signed by Andokides as potter ("epoiesen"). Though known for using the black-figure technique, the painter is also considered the first to regularly work in the red-figure technique after its invention ca. 530-520 BCE (see Andokides Painter [Red-figure]). As a black-figure vase-painter, the artist is best known for bilingual vases (decorated with the same scene on both sides, one in red-figure and the other in black-figure). It remains unclear whether the bilingual vases were painted by a single artist or by two. Shapes are mainly the amphora and cups, and scenes are mythological (Ajax and Achilles, Herakles, Dionysos). Findspots are Vulci, Orvieto, other sites in Italy, and the Athenian Acropolis.</skos:definition>
-        <skos:related rdf:resource="http://kerameikos.org/id/andokides_painter_red_figure"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/andokides_painter_black_figure#painter"/>
+        <skos:related rdf:resource="https://kerameikos.org/id/andokides_painter_red_figure"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/andokides_painter_black_figure#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500030596"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57177"/>
         <skos:prefLabel xml:lang="el">Ανδοκίδης</skos:prefLabel>
@@ -49,20 +49,20 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q492239"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/95870311"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118649116"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/andokides_painter_black_figure#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/andokides_painter_black_figure#provenance"/>
     </crm:E21_Person>
     
     
-    <org:Membership rdf:about="http://kerameikos.org/id/andokides_painter_black_figure#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/andokides_painter_black_figure#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/andokides_painter_black_figure#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/andokides_painter_black_figure"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/andokides_painter_black_figure#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/andokides_painter_black_figure"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -71,7 +71,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-03T09:56:20.96-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>

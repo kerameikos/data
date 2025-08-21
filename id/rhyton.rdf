@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <kon:Shape rdf:about="http://kerameikos.org/id/rhyton">
+    <kon:Shape rdf:about="https://kerameikos.org/id/rhyton">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Rhyton</skos:prefLabel>
         <ontolex:otherForm>
 					       <ontolex:Form>
@@ -61,20 +61,20 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q828450"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198841"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x8757"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/rhyton#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/rhyton#provenance"/>
         <skos:definition xml:lang="de">Rhyton' kommt vom Wort für 'fließen'. Der Begriff bezeichnet eine einhenkelige Trinkschale, die in der Form eines Tierprotoms (Schaf, Esel, etc.) oder manchmal eine komplexere Kreation (Pygmäe und Kranich, afrikanisches Kind und Krokodil, berittene Amazone, Kamel und Führer). Es wurde ursprünglich aus Horn hergestellt, daher die Form. Die Idee stammt aus Persien.</skos:definition>
         <skos:definition xml:lang="el">Η ονομασία "ρυτό" προέρχεται από το ρήμα ῥέω και προσδιορίζει ένα μόνωτο αγγείο πόσης, το σώμα του οποίου διαμορφώνεται στο σχήμα της κεφαλής ενός ζώου (πρόβατο, γάιδαρος κ.ά.) ή ενίοτε σε πιο σύνθετες δημιουργίες (πυγμαίος και γερανός, νέγρος παις και κροκόδειλος, έφιππη Αμαζόνα, καμήλα και καμηλιέρης). Αρχικά κατασκευάζονταν από κέρατα, εξού και το σχήμα. Η ιδέα του αγγείου προήλθε από την Περσία.</skos:definition>
         <skos:definition xml:lang="he">ריטון' מקורו במילה: 'זרימה'. המונח מתאר כוס שתייה עם ידית אחת, כאשר הקערה שלה מעוצבת בצורת ראש של בעל חיים (כבש, חמור, וכו') או לעיתים יצירה יותר מורכבת (פיגמי ועגור, ילד אפריקאי ותנין, אמזונה רכובה, גמל ורוכבו). במקור הריטון היה עשוי מקרן, ולכן הצורה שלו. הרעיון הושאל מפרס.</skos:definition>
     </kon:Shape>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/rhyton#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/rhyton"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/rhyton#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/rhyton"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -83,7 +83,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-23T10:43:16.704-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
@@ -91,7 +91,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -100,7 +100,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -109,7 +109,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,12 +16,12 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/euphronios">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/euphronios">
         <skos:prefLabel xml:lang="en">Euphronios</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Euphronios is an Athenian red-figure painter active ca. 520-505 BCE, who signed as both painter (“egrapsen”) and potter (“epoiesen”). Euphronios is considered a member of the Pioneer Group, along with Euthymides, Phintias, and other vase-painters. Shapes connected to the painter are cups, the calyx krater, stamnos, psykter, and pelike. The cup is the main shape connected to the potter. Scenes include Herakles and Antaios, athletes, the symposion, and Amazons. One of the best known works is a krater formerly in the Metropolitan Museum of Art (1972.11.10; BAPD 187) showing the personifications of Sleep (“Hypnos”) and Death (“Thanatos”) carrying Sarpedon from the battlefield at Troy. Some findspots are sites in Etruria (Vulci, Cerveteri, Orvieto, Tarquinia), Athens (Agora, Acropolis), Thasos, and Olbia (Black Sea).</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/euphronios#provenance"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/euphronios#provenance"/>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q358508"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Euphronios"/>
         <skos:prefLabel xml:lang="pt">Eufrónio</skos:prefLabel>
@@ -56,18 +56,18 @@
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb122556925"/>
         <skos:exactMatch rdf:resource="http://www.idref.fr/031318940"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500116286"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/euphronios#painter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/euphronios#painter"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58219"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000080854890"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/euphronios#potter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/euphronios#potter"/>
     </crm:E21_Person>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/euphronios#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/euphronios"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/euphronios#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/euphronios"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-11T13:43:13.841-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
@@ -75,7 +75,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -84,16 +84,16 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://kerameikos.org/id/euphronios#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/euphronios#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <org:Membership rdf:about="http://kerameikos.org/id/euphronios#potter">
-        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/euphronios#potter">
+        <org:role rdf:resource="https://kerameikos.org/id/potter"/>
     </org:Membership>
 </rdf:RDF>

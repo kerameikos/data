@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,15 +16,15 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <kon:Shape rdf:about="http://kerameikos.org/id/one_handled_kantharos">
+    <kon:Shape rdf:about="https://kerameikos.org/id/one_handled_kantharos">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">One Handled Kantharos</skos:prefLabel>
-        <skos:broader rdf:resource="http://kerameikos.org/id/kantharos"/>
+        <skos:broader rdf:resource="https://kerameikos.org/id/kantharos"/>
         <skos:definition xml:lang="en">An uncommon form of the kantharos. The elements of foot, lower and upper walls and rim are the same as for the moulded-rim kantharos, but the single handle spans from the upper part of the lower wall to the bottom edge of the moulding. Lacking a spur, the cup is narrower than typical kantharoi, and while it is sometimes ribbed it is never found with stamping.</skos:definition>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000153237"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264990"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/one_handled_kantharos#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/one_handled_kantharos#provenance"/>
         <skos:prefLabel xml:lang="de">einhenkeliger Kantharos</skos:prefLabel>
         <skos:definition xml:lang="de">Eine ungewöhnliche Kantharosform, die nur einen Henkel besitzt, der von der oberen Hälfte der unteren Gefäßwand bis zum Rand. Die Gefäße sind schmaler als 'normale' Kantharoi und besitzen manchmal einen gerippten Dekor aber nie einen Stempeldekor.</skos:definition>
         <skos:prefLabel xml:lang="el">μόνωτος κάνθαρος</skos:prefLabel>
@@ -33,13 +33,13 @@
     </kon:Shape>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/one_handled_kantharos#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/one_handled_kantharos"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/one_handled_kantharos#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/one_handled_kantharos"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -48,7 +48,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -57,7 +57,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -66,7 +66,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

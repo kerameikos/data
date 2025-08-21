@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,27 +16,27 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E74_Group rdf:about="http://kerameikos.org/id/group_of_walters_48.42">
+    <crm:E74_Group rdf:about="https://kerameikos.org/id/group_of_walters_48.42">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Group of Walters 48.42</skos:prefLabel>
         <skos:definition xml:lang="en">The Group of Walters 48.42 is a group of Athenian black-figure cups produced ca. 530-520 BCE. Considered to be part of the Krokotos Workshop, the name derives from a cup (Baltimore, Walters Art Gallery 48.42; BAPD 302634) showing Dionysos’ head between eyes on the exterior. The group is characterized by Type A cups that feature eyes on the exterior, some with figures (satyrs, maenads, Herakles, Nereus), and a gorgoneion in the interior. Findspots include Vulci, Roselle, Falerii, and Athens.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_walters_48.42#group"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/group_of_walters_48.42#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500098019"/>
     </crm:E74_Group>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/group_of_walters_48.42#group">
-        <org:role rdf:resource="http://kerameikos.org/id/group"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/group_of_walters_48.42#provenance"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/group_of_walters_48.42#group">
+        <org:role rdf:resource="https://kerameikos.org/id/group"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/group_of_walters_48.42#provenance"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/group_of_walters_48.42#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/group_of_walters_48.42"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/group_of_walters_48.42#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/group_of_walters_48.42"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

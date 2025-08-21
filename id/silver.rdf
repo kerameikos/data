@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,13 +16,13 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E57_Material rdf:about="http://kerameikos.org/id/silver">
+    <crm:E57_Material rdf:about="https://kerameikos.org/id/silver">
         <skos:prefLabel xml:lang="en">Silver</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Silver is a chemical element with the symbol Ag (from the Latin argentum, derived from the Proto-Indo-European h₂erǵ: "shiny" or "white") and atomic number 47. A soft, white, lustrous transition metal, it exhibits the highest electrical conductivity, thermal conductivity, and reflectivity of any metal.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/silver#provenance"/>
-        <skos:broader rdf:resource="http://kerameikos.org/id/metal"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/silver#provenance"/>
+        <skos:broader rdf:resource="https://kerameikos.org/id/metal"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1090"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Silver"/>
         <skos:prefLabel xml:lang="nb">sølv</skos:prefLabel>
@@ -150,13 +150,13 @@
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb11959564p"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300011029"/>
     </crm:E57_Material>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/silver#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/silver"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/silver#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/silver"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T11:19:50.438-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>

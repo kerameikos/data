@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <crm:E21_Person rdf:about="http://kerameikos.org/id/kleitias">
+   <crm:E21_Person rdf:about="https://kerameikos.org/id/kleitias">
         <skos:prefLabel xml:lang="en">Kleitias</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">Klitias</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">克利提亚斯</skos:prefLabel>
@@ -26,7 +26,7 @@
         <skos:prefLabel xml:lang="fr">Kleitias</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Kleitias is an Athenian black-figure painter active ca. 575-550 BCE who signs his name as painter (“egrapsen”). His best-known work is a volute-krater known as the François Vase, which was found in Chuisi (Etruria) and is now in Florence (Archaeological Museum 4209; BAPD 300000).It displays a series of mythological scenes and a large number of inscriptions. Other vases attributed to the painter portray Odysseus, warriors, Amazons, dancing youths, and maidens. Other shapes include the Siana cup, Little Master cup, skyphos, and hydria. Findspots include Athens (Acropolis, Agora), Samos (Heraion), Naukratis, Etruria, and Cyrene.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Kleitias"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500089125"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59048"/>
@@ -36,8 +36,8 @@
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/190893916"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/311817658"/>
         <dcterms:source rdf:resource="http://www.worldcat.org/oclc/256874290"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/kleitias#provenance"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/kleitias#painter"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/kleitias#provenance"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/kleitias#painter"/>
         <skos:prefLabel xml:lang="pt">Clítias</skos:prefLabel>
         <skos:prefLabel xml:lang="sh">Klitija</skos:prefLabel>
         <skos:prefLabel xml:lang="es">Clitias</skos:prefLabel>
@@ -54,13 +54,13 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/118777416"/>
         <skos:exactMatch rdf:resource="http://isni.org/0000000010590068"/>
     </crm:E21_Person>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/kleitias#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/kleitias"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/kleitias#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/kleitias"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -68,7 +68,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -76,13 +76,13 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://kerameikos.org/id/kleitias#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/kleitias#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
 </rdf:RDF>

@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,20 +16,20 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Shape rdf:about="http://kerameikos.org/id/belly_amphora">
+   <kon:Shape rdf:about="https://kerameikos.org/id/belly_amphora">
         <skos:prefLabel xml:lang="en">Belly Amphora</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">A belly amphora has a continuous, smooth curve from lip to foot. These amphorae have been classified as Types A, B, and C, based on differences in the shape of lips, feet, and handles.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:altLabel xml:lang="en">Continuous-Curve Amphora</skos:altLabel>
         <skos:altLabel xml:lang="en">One-Piece Amphora</skos:altLabel>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x105151"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198852"/>
-        <skos:broader rdf:resource="http://kerameikos.org/id/amphora"/>
+        <skos:broader rdf:resource="https://kerameikos.org/id/amphora"/>
         <dcterms:source rdf:resource="http://www.worldcat.org/oclc/38179875"/>
         <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0004:id=belly-amphora"/>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/belly.htm"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/belly_amphora#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/belly_amphora#provenance"/>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="fr">amphore à panse</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Bauchamphora</skos:prefLabel>
@@ -41,13 +41,13 @@
         <skos:definition xml:lang="el">Ο ενιαίος αμφορέας διαθέτει ένα συνεχές, ρέον περίγραμμα από το χείλος έως τη βάση. Οι αμφορείς αυτής της κατηγορίας ταξινομούνται ως Α, Β και Γ ανάλογα με τις διαφορές των χειλών, των βάσεων και των λαβών τους.</skos:definition>
         <skos:definition xml:lang="he">לאמפורת הבטן יש עיקול מתמשך וחלק משפתיה ועד לתחתית. אמפורות אלו מסווגות לסוגי A, B ו C, בהתבסס על השוני בצורת השפתיים, התחתית, וידיות הכלי.</skos:definition>
     </kon:Shape>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/belly_amphora#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/belly_amphora"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/belly_amphora#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/belly_amphora"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -55,7 +55,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -63,7 +63,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -72,7 +72,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -81,7 +81,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -90,7 +90,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

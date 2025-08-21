@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,13 +16,13 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/hermonax">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/hermonax">
         <skos:prefLabel xml:lang="en">Hermonax</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Hermonax is an Athenian red-figure painter active ca. 475-450 BCE. The name derives from the signature as painter (“egrapsen”) on several vases. Shapes are the stamnos, pelike, neck amphora, loutrophoros, oinochoe, lekythos, lekanis, and cups. Subjects include Dionysos and followers, revelers (“komasts”), weddings, warriors, the Death of Orpheus, Zeus and Ganymede, Boreas and Oreithyia, Eros and lovers, and youths and young women. Some findspots are sites in southern Italy and Sicily, Cerveteri, Ampurias (Spain), Athens (Agora, Acropolis), Argos, Brauron, Camiros (Rhodes), and Xanthos (Turkey).</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/hermonax#provenance"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/hermonax#painter"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/hermonax#provenance"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/hermonax#painter"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q328215"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hermonax"/>
         <skos:prefLabel xml:lang="de">Hermonax</skos:prefLabel>
@@ -47,13 +47,13 @@
         <skos:prefLabel xml:lang="fi">Hermonaks</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q328215"/>
     </crm:E21_Person>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/hermonax#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/hermonax"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/hermonax#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/hermonax"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-08-29T08:57:47.594-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>
@@ -61,14 +61,14 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://kerameikos.org/id/hermonax#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/hermonax#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
         <edm:begin rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0470</edm:begin>
         <edm:end rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-0440</edm:end>
     </org:Membership>

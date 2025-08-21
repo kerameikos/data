@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,12 +16,12 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/louvre_f6_painter">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/louvre_f6_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Painter of Louvre F6</skos:prefLabel>
         <skos:definition xml:lang="en">The Painter of the Louvre F6 is an Athenian black-figure painter active in the mid-6th c. BCE and is classified as a “companion” to Lydos. The name derives from a hydria (Pairs, Louvre F6; BAPD 300899) showing Dionysos with maenads and satyrs on the shoulder and a duel on the body. Shapes include the column krater, belly amphora (Type B), and the shouldered hydria. Subjects are gods, warriors, Herakles, centaurs, Theseus, and athletes. Known findspots are in Greece and Italy, as well as Berezan and Cyrene.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/louvre_f6_painter#painter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/louvre_f6_painter#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500064994"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59936"/>
         <skos:prefLabel xml:lang="de">Maler von Louvre F 6</skos:prefLabel>
@@ -31,20 +31,20 @@
         <skos:prefLabel xml:lang="es">Pintor de Louvre F6</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1887202"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/96127052"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/louvre_f6_painter#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/louvre_f6_painter#provenance"/>
     </crm:E21_Person>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/louvre_f6_painter#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/louvre_f6_painter#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/louvre_f6_painter#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/louvre_f6_painter"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/louvre_f6_painter#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/louvre_f6_painter"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

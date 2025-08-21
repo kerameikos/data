@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <kon:Shape rdf:about="http://kerameikos.org/id/phormiskos">
+    <kon:Shape rdf:about="https://kerameikos.org/id/phormiskos">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Phormiskos</skos:prefLabel>
         <ontolex:otherForm>
 					       <ontolex:Form>
@@ -30,7 +30,7 @@
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="de">Phormiskos</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2088717"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/phormiskos#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/phormiskos#provenance"/>
         <skos:definition xml:lang="de">Der Begriff Phormiskos wird in der antiken Literatur verwendet, um jede Form von gewebtem Taschen, Säcken oder Körben zu bezeichnen, die aus Stoff, Leder oder Binsen hergestellt wurden. Der tönerne attische Phormiskos imitiert diese Tragebehälter aus organischem Material. Er ist ein seltener Typ mit einer birnen- oder beutelförmige Gefäßform, die vom 6. Jh.v. bis um 480 v.Chr. hergestellt wurde. Alle haben einen schmalen Hals.</skos:definition>
         <skos:prefLabel xml:lang="el">φορμίσκος</skos:prefLabel>
         <skos:definition xml:lang="el">Η ονομασία "φορμίσκος" απαντά στην αρχαία γραμματεία για κάθε είδους πλεκτό πουγκί,σακίδιο ή καλάθι κατασκευασμένο από υλικά όπως ύφασμα, δέρμα ή καλάμια. Ο πήλινος αθηναϊκός φορμίσκος είναι ένα σπάνιο αγγείο σε σχήμα φλασκιού που παραγόταν από τον 6ο αι. π.Χ. έως περίπου το 480 π.Χ. Το σχήμα ποικίλει από σφαιρικό σε απιόσχημο, σε ωοειδές και σε επίμηκες ωοειδές. Όλα έχουν έναν λεπτό λαιμό που σχηματίζει μια συνεχή καμπύλη από το χείλος έως τον σφαρικό πυθμένα. Δεν πρόκειται για πραγματικά αγγεία, καθώς το κοίλο εσωτερικό του σώματος συνδέεται με έναν συμπαγή λαιμό. Εξαιτίας αυτού, όπως φαίνεται και από την εικονογραφία των ταφικών θεμάτων, οι φορμίσκοι προφανώς κατασκευάζονταν ως ένα είδος ταφικού κτερίσματος που μιμείτο το πουγκί από φθαρτό υλικό, στο οποίο μετέφεραν τους αστραγάλους (κότσια).</skos:definition>
@@ -38,13 +38,13 @@
     </kon:Shape>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/phormiskos#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/phormiskos"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/phormiskos#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/phormiskos"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -53,7 +53,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -62,7 +62,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -71,7 +71,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

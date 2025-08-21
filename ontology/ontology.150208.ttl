@@ -1,13 +1,13 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix kon: <http://kerameikos.org/ontology#> .
+@prefix kon: <https://kerameikos.org/ontology#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://kerameikos.org/ontology#>
+<https://kerameikos.org/ontology#>
     dcterms:contributor [
         foaf:mbox "ewg4xuva@gmail.com" ;
         foaf:name "Ethan Gruber"
@@ -17,41 +17,41 @@
     rdfs:comment """Vocabulary for defining classes and properties that apply to ceramics, filling in gaps left between existing ontologies, such as
             CIDOC-CRM"""@en ;
     rdfs:label "Kerameikos.org Ontology"@en ;
-    rdfs:seeAlso <http://kerameikos.org/ontology> ;
+    rdfs:seeAlso <https://kerameikos.org/ontology> ;
     owl:versionInfo "0.1" .
 
 kon:ProductionPlace
     a owl:Class ;
     rdfs:comment "Stub for the description of Production Place, as a concept. To be differentiated from ecrm:E53_Place and geo:SpatialThing, which are physical locations."@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
+    rdfs:isDefinedBy <https://kerameikos.org/ontology> ;
     rdfs:label "Production Place"@en ;
     rdfs:subClassOf skos:Concept .
 
 kon:Shape
     a owl:Class ;
     rdfs:comment "Stub for the description of Shape"@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
+    rdfs:isDefinedBy <https://kerameikos.org/ontology> ;
     rdfs:label "Shape"@en ;
     rdfs:subClassOf skos:Concept .
 
 kon:Style
     a owl:Class ;
     rdfs:comment "Stub for the description of Style"@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
+    rdfs:isDefinedBy <https://kerameikos.org/ontology> ;
     rdfs:label "Style"@en ;
     rdfs:subClassOf skos:Concept .
 
 kon:Technique
     a owl:Class ;
     rdfs:comment "Stub for the description of Technique"@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
+    rdfs:isDefinedBy <https://kerameikos.org/ontology> ;
     rdfs:label "Technique"@en ;
     rdfs:subClassOf skos:Concept .
 
 kon:Ware
     a owl:Class ;
     rdfs:comment "Stub for the description of Ware"@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
+    rdfs:isDefinedBy <https://kerameikos.org/ontology> ;
     rdfs:label "Ware"@en ;
     rdfs:subClassOf skos:Concept .
 

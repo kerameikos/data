@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <crm:E21_Person rdf:about="http://kerameikos.org/id/berlin_painter">
+   <crm:E21_Person rdf:about="https://kerameikos.org/id/berlin_painter">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <skos:prefLabel xml:lang="en">Berlin Painter</skos:prefLabel>
       <skos:definition xml:lang="en">The Berlin Painter (active c. 490s-c. 460s B.C.) is the conventional name given to an Attic Greek vase-painter who is widely regarded as a rival to the Kleophrades Painter, among the most talented vase painters of the early 5th century B.C.</skos:definition>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Berlin_Painter‎"/>
@@ -26,15 +26,15 @@
       <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG57394"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/61480315"/>
       <skos:exactMatch rdf:resource="http://viaf.org/viaf/95723148"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/berlin_painter#provenance"/>
+      <skos:changeNote rdf:resource="https://kerameikos.org/id/berlin_painter#provenance"/>
    </crm:E21_Person>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/berlin_painter#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/berlin_painter"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/berlin_painter#provenance">
+      <foaf:topic rdf:resource="https://kerameikos.org/id/berlin_painter"/>
       <prov:wasGeneratedBy>
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:wasGeneratedBy>
@@ -42,7 +42,7 @@
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:activity>

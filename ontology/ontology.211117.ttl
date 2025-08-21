@@ -4,37 +4,37 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix kon: <http://kerameikos.org/ontology#> .
+@prefix kon: <https://kerameikos.org/ontology#> .
 
-<http://kerameikos.org/ontology#>
+<https://kerameikos.org/ontology#>
     dcterms:created "2014-07-21"^^xsd:date ;
     dcterms:creator <https://orcid.org/0000-0002-4691-9747> ;
     dcterms:modified "2021-11-17"^^xsd:date ;
     a owl:Ontology ;
     rdfs:comment "Ontology for defining classes and properties that apply to ceramics as extensions to CIDOC-CRM."@en ;
     rdfs:label "Kerameikos.org Ontology"@en ;
-    rdfs:seeAlso <http://kerameikos.org/ontology> ;
+    rdfs:seeAlso <https://kerameikos.org/ontology> ;
     owl:versionInfo "1.0" .
 
 kon:Shape
     a rdfs:Class, owl:Class ;
     rdfs:comment """The form of an object can be expressed as specific terminology, e.g. 'olpe', or in generic terms, 'pitcher'. Scholars of
 			ceramics typically refer to this form as the 'shape' of a vessel, whereas museum catalogers classify the form as an 'object type'."""@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
+    rdfs:isDefinedBy <https://kerameikos.org/ontology> ;
     rdfs:label "Shape"@en ;
     rdfs:subClassOf crm:E55_Type .
 
 kon:Style
     a rdfs:Class, owl:Class ;
     rdfs:comment "Illustrative motif on a vessel, whether decorative or figural. A style often has a cultural and/or period component."@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
+    rdfs:isDefinedBy <https://kerameikos.org/ontology> ;
     rdfs:label "Style"@en ;
     rdfs:subClassOf crm:E55_Type .
 
 kon:Technique
     a rdfs:Class, owl:Class ;
     rdfs:comment "The technical method by which a vessel is formed, decorated, and/or fired. Complex techniques, such as black-figure, may comprise more than one technique."@en ;
-    rdfs:isDefinedBy <http://kerameikos.org/ontology> ;
+    rdfs:isDefinedBy <https://kerameikos.org/ontology> ;
     rdfs:label "Technique"@en ;
     rdfs:subClassOf crm:E55_Type .
 

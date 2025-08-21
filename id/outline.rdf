@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,23 +16,23 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <kon:Technique rdf:about="http://kerameikos.org/id/outline">
+    <kon:Technique rdf:about="https://kerameikos.org/id/outline">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Outline</skos:prefLabel>
         <skos:definition xml:lang="en">Outline denotes using black lines of clay slip to express the edges of a figure or form, leaving interior areas unpainted or untreated. It is commonly used for details of anatomy on figures, such as eyes, faces, and exposed parts of the body. In Athens, it first appears in the Geometric period (see Geometric) combined with silhouette, then in the Orientalizing period (see Orientalizing), and eventually later as part of the black-figure, red-figure, and white-ground techniques.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020200"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/outline#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/outline#provenance"/>
     </kon:Technique>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/outline#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/outline"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/outline#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/outline"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

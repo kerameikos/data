@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,12 +16,12 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/phintias">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/phintias">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Phintias</skos:prefLabel>
         <skos:definition xml:lang="en">Phintias is an Athenian red-figure painter active ca. 525-510 BCE, who signed as both painter (“egrapsen”) and potter (“epoiesen”). Along with Euthymides, Euphronios, and other vase-painters, Phintias is considered a member of the Pioneer Group. Shapes connected to the painter include both cups and large vessels, like the hydria, amphora (Type A), and krater. Smaller shapes connected to the potter are the cup and the cockle-shell aryballos. Scenes include the symposion, fountain-house, and athletes. Some findspots are Etruria (Vulci, Populonia, Orvieto, Tarquinia), the Athenian Acropolis, and Thasos.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/phintias#potter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/phintias#potter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500013636"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60088"/>
         <skos:prefLabel xml:lang="de">Phintias</skos:prefLabel>
@@ -43,23 +43,23 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1387977"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/132453517"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/65167654"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/phintias#provenance"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/phintias#painter"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/phintias#provenance"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/phintias#painter"/>
     </crm:E21_Person>
     
    
    
     
-    <org:Membership rdf:about="http://kerameikos.org/id/phintias#potter">
-        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/phintias#potter">
+        <org:role rdf:resource="https://kerameikos.org/id/potter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/phintias#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/phintias"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/phintias#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/phintias"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -68,13 +68,13 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://kerameikos.org/id/phintias#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/phintias#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
 </rdf:RDF>

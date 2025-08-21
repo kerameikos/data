@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,11 +16,11 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Shape rdf:about="http://kerameikos.org/id/exaleiptron">
+   <kon:Shape rdf:about="https://kerameikos.org/id/exaleiptron">
         <skos:prefLabel xml:lang="en">Exaleiptron</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">The term ‘exaleiptron’ comes from the word meaning ‘to anoint,’ and the shape is a low-lidded bowl with a wide shoulder and high or low foot. It is thought to have held scented water for personal use, for religious ceremonies, and for the grave. Authorities do not fully agree on the name of this vase and it is also called ‘plemochoё’ and (incorrectly) ‘kothon.’ There is a tendency to use the name ‘exaleiptron’ for the stemless version of the vase, in particular for the Corinthian examples, and ‘plemochoё’ for the Athenian high-footed shape, which is also frequently provided with a lid.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:altLabel xml:lang="en">Kothon</skos:altLabel>
         <skos:altLabel xml:lang="en">Plemochoe</skos:altLabel>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300264928"/>
@@ -32,7 +32,7 @@
         <skos:altLabel xml:lang="ru">Племохойя</skos:altLabel>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/pyxis.htm"/>
         <rdfs:seeAlso rdf:resource="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0004%3Aalphabetic+letter%3DP%3Aentry+group%3D12%3Aentry%3Dplemochoe"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/exaleiptron#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/exaleiptron#provenance"/>
         <ontolex:otherForm>
 					       <ontolex:Form>
 						          <ontolex:writtenRep xml:lang="en">exaleiptra</ontolex:writtenRep>
@@ -47,13 +47,13 @@
         <skos:definition xml:lang="el">O όρος "εξάλειπτρο" προέρχεται από ρήμα ἐξαλείφω, αλείφω πλήρως, χρίω και προσδιορίζει ένα αγγείο με πλατύ σώμα και κάλυμμα που στηρίζεται σε ένα ψηλό ή χαμηλό πόδι. Θεωρείται ότι περιείχε αρωματισμένο νερό για προσωπική χρήση, για λατρευτικές αλλά και νεκρικές τελετές. Οι μελετητές δεν συμφωνούν πλήρως για το όνομα αυτού του αγγείου, το οποίο καλείται επίσης "πλημοχόη"και −λανθασμένα− "κόθων". Υπάρχει μια τάση να χρησιμοποιείται η ονομασία "εξάλειπτρο" για την άποδη εκδοχή του αγγείου, ειδικότερα για τα κορινθιακά παραδείγματα, και "πλημοχόη"για τα αθηναϊκά παραδείγματα με ψηλό πόδι, που συχνά φέρουν και κάλυμμα.</skos:definition>
         <skos:definition xml:lang="he">המונח 'אקסליפטרון' (exaleiptron) מגיע ממשמעות המילה to anoint - 'למשוח/למרוח'. צורת הכלי היא של קערה בעלת מכסה נמוך, כתף רחבה ורגל גבוהה או נמוכה. סןברים כי הכלי שימש לאיחסון מים מבושמים לשימוש אישי, לטקסים דתיים, ולקברים. אין הסכמה מוחלטת על שמו של הכלי ולעיתים הוא אף מכונה 'פלאמוכוי' (plemochoё) ו(בשוגג) 'קוטהון ' (kothon). קיימת הנטייה לכנות את גרסת הכלי חסר הרגל בשם: 'אקסליפטרון' (exaleiptron) במיוחד בדוגמאות קורינתיות, ואת גרסת הכלי האתונאי בעל הרגל הגבוהה נוטים לכנות: 'פלאמוכוי' (plemochoё) - בגירסה זו הכלי מגיע לעיתים קרובות עם מכסה.</skos:definition>
     </kon:Shape>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/exaleiptron#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/exaleiptron"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/exaleiptron#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/exaleiptron"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -61,7 +61,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -69,7 +69,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -78,7 +78,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -87,7 +87,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -96,7 +96,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

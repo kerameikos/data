@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,28 +16,28 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E74_Group rdf:about="http://kerameikos.org/id/group_of_rhodes_12264">
+    <crm:E74_Group rdf:about="https://kerameikos.org/id/group_of_rhodes_12264">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Group of Rhodes 12264</skos:prefLabel>
         <skos:definition xml:lang="en">The Group of Rhodes 12264 is a group of Athenian black-figure painters of Little Master cups and other cup shapes active beginning in the mid-6th c. BCE. The name derives from a Droop cup discovered at Camiros, Rhodes (Rhodes, Archaeological Museum 12264; BAPD 302520) showing a fight with a chariot on both sides. Other subjects are fights with chariots, Theseus, animals, and the interiors of stemless cups are decorated with a gorgoneion. Findspots include Xanthos (Turkey), Rhtisona, Rhodes, Samos, Spain, and Italy.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/group_of_rhodes_12264#group"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/group_of_rhodes_12264#group"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500087879"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG58562"/>
     </crm:E74_Group>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/group_of_rhodes_12264#group">
-        <org:role rdf:resource="http://kerameikos.org/id/group"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/group_of_rhodes_12264#provenance"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/group_of_rhodes_12264#group">
+        <org:role rdf:resource="https://kerameikos.org/id/group"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/group_of_rhodes_12264#provenance"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/group_of_rhodes_12264#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/group_of_rhodes_12264"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/group_of_rhodes_12264#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/group_of_rhodes_12264"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T18:29:24.915-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18lp7tHJq1YhJO8ojR3Fv4V8PIWmG52aWTAbBfvXHmIY/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

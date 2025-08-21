@@ -9,7 +9,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">    
-    <crm:E21_Person rdf:about="http://kerameikos.org/editor/tjsmith">
+    <crm:E21_Person rdf:about="https://kerameikos.org/editor/tjsmith">
         <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:prefLabel xml:lang="en">Tyler Jo Smith</skos:prefLabel>   
@@ -19,6 +19,6 @@
         <skos:exactMatch rdf:resource="https://www.idref.fr/121574628"/>
         <skos:exactMatch rdf:resource="https://orcid.org/0000-0002-8925-8168"/>
         <org:memberOf>University of Virginia</org:memberOf>
-        <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/editor/"/>
     </crm:E21_Person>        
 </rdf:RDF>

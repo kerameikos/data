@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,12 +16,12 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/sakonides">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/sakonides">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Sakonides</skos:prefLabel>
         <skos:definition xml:lang="en">Sakonides is an Athenian black-figure painter of Little Master cups active ca. 560-520 BCE. The signature as painter ("egrapsen") appears on several cups, including one cup of Type A from the Athenian Acropolis (Athens, National Museum Acr.; BAPD 301108). Subjects are mostly female heads, but also Herakles, youths, and riders. Other findspots include Etruria, Sicily, Thrace, and Olbia.</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/sakonides#painter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/sakonides#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500068328"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60427"/>
         <skos:prefLabel xml:lang="de">Sakonides</skos:prefLabel>
@@ -37,20 +37,20 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1331545"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/11860497X"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/96154985"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/sakonides#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/sakonides#provenance"/>
     </crm:E21_Person>
    
    
-    <org:Membership rdf:about="http://kerameikos.org/id/sakonides#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/sakonides#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/sakonides#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/sakonides"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/sakonides#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/sakonides"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,12 +16,12 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E57_Material rdf:about="http://kerameikos.org/id/lead">
+    <crm:E57_Material rdf:about="https://kerameikos.org/id/lead">
         <skos:prefLabel xml:lang="en">Lead</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Lead is a chemical element with the symbol Pb (from the Latin plumbum) and atomic number 82. It is a heavy metal that is denser than most common materials. Lead is soft and malleable, and also has a relatively low melting point.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/lead#provenance"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/lead#provenance"/>
         <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q708"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Lead"/>
         <skos:prefLabel xml:lang="de">Blei</skos:prefLabel>
@@ -140,15 +140,15 @@
         <skos:exactMatch rdf:resource="http://www.eagle-network.eu/voc/material/lod/108"/>
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb119567697"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300011022"/>
-        <skos:broader rdf:resource="http://kerameikos.org/id/metal"/>
+        <skos:broader rdf:resource="https://kerameikos.org/id/metal"/>
     </crm:E57_Material>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/lead#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/lead"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/lead#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/lead"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-10T13:06:48.925-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:wasGeneratedBy>

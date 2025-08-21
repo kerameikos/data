@@ -2,10 +2,10 @@
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,22 +16,22 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <kon:Technique rdf:about="http://kerameikos.org/id/black_glaze">
+    <kon:Technique rdf:about="https://kerameikos.org/id/black_glaze">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Black Glaze</skos:prefLabel>
         <skos:definition xml:lang="en">Black glaze, also called “black gloss,” “black-painted,” or “black,” denotes the black slip that is applied to the entire surface of a Greek vase. Black glaze consists of a diluted form of the natural clay that is transformed through a chemical reaction during the firing process (see Black-figure). Surface decoration could include added color, gilding, relief, incision or stamped motifs. It has been suggested that the technique was meant to evoke metal vessels. Athens was the main producer of black glaze vases until c. 400 BCE. Other regions included South Italy and the Eastern Mediterranean, where they were made until the 1st c. BCE.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387491"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14737"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/black_glaze#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/black_glaze#provenance"/>
     </kon:Technique>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/black_glaze#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/black_glaze"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/black_glaze#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/black_glaze"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

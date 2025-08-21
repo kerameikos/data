@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Technique rdf:about="http://kerameikos.org/id/white_ground">
+   <kon:Technique rdf:about="https://kerameikos.org/id/white_ground">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">White Ground</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Tecnica a fondo bianco</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Weißgrundige Vasenmalerei</skos:prefLabel>
@@ -27,7 +27,7 @@
         <skos:definition xml:lang="en">The white-ground technique refers to the application of a white clay slip on the surface of a vessel before adding figure decoration. It is first found on some Geometric (see Geometric) and Orientalizing (see Orientalizing) vessels made in Athens and Attica. Around 530 BCE, the technique appears on Athenian black-figure vases (see Black-figure), like those from the workshops of Nikosthenes (see Nikosthenes), the Andokides Painter (see Andokides Painter [black-figure]), and Psiax (see Psiax), but the inventor is uncertain. By the late 6th c. BCE, painters use the technique to decorate the black-figure lekythos and other shapes. After ca. 480 BCE, the white-ground technique is used primarily for funerary subjects on the lekythos, and the figures are painted in outline, semi-outline, and later polychrome. White-ground may have been inspired by stone vessels and has been connected to wall and panel painting.</skos:definition>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300020204"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/White_ground_technique"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/white_ground#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/white_ground#provenance"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14817"/>
         <skos:prefLabel xml:lang="uk">Вазопис на білому тлі</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">technique à fond blanc</skos:prefLabel>
@@ -39,13 +39,13 @@
         <skos:prefLabel xml:lang="fi">Valkopohjakeramiikka</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q763709"/>
     </kon:Technique>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/white_ground#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/white_ground"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/white_ground#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/white_ground"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-23T22:35:52-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -53,7 +53,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -61,7 +61,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

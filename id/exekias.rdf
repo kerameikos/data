@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <crm:E21_Person rdf:about="http://kerameikos.org/id/exekias">
+   <crm:E21_Person rdf:about="https://kerameikos.org/id/exekias">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Exekias</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">埃克塞基亚斯</skos:prefLabel>
         <skos:prefLabel xml:lang="ru">Эксекий</skos:prefLabel>
@@ -42,8 +42,8 @@
         <skos:exactMatch rdf:resource="http://www.idref.fr/052199363/id"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500027430"/>
         <skos:exactMatch rdf:resource="http://www.lgpn.ox.ac.uk/id/V2-21738"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/exekias#provenance"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/exekias#painter"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/exekias#provenance"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/exekias#painter"/>
         <skos:prefLabel xml:lang="hu">Exékiasz</skos:prefLabel>
         <skos:prefLabel xml:lang="fi">Eksekias</skos:prefLabel>
         <skos:prefLabel xml:lang="uk">Ексекій</skos:prefLabel>
@@ -64,15 +64,15 @@
         <skos:exactMatch rdf:resource="http://www.idref.fr/052199363"/>
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb16598556n"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/13149365916385600862"/>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/exekias#potter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/exekias#potter"/>
     </crm:E21_Person>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/exekias#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/exekias"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/exekias#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/exekias"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-01-26T14:25:12-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -80,7 +80,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -88,7 +88,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -97,16 +97,16 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:44:05.976-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
         </prov:activity>
     </dcterms:ProvenanceStatement>
-    <org:Membership rdf:about="http://kerameikos.org/id/exekias#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/exekias#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <org:Membership rdf:about="http://kerameikos.org/id/exekias#potter">
-        <org:role rdf:resource="http://kerameikos.org/id/potter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/exekias#potter">
+        <org:role rdf:resource="https://kerameikos.org/id/potter"/>
     </org:Membership>
 </rdf:RDF>

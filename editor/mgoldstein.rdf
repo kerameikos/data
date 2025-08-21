@@ -9,11 +9,11 @@
          xmlns:prov="http://www.w3.org/ns/prov#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/">
-					<crm:E21_Person rdf:about="http://kerameikos.org/editor/mgoldstein">
+					<crm:E21_Person rdf:about="https://kerameikos.org/editor/mgoldstein">
 						  <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
 						  <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 						  <skos:prefLabel xml:lang="en">Matan Goldstein</skos:prefLabel>
 						  <org:memberOf>University of Virginia</org:memberOf>
-						  <skos:inScheme rdf:resource="http://kerameikos.org/editor/"/>
+						  <skos:inScheme rdf:resource="https://kerameikos.org/editor/"/>
 					</crm:E21_Person>
 				</rdf:RDF>

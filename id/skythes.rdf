@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,12 +16,12 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/skythes">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/skythes">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Skythes</skos:prefLabel>
         <skos:definition xml:lang="en">Skythes is an Athenian red-figure cup painter active ca. 520-505 BCE who painted bilingual cups (black-figure with coral red exterior, red-figure interior). The name Skythes (“the Scythian”) is inscribed as painter (“egrapsen”) on several vases. Subjects include Herakles, Theseus, athletes, revelers (“komasts”), Dionysos and followers, and warriors. Findspots are Athens (Acropolis, Agora), Boeotia, Aegina, and sites in Etruria (Vulci, Cerveteri, Chiusi, Gravisca).</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/skythes#painter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/skythes#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500128015"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60539"/>
         <skos:prefLabel xml:lang="de">Skythes</skos:prefLabel>
@@ -37,20 +37,20 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1297344"/>
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/123971691"/>
         <skos:exactMatch rdf:resource="http://viaf.org/viaf/25524124"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/skythes#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/skythes#provenance"/>
     </crm:E21_Person>
     
     
-    <org:Membership rdf:about="http://kerameikos.org/id/skythes#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/skythes#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/skythes#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/skythes"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/skythes#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/skythes"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

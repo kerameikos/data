@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,21 +16,21 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Style rdf:about="http://kerameikos.org/id/marine_style">
+   <kon:Style rdf:about="https://kerameikos.org/id/marine_style">
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-      <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+      <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <skos:prefLabel xml:lang="en">Marine Style</skos:prefLabel>
       <skos:definition xml:lang="en">A Bronze Age Minoan style perhaps inspired by frescoes, the entire surface of a pot was covered with sea creatures, octopus, fish and dolphins, against a background of rocks, seaweed and sponges.</skos:definition>
       <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Minoan_pottery#Marine_style"/>
-      <skos:changeNote rdf:resource="http://kerameikos.org/id/marine_style#provenance"/>
+      <skos:changeNote rdf:resource="https://kerameikos.org/id/marine_style#provenance"/>
    </kon:Style>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/marine_style#provenance">
-      <foaf:topic rdf:resource="http://kerameikos.org/id/marine_style"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/marine_style#provenance">
+      <foaf:topic rdf:resource="https://kerameikos.org/id/marine_style"/>
       <prov:wasGeneratedBy>
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-17T12:38:06+00:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:wasGeneratedBy>
@@ -38,7 +38,7 @@
          <prov:Activity>
             <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
             <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-            <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+            <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
             <dcterms:type>manual</dcterms:type>
          </prov:Activity>
       </prov:activity>

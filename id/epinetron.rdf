@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-    <kon:Shape rdf:about="http://kerameikos.org/id/epinetron">
+    <kon:Shape rdf:about="https://kerameikos.org/id/epinetron">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Epinetron</skos:prefLabel>
         <skos:altLabel xml:lang="en">Onos</skos:altLabel>
         <skos:definition xml:lang="en">The term refers to a long, semi-circular cover for the knee and thigh, over which wool was drawn to remove dirt. It is wider at the open end where the thigh is thicker and closed at the narrow end to fit over the knee cap. The top of the epinetron is covered with an incised scale pattern, which produced the necessary roughness when the wool was rubbed against it. The shape is uncommon in black-figure.</skos:definition>
@@ -38,20 +38,20 @@
         <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1280826"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300265016"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x6660"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/epinetron#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/epinetron#provenance"/>
         <skos:definition xml:lang="de">Der Begriff bezeichnet ein langes, halbzylindrisches Gefäß zur Abdeckung von Knie und Oberschenkel. Es wurde im Herstellungsprozess von Wolle eingesetzt um daraus Schmutz zu entfernen.</skos:definition>
         <skos:definition xml:lang="el">Ο όρος αναφέρεται σε ένα επίμηκες, ημικυλινδρικό αγγείο, που τοποθετούνταν στο γόνατο και στον μηρό και χρησίμευε στο γνέσιμο του μαλλιού. Είναι ευρύτερο στο ανοικτό του άκρο, όπου ο μηρός είναι πλατύτερος, και κλειστό στο στενότερο άκρο, ώστε να προσαρμόζεται πάνω στο γόνατο. Το άνω μέρος του επίνητρου καλυπτόταν με εγχάρακτο φολιδωτό μοτίβο, που δημιουργούσε την απαραίτητη τραχύτητα όταν τριβόταν το μαλλί πάνω σε αυτό. Το σχήμα δεν είναι κοινό στον μελανόμορφο ρυθμό.</skos:definition>
         <skos:definition xml:lang="he">המונח מתייחס לכיסוי ארוך ומעוגל שמתלבש על הברך והירך, ושמעליו מושכים ומסובבים צמר כדי להסיר לכלוך. הכיסוי רחב יותר בקצה הפתוח על-מנת להתאים לירך העבה, וסגור בקצה הצר כך שיתאים למבנה הברך. החלק העליון של האפינטרון מכוסה בתבנית קשקשים/חריצים כדי ליצור משטח מחוספס שעליו ניתן היה לשפשף את סיבי הצמר. הצורה אינה שכיחה בטכניקת הדמות השחורה.</skos:definition>
     </kon:Shape>
    
    
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/epinetron#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/epinetron"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/epinetron#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/epinetron"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -60,7 +60,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -69,7 +69,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -78,7 +78,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

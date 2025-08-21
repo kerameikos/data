@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,9 +16,9 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Technique rdf:about="http://kerameikos.org/id/black_figure">
+   <kon:Technique rdf:about="https://kerameikos.org/id/black_figure">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Black-figure</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Zwartfigurige stijl</skos:prefLabel>
         <skos:prefLabel xml:lang="sv">Svartfigurig keramik</skos:prefLabel>
@@ -33,9 +33,9 @@
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Black-figure_pottery"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x14736"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300387209"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/black_figure#provenance"/>
-        <skos:broader rdf:resource="http://kerameikos.org/id/silhouette"/>
-        <skos:broader rdf:resource="http://kerameikos.org/id/incised"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/black_figure#provenance"/>
+        <skos:broader rdf:resource="https://kerameikos.org/id/silhouette"/>
+        <skos:broader rdf:resource="https://kerameikos.org/id/incised"/>
         <skos:closeMatch rdf:resource="http://vocab.getty.edu/aat/300020195"/>
         <skos:prefLabel xml:lang="ca">ceràmica de figures negres</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Μελανόμορφη αγγειογραφία</skos:prefLabel>
@@ -65,13 +65,13 @@
         <skos:exactMatch rdf:resource="http://d-nb.info/gnd/4124160-5"/>
         <skos:exactMatch rdf:resource="http://catalogue.bnf.fr/ark:/12148/cb12089196d"/>
     </kon:Technique>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/black_figure#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/black_figure"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/black_figure#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/black_figure"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-02-03T23:31:41-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -79,7 +79,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-08T14:53:52-05:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -87,7 +87,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:24:00.03-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1CpPE32GzAxQ6T8lukETYAqjjyN7OJe3XvclSb3MsAnI/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -96,7 +96,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-16T12:26:34.346-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <dcterms:type>manual</dcterms:type>
 				        </prov:Activity>
         </prov:activity>

@@ -4,8 +4,8 @@
          xmlns:dcterms="http://purl.org/dc/terms/"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-         xmlns:kid="http://kerameikos.org/id/"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
          xmlns:org="http://www.w3.org/ns/org#"
@@ -16,7 +16,7 @@
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-   <kon:Shape rdf:about="http://kerameikos.org/id/alabastron">
+   <kon:Shape rdf:about="https://kerameikos.org/id/alabastron">
         <skos:prefLabel xml:lang="en">Alabastron</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Alabastron</skos:prefLabel>
         <skos:prefLabel xml:lang="it">Alabastron</skos:prefLabel>
@@ -29,7 +29,7 @@
         <skos:prefLabel xml:lang="fr">Alabastre</skos:prefLabel>
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Based on Egyptian alabaster prototypes, this small vase for perfume or oil has a broad, flat mouth, narrow neck, a thin, bag-shaped body (sometimes with lugs), and is usually footless. Used for women's toilet and for cult, its contents were extracted with a dipstick.</skos:definition>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/x5120"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300198887"/>
         <rdfs:seeAlso rdf:resource="http://www.beazley.ox.ac.uk/tools/pottery/shapes/alabastron.htm"/>
@@ -38,7 +38,7 @@
         <skos:altLabel xml:lang="fr">Alabastre</skos:altLabel>
         <skos:altLabel xml:lang="el">αλάβαστρον</skos:altLabel>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Alabastron"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/alabastron#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/alabastron#provenance"/>
         <dcterms:source rdf:resource="https://zenon.dainst.org/Record/000926820"/>
         <skos:prefLabel xml:lang="ca">alabastre</skos:prefLabel>
         <skos:prefLabel xml:lang="cs">alabastron</skos:prefLabel>
@@ -59,13 +59,13 @@
         <skos:definition xml:lang="el">Βασισμένο σε αιγυπτιακά πρότυπα που κατασκευάζονται από τον ομώνυμο λευκό ημιδιαφανή λίθο, αυτό το μικρού μεγέθους αγγείο χρησιμοποιείτο για τη φύλαξη αρωματικών ελαίων. Διαθέτει ένα πλατύ, επίπεδο χείλος, στενό λαιμό, επίμηκες σώμα, μερικές φορές με αποφύσεις ("ώτα"), και συνήθως δεν έχει βάση. Αποτελούσε τμήμα της σκευής καλλωπισμού των γυναικών και είχε και λατρευτική χρήση. Το περιεχόμενό του εξαγόταν με μια σπαθίδα (σπάτουλα).</skos:definition>
         <skos:definition xml:lang="he">בהתבסס על דיגמי אבן אלבסטר שבמצריים, לכד קטן זה, המשמש כלי קיבול לבושם או לשמן, יש פיה רחבה ושטוחה, צוואר צר, צורת גוף דקה כצורת תיק (לפעמים עם זיזים), ובדרך כלל חסרת תחתית. כד זה שימש ככלי לתמרוקי נשים, ולשימוש פולחני, ותכולתו הוצאה בעזרת מקל .</skos:definition>
     </kon:Shape>
-   <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/alabastron#provenance">
-        <foaf:topic rdf:resource="http://kerameikos.org/id/alabastron"/>
+   <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/alabastron#provenance">
+        <foaf:topic rdf:resource="https://kerameikos.org/id/alabastron"/>
         <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-05-01T15:33:56-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:wasGeneratedBy>
@@ -73,7 +73,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
                 <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-06-21T11:53:14-04:00</prov:atTime>
-                <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+                <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
                 <dcterms:type>manual</dcterms:type>
             </prov:Activity>
         </prov:activity>
@@ -81,7 +81,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-21T18:13:46.127-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -90,7 +90,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-09-23T13:31:54.701-04:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -99,7 +99,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-12T10:47:04.304-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
@@ -108,7 +108,7 @@
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Modify"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-19T19:18:07.445Z</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/1p6TKXjCQe-C3DNhGFdh7g6Th7RbMg9lMueDYsdfMj-c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>

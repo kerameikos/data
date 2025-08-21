@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-         xmlns:kid="http://kerameikos.org/id/"
+         xmlns:kid="https://kerameikos.org/id/"
          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-         xmlns:kon="http://kerameikos.org/ontology#"
+         xmlns:kon="https://kerameikos.org/ontology#"
          xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
          xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
          xmlns:dcterms="http://purl.org/dc/terms/"
@@ -16,27 +16,27 @@
          xmlns:org="http://www.w3.org/ns/org#"
          xmlns:edm="http://www.europeana.eu/schemas/edm/"
          xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
-    <crm:E21_Person rdf:about="http://kerameikos.org/id/thaliarchos_painter">
+    <crm:E21_Person rdf:about="https://kerameikos.org/id/thaliarchos_painter">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-        <skos:inScheme rdf:resource="http://kerameikos.org/id/"/>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:prefLabel xml:lang="en">Thaliarchos Painter</skos:prefLabel>
         <skos:definition xml:lang="en">The Thaliarchos Painter is an Athenian red-figure painter active in the late 6th c. BCE. The name derives from the inscription “Thaliarchos kalos” (“Thaliarchos is beautiful”) on a pyxis lid from Athens (Paris, Petit Palais 382; BAPD 200657) showing a helmet-maker. The pyxis lid is the preferred shape. Other subjects include satyrs, Athena’s head, and a dwarf. Findspots are Athens (Acropolis, unspecified sites), Megara, and Monte Lato (Sicily).</skos:definition>
-        <org:hasMembership rdf:resource="http://kerameikos.org/id/thaliarchos_painter#painter"/>
+        <org:hasMembership rdf:resource="https://kerameikos.org/id/thaliarchos_painter#painter"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/ulan/500098333"/>
-        <skos:changeNote rdf:resource="http://kerameikos.org/id/thaliarchos_painter#provenance"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/thaliarchos_painter#provenance"/>
     </crm:E21_Person>
     
     
-    <org:Membership rdf:about="http://kerameikos.org/id/thaliarchos_painter#painter">
-        <org:role rdf:resource="http://kerameikos.org/id/painter"/>
+    <org:Membership rdf:about="https://kerameikos.org/id/thaliarchos_painter#painter">
+        <org:role rdf:resource="https://kerameikos.org/id/painter"/>
     </org:Membership>
-    <dcterms:ProvenanceStatement rdf:about="http://kerameikos.org/id/thaliarchos_painter#provenance">
-					   <foaf:topic rdf:resource="http://kerameikos.org/id/thaliarchos_painter"/>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/thaliarchos_painter#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/thaliarchos_painter"/>
 				    <prov:wasGeneratedBy>
             <prov:Activity>
                 <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
 					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-26T16:42:50.668-05:00</prov:atTime>
-					           <prov:wasAssociatedWith rdf:resource="http://kerameikos.org/editor/egruber"/>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
 					           <prov:used rdf:resource="https://docs.google.com/spreadsheets/d/18oN29Z1c_QGKhw8KjKFjO2Ls6LY_n6tbkISGSqYbl1c/pubhtml"/>
 					           <dcterms:type>spreadsheet</dcterms:type>
 				        </prov:Activity>
