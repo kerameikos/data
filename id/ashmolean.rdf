@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:edm="http://www.europeana.eu/schemas/edm/"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:kon="https://kerameikos.org/ontology#"
+         xmlns:un="http://www.owl-ontologies.com/Ontology1181490123.owl#"
+         xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+         xmlns:lexinfo="http://www.lexinfo.net/ontology/2.0/lexinfo#"
+         xmlns:kid="https://kerameikos.org/id/"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:crmgeo="http://www.ics.forth.gr/isl/CRMgeo/"
+         xmlns:osgeo="http://data.ordnancesurvey.co.uk/ontology/geometry/">
+    <crm:E40_Legal_Body rdf:about="https://kerameikos.org/id/ashmolean">
+        <skos:prefLabel xml:lang="en">Ashmolean Museum</skos:prefLabel>
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">The Ashmolean Museum of Art and Archaeology on Beaumont Street in Oxford, England, is Britain's first public museum.</skos:definition>
+        <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
+        <foaf:homepage rdf:resource="http://www.ashmolean.org/"/>
+        <skos:changeNote rdf:resource="https://kerameikos.org/id/ashmolean#provenance"/>
+        <foaf:thumbnail rdf:resource="https://www.ashmolean.org/sites/default/files/styles/site_logo/public/styles/site_logo/public/ashmolean/site-logo/ash_lock_up-crop.png"/>
+    </crm:E40_Legal_Body>
+    <dcterms:ProvenanceStatement rdf:about="https://kerameikos.org/id/ashmolean#provenance">
+					   <foaf:topic rdf:resource="https://kerameikos.org/id/ashmolean"/>
+				    <prov:wasGeneratedBy>
+            <prov:Activity>
+                <rdf:type rdf:resource="http://www.w3.org/ns/prov#Create"/>
+					           <prov:atTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-08-22T14:58:41.113Z</prov:atTime>
+					           <prov:wasAssociatedWith rdf:resource="https://kerameikos.org/editor/egruber"/>
+					           <dcterms:type>manual</dcterms:type>
+				        </prov:Activity>
+        </prov:wasGeneratedBy>
+    </dcterms:ProvenanceStatement>
+</rdf:RDF>
