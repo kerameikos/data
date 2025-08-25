@@ -24,7 +24,7 @@
         <skos:changeNote rdf:resource="https://kerameikos.org/id/gold#provenance"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300011021"/>
         <skos:broader rdf:resource="https://kerameikos.org/id/metal"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q897"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q897"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Gold"/>
         <skos:prefLabel xml:lang="fr">or</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Gold</skos:prefLabel>

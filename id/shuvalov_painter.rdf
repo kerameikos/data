@@ -24,7 +24,7 @@
         <skos:changeNote rdf:resource="https://kerameikos.org/id/shuvalov_painter#provenance"/>
         <org:hasMembership rdf:resource="https://kerameikos.org/id/shuvalov_painter#painter"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG60525"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q968196"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q968196"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Shuvalov_Painter"/>
         <skos:prefLabel xml:lang="de">Schuwalow-Maler</skos:prefLabel>
         <skos:prefLabel xml:lang="el">Ζωγράφος του Σουβάλωφ</skos:prefLabel>

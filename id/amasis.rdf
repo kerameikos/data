@@ -22,7 +22,7 @@
         <skos:definition xml:lang="en">Amasis was an ancient Attic potter, active in Athens between 560/550 and 530/520 BCE. Amasis’s pottery workshop also employed a well-known painter, who is conventionally named the Amasis Painter after the potter, and generally considered as one of the best Archaic vase painters.</skos:definition>
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/amasis#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q455429"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q455429"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Amasis_(potter)"/>
         <skos:prefLabel xml:lang="el">Αμάσις</skos:prefLabel>
         <skos:prefLabel xml:lang="uk">Амасіс (гончар)</skos:prefLabel>

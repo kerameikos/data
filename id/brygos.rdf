@@ -22,7 +22,7 @@
         <skos:definition xml:lang="en">Brygos was an ancient Greek potter, active in Athens between 490 and 470 BC. He is known as a producer of excellent drinking cups.</skos:definition>
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/brygos#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q14523700"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q14523700"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Brygos"/>
         <skos:prefLabel xml:lang="de">Brygos</skos:prefLabel>
         <skos:prefLabel xml:lang="ca">Brigos</skos:prefLabel>

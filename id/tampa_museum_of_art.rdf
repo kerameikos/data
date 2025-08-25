@@ -24,7 +24,7 @@
         <foaf:homepage rdf:resource="https://tampamuseum.org/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/tampa_museum_of_art#provenance"/>
         <foaf:thumbnail rdf:resource="https://tampamuseum.org/wp-content/uploads/2018/01/logo.svg"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7681719"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q7681719"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Tampa_Museum_of_Art"/>
         <skos:prefLabel xml:lang="uk">Тампський музей мистецтва</skos:prefLabel>
         <skos:exactMatch rdf:resource="http://isni.org/0000000092126831"/>

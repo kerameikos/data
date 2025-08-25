@@ -23,7 +23,7 @@
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/marble#provenance"/>
         <skos:exactMatch rdf:resource="http://vocab.getty.edu/aat/300011443"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q40861"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q40861"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Marble"/>
         <skos:prefLabel xml:lang="zh">大理岩</skos:prefLabel>
         <skos:prefLabel xml:lang="pl">marmur</skos:prefLabel>

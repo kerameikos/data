@@ -23,7 +23,7 @@
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/hermonax#provenance"/>
         <org:hasMembership rdf:resource="https://kerameikos.org/id/hermonax#painter"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q328215"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q328215"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Hermonax"/>
         <skos:prefLabel xml:lang="de">Hermonax</skos:prefLabel>
         <skos:prefLabel xml:lang="ru">Гермонакс</skos:prefLabel>

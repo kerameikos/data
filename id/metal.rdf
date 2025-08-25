@@ -22,7 +22,7 @@
         <skos:definition xml:lang="en">A metal (from Greek μέταλλον métallon, "mine, quarry, metal") is a material that, when freshly prepared, polished, or fractured, shows a lustrous appearance, and conducts electricity and heat relatively well.</skos:definition>
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/metal#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q11426"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q11426"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Metal"/>
         <skos:prefLabel xml:lang="fr">métal</skos:prefLabel>
         <skos:prefLabel xml:lang="it">metallo</skos:prefLabel>

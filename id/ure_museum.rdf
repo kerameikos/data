@@ -22,7 +22,7 @@
       <skos:definition xml:lang="en">The Ure Museum of Greek Archaeology contains one of the most important collections of Greek antiquities in the United Kingdom. The Museum forms part of the Department of Classics at the University of Reading and is situated on the university's Whiteknights Campus, about two miles from the centre of the English town of Reading, Berkshire.</skos:definition>
       <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <foaf:homepage rdf:resource="http://www.reading.ac.uk/Ure/index.php"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q7900347"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q7900347"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Ure_Museum_of_Greek_Archaeology"/>
       <skos:changeNote rdf:resource="https://kerameikos.org/id/ure_museum#provenance"/>
    </crm:E40_Legal_Body>

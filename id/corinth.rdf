@@ -22,7 +22,7 @@
       <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
       <skos:definition xml:lang="en">Corinth was a city-state (polis) on the Isthmus of Corinth, the narrow stretch of land that joins the Peloponnese to the mainland of Greece, roughly halfway between Athens and Sparta.</skos:definition>
       <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q103011"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q103011"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Corinth"/>
       <skos:prefLabel xml:lang="pl">Korynt</skos:prefLabel>
       <skos:prefLabel xml:lang="eu">Korinto</skos:prefLabel>

@@ -24,7 +24,7 @@
         <foaf:homepage rdf:resource="https://www.fitzmuseum.cam.ac.uk/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/fitzwilliam_museum#provenance"/>
         <foaf:thumbnail rdf:resource="https://www.fitzmuseum.cam.ac.uk/profiles/cambridge/themes/fitz_2015/images/interface/FitzwilliamLogo.png"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1421440"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1421440"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Fitzwilliam_Museum"/>
         <skos:prefLabel xml:lang="ru">Музей Фицуильяма</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">Fitzwilliam Museum</skos:prefLabel>

@@ -23,7 +23,7 @@
       <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
       <foaf:homepage rdf:resource="http://www.harvardartmuseums.org/"/>
       <foaf:thumbnail rdf:resource="http://www.harvardartmuseums.org/assets/images/logo.png"/>
-      <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q3783572"/>
+      <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q3783572"/>
       <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Harvard_Art_Museums"/>
       <skos:prefLabel xml:lang="it">Harvard Art Museums</skos:prefLabel>
       <skos:prefLabel xml:lang="nl">Harvard Art Museums</skos:prefLabel>

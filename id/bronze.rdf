@@ -22,7 +22,7 @@
         <skos:definition xml:lang="en">Bronze is an alloy consisting primarily of copper, commonly with about 12–12.5% tin and often with the addition of other metals (such as aluminium, manganese, nickel or zinc) and sometimes non-metals or metalloids such as arsenic, phosphorus or silicon.</skos:definition>
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/bronze#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q34095"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q34095"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bronze"/>
         <skos:prefLabel xml:lang="lb">Bronz</skos:prefLabel>
         <skos:prefLabel xml:lang="zh">青铜</skos:prefLabel>

@@ -22,7 +22,7 @@
         <skos:definition xml:lang="en">Glass is an amorphous solid (non-crystalline) material that exhibits a glass transition, which is the reversible transition in amorphous materials (or in amorphous regions within semicrystalline materials) from a hard and relatively brittle state into a molten or rubber-like state.</skos:definition>
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/glass#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q11469"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q11469"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Glass"/>
         <skos:prefLabel xml:lang="fr">verre</skos:prefLabel>
         <skos:prefLabel xml:lang="it">vetro</skos:prefLabel>

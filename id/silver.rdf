@@ -23,7 +23,7 @@
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/silver#provenance"/>
         <skos:broader rdf:resource="https://kerameikos.org/id/metal"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1090"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1090"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Silver"/>
         <skos:prefLabel xml:lang="nb">sølv</skos:prefLabel>
         <skos:prefLabel xml:lang="de">Silber</skos:prefLabel>

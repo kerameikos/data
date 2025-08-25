@@ -28,7 +28,7 @@
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Leagros_Group"/>
         <skos:exactMatch rdf:resource="https://www.britishmuseum.org/collection/term/BIOG59160"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/leagros_group#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q830436"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q830436"/>
         <skos:prefLabel xml:lang="el">Εργαστήριο του Λεάγρου</skos:prefLabel>
         <skos:prefLabel xml:lang="fr">groupe de Leagros</skos:prefLabel>
         <skos:prefLabel xml:lang="ro">Grupul Leagros</skos:prefLabel>

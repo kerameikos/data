@@ -23,7 +23,7 @@
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/sokles_potter#provenance"/>
         <org:hasMembership rdf:resource="https://kerameikos.org/id/sokles_potter#potter"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q1269607"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q1269607"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Sokles"/>
         <skos:prefLabel xml:lang="de">Sokles</skos:prefLabel>
         <skos:prefLabel xml:lang="nl">Sokles</skos:prefLabel>

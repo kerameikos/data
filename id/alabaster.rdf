@@ -22,7 +22,7 @@
         <skos:definition xml:lang="en">Alabaster is a mineral or rock that is soft, often used for carving, and is processed for plaster powder. Archaeologists and the stone processing industry use the word differently from geologists. The former use is in a wider sense that includes varieties of two different minerals: the fine-grained massive type of gypsum and the fine-grained banded type of calcite.</skos:definition>
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/alabaster#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q143447"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q143447"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Alabaster"/>
         <skos:prefLabel xml:lang="de">Alabaster</skos:prefLabel>
         <skos:prefLabel xml:lang="be">Алебастр</skos:prefLabel>

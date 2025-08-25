@@ -22,7 +22,7 @@
         <skos:definition xml:lang="en">A bone is a rigid organ that constitutes part of the vertebrate skeleton in animals.</skos:definition>
         <skos:inScheme rdf:resource="https://kerameikos.org/id/"/>
         <skos:changeNote rdf:resource="https://kerameikos.org/id/bone#provenance"/>
-        <skos:exactMatch rdf:resource="https://www.wikidata.org/entity/Q265868"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q265868"/>
         <skos:exactMatch rdf:resource="http://dbpedia.org/resource/Bone"/>
         <skos:prefLabel xml:lang="af">Been</skos:prefLabel>
         <skos:prefLabel xml:lang="am">አጥንት</skos:prefLabel>
